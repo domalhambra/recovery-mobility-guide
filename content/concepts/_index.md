@@ -1,7 +1,7 @@
 ---
-title: "Concepts"
-menuPre: "50-59 "
-weight: 50
+title: "Reference & Programming"
+menuPre: "60-69 "
+weight: 60
 alwaysopen: true
-description: "Reference articles on mobility principles, foam rolling technique, and exercise programming."
+description: "The meta layer — understanding principles and planning training."
 ---

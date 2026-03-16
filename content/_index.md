@@ -1,9 +1,16 @@
 ---
-title: "Badwater Mobility"
-description: "A practical reference library for mobility exercises organized by body region. Browse exercises for hips, shoulders, spine, and more."
+title: "Badwater Fitness Library"
+description: "A practical reference library for mobility, strength, recovery, and pain management exercises — organized by the Johnny Decimal system."
 weight: 1
 type: "home"
 ---
-Welcome to the Badwater Mobility — a practical reference library for exercises that help you move better, recover faster, and build lasting mobility.
+Welcome to the Badwater Fitness Library — a practical reference for exercises that help you move better, recover faster, and build lasting strength and mobility.
 
-Use the sidebar to browse by body region, or search for specific exercises.
+Browse the library using the sidebar, organized by the Johnny Decimal system:
+
+- **10-19 Mobility & Joint Health** — upper body, lower body, spine, CARs, and stretching
+- **20-29 Warm-Up & Activation** — pre-shift, pre-workout, and activation drills
+- **30-39 Strength & Conditioning** — upper body, lower body, bodyweight, and endurance
+- **40-49 Recovery & Restoration** — post-shift, post-workout, myofascial release, and breathwork
+- **50-59 Pain Prescriptions** — targeted protocols for common pain issues
+- **60-69 Reference & Programming** — concepts, principles, and training design
