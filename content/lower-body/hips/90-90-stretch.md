@@ -8,6 +8,9 @@ tags: ["hips", "flexibility", "beginner"]
 
 The 90/90 stretch targets both internal and external hip rotation simultaneously. It's one of the most effective positions for improving overall hip mobility, especially if you sit for long periods.
 
+{{< tabs >}}
+{{% tab title="Instructions" %}}
+
 ## Setup
 
 1. Sit on the floor with your front leg bent at 90 degrees directly in front of you, shin parallel to your shoulders.
@@ -35,6 +38,14 @@ Keep your breathing slow and steady. Exhale as you gently lean forward to deepen
 {{% notice warning %}}
 If you feel sharp or pinching pain in either knee, elevate your hips on a cushion or reduce the angle of the bend. Skip this exercise entirely if you have an acute knee injury.
 {{% /notice %}}
+
+{{% /tab %}}
+{{% tab title="Media" %}}
+
+*Video and animated demos coming soon.*
+
+{{% /tab %}}
+{{< /tabs >}}
 
 ## Programming
 

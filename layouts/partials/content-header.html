@@ -1,4 +1,27 @@
 {{- partial "tags.html" . }}
+{{- if and (not .IsHome) (not .IsSection) }}
+{{- $difficulty := "" }}
+{{- with .Params.difficulty }}
+  {{- $difficulty = . }}
+{{- else }}
+  {{- $difficultyTags := slice "beginner" "intermediate" "advanced" }}
+  {{- range .Params.tags }}
+    {{- if in $difficultyTags (lower .) }}
+      {{- $difficulty = . }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if or $difficulty (gt .ReadingTime 0) }}
+<div class="page-meta" aria-label="Page metadata">
+  {{- with $difficulty }}
+  <span class="meta-difficulty meta-difficulty--{{ lower . }}">{{ humanize . }}</span>
+  {{- end }}
+  {{- if gt .ReadingTime 0 }}
+  <span class="meta-reading-time">{{ .ReadingTime }} min read</span>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
 {{- $toc := .TableOfContents }}
 {{- if and $toc (not .IsHome) (gt (len $toc) 100) }}
 <nav class="inline-toc">
