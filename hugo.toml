@@ -1,6 +1,6 @@
 baseURL = "https://mobility-guide.netlify.app/"
 languageCode = "en-us"
-title = "Badwater Mobility Guide"
+title = "Badwater Mobility"
 theme = "hugo-theme-relearn"
 
 [params]

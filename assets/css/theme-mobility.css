@@ -39,8 +39,29 @@
   --CODE-INLINE-BG-color: #eef5f1;
   --CODE-INLINE-BORDER-color: #d4e4da;
 
+  /* Tags */
+  --TAG-BG-color: #1a5632;
+
   /* Box styles (notices) */
   --BOX-CAPTION-color: rgba(255, 255, 255, 1);
   --BOX-BG-color: rgba(255, 255, 255, .833);
   --BOX-TEXT-color: rgba(45, 52, 54, 1);
+}
+
+/* Fix tag visibility: white text on green background */
+article .R-taxonomy.tags a.term-link {
+  background-color: var(--TAG-BG-color);
+  color: #ffffff;
+}
+article .R-taxonomy.tags a.term-link:before {
+  border-right-color: var(--TAG-BG-color);
+}
+article .R-taxonomy.tags a.term-link:after {
+  background-color: #ffffff;
+}
+article .R-taxonomy.tags a.term-link:hover {
+  background-color: #1a7a4c;
+}
+article .R-taxonomy.tags a.term-link:hover:before {
+  border-right-color: #1a7a4c;
 }
