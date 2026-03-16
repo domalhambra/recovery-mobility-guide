@@ -1,8 +1,13 @@
+<!-- Variable fonts: Inter (UI/sans) + Source Serif 4 (body/serif) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+
 <style>
-  /* System font stack — no Google Fonts */
+  /* Typography: Inter for UI, Source Serif 4 for body text */
   :root {
-    --MAIN-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    --MAIN-TITLES-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --MAIN-font: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --MAIN-TITLES-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --CODE-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   }
 
@@ -17,10 +22,21 @@
     padding-bottom: 0.3rem;
   }
 
-  /* Slightly increased line-height for body text */
+  /* Body text line-height */
   #body p,
   #body li {
-    line-height: 1.75;
+    line-height: 1.6;
+  }
+
+  /* Inter for UI elements: sidebar, nav, breadcrumbs, tags, TOC, topbar */
+  #R-sidebar,
+  #R-header-wrapper,
+  .topbar,
+  nav.breadcrumbs,
+  .inline-toc,
+  article .R-taxonomy.tags,
+  #body table th {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
 
   /* --- JD-inspired sidebar styling --- */
