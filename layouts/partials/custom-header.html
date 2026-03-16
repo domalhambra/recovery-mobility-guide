@@ -306,7 +306,9 @@
 
   .floating-field {
     position: relative;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
@@ -314,7 +316,7 @@
     -webkit-mask-image: radial-gradient(ellipse 48% 48% at center, black 70%, transparent 100%);
     scrollbar-width: none;
     -ms-overflow-style: none;
-    height: 60vh;
+    height: 30vh;
     margin-top: 0.5rem;
   }
 
@@ -328,10 +330,10 @@
     justify-content: center;
     align-content: center;
     gap: 0.35rem;
-    width: 150vw;
+    width: 200vw;
     max-width: none;
     min-height: 100%;
-    padding: 6vh 18vw;
+    padding: 4vh 25vw;
     box-sizing: border-box;
   }
 
@@ -446,7 +448,7 @@
 
   @media (max-width: 768px) {
     .floating-field {
-      height: 40vh;
+      height: 20vh;
     }
     .floating-field-inner {
       width: 180vw;
