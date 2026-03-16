@@ -1,0 +1,10 @@
+{{- partial "tags.html" . }}
+{{- $toc := .TableOfContents }}
+{{- if and $toc (not .IsHome) (gt (len $toc) 100) }}
+<nav class="inline-toc">
+  <details open>
+    <summary>On this page</summary>
+    {{ $toc }}
+  </details>
+</nav>
+{{- end }}

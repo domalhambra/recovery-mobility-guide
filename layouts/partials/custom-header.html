@@ -57,4 +57,48 @@
   #R-sidebar {
     border-right: 1px solid #e5e5e5;
   }
+
+  /* --- Inline Table of Contents (JD-style) --- */
+  .inline-toc {
+    background: #f9fafb;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .inline-toc summary {
+    font-weight: 600;
+    color: var(--MAIN-TITLES-TEXT-color);
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+
+  .inline-toc nav > ul,
+  .inline-toc #TableOfContents > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .inline-toc ul ul {
+    padding-left: 1.25rem;
+  }
+
+  .inline-toc li {
+    padding: 0.15rem 0;
+    line-height: 1.5;
+  }
+
+  .inline-toc a {
+    color: var(--MAIN-LINK-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .inline-toc a:hover {
+    color: var(--MAIN-LINK-HOVER-color);
+    text-decoration: underline;
+  }
 </style>
