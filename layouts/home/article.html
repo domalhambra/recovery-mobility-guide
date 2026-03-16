@@ -1,0 +1,32 @@
+
+<article class="home">
+  <header class="headline">
+    {{- partial "content-header.html" . }}
+  </header>
+{{ partial "heading-pre.html" . }}{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
+
+{{ partial "article-content.html" . }}
+
+  {{/* Floating link cloud — all exercise & concept pages */}}
+  {{ $pages := slice }}
+  {{ range .Site.RegularPages }}
+    {{ $pages = $pages | append . }}
+  {{ end }}
+  {{ if gt (len $pages) 0 }}
+  <div class="floating-field">
+    <div class="floating-field-inner" id="floating-field-inner">
+      {{ $sizes := slice "lg" "md" "md" "md" "sm" "sm" }}
+      {{ range $i, $p := $pages }}
+        {{ $size := index $sizes (mod $i (len $sizes)) }}
+        <span class="floating-drift">
+          <a class="floating-link floating-link--{{ $size }}" href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>
+        </span>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <footer class="footline">
+    {{- partial "content-footer.html" . }}
+  </footer>
+</article>

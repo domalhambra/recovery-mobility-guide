@@ -2,6 +2,7 @@
 title: "Badwater Mobility"
 description: "A practical reference library for mobility exercises organized by body region. Browse exercises for hips, shoulders, spine, and more."
 weight: 1
+type: "home"
 ---
 Welcome to the Badwater Mobility — a practical reference library for exercises that help you move better, recover faster, and build lasting mobility.
 

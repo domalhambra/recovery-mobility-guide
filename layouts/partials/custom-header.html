@@ -299,6 +299,302 @@
       border: 1px solid;
     }
   }
+
+  /* ============================================
+     Floating Field — 2D pannable card cluster
+     ============================================ */
+
+  .floating-field {
+    position: relative;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    mask-image: radial-gradient(ellipse 48% 48% at center, black 70%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 48% 48% at center, black 70%, transparent 100%);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    height: 60vh;
+    margin-top: 2rem;
+  }
+
+  .floating-field::-webkit-scrollbar {
+    display: none;
+  }
+
+  .floating-field-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 0.35rem;
+    width: 150vw;
+    max-width: none;
+    min-height: 100%;
+    padding: 6vh 18vw;
+    box-sizing: border-box;
+  }
+
+  .floating-drift {
+    display: inline-flex;
+    will-change: transform;
+    margin: 0.2rem 0.05rem;
+    flex-shrink: 0;
+  }
+
+  .floating-drift:nth-child(odd) {
+    margin-bottom: 0.5rem;
+  }
+
+  .floating-drift:nth-child(even) {
+    margin-top: 0.5rem;
+    z-index: 2;
+  }
+
+  .floating-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.66rem 1.2rem;
+    background-clip: padding-box;
+    border: 1px solid rgba(42, 37, 32, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(42, 37, 32, 0.05), 0 0 0 1px rgba(42, 37, 32, 0.02);
+    text-decoration: none !important;
+    background-image: none !important;
+    color: var(--MAIN-TEXT-color);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 450;
+    line-height: 1.35;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      box-shadow 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      border-color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
+      color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  /* 8-color cycling palette — light mode */
+  .floating-drift:nth-child(8n+1) .floating-link { background-color: #F5E8E3; }
+  .floating-drift:nth-child(8n+2) .floating-link { background-color: #F0EBE2; }
+  .floating-drift:nth-child(8n+3) .floating-link { background-color: #E6EDF1; }
+  .floating-drift:nth-child(8n+4) .floating-link { background-color: #F2E4DD; }
+  .floating-drift:nth-child(8n+5) .floating-link { background-color: #E9EDE6; }
+  .floating-drift:nth-child(8n+6) .floating-link { background-color: #F3EAE1; }
+  .floating-drift:nth-child(8n+7) .floating-link { background-color: #EDEAEF; }
+  .floating-drift:nth-child(8n+8) .floating-link { background-color: #F0ECE0; }
+
+  .floating-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(42, 37, 32, 0.14), 0 0 0 1px rgba(42, 37, 32, 0.06);
+    border-color: var(--MENU-HEADER-BORDER-color);
+    color: var(--MAIN-LINK-color);
+    z-index: 10;
+  }
+
+  .floating-link--lg {
+    font-size: 1.125rem;
+    padding: 0.72rem 1.32rem;
+  }
+
+  .floating-link--md {
+    font-size: 0.975rem;
+  }
+
+  .floating-link--sm {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  /* Dark mode floating cards */
+  :root[data-r-theme-variant="mobility-dark"] .floating-link {
+    border-color: rgba(232, 226, 216, 0.08);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.03);
+  }
+
+  :root[data-r-theme-variant="mobility-dark"] .floating-link:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  }
+
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+1) .floating-link { background-color: #2D2119; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+2) .floating-link { background-color: #28241C; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+3) .floating-link { background-color: #1E252B; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+4) .floating-link { background-color: #2B1F18; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+5) .floating-link { background-color: #212820; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+6) .floating-link { background-color: #2A221A; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+7) .floating-link { background-color: #252229; }
+  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+8) .floating-link { background-color: #27241C; }
+
+  /* Auto variant in dark mode */
+  @media (prefers-color-scheme: dark) {
+    :root[data-r-theme-variant="mobility-auto"] .floating-link {
+      border-color: rgba(232, 226, 216, 0.08);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.03);
+    }
+    :root[data-r-theme-variant="mobility-auto"] .floating-link:hover {
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.06);
+    }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+1) .floating-link { background-color: #2D2119; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+2) .floating-link { background-color: #28241C; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+3) .floating-link { background-color: #1E252B; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+4) .floating-link { background-color: #2B1F18; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+5) .floating-link { background-color: #212820; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+6) .floating-link { background-color: #2A221A; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+7) .floating-link { background-color: #252229; }
+    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+8) .floating-link { background-color: #27241C; }
+  }
+
+  @media (max-width: 768px) {
+    .floating-field {
+      height: 40vh;
+    }
+    .floating-field-inner {
+      width: 180vw;
+      padding: 5vh 20vw;
+      gap: 0.3rem;
+    }
+    .floating-drift,
+    .floating-drift:nth-child(odd),
+    .floating-drift:nth-child(even) {
+      margin: 0.15rem 0.1rem;
+    }
+    .floating-link {
+      font-size: 0.9rem;
+      padding: 0.48rem 0.84rem;
+    }
+    .floating-link--lg {
+      font-size: 0.975rem;
+      padding: 0.54rem 0.96rem;
+    }
+    .floating-link--md {
+      font-size: 0.9rem;
+    }
+    .floating-link--sm {
+      font-size: 0.825rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .floating-drift {
+      will-change: auto;
+    }
+  }
+
+  /* ============================================
+     Color Scheme Toggle — Badwater style
+     ============================================ */
+
+  /* Hide default Relearn select */
+  .R-variantswitcher .control-style,
+  .R-variantswitcher .clear,
+  .R-variantswitcher i.fa-fw {
+    display: none !important;
+  }
+
+  .R-variantswitcher .menu-control {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0.75rem;
+  }
+
+  .menu-control button.toggle-color-scheme-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid var(--MENU-HEADER-BORDER-color);
+    border-radius: 2rem;
+    background: transparent;
+    color: var(--MAIN-TEXT-color);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 450;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+    width: auto;
+  }
+
+  .toggle-color-scheme-button > .label {
+    flex: 1 0 0%;
+    white-space: nowrap;
+  }
+
+  .toggle-color-scheme-button > .icon-wrapper {
+    position: relative;
+    flex: 0 0 auto;
+    width: 38px;
+    height: 24px;
+    border-radius: 1rem;
+    margin: -0.15rem 0;
+    background-color: var(--MENU-HEADER-BORDER-color);
+    transition: background-color 0.15s;
+  }
+
+  .toggle-color-scheme-button .icon-wrapper > .icon {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    transform: translateX(0);
+    transition: opacity 0.15s, transform 0.15s !important;
+  }
+
+  .toggle-color-scheme-button:hover > .icon-wrapper,
+  .toggle-color-scheme-button:focus-visible > .icon-wrapper {
+    background-color: var(--MENU-VISITED-color);
+  }
+
+  .toggle-color-scheme-button:focus-visible {
+    outline: 2px solid var(--MAIN-LINK-color);
+    outline-offset: 3px;
+  }
+
+  /* State: Light (mobility) */
+  .toggle-color-scheme-button .label-system,
+  .toggle-color-scheme-button .label-dark {
+    display: none;
+  }
+  .toggle-color-scheme-button .icon-wrapper > .icon-sun {
+    opacity: 1;
+  }
+
+  /* State: Auto (mobility-auto) */
+  .toggle-color-scheme-button[data-scheme="auto"] .label-light,
+  .toggle-color-scheme-button[data-scheme="auto"] .label-dark {
+    display: none;
+  }
+  .toggle-color-scheme-button[data-scheme="auto"] .label-system {
+    display: inline;
+  }
+  .toggle-color-scheme-button[data-scheme="auto"] .icon-wrapper > .icon-sun {
+    opacity: 0;
+  }
+  .toggle-color-scheme-button[data-scheme="auto"] .icon-wrapper > .icon {
+    transform: translateX(6px);
+  }
+  .toggle-color-scheme-button[data-scheme="auto"] .icon-wrapper > .icon-circle-half {
+    opacity: 1;
+  }
+
+  /* State: Dark (mobility-dark) */
+  .toggle-color-scheme-button[data-scheme="dark"] .label-light,
+  .toggle-color-scheme-button[data-scheme="dark"] .label-system {
+    display: none;
+  }
+  .toggle-color-scheme-button[data-scheme="dark"] .label-dark {
+    display: inline;
+  }
+  .toggle-color-scheme-button[data-scheme="dark"] .icon-wrapper > .icon-sun {
+    opacity: 0;
+  }
+  .toggle-color-scheme-button[data-scheme="dark"] .icon-wrapper > .icon {
+    transform: translateX(12px);
+  }
+  .toggle-color-scheme-button[data-scheme="dark"] .icon-wrapper > .icon-moon {
+    opacity: 1;
+  }
 </style>
 
 <!-- Skip to content link for keyboard users -->
@@ -338,6 +634,127 @@ document.addEventListener('DOMContentLoaded', function() {
   var searchInput = document.getElementById('R-search-by');
   if (searchInput) {
     searchInput.placeholder = 'Search (Ctrl+Alt+F)';
+  }
+
+  // ============================================
+  // Floating field drift animation
+  // ============================================
+  var field = document.querySelector('.floating-field');
+  var container = document.querySelector('.floating-field-inner');
+  if (field && container) {
+    var driftItems = [];
+    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var cards = container.querySelectorAll('.floating-drift');
+
+    for (var c = 0; c < cards.length; c++) {
+      var rotMag = 1.5 + Math.random() * 1.5;
+      var baseRotation = (c % 2 === 0 ? 1 : -1) * rotMag;
+
+      if (prefersReducedMotion) {
+        cards[c].style.transform = 'rotate(' + baseRotation.toFixed(1) + 'deg)';
+      } else {
+        driftItems.push({
+          el: cards[c],
+          driftX: Math.random() * 5 - 2.5,
+          driftY: Math.random() * 5 - 2.5,
+          baseRotation: baseRotation,
+          rotDelta: 0.3 + Math.random() * 0.8,
+          period: (8 + Math.random() * 6) * 1000,
+          offset: Math.random() * 20000
+        });
+      }
+    }
+
+    // Size field dynamically
+    requestAnimationFrame(function () {
+      if (cards.length > 0) {
+        var minY = Infinity, maxY = -Infinity;
+        var contRect = container.getBoundingClientRect();
+        for (var i = 0; i < cards.length; i++) {
+          var rect = cards[i].getBoundingClientRect();
+          var top = rect.top - contRect.top;
+          var bottom = rect.bottom - contRect.top;
+          if (top < minY) minY = top;
+          if (bottom > maxY) maxY = bottom;
+        }
+        var contentHeight = maxY - minY;
+        var mob = window.innerWidth <= 768;
+        var padding = contentHeight * 0.4;
+        var desiredHeight = contentHeight + padding;
+        var minH = mob ? window.innerHeight * 0.4 : window.innerHeight * 0.5;
+        var maxH = window.innerHeight * 1.2;
+        field.style.height = Math.max(minH, Math.min(desiredHeight, maxH)) + 'px';
+      }
+      // Center scroll
+      field.scrollLeft = (container.scrollWidth - field.clientWidth) / 2;
+    });
+
+    // Shared drift animation loop
+    if (driftItems.length > 0) {
+      var driftStart = performance.now();
+      function animateDrift(timestamp) {
+        var elapsed = timestamp - driftStart;
+        var ease = elapsed > 1000 ? 1 : elapsed / 1000;
+        for (var i = 0; i < driftItems.length; i++) {
+          var d = driftItems[i];
+          var wave = Math.sin(((timestamp + d.offset) / d.period) * Math.PI * 2);
+          var x = (d.driftX * wave * ease).toFixed(2);
+          var y = (d.driftY * wave * ease).toFixed(2);
+          var rot = (d.baseRotation + d.rotDelta * wave * ease).toFixed(2);
+          d.el.style.transform = 'translate(' + x + 'px, ' + y + 'px) rotate(' + rot + 'deg)';
+        }
+        requestAnimationFrame(animateDrift);
+      }
+      requestAnimationFrame(animateDrift);
+    }
+  }
+
+  // ============================================
+  // Badwater-style color scheme toggle
+  // ============================================
+  var toggleBtn = document.querySelector('.toggle-color-scheme-button');
+  if (toggleBtn) {
+    // Map Relearn variant identifiers to toggle states
+    var variantToScheme = {
+      'mobility': 'light',
+      'mobility-auto': 'auto',
+      'mobility-dark': 'dark'
+    };
+    var schemeToVariant = {
+      'light': 'mobility',
+      'auto': 'mobility-auto',
+      'dark': 'mobility-dark'
+    };
+    var schemeOrder = ['light', 'auto', 'dark'];
+
+    function syncToggle() {
+      var select = document.getElementById('R-select-variant');
+      if (!select) return;
+      var current = select.value;
+      var scheme = variantToScheme[current] || 'auto';
+      toggleBtn.setAttribute('data-scheme', scheme);
+    }
+
+    toggleBtn.addEventListener('click', function () {
+      var currentScheme = toggleBtn.getAttribute('data-scheme') || 'light';
+      var idx = schemeOrder.indexOf(currentScheme);
+      var nextScheme = schemeOrder[(idx + 1) % schemeOrder.length];
+      var nextVariant = schemeToVariant[nextScheme];
+
+      // Update Relearn's hidden select and trigger change
+      var select = document.getElementById('R-select-variant');
+      if (select) {
+        select.value = nextVariant;
+        window.relearn.changeVariant(nextVariant);
+      }
+      toggleBtn.setAttribute('data-scheme', nextScheme);
+    });
+
+    // Sync on load
+    syncToggle();
+
+    // Re-sync if variant changes externally
+    document.addEventListener('themeVariantLoaded', syncToggle);
   }
 });
 </script>

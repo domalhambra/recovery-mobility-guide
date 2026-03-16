@@ -5,6 +5,7 @@ theme = "hugo-theme-relearn"
 
 [params]
   alwaysopen = false
+  collapsibleMenu = true
   disableLandingPageButton = true
   showVisitedLinks = false
   disableInlineCopyToClipBoard = true

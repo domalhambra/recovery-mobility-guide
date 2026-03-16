@@ -1,0 +1,43 @@
+{{- $allthemevariants := partialCached "_relearn/themeVariants.gotmpl" site.Home }}
+{{- $themevariants := slice }}
+{{- range $allthemevariants }}
+  {{- if not .hidden }}
+    {{- $themevariants = $themevariants | append . }}
+  {{- end }}
+{{- end }}
+{{- $showvariantswitch := gt (int (len $themevariants)) 1 }}
+{{- if $showvariantswitch }}
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                {{/* Hidden select kept for Relearn JS compatibility */}}
+                <select id="R-select-variant" style="display:none;">
+                  {{- $firstvariant := true }}
+                  {{- range $themevariants }}
+                    {{- $themevariant := . }}
+                  <option id="R-select-variant-{{ $themevariant.identifier }}" value="{{ $themevariant.identifier }}"{{- if $firstvariant }} selected{{ end }}>{{ $themevariant.name }}</option>
+                    {{- $firstvariant = false }}
+                  {{- end }}
+                </select>
+                {{/* Badwater-style 3-state toggle */}}
+                <button class="toggle-color-scheme-button" aria-label="Toggle color scheme">
+                  <span class="label label-light">Light</span>
+                  <span class="label label-system">Auto</span>
+                  <span class="label label-dark">Dark</span>
+                  <span class="icon-wrapper">
+                    <svg class="icon icon-sun" width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9.9999 13.3334C11.8409 13.3334 13.3333 11.841 13.3333 10C13.3333 8.15907 11.8409 6.66669 9.9999 6.66669C8.15895 6.66669 6.66656 8.15907 6.66656 10C6.66656 11.841 8.15895 13.3334 9.9999 13.3334Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M9.9999 1.66669V3.33336M9.9999 16.6666V18.3334M4.10824 4.10836L5.28324 5.28336M14.7166 14.7166L15.8916 15.8916M1.66656 10H3.33324M16.6666 10H18.3333M5.28324 14.7166L4.10824 15.8916M15.8916 4.10836L14.7166 5.28336" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <svg class="icon icon-circle-half" width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 14.6666C11.6819 14.6666 14.6667 11.6819 14.6667 7.99998C14.6667 4.31808 11.6819 1.33331 8 1.33331C4.3181 1.33331 1.33333 4.31808 1.33333 7.99998C1.33333 11.6819 4.3181 14.6666 8 14.6666Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8 14.6666C4.3181 14.6666 1.33333 11.6819 1.33333 7.99998C1.33333 4.31808 4.3181 1.33331 8 1.33331V14.6666Z" fill="currentColor"/>
+                    </svg>
+                    <svg class="icon icon-moon" width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M18.2957 10.797C17.1482 12.8098 14.9826 14.1668 12.5 14.1668C8.81808 14.1668 5.83333 11.182 5.83333 7.50007C5.83333 5.01727 7.19056 2.85146 9.20358 1.7041C4.97479 2.10506 1.66666 5.66613 1.66666 9.99983C1.66666 14.6023 5.39762 18.3332 10 18.3332C14.3335 18.3332 17.8944 15.0254 18.2957 10.797Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+{{- end }}
