@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://mobility-guide.netlify.app/"
 languageCode = "en-us"
 title = "Badwater Mobility Guide"
 theme = "hugo-theme-relearn"
@@ -17,3 +17,10 @@ theme = "hugo-theme-relearn"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[taxonomies]
+  tag = "tags"

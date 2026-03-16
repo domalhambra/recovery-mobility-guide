@@ -2,5 +2,5 @@
 title: "Knees"
 menuPre: "12 "
 weight: 20
-description: "Knee stability and mobility exercises"
+description: "Knee stability and mobility exercises for joint health and pain-free movement."
 ---

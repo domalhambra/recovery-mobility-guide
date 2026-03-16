@@ -2,5 +2,5 @@
 title: "Lower Body"
 menuPre: "10-19 "
 weight: 10
-description: "Exercises targeting hips, knees, and ankles"
+description: "Hip, knee, and ankle mobility exercises for improved lower body movement and flexibility."
 ---
