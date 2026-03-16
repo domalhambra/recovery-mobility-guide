@@ -4,11 +4,21 @@ title = "Badwater Mobility"
 theme = "hugo-theme-relearn"
 
 [params]
-  themeVariant = ["mobility"]
   alwaysopen = false
   disableLandingPageButton = true
   showVisitedLinks = false
   disableInlineCopyToClipBoard = true
+
+[[params.themeVariant]]
+  identifier = "mobility-auto"
+  name = "Auto"
+  auto = ["mobility", "mobility-dark"]
+[[params.themeVariant]]
+  identifier = "mobility"
+  name = "Light"
+[[params.themeVariant]]
+  identifier = "mobility-dark"
+  name = "Dark"
 
 [outputs]
   home = ["HTML", "RSS"]

@@ -1,57 +1,57 @@
-/* Badwater Mobility Guide — JD-inspired minimal variant */
+/* Badwater Mobility — Light mode (matching badwater.group palette) */
 
 :root {
   /* Main content area */
-  --MAIN-TEXT-color: #2d3436;
-  --MAIN-BG-color: #ffffff;
-  --MAIN-LINK-color: #1a7a4c;
-  --MAIN-LINK-HOVER-color: #145f3a;
-  --MAIN-TITLES-TEXT-color: #1a5632;
-  --MAIN-TITLES-H1-color: #1a5632;
-  --MAIN-TITLES-H2-color: #1a5632;
-  --MAIN-TITLES-H3-color: #1a5632;
-  --MAIN-TITLES-H4-color: #1a5632;
-  --MAIN-TITLES-H5-color: #1a5632;
-  --MAIN-TITLES-H6-color: #1a5632;
+  --MAIN-TEXT-color: #2A2520;
+  --MAIN-BG-color: #F7F3EE;
+  --MAIN-LINK-color: #B84A28;
+  --MAIN-LINK-HOVER-color: #943D22;
+  --MAIN-TITLES-TEXT-color: #2A2520;
+  --MAIN-TITLES-H1-color: #2A2520;
+  --MAIN-TITLES-H2-color: #2A2520;
+  --MAIN-TITLES-H3-color: #2A2520;
+  --MAIN-TITLES-H4-color: #2A2520;
+  --MAIN-TITLES-H5-color: #2A2520;
+  --MAIN-TITLES-H6-color: #2A2520;
 
-  /* Sidebar / Menu — flat, minimal, white background (JD-inspired) */
-  --MENU-HEADER-BG-color: #ffffff;
-  --MENU-HEADER-BORDER-color: #e5e5e5;
-  --MENU-HEADER-FONT-color: #1a5632;
-  --MENU-HOME-LINK-color: #1a5632;
-  --MENU-HOME-LINK-HOVER-color: #145f3a;
-  --MENU-SEARCH-color: #2d3436;
-  --MENU-SEARCH-BG-color: #f5f5f5;
-  --MENU-SEARCH-BORDER-color: #e5e5e5;
-  --MENU-SECTIONS-BG-color: #ffffff;
-  --MENU-SECTIONS-ACTIVE-BG-color: #f5f5f5;
-  --MENU-SECTIONS-LINK-color: #2d3436;
-  --MENU-SECTIONS-LINK-HOVER-color: #1a7a4c;
-  --MENU-SECTION-ACTIVE-CATEGORY-color: #1a5632;
-  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f0f7f3;
-  --MENU-VISITED-color: #636e72;
+  /* Sidebar / Menu — warm minimal */
+  --MENU-HEADER-BG-color: #F7F3EE;
+  --MENU-HEADER-BORDER-color: rgba(42, 37, 32, 0.08);
+  --MENU-HEADER-FONT-color: #2A2520;
+  --MENU-HOME-LINK-color: #2A2520;
+  --MENU-HOME-LINK-HOVER-color: #B84A28;
+  --MENU-SEARCH-color: #2A2520;
+  --MENU-SEARCH-BG-color: #F0EBE2;
+  --MENU-SEARCH-BORDER-color: rgba(42, 37, 32, 0.08);
+  --MENU-SECTIONS-BG-color: #F7F3EE;
+  --MENU-SECTIONS-ACTIVE-BG-color: #F0EBE2;
+  --MENU-SECTIONS-LINK-color: #2A2520;
+  --MENU-SECTIONS-LINK-HOVER-color: #B84A28;
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #2A2520;
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #F0EBE2;
+  --MENU-VISITED-color: #8B7E6E;
 
-  /* Syntax highlighting: Nord theme */
+  /* Syntax highlighting */
   --CODE-theme: mobility;
 
-  /* Code blocks — Nord-inspired dark background */
+  /* Code blocks */
   --CODE-BLOCK-color: #d8dee9;
   --CODE-BLOCK-BG-color: #2e3440;
   --CODE-BLOCK-BORDER-color: #3b4252;
-  --CODE-INLINE-color: #1a5632;
-  --CODE-INLINE-BG-color: #eef5f1;
-  --CODE-INLINE-BORDER-color: #d4e4da;
+  --CODE-INLINE-color: #943D22;
+  --CODE-INLINE-BG-color: #F0EBE2;
+  --CODE-INLINE-BORDER-color: rgba(42, 37, 32, 0.15);
 
   /* Tags */
-  --TAG-BG-color: #1a5632;
+  --TAG-BG-color: #B84A28;
 
   /* Box styles (notices) */
   --BOX-CAPTION-color: rgba(255, 255, 255, 1);
-  --BOX-BG-color: rgba(255, 255, 255, .833);
-  --BOX-TEXT-color: rgba(45, 52, 54, 1);
+  --BOX-BG-color: rgba(247, 243, 238, .833);
+  --BOX-TEXT-color: rgba(42, 37, 32, 1);
 }
 
-/* Fix tag visibility: white text on green background */
+/* Tag visibility */
 article .R-taxonomy.tags a.term-link {
   background-color: var(--TAG-BG-color);
   color: #ffffff;
@@ -60,11 +60,11 @@ article .R-taxonomy.tags a.term-link:before {
   border-right-color: var(--TAG-BG-color);
 }
 article .R-taxonomy.tags a.term-link:after {
-  background-color: #ffffff;
+  background-color: #F7F3EE;
 }
 article .R-taxonomy.tags a.term-link:hover {
-  background-color: #1a7a4c;
+  background-color: #943D22;
 }
 article .R-taxonomy.tags a.term-link:hover:before {
-  border-right-color: #1a7a4c;
+  border-right-color: #943D22;
 }

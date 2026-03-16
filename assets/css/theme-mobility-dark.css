@@ -1,0 +1,70 @@
+/* Badwater Mobility — Dark mode (matching badwater.group palette) */
+
+:root {
+  /* Main content area */
+  --MAIN-TEXT-color: #E8E2D8;
+  --MAIN-BG-color: #1A1714;
+  --MAIN-LINK-color: #D4734E;
+  --MAIN-LINK-HOVER-color: #E08960;
+  --MAIN-TITLES-TEXT-color: #E8E2D8;
+  --MAIN-TITLES-H1-color: #E8E2D8;
+  --MAIN-TITLES-H2-color: #E8E2D8;
+  --MAIN-TITLES-H3-color: #E8E2D8;
+  --MAIN-TITLES-H4-color: #E8E2D8;
+  --MAIN-TITLES-H5-color: #E8E2D8;
+  --MAIN-TITLES-H6-color: #E8E2D8;
+
+  /* Sidebar / Menu — dark warm */
+  --MENU-HEADER-BG-color: #1A1714;
+  --MENU-HEADER-BORDER-color: rgba(232, 226, 216, 0.1);
+  --MENU-HEADER-FONT-color: #E8E2D8;
+  --MENU-HOME-LINK-color: #E8E2D8;
+  --MENU-HOME-LINK-HOVER-color: #D4734E;
+  --MENU-SEARCH-color: #E8E2D8;
+  --MENU-SEARCH-BG-color: #242019;
+  --MENU-SEARCH-BORDER-color: rgba(232, 226, 216, 0.1);
+  --MENU-SECTIONS-BG-color: #1A1714;
+  --MENU-SECTIONS-ACTIVE-BG-color: #242019;
+  --MENU-SECTIONS-LINK-color: #E8E2D8;
+  --MENU-SECTIONS-LINK-HOVER-color: #D4734E;
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #E8E2D8;
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #2A2520;
+  --MENU-VISITED-color: #9E9486;
+
+  /* Syntax highlighting */
+  --CODE-theme: mobility;
+
+  /* Code blocks */
+  --CODE-BLOCK-color: #d8dee9;
+  --CODE-BLOCK-BG-color: #242019;
+  --CODE-BLOCK-BORDER-color: #2A2520;
+  --CODE-INLINE-color: #D4734E;
+  --CODE-INLINE-BG-color: #2A2520;
+  --CODE-INLINE-BORDER-color: rgba(232, 226, 216, 0.18);
+
+  /* Tags */
+  --TAG-BG-color: #B84A28;
+
+  /* Box styles (notices) */
+  --BOX-CAPTION-color: rgba(255, 255, 255, 1);
+  --BOX-BG-color: rgba(26, 23, 20, .833);
+  --BOX-TEXT-color: rgba(232, 226, 216, 1);
+}
+
+/* Tag visibility */
+article .R-taxonomy.tags a.term-link {
+  background-color: var(--TAG-BG-color);
+  color: #ffffff;
+}
+article .R-taxonomy.tags a.term-link:before {
+  border-right-color: var(--TAG-BG-color);
+}
+article .R-taxonomy.tags a.term-link:after {
+  background-color: #1A1714;
+}
+article .R-taxonomy.tags a.term-link:hover {
+  background-color: #D4734E;
+}
+article .R-taxonomy.tags a.term-link:hover:before {
+  border-right-color: #D4734E;
+}
