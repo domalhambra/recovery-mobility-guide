@@ -22,4 +22,39 @@
   #body li {
     line-height: 1.75;
   }
+
+  /* --- JD-inspired sidebar styling --- */
+
+  /* Clean separator between sidebar header and content */
+  #R-header-wrapper {
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  /* Generous spacing on sidebar items */
+  #R-sidebar ul li {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+  }
+
+  /* Lighter font weight for sidebar links */
+  #R-sidebar ul li a {
+    font-weight: 400;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+
+  /* Subtle right border on active item instead of bold background */
+  #R-sidebar ul li.active > a {
+    border-right: 3px solid #1a7a4c;
+  }
+
+  /* Make the JD numbers slightly bolder so they stand out */
+  #R-sidebar ul li a .read-icon-link {
+    font-weight: 600;
+  }
+
+  /* Clean border between sidebar and content */
+  #R-sidebar {
+    border-right: 1px solid #e5e5e5;
+  }
 </style>

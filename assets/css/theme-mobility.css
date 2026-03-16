@@ -1,4 +1,4 @@
-/* Recovery & Mobility Guide — Custom Relearn Color Variant */
+/* Badwater Mobility Guide — JD-inspired minimal variant */
 
 :root {
   /* Main content area */
@@ -14,22 +14,22 @@
   --MAIN-TITLES-H5-color: #1a5632;
   --MAIN-TITLES-H6-color: #1a5632;
 
-  /* Sidebar / Menu */
-  --MENU-HEADER-BG-color: #1a5632;
-  --MENU-HEADER-BORDER-color: #14442a;
-  --MENU-HEADER-FONT-color: #f0f7f3;
-  --MENU-HOME-LINK-color: #f0f7f3;
-  --MENU-HOME-LINK-HOVER-color: #ffffff;
-  --MENU-SEARCH-color: #f0f7f3;
-  --MENU-SEARCH-BG-color: #14442a;
-  --MENU-SEARCH-BORDER-color: #1a5632;
-  --MENU-SECTIONS-BG-color: #f0f7f3;
-  --MENU-SECTIONS-ACTIVE-BG-color: #ffffff;
+  /* Sidebar / Menu — flat, minimal, white background (JD-inspired) */
+  --MENU-HEADER-BG-color: #ffffff;
+  --MENU-HEADER-BORDER-color: #e5e5e5;
+  --MENU-HEADER-FONT-color: #1a5632;
+  --MENU-HOME-LINK-color: #1a5632;
+  --MENU-HOME-LINK-HOVER-color: #145f3a;
+  --MENU-SEARCH-color: #2d3436;
+  --MENU-SEARCH-BG-color: #f5f5f5;
+  --MENU-SEARCH-BORDER-color: #e5e5e5;
+  --MENU-SECTIONS-BG-color: #ffffff;
+  --MENU-SECTIONS-ACTIVE-BG-color: #f5f5f5;
   --MENU-SECTIONS-LINK-color: #2d3436;
   --MENU-SECTIONS-LINK-HOVER-color: #1a7a4c;
   --MENU-SECTION-ACTIVE-CATEGORY-color: #1a5632;
-  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #dceee4;
-  --MENU-VISITED-color: #506b5b;
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f0f7f3;
+  --MENU-VISITED-color: #636e72;
 
   /* Code blocks */
   --CODE-BLOCK-color: #2d3436;
