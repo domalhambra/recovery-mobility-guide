@@ -1,6 +1,6 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "Recovery & Mobility Guide"
+title = "Badwater Mobility Guide"
 theme = "hugo-theme-relearn"
 
 [params]
