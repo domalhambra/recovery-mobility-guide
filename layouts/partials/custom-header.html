@@ -25,6 +25,14 @@
     max-width: 50rem;
   }
 
+  /* Narrower content on homepage */
+  article.home > h1,
+  article.home > p,
+  article.home > ul,
+  article.home > ol {
+    max-width: 40rem;
+  }
+
   /* Subtle bottom border on h2 elements */
   #body h2 {
     border-bottom: 1px solid var(--MAIN-LINK-color);
@@ -630,6 +638,9 @@ document.addEventListener('DOMContentLoaded', function() {
     syncSidebarWidth();
     window.addEventListener('resize', syncSidebarWidth);
     new MutationObserver(syncSidebarWidth).observe(sidebar, { childList: true, subtree: true });
+    if (typeof ResizeObserver !== 'undefined') {
+      new ResizeObserver(syncSidebarWidth).observe(sidebar);
+    }
   }
 
   // Search: show built-in shortcut in placeholder
