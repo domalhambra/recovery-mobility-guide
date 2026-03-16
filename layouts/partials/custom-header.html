@@ -39,7 +39,34 @@
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
 
+  /* --- Link highlight effect --- */
+  #body a:not(.term-link):not(.anchor) {
+    text-decoration: none;
+    background-image: linear-gradient(transparent 60%, rgba(26, 122, 76, 0.15) 60%);
+    transition: background-image 0.2s ease;
+  }
+  #body a:not(.term-link):not(.anchor):hover {
+    background-image: linear-gradient(transparent 60%, rgba(26, 122, 76, 0.35) 60%);
+  }
+
   /* --- JD-inspired sidebar styling --- */
+
+  /* Wider sidebar for longer page titles */
+  #R-sidebar {
+    width: 21rem;
+    border-right: 1px solid #e5e5e5;
+  }
+  #R-body {
+    margin-left: 21rem;
+  }
+  @media screen and (max-width: 56.25em) {
+    #R-sidebar {
+      width: 18.75rem;
+    }
+    #R-body {
+      margin-left: 0;
+    }
+  }
 
   /* Clean separator between sidebar header and content */
   #R-header-wrapper {
@@ -67,11 +94,6 @@
   /* Make the JD numbers slightly bolder so they stand out */
   #R-sidebar ul li a .read-icon-link {
     font-weight: 600;
-  }
-
-  /* Clean border between sidebar and content */
-  #R-sidebar {
-    border-right: 1px solid #e5e5e5;
   }
 
   /* --- Inline Table of Contents (JD-style) --- */

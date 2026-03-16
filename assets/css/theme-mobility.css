@@ -31,10 +31,13 @@
   --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #f0f7f3;
   --MENU-VISITED-color: #636e72;
 
-  /* Code blocks */
-  --CODE-BLOCK-color: #2d3436;
-  --CODE-BLOCK-BG-color: #f4f8f6;
-  --CODE-BLOCK-BORDER-color: #d4e4da;
+  /* Syntax highlighting: Nord theme */
+  --CODE-theme: mobility;
+
+  /* Code blocks — Nord-inspired dark background */
+  --CODE-BLOCK-color: #d8dee9;
+  --CODE-BLOCK-BG-color: #2e3440;
+  --CODE-BLOCK-BORDER-color: #3b4252;
   --CODE-INLINE-color: #1a5632;
   --CODE-INLINE-BG-color: #eef5f1;
   --CODE-INLINE-BORDER-color: #d4e4da;
