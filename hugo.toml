@@ -1,0 +1,19 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Recovery & Mobility Guide"
+theme = "hugo-theme-relearn"
+
+[params]
+  themeVariant = ["mobility"]
+  alwaysopen = false
+  disableLandingPageButton = true
+  showVisitedLinks = false
+  disableInlineCopyToClipBoard = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

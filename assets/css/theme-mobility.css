@@ -1,0 +1,46 @@
+/* Recovery & Mobility Guide — Custom Relearn Color Variant */
+
+:root {
+  /* Main content area */
+  --MAIN-TEXT-color: #2d3436;
+  --MAIN-BG-color: #ffffff;
+  --MAIN-LINK-color: #1a7a4c;
+  --MAIN-LINK-HOVER-color: #145f3a;
+  --MAIN-TITLES-TEXT-color: #1a5632;
+  --MAIN-TITLES-H1-color: #1a5632;
+  --MAIN-TITLES-H2-color: #1a5632;
+  --MAIN-TITLES-H3-color: #1a5632;
+  --MAIN-TITLES-H4-color: #1a5632;
+  --MAIN-TITLES-H5-color: #1a5632;
+  --MAIN-TITLES-H6-color: #1a5632;
+
+  /* Sidebar / Menu */
+  --MENU-HEADER-BG-color: #1a5632;
+  --MENU-HEADER-BORDER-color: #14442a;
+  --MENU-HEADER-FONT-color: #f0f7f3;
+  --MENU-HOME-LINK-color: #f0f7f3;
+  --MENU-HOME-LINK-HOVER-color: #ffffff;
+  --MENU-SEARCH-color: #f0f7f3;
+  --MENU-SEARCH-BG-color: #14442a;
+  --MENU-SEARCH-BORDER-color: #1a5632;
+  --MENU-SECTIONS-BG-color: #f0f7f3;
+  --MENU-SECTIONS-ACTIVE-BG-color: #ffffff;
+  --MENU-SECTIONS-LINK-color: #2d3436;
+  --MENU-SECTIONS-LINK-HOVER-color: #1a7a4c;
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #1a5632;
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #dceee4;
+  --MENU-VISITED-color: #506b5b;
+
+  /* Code blocks */
+  --CODE-BLOCK-color: #2d3436;
+  --CODE-BLOCK-BG-color: #f4f8f6;
+  --CODE-BLOCK-BORDER-color: #d4e4da;
+  --CODE-INLINE-color: #1a5632;
+  --CODE-INLINE-BG-color: #eef5f1;
+  --CODE-INLINE-BORDER-color: #d4e4da;
+
+  /* Box styles (notices) */
+  --BOX-CAPTION-color: rgba(255, 255, 255, 1);
+  --BOX-BG-color: rgba(255, 255, 255, .833);
+  --BOX-TEXT-color: rgba(45, 52, 54, 1);
+}
