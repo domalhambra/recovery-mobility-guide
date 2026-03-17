@@ -9,6 +9,7 @@ theme = "hugo-theme-relearn"
   disableLandingPageButton = true
   showVisitedLinks = false
   disableInlineCopyToClipBoard = true
+  disableToc = true
 
 [[params.themeVariant]]
   identifier = "mobility-auto"

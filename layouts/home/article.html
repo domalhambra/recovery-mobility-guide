@@ -3,7 +3,7 @@
   <header class="headline">
     {{- partial "content-header.html" . }}
   </header>
-{{ partial "heading-pre.html" . }}{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
+{{ partial "heading-pre.html" . }}<h1 id="{{ anchorize .LinkTitle }}">{{ .LinkTitle }}</h1>{{ partial "heading-post.html" . }}
 
 {{ partial "article-content.html" . }}
 

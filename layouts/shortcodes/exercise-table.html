@@ -1,0 +1,8 @@
+{{- $pages := .Page.Pages.ByWeight -}}
+{{- if gt (len $pages) 0 -}}
+| # | Exercise | Focus |
+|---|----------|-------|
+{{- range $pages }}
+| {{ strings.TrimRight " " .Params.menuPre }} | [{{ .Title }}]({{ .RelPermalink }}) | {{ with .Description }}{{ index (split . ".") 0 }}{{ end }} |
+{{- end }}
+{{- end -}}

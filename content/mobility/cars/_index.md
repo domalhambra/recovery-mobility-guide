@@ -27,9 +27,4 @@ To truly isolate a joint during CARs, create tension in the rest of your body â€
 
 ## Exercises
 
-| # | Exercise | Focus |
-|---|----------|-------|
-| 14.01 | [Shoulder CARs](shoulder-cars/) | Full shoulder rotation |
-| 14.02 | [Hip CARs](hip-cars/) | Full hip rotation |
-| 14.03 | [Ankle CARs](ankle-cars/) | Full ankle rotation |
-| 14.04 | [Wrist CARs](wrist-cars/) | Full wrist rotation |
+{{% exercise-table %}}

@@ -27,7 +27,4 @@ Grip is often the limiting factor in pulling movements — if you can't hold it,
 
 ## Exercises
 
-| # | Exercise | Focus |
-|---|----------|-------|
-| 31.01 | [Bench Press](bench-press/) | Horizontal pressing — chest, shoulders, triceps |
-| 31.02 | [Pull-Ups](pull-ups/) | Vertical pulling — lats, biceps, grip |
+{{% exercise-table %}}

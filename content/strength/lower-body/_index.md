@@ -27,6 +27,4 @@ Bilateral movements (back squat, deadlift) build overall strength, but they can 
 
 ## Exercises
 
-| # | Exercise | Focus |
-|---|----------|-------|
-| 32.01 | [Back Squat](back-squat/) | Bilateral squat pattern — quads, glutes, core |
+{{% exercise-table %}}

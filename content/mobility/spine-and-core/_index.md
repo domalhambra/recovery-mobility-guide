@@ -27,22 +27,4 @@ The cervical spine is delicate and highly innervated. Neck mobilizations should 
 
 ## Exercises
 
-| # | Exercise | Focus |
-|---|----------|-------|
-| 13.01 | [Cat-Cow](cat-cow/) | Spinal flexion and extension |
-| 13.02 | [Cat-Cow Stretch](cat-cow-stretch/) | Extended hold variation |
-| 13.03 | [Cat-Cow Spinal Rolls](cat-cow-spinal-rolls/) | Segmental spinal articulation |
-| 13.04 | [Child's Pose](childs-pose/) | Lumbar decompression |
-| 13.05 | [Thread the Needle](thread-the-needle/) | Thoracic rotation |
-| 13.06 | [Kneeling Book Openers](kneeling-book-openers/) | Thoracic rotation with reach |
-| 13.07 | [Seated Thoracic Rotation](seated-thoracic-rotation/) | Seated t-spine rotation |
-| 13.08 | [Lying Leg-Over Twist](lying-leg-over-twist/) | Spinal rotation and stretch |
-| 13.09 | [Standing Arm Swings](standing-arm-swings/) | Dynamic thoracic warm-up |
-| 13.10 | [Bird Dog](bird-dog/) | Anti-rotation core stability |
-| 13.11 | [Dead Bug](dead-bug/) | Anti-extension core stability |
-| 13.12 | [Pallof Press](pallof-press/) | Anti-rotation under load |
-| 13.13 | [Chin Tucks](chin-tucks/) | Cervical posture reset |
-| 13.14 | [Neck Rotations](neck-rotations/) | Cervical range of motion |
-| 13.15 | [Lower Rib Smash](lower-rib-smash/) | Rib cage mobility |
-| 13.16 | [Overhead Rib Mobilization](overhead-rib-mobilization/) | Rib and thoracic extension |
-| 13.17 | [Anterior Compartment Mobilizations](anterior-compartment-mobilizations/) | Front-body tissue release |
+{{% exercise-table %}}

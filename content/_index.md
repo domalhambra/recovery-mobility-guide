@@ -1,5 +1,6 @@
 ---
-title: "Badwater Mobility"
+title: "Mobility, Recovery & Strength Exercise Library"
+linktitle: "Badwater Mobility"
 description: "A practical reference library for mobility, strength, recovery, and pain management exercises — organized by the Johnny Decimal system."
 weight: 1
 type: "home"
