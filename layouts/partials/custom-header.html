@@ -20,6 +20,11 @@
     --CODE-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   }
 
+  /* Prevent horizontal overflow from full-bleed elements (e.g. floating field) */
+  #R-body-inner {
+    overflow-x: hidden;
+  }
+
   /* Limit content width for readability */
   #body .padding {
     max-width: 50rem;
@@ -309,8 +314,6 @@
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-    mask-image: radial-gradient(ellipse 52% 48% at center, black 85%, transparent 100%);
-    -webkit-mask-image: radial-gradient(ellipse 52% 48% at center, black 85%, transparent 100%);
     scrollbar-width: none;
     -ms-overflow-style: none;
     margin-top: 0.5rem;
