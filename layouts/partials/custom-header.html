@@ -286,17 +286,6 @@
     margin-left: 0.25rem;
   }
 
-  /* --- Scroll progress bar --- */
-  .scroll-progress {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 3px;
-    background: var(--MAIN-LINK-color);
-    z-index: 10000;
-    transition: width 0.1s ease-out;
-  }
 
   /* High contrast mode support */
   @media (forced-colors: active) {
@@ -320,11 +309,10 @@
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
-    mask-image: radial-gradient(ellipse 48% 48% at center, black 70%, transparent 100%);
-    -webkit-mask-image: radial-gradient(ellipse 48% 48% at center, black 70%, transparent 100%);
+    mask-image: radial-gradient(ellipse 50% 46% at center, black 75%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 50% 46% at center, black 75%, transparent 100%);
     scrollbar-width: none;
     -ms-overflow-style: none;
-    height: 30vh;
     margin-top: 0.5rem;
   }
 
@@ -340,8 +328,7 @@
     gap: 0.35rem;
     width: 200vw;
     max-width: none;
-    min-height: 100%;
-    padding: 4vh 25vw;
+    padding: 1vh 25vw;
     box-sizing: border-box;
   }
 
@@ -456,12 +443,18 @@
 
   @media (max-width: 768px) {
     .floating-field {
-      height: 20vh;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x;
     }
     .floating-field-inner {
-      width: 180vw;
-      padding: 5vh 20vw;
+      width: 230vw;
+      padding: 1vh 25vw;
       gap: 0.3rem;
+    }
+    .floating-drift:nth-child(n+23) {
+      display: none;
     }
     .floating-drift,
     .floating-drift:nth-child(odd),
@@ -610,36 +603,40 @@
 <!-- Skip to content link for keyboard users -->
 <a href="#R-body" class="skip-link">Skip to content</a>
 
-<!-- Scroll progress bar -->
-<div class="scroll-progress" aria-hidden="true"></div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  var bar = document.querySelector('.scroll-progress');
-  var body = document.getElementById('R-body-inner');
-  if (!bar || !body) return;
-  body.addEventListener('scroll', function() {
-    var scrollTop = body.scrollTop;
-    var scrollHeight = body.scrollHeight - body.clientHeight;
-    var progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
-    bar.style.width = progress + '%';
-  });
-
   // Dynamic sidebar: sync body margin-left to sidebar width
   var sidebar = document.getElementById('R-sidebar');
-  var body = document.getElementById('R-body');
-  if (sidebar && body) {
+  var bodyEl = document.getElementById('R-body');
+  if (sidebar && bodyEl) {
+    var sidebarSyncPending = false;
+    var lastSidebarWidth = 0;
     function syncSidebarWidth() {
       if (window.innerWidth > 900) {
-        body.style.marginLeft = sidebar.offsetWidth + 'px';
+        var w = sidebar.offsetWidth;
+        if (w !== lastSidebarWidth) {
+          lastSidebarWidth = w;
+          bodyEl.style.marginLeft = w + 'px';
+        }
       } else {
-        body.style.marginLeft = '';
+        lastSidebarWidth = 0;
+        bodyEl.style.marginLeft = '';
+      }
+    }
+    function debouncedSync() {
+      if (!sidebarSyncPending) {
+        sidebarSyncPending = true;
+        requestAnimationFrame(function() {
+          syncSidebarWidth();
+          sidebarSyncPending = false;
+        });
       }
     }
     syncSidebarWidth();
-    window.addEventListener('resize', syncSidebarWidth);
-    new MutationObserver(syncSidebarWidth).observe(sidebar, { childList: true, subtree: true });
+    window.addEventListener('resize', debouncedSync);
+    new MutationObserver(debouncedSync).observe(sidebar, { childList: true, subtree: true });
     if (typeof ResizeObserver !== 'undefined') {
-      new ResizeObserver(syncSidebarWidth).observe(sidebar);
+      new ResizeObserver(debouncedSync).observe(sidebar);
     }
   }
 
@@ -678,27 +675,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    // Size field dynamically
+    // Center scroll horizontally
     requestAnimationFrame(function () {
-      if (cards.length > 0) {
-        var minY = Infinity, maxY = -Infinity;
-        var contRect = container.getBoundingClientRect();
-        for (var i = 0; i < cards.length; i++) {
-          var rect = cards[i].getBoundingClientRect();
-          var top = rect.top - contRect.top;
-          var bottom = rect.bottom - contRect.top;
-          if (top < minY) minY = top;
-          if (bottom > maxY) maxY = bottom;
-        }
-        var contentHeight = maxY - minY;
-        var mob = window.innerWidth <= 768;
-        var padding = contentHeight * 0.4;
-        var desiredHeight = contentHeight + padding;
-        var minH = mob ? window.innerHeight * 0.4 : window.innerHeight * 0.5;
-        var maxH = window.innerHeight * 1.2;
-        field.style.height = Math.max(minH, Math.min(desiredHeight, maxH)) + 'px';
-      }
-      // Center scroll
       field.scrollLeft = (container.scrollWidth - field.clientWidth) / 2;
     });
 

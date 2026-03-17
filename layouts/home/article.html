@@ -7,8 +7,8 @@
 
 {{ partial "article-content.html" . }}
 
-  {{/* Floating link cloud — 36 most recently edited pages */}}
-  {{ $pages := .Site.RegularPages.ByLastmod.Reverse | first 36 }}
+  {{/* Floating link cloud — 40 most recently edited pages (22 shown on mobile) */}}
+  {{ $pages := .Site.RegularPages.ByLastmod.Reverse | first 40 }}
   {{ if gt (len $pages) 0 }}
   <div class="floating-field">
     <div class="floating-field-inner" id="floating-field-inner">

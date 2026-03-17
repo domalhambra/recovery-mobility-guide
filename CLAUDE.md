@@ -89,7 +89,6 @@ Set in `layouts/partials/custom-header.html`:
 - Compact sidebar spacing (0.1rem padding)
 - Link highlight effect: terracotta underline on hover
 - Centered inline TOC (max-width 24rem)
-- Scroll progress bar (3px fixed at top)
 - Search placeholder shows keyboard shortcut (Ctrl+Alt+F)
 - JD-style footnotes section (border-top, muted, smaller text)
 - Accessibility: focus-visible outlines, skip-to-content link, reduced motion,
@@ -97,7 +96,7 @@ Set in `layouts/partials/custom-header.html`:
 
 ### Custom layout files
 - `layouts/partials/custom-header.html` — fonts, all CSS overrides, JS for
-  scroll progress bar, sidebar sync, and search placeholder
+  sidebar sync and search placeholder
 - `layouts/partials/content-header.html` — tags, difficulty badge, reading time,
   inline TOC
 - `layouts/partials/sidebar/element/variantswitcher.html` — 3-state theme toggle
