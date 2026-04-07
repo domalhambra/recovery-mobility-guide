@@ -4,6 +4,7 @@ description: "Shoulder controlled articular rotations for joint health, range of
 menuPre: "14.04 "
 weight: 40
 tags: ["shoulders", "mobility", "beginner", "no-equipment"]
+body-region: [shoulders]
 ---
 
 Shoulder CARs (Controlled Articular Rotations) take the shoulder through its full rotational range under maximum tension. They serve as both a daily maintenance drill and an assessment tool — revealing restrictions you might not notice otherwise.

@@ -4,6 +4,7 @@ description: "Foam roller mobilization for the thoracic spine and upper back. Im
 menuPre: "43.01 "
 weight: 10
 tags: ["shoulders", "upper-back", "myofascial-release", "beginner", "foam-roller"]
+body-region: [shoulders, upper-back]
 ---
 
 The T-spine roller smash uses a foam roller to break up stiffness in the thoracic spine and surrounding musculature. It restores extension and rotation through the upper back, which is critical for overhead pressing, front rack positions, and hanging movements.

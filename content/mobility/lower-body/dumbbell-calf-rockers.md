@@ -4,6 +4,7 @@ description: "Loaded calf raises on a slant board for ankle strength and mobilit
 menuPre: "12.27 "
 weight: 270
 tags: ["ankles", "mobility", "corrective", "intermediate", "slant-board", "kettlebell"]
+body-region: [ankles]
 ---
 
 Dumbbell calf rockers are a loaded variation of calf raises performed on a slant board. The incline increases the range of motion at the ankle, and the added weight builds calf strength and Achilles tendon resilience — important for injury prevention and athletic performance.

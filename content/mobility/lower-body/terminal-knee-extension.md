@@ -4,6 +4,7 @@ description: "Terminal knee extension for quad activation and knee joint stabili
 menuPre: "12.04 "
 weight: 40
 tags: ["knees", "strength", "beginner"]
+body-region: [quads]
 ---
 
 Terminal knee extension (TKE) isolates the last 10–15 degrees of knee straightening — the range where the VMO (vastus medialis oblique) works hardest. It's a staple in knee rehab and a valuable warmup drill for anyone with patella tracking issues or post-exercise knee soreness.

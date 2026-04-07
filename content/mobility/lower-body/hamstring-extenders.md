@@ -4,6 +4,7 @@ description: "Active hamstring stretching using controlled leg extensions to bui
 menuPre: "12.34 "
 weight: 340
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
+body-region: [hamstrings]
 ---
 
 Hamstring extenders use active muscle contraction to progressively extend the knee and stretch the hamstrings under load. This "active flexibility" approach builds usable range of motion — not just passive length — making it particularly effective for hamstring rehab and injury prevention.

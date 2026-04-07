@@ -4,6 +4,7 @@ description: "Lacrosse ball and barbell mobilization for the upper trapezius and
 menuPre: "43.03 "
 weight: 30
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball", "barbell"]
+body-region: [upper-back]
 ---
 
 The trap scrub targets the upper trapezius and surrounding tissue where tension and trigger points commonly accumulate from desk work, overhead movements, and stress. Releasing this area improves front rack position, overhead mechanics, and overall shoulder function.

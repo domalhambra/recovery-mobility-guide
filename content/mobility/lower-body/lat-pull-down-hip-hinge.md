@@ -4,6 +4,7 @@ description: "A banded lat pull-down combined with a hip hinge to integrate hams
 menuPre: "12.29 "
 weight: 290
 tags: ["hamstrings", "upper-back", "activation", "beginner", "resistance-band"]
+body-region: [hamstrings, upper-back]
 ---
 
 This exercise combines a lat pull-down pattern with a hip hinge, training the posterior chain as an integrated unit. It is particularly useful in hamstring rehab programs because it teaches the hamstrings to work in coordination with the lats and glutes during hip extension.

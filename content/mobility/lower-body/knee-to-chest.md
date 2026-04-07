@@ -4,6 +4,7 @@ description: "A dynamic stretch pulling the knee to the chest to warm up the glu
 menuPre: "12.15 "
 weight: 150
 tags: ["glutes", "hamstrings", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [glutes, hamstrings]
 ---
 
 The standing knee-to-chest is a dynamic stretch that activates the glutes and hamstrings while gently mobilizing the hip. Performed while walking, it serves as a moving warm-up that prepares the lower body for activity.

@@ -4,6 +4,7 @@ description: "Banded wrist distraction for wrist and forearm mobility in front r
 menuPre: "11.15 "
 weight: 150
 tags: ["wrists", "arms", "mobility", "intermediate", "resistance-band"]
+body-region: [arms]
 ---
 
 Banded wrist distraction uses a resistance band to gap the wrist joint open while you work into flexion and extension. This mobilization improves front rack positions where full wrist extension under load is required, and it helps resolve stiffness from gripping and typing.

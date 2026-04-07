@@ -4,6 +4,7 @@ description: "Seated thoracic rotation drill for upper and lower back mobility d
 menuPre: "13.12 "
 weight: 120
 tags: ["upper-back", "lumbar", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [upper-back, lower-back]
 ---
 
 Seated thoracic rotation is a desk-friendly mobility drill that can be performed in any chair. It targets rotational range in the thoracic and upper lumbar spine, making it ideal for office workers who need to counteract the stiffness that builds from prolonged sitting.

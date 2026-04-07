@@ -4,6 +4,7 @@ description: "A glute bridge with alternating single-leg raises to challenge ham
 menuPre: "12.33 "
 weight: 330
 tags: ["hamstrings", "glutes", "activation", "beginner", "no-equipment"]
+body-region: [hamstrings, glutes]
 ---
 
 This variation of the glute bridge adds alternating single-leg raises while maintaining the bridge position. It builds unilateral hamstring and glute strength while challenging pelvic stability — a common weakness in hamstring injury rehab.

@@ -4,6 +4,7 @@ description: "Dynamic leg swings to warm up the hips, glutes, and hamstrings bef
 menuPre: "12.09 "
 weight: 90
 tags: ["hips", "glutes", "hamstrings", "mobility", "beginner", "no-equipment"]
+body-region: [hips, glutes, hamstrings]
 ---
 
 Leg swings are a foundational dynamic warm-up drill that takes the hip through its full range of motion in both the sagittal and frontal planes. They prime the glutes, hip flexors, and hamstrings for movement.

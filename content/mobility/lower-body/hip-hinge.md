@@ -4,6 +4,7 @@ description: "The foundational hip hinge pattern for hamstring loading and poste
 menuPre: "12.32 "
 weight: 320
 tags: ["hamstrings", "hips", "activation", "beginner", "kettlebell"]
+body-region: [hamstrings, hips]
 ---
 
 The hip hinge is the foundational movement pattern for all posterior chain exercises — deadlifts, kettlebell swings, good mornings, and more. Learning to hinge properly is critical for hamstring health, lower back protection, and athletic performance.

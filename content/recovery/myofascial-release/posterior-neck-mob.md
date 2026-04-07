@@ -4,6 +4,7 @@ description: "Lacrosse ball mobilization for the suboccipitals and posterior nec
 menuPre: "43.10 "
 weight: 100
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
+body-region: [neck]
 ---
 
 Posterior neck mobilization targets the suboccipital muscles, upper trapezius, and levator scapulae at the base of the skull and back of the neck. These muscles are a primary source of tension headaches, neck stiffness, and restricted head movement, especially in people who work at screens.

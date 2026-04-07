@@ -4,6 +4,7 @@ description: "A marching drill that activates the hamstrings and hip flexors in 
 menuPre: "12.35 "
 weight: 350
 tags: ["hamstrings", "activation", "beginner", "no-equipment"]
+body-region: [hamstrings]
 ---
 
 A-drill marching is a running-specific warm-up drill that teaches proper hip flexion mechanics while activating the hamstrings and hip flexors. The "A" position — knee driven high with the toe dorsiflexed — trains the muscle coordination pattern used in sprinting and fast walking.

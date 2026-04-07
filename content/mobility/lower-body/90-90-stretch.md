@@ -4,6 +4,7 @@ description: "The 90/90 stretch targets hip internal and external rotation. Setu
 menuPre: "12.01 "
 weight: 10
 tags: ["hips", "flexibility", "beginner"]
+body-region: [hips]
 ---
 
 The 90/90 stretch targets both internal and external hip rotation simultaneously. It's one of the most effective positions for improving overall hip mobility, especially if you sit for long periods.

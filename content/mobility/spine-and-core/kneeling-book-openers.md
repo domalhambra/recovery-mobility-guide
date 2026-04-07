@@ -4,6 +4,7 @@ description: "Kneeling book openers for thoracic rotation and upper back mobilit
 menuPre: "13.09 "
 weight: 90
 tags: ["upper-back", "mobility", "beginner", "no-equipment"]
+body-region: [upper-back]
 ---
 
 Kneeling book openers isolate thoracic rotation from a tall kneeling or quadruped position. By anchoring the lower body, this drill ensures the rotation comes from the thoracic spine rather than the hips or lumbar spine. It is an excellent warm-up for any upper body training session.

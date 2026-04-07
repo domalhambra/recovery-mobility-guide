@@ -4,6 +4,7 @@ description: "Foam rolling technique to release the psoas and deep hip flexor mu
 menuPre: "12.28 "
 weight: 280
 tags: ["hips", "myofascial-release", "beginner", "foam-roller"]
+body-region: [hips]
 ---
 
 The psoas is a deep hip flexor that runs from the lumbar spine to the inner thigh. When tight, it pulls the pelvis forward and contributes to lower back pain. Foam rolling the psoas area helps release this chronic tension, though the technique requires careful positioning since the muscle is deep.

@@ -4,6 +4,7 @@ description: "Banded elbow extension mobilization for overhead and front rack po
 menuPre: "11.12 "
 weight: 120
 tags: ["arms", "mobility", "intermediate", "resistance-band"]
+body-region: [arms]
 ---
 
 This banded mobilization targets elbow extension range of motion by applying a distraction force across the joint while you work into full lockout. It improves overhead and front rack positions where full elbow extension is required for a stable, stacked joint position.

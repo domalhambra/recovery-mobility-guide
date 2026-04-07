@@ -1,0 +1,21 @@
+{{- define "storeOutputFormat" }}
+  {{- .Store.Set "relearnOutputFormat" "html" }}
+{{- end }}
+{{- define "body" }}
+<article class="default">
+  <header class="headline">
+  </header>
+
+  <h1 id="body-regions">Body Regions</h1>
+
+  <p>Select a body region to explore exercises, warm-ups, recovery protocols, and pain prescriptions.</p>
+
+  {{ partial "body-map.html" . }}
+
+  <footer class="footline">
+  </footer>
+</article>
+{{- end }}
+{{- define "menu" }}
+  {{- partial "menu.html" . }}
+{{- end }}

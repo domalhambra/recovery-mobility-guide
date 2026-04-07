@@ -4,6 +4,7 @@ description: "A full-body warm-up drill that emphasizes hamstring flexibility an
 menuPre: "12.30 "
 weight: 300
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
+body-region: [hamstrings]
 ---
 
 The inchworm is a dynamic warm-up staple that stretches the hamstrings, activates the core and shoulders, and raises the heart rate. It is an excellent lead-in for any lower body or full-body training session.

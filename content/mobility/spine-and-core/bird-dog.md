@@ -4,6 +4,7 @@ description: "Bird dog exercise for core stability, balance, and spinal alignmen
 menuPre: "13.04 "
 weight: 40
 tags: ["core", "activation", "beginner"]
+body-region: [core]
 ---
 
 The bird dog builds anti-rotation and anti-extension core stability while training hip extension and shoulder flexion in a coordinated pattern. It is a staple of spinal rehabilitation programs and an excellent warm-up drill for any training session.

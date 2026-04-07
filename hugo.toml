@@ -39,3 +39,9 @@ theme = "hugo-theme-relearn"
 
 [taxonomies]
   tag = "tags"
+  body-region = "body-region"
+
+[[menus.shortcuts]]
+  name = "Body Regions"
+  url = "/body-region/"
+  weight = 10

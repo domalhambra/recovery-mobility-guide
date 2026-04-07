@@ -4,6 +4,7 @@ description: "Thread the needle stretch for thoracic rotation and upper back mob
 menuPre: "13.11 "
 weight: 110
 tags: ["upper-back", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [upper-back]
 ---
 
 Thread the needle is a dynamic thoracic rotation stretch performed from a quadruped position. It takes the upper back through a wide arc of rotation, stretching the rhomboids, rear deltoids, and thoracic paraspinals while the hips and lumbar spine remain stable.

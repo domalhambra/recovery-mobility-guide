@@ -4,6 +4,7 @@ description: "Wrist controlled articular rotations for joint health and full ran
 menuPre: "11.09 "
 weight: 90
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
+body-region: [arms]
 ---
 
 Wrist CARs (controlled articular rotations) systematically move the wrist through every plane of motion — flexion, extension, radial and ulnar deviation — in one continuous, tension-filled loop. Daily practice maintains wrist joint health and reveals restrictions before they become painful.

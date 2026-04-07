@@ -4,6 +4,7 @@ description: "The ankle alphabet drill activates and mobilizes the ankle joint t
 menuPre: "24.05 "
 weight: 50
 tags: ["ankles", "activation", "corrective", "beginner", "no-equipment"]
+body-region: [ankles]
 ---
 
 The ankle alphabet is a simple activation and mobility drill that moves the ankle through its full range of motion in every direction. It's especially useful for recovering from ankle sprains, preventing stiffness from desk work, and as a warm-up before lower body training.

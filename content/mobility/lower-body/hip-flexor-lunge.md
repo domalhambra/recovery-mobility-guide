@@ -4,6 +4,7 @@ description: "A dynamic lunge stretch targeting the hip flexors for improved hip
 menuPre: "12.11 "
 weight: 110
 tags: ["hips", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [hips]
 ---
 
 The hip flexor lunge is a dynamic stretch that opens the front of the hip through a controlled lunge pattern. It counteracts the shortening effect of prolonged sitting and is a staple in any warm-up or daily maintenance routine.

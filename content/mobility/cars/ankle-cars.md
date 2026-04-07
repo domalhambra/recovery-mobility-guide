@@ -4,6 +4,7 @@ description: "Ankle controlled articular rotations for joint health and range of
 menuPre: "14.02 "
 weight: 20
 tags: ["ankles", "mobility", "beginner", "no-equipment"]
+body-region: [ankles]
 ---
 
 Ankle CARs (Controlled Articular Rotations) move the ankle through its full available range under tension. They're essential daily maintenance for anyone who spends time on their feet, hikes, or has a history of ankle sprains.

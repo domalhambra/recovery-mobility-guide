@@ -4,6 +4,7 @@ description: "Glute bridges activate the glutes and posterior chain. Setup, coac
 menuPre: "24.01 "
 weight: 10
 tags: ["glutes", "activation", "beginner", "no-equipment"]
+body-region: [glutes]
 ---
 
 Glute bridges are a foundational activation drill that wakes up the glutes before training or work. They teach you to extend the hips without compensating through the lower back, making them essential for anyone who sits for long periods.

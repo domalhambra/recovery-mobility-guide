@@ -4,6 +4,7 @@ description: "A structured pull-up program using a laddering approach to build p
 menuPre: "35.01 "
 weight: 10
 tags: ["upper-back", "arms", "strength", "intermediate", "pull-up-bar"]
+body-region: [upper-back, arms]
 ---
 
 The Fighter Pull-Up Program is a structured approach to increasing pull-up numbers using a "ladder" protocol. Originally popularized by Pavel Tsatsouline, this program builds volume gradually while managing fatigue, making it one of the most effective methods for adding reps to your pull-up max.

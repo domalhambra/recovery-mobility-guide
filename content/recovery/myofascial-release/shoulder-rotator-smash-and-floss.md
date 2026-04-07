@@ -4,6 +4,7 @@ description: "Lacrosse ball mobilization for the shoulder rotator cuff and poste
 menuPre: "43.06 "
 weight: 60
 tags: ["arms", "shoulders", "myofascial-release", "intermediate", "lacrosse-ball"]
+body-region: [arms, shoulders]
 ---
 
 The shoulder rotator smash and floss targets the posterior shoulder — infraspinatus, teres minor, and posterior deltoid. These muscles commonly become restricted from desk work and repetitive overhead movements, limiting external rotation and creating impingement risk.

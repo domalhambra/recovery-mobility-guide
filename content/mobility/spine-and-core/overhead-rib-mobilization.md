@@ -4,6 +4,7 @@ description: "Lacrosse ball and barbell overhead rib mobilization for front rack
 menuPre: "13.14 "
 weight: 140
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball", "barbell"]
+body-region: [upper-back]
 ---
 
 Overhead rib mobilization uses a lacrosse ball or barbell to address tissue restrictions around the upper ribs and thoracic paraspinals that limit overhead reaching and rib cage expansion. This mobilization improves overhead, front rack, and press positions.

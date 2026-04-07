@@ -4,6 +4,7 @@ description: "The barbell back squat builds lower body strength through the quad
 menuPre: "32.01 "
 weight: 10
 tags: ["quadriceps", "glutes", "strength", "intermediate"]
+body-region: [quads, glutes]
 ---
 
 The barbell back squat is the foundational lower body strength movement. It develops the quadriceps, glutes, hamstrings, and core while reinforcing the squat pattern that carries over to athletics, daily life, and injury prevention.

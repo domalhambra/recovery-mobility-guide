@@ -95,13 +95,47 @@
     max-width: 21rem;
     border-right: 1px solid var(--MENU-HEADER-BORDER-color);
   }
-  @media screen and (max-width: 56.25em) {
+
+  /* Collapse sidebar to hamburger at 60rem instead of Relearn's default 48rem.
+     This prevents sidebar/content overlap at tablet widths. We override both
+     the medium (48-60rem) and small (<48rem) Relearn breakpoints. */
+  @media screen and (max-width: 60rem) {
     #R-sidebar {
-      width: 18.75rem;
-      max-width: 100%;
+      inset-inline-start: calc(-1 * var(--INTERNAL-MENU-S-width, 14.375rem));
+      min-width: var(--INTERNAL-MENU-S-width, 14.375rem);
+      max-width: var(--INTERNAL-MENU-S-width, 14.375rem);
+      width: var(--INTERNAL-MENU-S-width, 14.375rem);
+    }
+    #navshow {
+      display: inline;
     }
     #R-body {
-      margin-left: 0;
+      margin-inline-start: 0;
+      min-width: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+    .sidebar-flyout {
+      overflow: hidden;
+    }
+    .sidebar-flyout #R-sidebar {
+      inset-inline-start: 0;
+      z-index: 90;
+    }
+    .sidebar-flyout #R-body {
+      margin-inline-start: var(--INTERNAL-MENU-S-width, 14.375rem);
+      overflow: hidden;
+    }
+    .sidebar-flyout #R-body-overlay {
+      background-color: rgba(134, 134, 134, 0.5);
+      bottom: 0;
+      cursor: pointer;
+      height: 100vh;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 190;
     }
   }
 
@@ -318,186 +352,185 @@
   }
 
   /* ============================================
-     Floating Field — 2D pannable card cluster
+     Body Map — Interactive SVG navigation
      ============================================ */
 
-  .floating-field {
-    position: relative;
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    margin-top: 0.5rem;
-  }
-
-  .floating-field::-webkit-scrollbar {
-    display: none;
-  }
-
-  .floating-field-inner {
+  .body-map-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    gap: 0.35rem;
-    width: 200vw;
-    max-width: none;
-    padding: 1vh 25vw;
-    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 1.5rem;
+    max-width: 36rem;
+    margin: 1rem auto 0;
+    padding: 0 1rem;
   }
 
-  .floating-drift {
-    display: inline-flex;
-    margin: 0.2rem 0.05rem;
-    flex-shrink: 0;
+  .body-map-container svg {
+    width: 100%;
+    max-width: 14rem;
+    height: auto;
   }
 
-  .floating-drift:nth-child(odd) {
-    margin-bottom: 0.5rem;
+  .body-map-heading {
+    text-align: center;
+    font-family: var(--MAIN-TITLES-font);
+    font-weight: var(--MAIN-TITLES-H2-font-weight);
+    color: var(--MAIN-TITLES-TEXT-color);
+    margin-bottom: 0.25rem;
   }
 
-  .floating-drift:nth-child(even) {
-    margin-top: 0.5rem;
-    z-index: 2;
+  /* Region fill and stroke defaults */
+  .body-region {
+    fill: var(--BODY-REGION-fill);
+    stroke: var(--BODY-REGION-stroke);
+    stroke-width: 0;
+    cursor: pointer;
+    transition: fill 200ms ease, stroke 200ms ease, stroke-width 200ms ease, transform 200ms ease;
+    transform-origin: center;
+    transform-box: fill-box;
   }
 
-  .floating-link {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.66rem 1.2rem;
-    background-clip: padding-box;
-    border: 1px solid rgba(42, 37, 32, 0.06);
-    border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(42, 37, 32, 0.05), 0 0 0 1px rgba(42, 37, 32, 0.02);
+  /* Body outline (non-interactive background silhouette) */
+  .body-outline {
+    fill: var(--BODY-OUTLINE-fill);
+    pointer-events: none;
+  }
+
+  /* Desktop hover */
+  @media (hover: hover) {
+    .body-region:hover {
+      fill: var(--BODY-REGION-hover-fill);
+      stroke: var(--BODY-REGION-hover-stroke);
+      stroke-width: 2px;
+      transform: scale(1.05);
+    }
+  }
+
+  /* Active/selected state (mobile first tap, or desktop for parity) */
+  .body-region.is-active {
+    fill: var(--BODY-REGION-active-fill);
+    stroke: var(--BODY-REGION-active-stroke);
+    stroke-width: 2.5px;
+    transform: scale(1.05);
+  }
+
+  /* Region label (shared element below the SVGs) */
+  .body-map-label {
+    text-align: center;
+    font-family: var(--MAIN-TITLES-font);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--BODY-MAP-label-color);
+    min-height: 1.6em;
+    margin-top: 0.75rem;
+    transition: opacity 150ms ease;
+  }
+
+  .body-map-label:empty {
+    opacity: 0;
+  }
+
+  /* Reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    .body-region {
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Mobile layout */
+  @media (max-width: 480px) {
+    .body-map-container {
+      gap: 0.75rem;
+    }
+    .body-map-container svg {
+      max-width: 10rem;
+    }
+  }
+
+  /* Remove link underlines inside SVG */
+  .body-region-link,
+  .body-region-link:hover {
     text-decoration: none !important;
     background-image: none !important;
-    color: var(--MAIN-TEXT-color);
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    font-weight: 450;
-    line-height: 1.35;
-    white-space: nowrap;
-    cursor: pointer;
-    transition:
-      transform 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-      box-shadow 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-      border-color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-      color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
-  /* 8-color cycling palette — light mode */
-  .floating-drift:nth-child(8n+1) .floating-link { background-color: #F5E8E3; }
-  .floating-drift:nth-child(8n+2) .floating-link { background-color: #F0EBE2; }
-  .floating-drift:nth-child(8n+3) .floating-link { background-color: #E6EDF1; }
-  .floating-drift:nth-child(8n+4) .floating-link { background-color: #F2E4DD; }
-  .floating-drift:nth-child(8n+5) .floating-link { background-color: #E9EDE6; }
-  .floating-drift:nth-child(8n+6) .floating-link { background-color: #F3EAE1; }
-  .floating-drift:nth-child(8n+7) .floating-link { background-color: #EDEAEF; }
-  .floating-drift:nth-child(8n+8) .floating-link { background-color: #F0ECE0; }
+  /* ============================================
+     Body Map Context — small article-level graphic
+     ============================================ */
 
-  .floating-link:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 16px rgba(42, 37, 32, 0.14), 0 0 0 1px rgba(42, 37, 32, 0.06);
-    border-color: var(--MENU-HEADER-BORDER-color);
-    color: var(--MAIN-LINK-color);
-    z-index: 10;
+  .body-map-context {
+    float: right;
+    display: flex;
+    gap: 0.5rem;
+    margin: 0 0 1rem 1.5rem;
   }
 
-  .floating-link--lg {
-    font-size: 1.125rem;
-    padding: 0.72rem 1.32rem;
+  .body-map-context svg {
+    width: 5rem;
+    height: auto;
   }
 
-  .floating-link--md {
-    font-size: 0.975rem;
+  /* In context mode, non-highlighted regions are very faint */
+  .body-map-context .body-region {
+    fill: var(--BODY-OUTLINE-fill);
+    cursor: default;
+    pointer-events: none;
   }
 
-  .floating-link--sm {
+  .body-map-context .body-region.is-highlighted {
+    fill: var(--BODY-REGION-active-fill);
+    stroke: var(--BODY-REGION-active-stroke);
+    stroke-width: 2px;
+  }
+
+  .body-map-context .body-outline {
+    opacity: 0.5;
+  }
+
+  @media (max-width: 480px) {
+    .body-map-context {
+      float: none;
+      justify-content: center;
+      margin: 0 auto 1rem;
+    }
+  }
+
+  /* Body region term page — content listing */
+  .body-region-page-list {
+    margin: 0.75rem 0 1.5rem;
+  }
+
+  .body-region-page-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--MENU-HEADER-BORDER-color);
+  }
+
+  .body-region-page-item:last-child {
+    border-bottom: none;
+  }
+
+  .body-region-page-item a {
+    font-family: var(--MAIN-TITLES-font);
+    font-weight: 500;
+  }
+
+  .body-region-page-desc {
     font-size: 0.9rem;
-    opacity: 0.85;
+    color: var(--MENU-VISITED-color);
   }
 
-  /* Dark mode floating cards */
-  :root[data-r-theme-variant="mobility-dark"] .floating-link {
-    border-color: rgba(232, 226, 216, 0.08);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.03);
+  .tab-panel summary {
+    font-family: var(--MAIN-TITLES-font);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    color: var(--MAIN-TITLES-TEXT-color);
   }
 
-  :root[data-r-theme-variant="mobility-dark"] .floating-link:hover {
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.06);
-  }
-
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+1) .floating-link { background-color: #2D2119; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+2) .floating-link { background-color: #28241C; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+3) .floating-link { background-color: #1E252B; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+4) .floating-link { background-color: #2B1F18; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+5) .floating-link { background-color: #212820; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+6) .floating-link { background-color: #2A221A; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+7) .floating-link { background-color: #252229; }
-  :root[data-r-theme-variant="mobility-dark"] .floating-drift:nth-child(8n+8) .floating-link { background-color: #27241C; }
-
-  /* Auto variant in dark mode */
-  @media (prefers-color-scheme: dark) {
-    :root[data-r-theme-variant="mobility-auto"] .floating-link {
-      border-color: rgba(232, 226, 216, 0.08);
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.03);
-    }
-    :root[data-r-theme-variant="mobility-auto"] .floating-link:hover {
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.06);
-    }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+1) .floating-link { background-color: #2D2119; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+2) .floating-link { background-color: #28241C; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+3) .floating-link { background-color: #1E252B; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+4) .floating-link { background-color: #2B1F18; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+5) .floating-link { background-color: #212820; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+6) .floating-link { background-color: #2A221A; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+7) .floating-link { background-color: #252229; }
-    :root[data-r-theme-variant="mobility-auto"] .floating-drift:nth-child(8n+8) .floating-link { background-color: #27241C; }
-  }
-
-  @media (max-width: 768px) {
-    .floating-field {
-      overflow-x: auto;
-      overflow-y: hidden;
-      -webkit-overflow-scrolling: touch;
-      touch-action: pan-x;
-    }
-    .floating-field-inner {
-      width: 230vw;
-      padding: 1vh 25vw;
-      gap: 0.3rem;
-    }
-    .floating-drift:nth-child(n+23) {
-      display: none;
-    }
-    .floating-drift,
-    .floating-drift:nth-child(odd),
-    .floating-drift:nth-child(even) {
-      margin: 0.15rem 0.1rem;
-    }
-    .floating-link {
-      font-size: 0.9rem;
-      padding: 0.48rem 0.84rem;
-    }
-    .floating-link--lg {
-      font-size: 0.975rem;
-      padding: 0.54rem 0.96rem;
-    }
-    .floating-link--md {
-      font-size: 0.9rem;
-    }
-    .floating-link--sm {
-      font-size: 0.825rem;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .floating-drift {
-      will-change: auto;
-    }
+  .tab-panel details {
+    border-bottom: 1px solid var(--MENU-HEADER-BORDER-color);
+    margin-bottom: 0.25rem;
   }
 
   /* ============================================
@@ -629,7 +662,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var sidebarSyncPending = false;
     var lastSidebarWidth = 0;
     function syncSidebarWidth() {
-      if (window.innerWidth > 900) {
+      if (window.innerWidth > 960) {
         var w = sidebar.offsetWidth;
         if (w !== lastSidebarWidth) {
           lastSidebarWidth = w;
@@ -664,71 +697,62 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // ============================================
-  // Floating field drift animation
+  // Body Map — mobile two-tap navigation
   // ============================================
-  var field = document.querySelector('.floating-field');
-  var container = document.querySelector('.floating-field-inner');
-  if (field && container) {
-    var driftItems = [];
-    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var cards = container.querySelectorAll('.floating-drift');
+  var bodyMapContainer = document.querySelector('.body-map-container');
+  if (bodyMapContainer) {
+    var isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    var activeRegion = null;
+    var label = bodyMapContainer.parentElement.querySelector('.body-map-label');
 
-    for (var c = 0; c < cards.length; c++) {
-      var rotMag = 1.5 + Math.random() * 1.5;
-      var baseRotation = (c % 2 === 0 ? 1 : -1) * rotMag;
+    if (isTouchDevice) {
+      bodyMapContainer.addEventListener('click', function(e) {
+        var regionEl = e.target.closest('.body-region');
 
-      if (prefersReducedMotion) {
-        cards[c].style.transform = 'rotate(' + baseRotation.toFixed(1) + 'deg)';
-      } else {
-        driftItems.push({
-          el: cards[c],
-          driftX: Math.random() * 5 - 2.5,
-          driftY: Math.random() * 5 - 2.5,
-          baseRotation: baseRotation,
-          rotDelta: 0.3 + Math.random() * 0.8,
-          period: (8 + Math.random() * 6) * 1000,
-          offset: Math.random() * 20000
-        });
-      }
-    }
-
-    // Center scroll horizontally
-    requestAnimationFrame(function () {
-      field.scrollLeft = (container.scrollWidth - field.clientWidth) / 2;
-    });
-
-    // Shared drift animation loop — pauses when off-screen to save CPU/battery
-    if (driftItems.length > 0) {
-      var driftStart = performance.now();
-      var driftVisible = true;
-      var driftRafId = 0;
-      function animateDrift(timestamp) {
-        if (!driftVisible) return;
-        var elapsed = timestamp - driftStart;
-        var ease = elapsed > 1000 ? 1 : elapsed / 1000;
-        for (var i = 0; i < driftItems.length; i++) {
-          var d = driftItems[i];
-          var wave = Math.sin(((timestamp + d.offset) / d.period) * Math.PI * 2);
-          var x = (d.driftX * wave * ease).toFixed(2);
-          var y = (d.driftY * wave * ease).toFixed(2);
-          var rot = (d.baseRotation + d.rotDelta * wave * ease).toFixed(2);
-          d.el.style.transform = 'translate(' + x + 'px, ' + y + 'px) rotate(' + rot + 'deg)';
-        }
-        driftRafId = requestAnimationFrame(animateDrift);
-      }
-      if (typeof IntersectionObserver !== 'undefined') {
-        new IntersectionObserver(function(entries) {
-          driftVisible = entries[0].isIntersecting;
-          if (driftVisible) {
-            driftStart = performance.now();
-            driftRafId = requestAnimationFrame(animateDrift);
-          } else {
-            cancelAnimationFrame(driftRafId);
+        // Tap on empty space — deselect
+        if (!regionEl) {
+          if (activeRegion) {
+            activeRegion.classList.remove('is-active');
+            activeRegion = null;
+            if (label) label.textContent = '';
           }
-        }, { threshold: 0 }).observe(field);
-      } else {
-        driftRafId = requestAnimationFrame(animateDrift);
-      }
+          return;
+        }
+
+        var link = regionEl.closest('a');
+        var regionSlug = regionEl.dataset.region;
+
+        // Second tap on same region — navigate
+        if (activeRegion === regionEl && link) {
+          window.location.href = link.getAttribute('href');
+          return;
+        }
+
+        // First tap — select and show label
+        e.preventDefault();
+        if (activeRegion) activeRegion.classList.remove('is-active');
+        regionEl.classList.add('is-active');
+        activeRegion = regionEl;
+
+        if (label && regionSlug) {
+          var labels = JSON.parse(bodyMapContainer.dataset.regionLabels || '{}');
+          label.textContent = labels[regionSlug] || regionSlug;
+        }
+      });
+    } else {
+      // Desktop: show label on hover
+      var regions = bodyMapContainer.querySelectorAll('.body-region');
+      regions.forEach(function(region) {
+        region.addEventListener('mouseenter', function() {
+          if (label) {
+            var labels = JSON.parse(bodyMapContainer.dataset.regionLabels || '{}');
+            label.textContent = labels[region.dataset.region] || region.dataset.region;
+          }
+        });
+        region.addEventListener('mouseleave', function() {
+          if (label) label.textContent = '';
+        });
+      });
     }
   }
 

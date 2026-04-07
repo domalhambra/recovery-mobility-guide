@@ -4,6 +4,7 @@ description: "Child's pose for gentle spinal decompression and lower back relaxa
 menuPre: "13.02 "
 weight: 20
 tags: ["spine", "flexibility", "beginner"]
+body-region: [lower-back]
 ---
 
 Child's pose is a restorative position that gently decompresses the lumbar spine, stretches the lats and paraspinals, and activates the parasympathetic nervous system. It is an ideal recovery pose between sets or at the end of a training session.

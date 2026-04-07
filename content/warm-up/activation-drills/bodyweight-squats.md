@@ -4,6 +4,7 @@ description: "Bodyweight squats activate the quads, hamstrings, and glutes. Setu
 menuPre: "24.04 "
 weight: 40
 tags: ["quadriceps", "hamstrings", "activation", "beginner", "no-equipment"]
+body-region: [quads, hamstrings]
 ---
 
 Bodyweight squats are a fundamental movement pattern that activates the quads, hamstrings, and glutes while reinforcing proper squat mechanics. Use them as a warm-up drill to prepare the lower body for training or to counteract the effects of prolonged sitting.

@@ -4,6 +4,7 @@ description: "Strengthen the tibialis anterior by raising the toes off the groun
 menuPre: "12.19 "
 weight: 190
 tags: ["knees", "shins", "corrective", "beginner", "no-equipment"]
+body-region: [quads, ankles]
 ---
 
 Toe raises (tibialis raises) strengthen the tibialis anterior — the muscle on the front of the shin. This is one of the most neglected muscles in training, yet it plays a critical role in knee health, shin splint prevention, and deceleration control.

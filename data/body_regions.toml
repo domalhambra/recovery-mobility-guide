@@ -1,0 +1,86 @@
+# Body Region Definitions
+# Each region maps to: SVG element IDs, display label, associated content tags, and which views it appears on.
+
+[neck]
+label = "Neck & Head"
+svg_id = "region-neck"
+tags = ["neck", "head"]
+views = ["front", "back"]
+description = "Neck mobility, forward head posture, and headache relief"
+
+[shoulders]
+label = "Shoulders"
+svg_id = "region-shoulders"
+tags = ["shoulders"]
+views = ["front", "back"]
+description = "Shoulder mobility, rotator cuff health, and overhead range of motion"
+
+[arms]
+label = "Arms & Wrists"
+svg_id = "region-arms"
+tags = ["arms", "wrists"]
+views = ["front", "back"]
+description = "Elbow, forearm, and wrist mobility for grip and upper extremity health"
+
+[core]
+label = "Core"
+svg_id = "region-core"
+tags = ["core"]
+views = ["front"]
+description = "Abdominal activation, anti-rotation, and trunk stability"
+
+[hips]
+label = "Hips"
+svg_id = "region-hips"
+tags = ["hips"]
+views = ["front"]
+description = "Hip flexor length, internal and external rotation, and pelvic mobility"
+
+[quads]
+label = "Quads & Knees"
+svg_id = "region-quads"
+tags = ["quadriceps", "knees"]
+views = ["front"]
+description = "Quadriceps flexibility, patellar tracking, and knee joint health"
+
+[ankles]
+label = "Shins & Ankles"
+svg_id = "region-ankles"
+tags = ["shins", "ankles"]
+views = ["front"]
+description = "Dorsiflexion range, ankle stability, and lower leg mobility"
+
+[upper-back]
+label = "Upper Back"
+svg_id = "region-upper-back"
+tags = ["upper-back"]
+views = ["back"]
+description = "Thoracic extension, scapular mobility, and postural correction"
+
+[lower-back]
+label = "Lower Back & Spine"
+svg_id = "region-lower-back"
+tags = ["lumbar", "spine"]
+views = ["back"]
+description = "Lumbar mobility, spinal decompression, and lower back pain management"
+
+[glutes]
+label = "Glutes"
+svg_id = "region-glutes"
+tags = ["glutes"]
+views = ["back"]
+description = "Glute activation, hip extension power, and posterior chain health"
+
+[hamstrings]
+label = "Hamstrings"
+svg_id = "region-hamstrings"
+tags = ["hamstrings"]
+views = ["back"]
+description = "Hamstring flexibility, posterior chain length, and hip hinge mechanics"
+
+[calves]
+label = "Calves"
+svg_id = "region-calves"
+tags = []
+views = ["back"]
+description = "Calf flexibility, Achilles tendon health, and plantarflexion range"

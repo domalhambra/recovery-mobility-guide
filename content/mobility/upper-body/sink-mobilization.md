@@ -4,6 +4,7 @@ description: "Squat rack or countertop-assisted shoulder mobilization for hang a
 menuPre: "11.18 "
 weight: 180
 tags: ["shoulders", "mobility", "intermediate", "squat-rack"]
+body-region: [shoulders]
 ---
 
 The sink mobilization uses a fixed surface (squat rack, countertop, or sturdy railing) to create a traction force on the shoulder while you drop your body weight below the grip. This mobilization improves hang and press positions by opening the shoulder capsule under gentle bodyweight traction.

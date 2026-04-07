@@ -4,6 +4,7 @@ description: "Lacrosse ball mobilization for the sternocleidomastoid and anterio
 menuPre: "43.09 "
 weight: 90
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
+body-region: [neck]
 ---
 
 Anterior neck mobilization targets the sternocleidomastoid (SCM) and scalene muscles on the front and sides of the neck. These muscles become chronically shortened from forward head posture, desk work, and phone use, contributing to neck pain, headaches, and restricted rotation.

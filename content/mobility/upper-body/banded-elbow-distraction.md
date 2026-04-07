@@ -4,6 +4,7 @@ description: "Banded elbow joint distraction for press and front rack position i
 menuPre: "11.19 "
 weight: 190
 tags: ["arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
+body-region: [arms]
 ---
 
 This mobilization uses a resistance band anchored to a squat rack to create a distraction force at the elbow joint, gapping it open and restoring full flexion and extension range. It improves press and front rack positions where elbow restrictions limit performance.

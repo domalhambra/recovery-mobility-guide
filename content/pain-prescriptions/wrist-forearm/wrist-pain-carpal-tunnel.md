@@ -4,6 +4,7 @@ description: "A multi-step protocol for managing wrist pain and carpal tunnel sy
 menuPre: "54.01 "
 weight: 10
 tags: ["wrists", "corrective", "beginner", "resistance-band", "lacrosse-ball"]
+body-region: [arms]
 ---
 
 This protocol addresses wrist pain associated with carpal tunnel syndrome and general wrist overuse — numbness, tingling in the thumb/index/middle fingers, grip weakness, and aching in the wrist and forearm. It works by releasing compressed tissue, gliding the median nerve, and restoring wrist mechanics.

@@ -4,6 +4,7 @@ description: "Calf raises with an isometric hold at the top to build ankle stren
 menuPre: "12.17 "
 weight: 170
 tags: ["ankles", "dynamic-stretching", "corrective", "beginner", "no-equipment"]
+body-region: [ankles]
 ---
 
 Calf raises with a hold combine dynamic movement with an isometric contraction at the top of the range. This builds strength and endurance in the calves while improving ankle stability — essential for walking, running, and squatting.

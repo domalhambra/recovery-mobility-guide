@@ -4,6 +4,7 @@ description: "The barbell bench press builds pressing strength through the chest
 menuPre: "31.01 "
 weight: 10
 tags: ["shoulders", "arms", "strength", "intermediate"]
+body-region: [shoulders, arms]
 ---
 
 The barbell bench press is a foundational upper body pressing movement that develops strength in the pectorals, anterior deltoids, and triceps. Proper bench press mechanics improve front rack positioning and overall pressing capacity.

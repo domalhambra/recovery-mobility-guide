@@ -4,6 +4,7 @@ description: "Lacrosse ball mobilization for the scalp and temporalis muscles. R
 menuPre: "43.08 "
 weight: 80
 tags: ["head", "myofascial-release", "beginner", "lacrosse-ball"]
+body-region: [neck]
 ---
 
 Head mobilization uses a lacrosse ball to release tension in the scalp fascia, temporalis muscles, and occipital attachments. These areas hold surprising amounts of tension — particularly in people who clench their jaw, wear hats or helmets for work, or experience tension headaches.

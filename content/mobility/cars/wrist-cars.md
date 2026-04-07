@@ -4,6 +4,7 @@ description: "Wrist controlled articular rotations for joint health and carpal m
 menuPre: "14.03 "
 weight: 30
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
+body-region: [arms]
 ---
 
 Wrist CARs (Controlled Articular Rotations) move the wrist through its full range of motion under active tension. Essential for anyone who works with their hands, types at a desk, or grips tools and equipment regularly.

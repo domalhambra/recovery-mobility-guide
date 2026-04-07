@@ -4,6 +4,7 @@ description: "Banded super front rack mobilization for overhead and front rack s
 menuPre: "11.20 "
 weight: 200
 tags: ["shoulders", "mobility", "intermediate", "resistance-band", "squat-rack"]
+body-region: [shoulders]
 ---
 
 The super front rack mobilization combines a banded shoulder distraction with a front rack position hold. It specifically targets the combination of shoulder flexion, external rotation, and elbow flexion needed for a clean front rack. This mobilization improves overhead and front rack positions.

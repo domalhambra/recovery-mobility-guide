@@ -4,6 +4,7 @@ description: "A multi-step protocol for managing tension headaches and neck pain
 menuPre: "52.01 "
 weight: 10
 tags: ["neck", "corrective", "beginner"]
+body-region: [neck]
 ---
 
 This protocol targets the most common pattern of headaches and neck pain — cervicogenic tension caused by forward head posture, screen time, and stress-related muscle guarding. It works through the suboccipitals, SCM, upper traps, and levator scapulae to restore normal neck mechanics.

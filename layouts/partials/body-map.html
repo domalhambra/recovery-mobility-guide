@@ -1,0 +1,23 @@
+{{/* Body Map — interactive homepage navigation */}}
+{{/* Builds a JSON object of region labels for JS and inlines both SVGs */}}
+
+{{ $regions := .Site.Data.body_regions }}
+
+{{/* Build label lookup for JS */}}
+{{ $labelMap := dict }}
+{{ range $slug, $region := $regions }}
+  {{ $labelMap = merge $labelMap (dict $slug $region.label) }}
+{{ end }}
+
+<h2 class="body-map-heading">Choose a body region</h2>
+
+<div class="body-map-container" data-region-labels='{{ $labelMap | jsonify }}'>
+  <div class="body-map-view body-map-view--front">
+    {{ readFile "static/svg/body-front.svg" | safeHTML }}
+  </div>
+  <div class="body-map-view body-map-view--back">
+    {{ readFile "static/svg/body-back.svg" | safeHTML }}
+  </div>
+</div>
+
+<div class="body-map-label" aria-live="polite"></div>

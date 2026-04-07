@@ -4,6 +4,7 @@ description: "Lacrosse ball and band techniques to resolve elbow flexion and ext
 menuPre: "11.22 "
 weight: 220
 tags: ["shoulders", "arms", "corrective", "intermediate", "lacrosse-ball", "resistance-band"]
+body-region: [shoulders, arms]
 ---
 
 This collection of targeted mobilizations addresses common elbow flexion and extension faults using a lacrosse ball for soft tissue work and a resistance band for joint distraction. It improves front rack positions by resolving restrictions in the biceps, triceps, and brachialis.

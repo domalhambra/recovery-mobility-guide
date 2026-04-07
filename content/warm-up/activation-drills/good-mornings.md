@@ -4,6 +4,7 @@ description: "Bodyweight good mornings activate the hamstrings and posterior cha
 menuPre: "24.03 "
 weight: 30
 tags: ["hamstrings", "quadriceps", "activation", "beginner", "no-equipment"]
+body-region: [hamstrings, quads]
 ---
 
 Bodyweight good mornings are a hip-hinge activation drill that fires up the hamstrings, glutes, and spinal erectors. They teach the fundamental hip-hinge pattern that carries over to deadlifts, kettlebell swings, and everyday bending.

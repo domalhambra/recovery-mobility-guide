@@ -4,6 +4,7 @@ description: "Shoulder dislocates with a band or stick for full-arc shoulder mob
 menuPre: "11.11 "
 weight: 110
 tags: ["shoulders", "mobility", "beginner", "resistance-band"]
+body-region: [shoulders]
 ---
 
 Shoulder dislocates take the shoulders through a full 360-degree arc using a band or stick as a guide. Despite the dramatic name, this is a gentle and effective way to open up the anterior shoulder, improve overhead range, and prepare for front rack positions.

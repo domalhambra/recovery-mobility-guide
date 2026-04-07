@@ -4,6 +4,7 @@ description: "Calf wall stretch for improved ankle dorsiflexion and calf flexibi
 menuPre: "12.08 "
 weight: 80
 tags: ["ankles", "flexibility", "beginner"]
+body-region: [ankles]
 ---
 
 The calf wall stretch targets the gastrocnemius and soleus — the two primary muscles that limit ankle dorsiflexion. Limited calf flexibility is one of the most common restrictions affecting squat depth, walking gait, and overall lower-body mechanics.

@@ -4,6 +4,7 @@ description: "Hip controlled articular rotations for joint health, range of moti
 menuPre: "14.01 "
 weight: 10
 tags: ["hips", "mobility", "beginner", "no-equipment"]
+body-region: [hips]
 ---
 
 Hip CARs (Controlled Articular Rotations) are a daily joint maintenance drill that moves the hip through its full range of motion under tension. They improve hip health, identify restrictions, and serve as both assessment and warmup.

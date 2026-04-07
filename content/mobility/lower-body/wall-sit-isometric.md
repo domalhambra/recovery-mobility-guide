@@ -4,6 +4,7 @@ description: "Wall sit isometric hold for knee stability and quad endurance."
 menuPre: "12.05 "
 weight: 50
 tags: ["knees", "strength", "beginner"]
+body-region: [quads]
 ---
 
 The wall sit is an isometric quad exercise that builds endurance and stability around the knee joint without any impact or dynamic loading. It's a go-to for building baseline knee resilience, especially if squats or lunges currently aggravate your knees.

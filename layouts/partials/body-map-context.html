@@ -1,0 +1,56 @@
+{{/* Body Map Context — small highlighted body graphic for article pages */}}
+{{/* Only renders if the page has body-region values */}}
+
+{{ with index .Params "body-region" }}
+  {{ $pageRegions := . }}
+  {{ $allRegions := $.Site.Data.body_regions }}
+
+  {{/* Determine which views are needed */}}
+  {{ $needFront := false }}
+  {{ $needBack := false }}
+  {{ range $pageRegions }}
+    {{ $regionData := index $allRegions . }}
+    {{ if $regionData }}
+      {{ if in $regionData.views "front" }}
+        {{ $needFront = true }}
+      {{ end }}
+      {{ if in $regionData.views "back" }}
+        {{ $needBack = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Build a list of active SVG IDs for highlighting */}}
+  {{ $activeIDs := slice }}
+  {{ range $pageRegions }}
+    {{ $regionData := index $allRegions . }}
+    {{ if $regionData }}
+      {{ $activeIDs = $activeIDs | append $regionData.svg_id }}
+    {{ end }}
+  {{ end }}
+
+  <div class="body-map-context" data-active-regions='{{ $activeIDs | jsonify }}'>
+    {{ if $needFront }}
+    <div class="body-map-view body-map-view--front">
+      {{ readFile "static/svg/body-front.svg" | safeHTML }}
+    </div>
+    {{ end }}
+    {{ if $needBack }}
+    <div class="body-map-view body-map-view--back">
+      {{ readFile "static/svg/body-back.svg" | safeHTML }}
+    </div>
+    {{ end }}
+  </div>
+
+  <script>
+  (function() {
+    var ctx = document.querySelector('.body-map-context');
+    if (!ctx) return;
+    var active = JSON.parse(ctx.dataset.activeRegions || '[]');
+    active.forEach(function(id) {
+      var els = ctx.querySelectorAll('#' + id);
+      els.forEach(function(el) { el.classList.add('is-highlighted'); });
+    });
+  })();
+  </script>
+{{ end }}

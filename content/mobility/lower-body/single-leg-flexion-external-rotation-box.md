@@ -4,6 +4,7 @@ description: "A box-supported single-leg drill combining hip flexion and externa
 menuPre: "12.22 "
 weight: 220
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
+body-region: [hips]
 ---
 
 This drill isolates one hip at a time, combining deep flexion with external rotation while using a box or bench for support. It builds the specific hip range needed for deep squats, lunges, and single-leg movements like pistol squats.

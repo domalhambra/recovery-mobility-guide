@@ -4,6 +4,7 @@ description: "Banded and loaded shoulder capsule mobilization for overhead, pres
 menuPre: "11.10 "
 weight: 100
 tags: ["shoulders", "mobility", "intermediate", "resistance-band", "kettlebell"]
+body-region: [shoulders]
 ---
 
 Shoulder capsule mobilization uses a resistance band or light load to create traction and distraction at the glenohumeral joint, restoring range of motion in the joint capsule itself. This mobilization improves overhead, press, hang, and front rack positions.

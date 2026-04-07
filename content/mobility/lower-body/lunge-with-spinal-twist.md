@@ -4,6 +4,7 @@ description: "A dynamic lunge combined with a thoracic rotation to open the hips
 menuPre: "12.13 "
 weight: 130
 tags: ["hips", "upper-back", "mobility", "beginner", "no-equipment"]
+body-region: [hips, upper-back]
 ---
 
 The lunge with spinal twist (sometimes called the "world's greatest stretch") combines hip flexor lengthening with thoracic rotation in a single movement. It is one of the most efficient warm-up exercises for full-body mobility.

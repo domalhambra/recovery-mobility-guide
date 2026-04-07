@@ -4,6 +4,7 @@ description: "Banded lateral opener for shoulder external rotation and front rac
 menuPre: "11.14 "
 weight: 140
 tags: ["shoulders", "mobility", "intermediate", "resistance-band"]
+body-region: [shoulders]
 ---
 
 The banded lateral opener uses a resistance band to create a distraction force while you work through shoulder external rotation and abduction. This mobilization improves front rack and press positions by addressing restrictions in the lateral rotator cuff and shoulder capsule.

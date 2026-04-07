@@ -4,6 +4,7 @@ description: "Banded ankle dorsiflexion drill for improving squat depth and ankl
 menuPre: "12.07 "
 weight: 70
 tags: ["ankles", "flexibility", "intermediate"]
+body-region: [ankles]
 ---
 
 Banded ankle dorsiflexion uses a resistance band to distract the talus (ankle bone) posteriorly while you drive your knee forward, creating space in the front of the ankle joint. It's one of the most effective drills for improving squat depth, lunge mechanics, and overall ankle range of motion.

@@ -4,6 +4,7 @@ description: "Squat rack mobilization for the triceps and posterior arm. Improve
 menuPre: "43.07 "
 weight: 70
 tags: ["arms", "myofascial-release", "intermediate", "squat-rack"]
+body-region: [arms]
 ---
 
 The triceps extension smash uses a barbell in a squat rack to apply pressure to the triceps while moving through elbow flexion and extension. Tight triceps limit overhead lockout, front rack depth, and elbow health. This technique is particularly effective because the barbell provides consistent, targeted pressure across the entire muscle.

@@ -4,6 +4,7 @@ description: "Banded overhead distraction with external rotation for overhead an
 menuPre: "11.21 "
 weight: 210
 tags: ["shoulders", "arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
+body-region: [shoulders, arms]
 ---
 
 This mobilization combines overhead shoulder distraction with an external rotation bias. It targets the inferior shoulder capsule and subscapularis, which are often the primary restrictions in overhead positions. This mobilization improves overhead and front rack positions.

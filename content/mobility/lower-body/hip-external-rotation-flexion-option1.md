@@ -4,6 +4,7 @@ description: "A seated hip external rotation drill with flexion bias for squat d
 menuPre: "12.24 "
 weight: 240
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
+body-region: [hips]
 ---
 
 This drill targets hip external rotation in a flexed position — the exact range of motion needed at the bottom of a squat. Option 1 uses a seated position to allow controlled, gravity-assisted loading of the hip capsule.

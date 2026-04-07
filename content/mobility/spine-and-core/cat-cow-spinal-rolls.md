@@ -4,6 +4,7 @@ description: "Cat-cow combined with spinal rolls for full-spine segmental mobili
 menuPre: "13.08 "
 weight: 80
 tags: ["upper-back", "lumbar", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [upper-back, lower-back]
 ---
 
 This variation builds on the standard cat-cow by adding lateral and circular spinal rolls, mobilizing the spine in all three planes of motion. It is an ideal dynamic warm-up that addresses flexion, extension, lateral flexion, and rotation in one flowing sequence.

@@ -4,6 +4,7 @@ description: "Wall-assisted triceps and lat stretch for overhead and front rack 
 menuPre: "11.17 "
 weight: 170
 tags: ["shoulders", "arms", "upper-back", "flexibility", "beginner", "wall"]
+body-region: [shoulders, arms, upper-back]
 ---
 
 This classic stretch targets the triceps, lats, and teres major simultaneously by placing the arm overhead and using a wall for leverage. It improves front rack and overhead positions by lengthening the tissues that most commonly restrict full shoulder flexion.

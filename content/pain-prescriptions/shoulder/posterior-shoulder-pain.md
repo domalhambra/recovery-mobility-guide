@@ -4,6 +4,7 @@ description: "A multi-step protocol for managing back-of-shoulder pain through s
 menuPre: "53.02 "
 weight: 20
 tags: ["shoulders", "corrective", "beginner"]
+body-region: [shoulders]
 ---
 
 Posterior shoulder pain typically presents as a deep ache or tightness in the back of the shoulder, often aggravated by overhead movements, pulling exercises, or reaching behind the back. Common contributors include tight posterior capsule, overworked infraspinatus and teres minor, and poor scapular mechanics.

@@ -4,6 +4,7 @@ description: "Active wrist flexion and extension drill for forearm mobility and 
 menuPre: "11.08 "
 weight: 80
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
+body-region: [arms]
 ---
 
 This simple active mobility drill takes the wrist through its full flexion and extension range. It is ideal for desk workers, anyone who types frequently, and as a pre-workout warm-up before front rack, push-up, or handstand work.

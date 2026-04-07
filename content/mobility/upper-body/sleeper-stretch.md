@@ -4,6 +4,7 @@ description: "Sleeper stretch for shoulder internal rotation and rotator cuff fl
 menuPre: "11.03 "
 weight: 30
 tags: ["shoulders", "flexibility", "intermediate"]
+body-region: [shoulders]
 ---
 
 The sleeper stretch targets posterior shoulder tightness — specifically the infraspinatus and teres minor — by passively driving internal rotation while the scapula is stabilized against the floor. It is especially useful for overhead athletes and anyone with limited internal rotation.

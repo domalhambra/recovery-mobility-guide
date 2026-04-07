@@ -4,6 +4,7 @@ description: "Cat-cow stretch for spinal segmental mobility and lower back relie
 menuPre: "13.01 "
 weight: 10
 tags: ["spine", "mobility", "beginner"]
+body-region: [lower-back]
 ---
 
 The cat-cow is a fundamental spinal mobility drill that alternates between flexion and extension, segment by segment. It warms up the entire spine, relieves stiffness, and teaches you to differentiate movement at each vertebral level.

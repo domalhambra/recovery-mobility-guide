@@ -4,6 +4,7 @@ description: "Lacrosse ball anterior neck and shoulder compartment mobilizations
 menuPre: "13.16 "
 weight: 160
 tags: ["shoulders", "neck", "myofascial-release", "intermediate", "lacrosse-ball"]
+body-region: [shoulders, neck]
 ---
 
 Anterior compartment mobilizations use a lacrosse ball to release restrictions in the pectoralis minor, subclavius, scalenes, and anterior deltoid. These tissues become chronically shortened in desk workers and overhead athletes, restricting shoulder flexion, external rotation, and cervical mobility. This mobilization improves overhead, front rack, and hang positions.

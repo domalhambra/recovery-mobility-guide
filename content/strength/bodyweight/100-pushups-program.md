@@ -4,6 +4,7 @@ description: "A progressive program to build up to 100 consecutive pushups throu
 menuPre: "35.02 "
 weight: 20
 tags: ["shoulders", "arms", "strength", "beginner"]
+body-region: [shoulders, arms]
 ---
 
 The 100 Pushups Program is a structured 6-week protocol designed to take you from wherever you are now to performing 100 consecutive pushups. It uses progressive volume loading across multiple sets, gradually increasing total reps while building muscular endurance in the chest, shoulders, and triceps.

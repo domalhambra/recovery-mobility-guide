@@ -4,6 +4,7 @@ description: "A dynamic walking drill that stretches the quadriceps and hip flex
 menuPre: "12.16 "
 weight: 160
 tags: ["quadriceps", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [quads]
 ---
 
 The walking quad stretch is a dynamic warm-up movement that targets the quadriceps and hip flexors. Performed while walking forward, it combines a stretch with balance work and is a natural complement to the walking knee-to-chest.

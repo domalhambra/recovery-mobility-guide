@@ -4,6 +4,7 @@ description: "A figure-four position hip external rotation drill with flexion fo
 menuPre: "12.25 "
 weight: 250
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
+body-region: [hips]
 ---
 
 Option 2 uses a figure-four (or "90/90") style position to load hip external rotation with flexion. This variation allows you to isolate one hip at a time for more targeted work on your tighter side.

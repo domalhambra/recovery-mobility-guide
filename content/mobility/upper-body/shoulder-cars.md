@@ -4,6 +4,7 @@ description: "Shoulder controlled articular rotations (CARs) for joint health an
 menuPre: "11.01 "
 weight: 10
 tags: ["shoulders", "mobility", "beginner"]
+body-region: [shoulders]
 ---
 
 Controlled articular rotations (CARs) take your shoulder through its full available range of motion under tension. This daily practice maintains joint health, builds body awareness, and highlights any range-of-motion limitations before they become problems.

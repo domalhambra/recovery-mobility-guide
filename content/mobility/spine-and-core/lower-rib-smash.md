@@ -4,6 +4,7 @@ description: "Lacrosse ball lower rib soft tissue mobilization for press and han
 menuPre: "13.15 "
 weight: 150
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball"]
+body-region: [upper-back]
 ---
 
 The lower rib smash uses a lacrosse ball to release restrictions in the intercostal muscles, serratus anterior, and oblique attachments around the lower ribs. These tissues often become bound down from prolonged sitting and can limit breathing, thoracic rotation, and overhead movement. This mobilization improves press and hang positions.

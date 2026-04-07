@@ -4,6 +4,7 @@ description: "The pull-up builds upper back, lat, and arm strength. Setup, coach
 menuPre: "31.02 "
 weight: 20
 tags: ["upper-back", "arms", "strength", "intermediate"]
+body-region: [upper-back, arms]
 ---
 
 The pull-up is one of the most effective upper body exercises, developing the lats, rhomboids, rear delts, and biceps. It directly improves hanging capacity, overhead positions, and general upper body pulling strength.

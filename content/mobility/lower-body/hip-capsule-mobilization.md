@@ -4,6 +4,7 @@ description: "Targeted mobilization drills to improve hip capsule flexibility fo
 menuPre: "12.20 "
 weight: 200
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
+body-region: [hips]
 ---
 
 Hip capsule mobilization addresses the joint capsule itself — the connective tissue sleeve surrounding the hip joint. When the capsule is tight, it restricts range of motion regardless of muscle flexibility. These drills use specific angles and sustained pressure to improve capsular mobility for squats, pistols, and deep hip flexion.

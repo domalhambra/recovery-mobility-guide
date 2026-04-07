@@ -45,6 +45,16 @@
   /* Tags */
   --TAG-BG-color: #B84A28;
 
+  /* Body Map */
+  --BODY-REGION-fill: #D4C8BB;
+  --BODY-REGION-stroke: transparent;
+  --BODY-REGION-hover-fill: #C9BAA9;
+  --BODY-REGION-hover-stroke: #B84A28;
+  --BODY-REGION-active-fill: rgba(184, 74, 40, 0.15);
+  --BODY-REGION-active-stroke: #B84A28;
+  --BODY-OUTLINE-fill: #E0D8CE;
+  --BODY-MAP-label-color: #2A2520;
+
   /* Box styles (notices) */
   --BOX-CAPTION-color: rgba(255, 255, 255, 1);
   --BOX-BG-color: rgba(247, 243, 238, .833);

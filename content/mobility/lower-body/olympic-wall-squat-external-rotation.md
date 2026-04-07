@@ -4,6 +4,7 @@ description: "A wall-supported deep squat drill focusing on hip external rotatio
 menuPre: "12.21 "
 weight: 210
 tags: ["hips", "mobility", "intermediate", "wall"]
+body-region: [hips]
 ---
 
 The Olympic wall squat with external rotation uses the wall as a guide to train deep squat positioning while emphasizing hip external rotation. This drill is particularly useful for lifters working toward a deep, upright squat and for anyone with hip impingement symptoms in the bottom of a squat.

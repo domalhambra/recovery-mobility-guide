@@ -4,6 +4,7 @@ description: "A slant board drill building ankle and quad strength in a split st
 menuPre: "12.26 "
 weight: 260
 tags: ["ankles", "quadriceps", "mobility", "intermediate", "slant-board"]
+body-region: [ankles, quads]
 ---
 
 Split stance hovers combine ankle dorsiflexion loading with quad endurance in a lunge-like position. Performed on a slant board, they build the specific ankle and knee range needed for deep lunges, split squats, and walking/running mechanics.

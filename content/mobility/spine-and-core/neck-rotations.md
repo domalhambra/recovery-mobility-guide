@@ -4,6 +4,7 @@ description: "Active neck rotations for cervical mobility and tension relief."
 menuPre: "13.06 "
 weight: 60
 tags: ["neck", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [neck]
 ---
 
 Neck rotations take the cervical spine through its full rotational range of motion. This simple drill relieves tension from desk work and driving, warms up the neck before training, and helps maintain the rotational mobility needed for checking blind spots and overall head-turning freedom.

@@ -4,6 +4,7 @@ description: "Dynamic standing arm swings for upper back warm-up and thoracic mo
 menuPre: "13.10 "
 weight: 100
 tags: ["upper-back", "dynamic-stretching", "beginner", "no-equipment"]
+body-region: [upper-back]
 ---
 
 Standing arm swings are a dynamic warm-up drill that mobilizes the thoracic spine and shoulder girdle through rhythmic horizontal and vertical swinging patterns. They increase blood flow to the upper back and shoulders, making them ideal for the start of any training session or as a desk break.
