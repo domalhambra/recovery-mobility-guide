@@ -47,6 +47,7 @@ description: "One sentence for SEO."
 menuPre: "11.01 "
 weight: 10
 tags: ["body-region", "modality", "difficulty"]
+body-region: [region-slug]
 ---
 ```
 
@@ -120,6 +121,11 @@ Set in `layouts/partials/custom-header.html`:
 - `disableInlineCopyToClipBoard = true` — no copy button on inline code
 - `[markup.goldmark.renderer] unsafe = true` — allows raw HTML in Markdown
 - `[markup.tableOfContents]` startLevel 2, endLevel 3
+
+## Component Map
+See `COMPONENT-MAP.md` for a visual-first reference that maps what you see on
+the page to the files and CSS selectors that control it. Read it before fixing
+any layout or styling issue.
 
 ## What NOT to edit directly
 - Anything in `themes/hugo-theme-relearn/` — it's a git submodule. Override via

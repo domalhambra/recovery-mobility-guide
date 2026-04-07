@@ -89,6 +89,7 @@ description: "Band-assisted hip mobilization that improves squat depth and hip f
 menuPre: "12.07 "
 weight: 70
 tags: ["hips", "flexibility", "intermediate", "resistance-band"]
+body-region: [hips]
 ---
 ```
 
@@ -101,6 +102,7 @@ Here's what each field does:
 | `menuPre` | JD number shown before the title in the sidebar | `"XX.XX "` — include the trailing space |
 | `weight` | Controls sort order in the sidebar (lower = higher) | Number, use increments of 10 |
 | `tags` | Used for filtering, search, and auto-generated badges | Array of strings (see tag guide below) |
+| `body-region` | Which body regions this exercise targets | Array of region slugs (see body region guide below) |
 
 ### 4. Write the content
 
@@ -113,6 +115,7 @@ description: "One-sentence description."
 menuPre: "12.07 "
 weight: 70
 tags: ["hips", "flexibility", "intermediate", "resistance-band"]
+body-region: [hips]
 ---
 
 Brief intro paragraph explaining what this exercise does and why it matters.
@@ -225,7 +228,7 @@ Delete that line and drop in the shortcode. The page already has the tab structu
 
 Tags serve three purposes: search filtering, difficulty badges (auto-generated), and content grouping. Include at least one from each relevant category:
 
-**Body region:** hips, knees, ankles, shoulders, thoracic, spine, upper-back, neck, glutes, wrist-forearm
+**Body region:** hips, knees, ankles, shoulders, chest, thoracic, spine, upper-back, neck, glutes, wrist-forearm
 
 **Modality:** flexibility, strength, activation, myofascial-release, foam-rolling, breathing, nerve-glide
 
@@ -233,6 +236,47 @@ Tags serve three purposes: search filtering, difficulty badges (auto-generated),
 - These auto-generate a colored badge on the page (green, yellow, red).
 
 **Equipment** (when applicable): no-equipment, foam-roller, lacrosse-ball, resistance-band, barbell, kettlebell
+
+---
+
+## Body region guide
+
+The `body-region` field connects exercise pages to the interactive body map on the homepage. When a page has `body-region` values, two things happen:
+
+1. A small highlighted body diagram appears on the article page (floated right), showing which regions the exercise targets.
+2. The page appears on the corresponding body region taxonomy page (e.g., `/body-region/hips/`), grouped by section.
+
+### Available regions
+
+| Slug | Label | SVG View | Description |
+|------|-------|----------|-------------|
+| `neck` | Neck & Head | front, back | Neck mobility, forward head posture, headache relief |
+| `shoulders` | Shoulders | front, back | Shoulder mobility, rotator cuff, overhead ROM |
+| `chest` | Chest | front | Pectoral mobility, chest opening, anterior shoulder health |
+| `arms` | Arms & Wrists | front, back | Elbow, forearm, and wrist mobility |
+| `core` | Core | front | Abdominal activation, anti-rotation, trunk stability |
+| `hips` | Hips | front | Hip flexor length, rotation, pelvic mobility |
+| `quads` | Quads & Knees | front | Quadriceps flexibility, patellar tracking, knee health |
+| `ankles` | Shins & Ankles | front | Dorsiflexion range, ankle stability |
+| `upper-back` | Upper Back | back | Thoracic extension, scapular mobility |
+| `lower-back` | Lower Back & Spine | back | Lumbar mobility, spinal decompression |
+| `glutes` | Glutes | back | Glute activation, hip extension |
+| `hamstrings` | Hamstrings | back | Hamstring flexibility, posterior chain |
+| `calves` | Calves | back | Calf flexibility, Achilles tendon health |
+
+### Usage
+
+Add one or more region slugs to the `body-region` array in front matter:
+
+```yaml
+body-region: [shoulders, chest]
+```
+
+An exercise can target multiple regions. The body diagram on the article page will highlight all of them, and the page will appear on each region's taxonomy page.
+
+### Region data source
+
+Region definitions (labels, SVG IDs, descriptions) live in `data/body_regions.toml`. The SVG polygon shapes are in `static/svg/body-front.svg` and `static/svg/body-back.svg`. To add a new region, you need entries in all three places.
 
 ---
 

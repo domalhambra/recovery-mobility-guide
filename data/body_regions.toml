@@ -15,6 +15,13 @@ tags = ["shoulders"]
 views = ["front", "back"]
 description = "Shoulder mobility, rotator cuff health, and overhead range of motion"
 
+[chest]
+label = "Chest"
+svg_id = "region-chest"
+tags = ["chest"]
+views = ["front"]
+description = "Pectoral mobility, chest opening, and anterior shoulder health"
+
 [arms]
 label = "Arms & Wrists"
 svg_id = "region-arms"

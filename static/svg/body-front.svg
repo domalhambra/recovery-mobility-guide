@@ -21,6 +21,15 @@
     </g>
   </a>
 
+  <a href="/body-region/chest/" class="body-region-link">
+    <g id="region-chest" class="body-region" data-region="chest">
+      <!-- Chest left -->
+      <polygon points="51.8367347 41.6326531 51.0204082 55.1020408 57.9591837 57.9591837 67.755102 55.5102041 70.6122449 47.3469388 62.0408163 41.6326531" />
+      <!-- Chest right -->
+      <polygon points="29.7959184 46.5306122 31.4285714 55.5102041 40.8163265 57.9591837 48.1632653 55.1020408 47.755102 42.0408163 37.5510204 42.0408163" />
+    </g>
+  </a>
+
   <a href="/body-region/arms/" class="body-region-link">
     <g id="region-arms" class="body-region" data-region="arms">
       <!-- Bicep left -->
@@ -44,10 +53,6 @@
 
   <a href="/body-region/core/" class="body-region-link">
     <g id="region-core" class="body-region" data-region="core">
-      <!-- Chest left -->
-      <polygon points="51.8367347 41.6326531 51.0204082 55.1020408 57.9591837 57.9591837 67.755102 55.5102041 70.6122449 47.3469388 62.0408163 41.6326531" />
-      <!-- Chest right -->
-      <polygon points="29.7959184 46.5306122 31.4285714 55.5102041 40.8163265 57.9591837 48.1632653 55.1020408 47.755102 42.0408163 37.5510204 42.0408163" />
       <!-- Oblique left -->
       <polygon points="68.5714286 63.2653061 67.3469388 57.1428571 58.7755102 59.5918367 60 64.0816327 60.4081633 83.2653061 65.7142857 78.7755102 66.5306122 69.7959184" />
       <!-- Oblique right -->
