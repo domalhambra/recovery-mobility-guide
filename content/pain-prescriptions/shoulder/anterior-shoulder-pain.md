@@ -4,7 +4,7 @@ description: "A multi-step protocol for managing front-of-shoulder pain through 
 menuPre: "53.01 "
 weight: 10
 tags: ["shoulders", "corrective", "beginner"]
-body-region: [shoulders]
+body-region: [shoulders, chest]
 ---
 
 Anterior shoulder pain commonly presents as a pinching or aching sensation at the front of the shoulder, often worsened by pressing movements, reaching overhead, or sleeping on the affected side. This protocol addresses the most common contributors: tight pecs, restricted internal rotation, and weak rotator cuff stabilizers.
