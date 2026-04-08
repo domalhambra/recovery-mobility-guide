@@ -39,7 +39,10 @@
   article.home > h1,
   article.home > p,
   article.home > ul,
-  article.home > ol {
+  article.home > ol,
+  article.home > .body-map-heading,
+  article.home > .body-map-container,
+  article.home > .body-map-label {
     max-width: 40rem;
   }
 
@@ -360,15 +363,23 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
-    max-width: 36rem;
-    margin: 1rem auto 0;
-    padding: 0 1rem;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+
+  .body-map-view {
+    flex: 0 1 14rem;
   }
 
   .body-map-container svg {
     width: 100%;
-    max-width: 14rem;
     height: auto;
+  }
+
+  /* Scale back SVG to match front body height (front content ends at 196/220, back at 220/220) */
+  .body-map-view--back svg {
+    transform: scale(0.891);
+    transform-origin: top center;
   }
 
   .body-map-heading {
@@ -466,7 +477,7 @@
   }
 
   .body-map-context svg {
-    width: 5rem;
+    width: 3.5rem;
     height: auto;
   }
 
@@ -492,6 +503,7 @@
       float: none;
       justify-content: center;
       margin: 0 auto 1rem;
+      max-width: fit-content;
     }
   }
 
