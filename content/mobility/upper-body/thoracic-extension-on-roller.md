@@ -37,7 +37,7 @@ Breathe out as you extend over the roller. Each exhale lets you sink a little de
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube qCrYe698zJU >}}
 
 {{% /tab %}}
 {{< /tabs >}}

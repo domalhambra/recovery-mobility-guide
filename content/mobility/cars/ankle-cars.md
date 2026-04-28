@@ -46,7 +46,7 @@ Pay attention to any spots that feel sticky, clunky, or restricted. These are th
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube BDNGAnp7u7s >}}
 
 {{% /tab %}}
 {{< /tabs >}}

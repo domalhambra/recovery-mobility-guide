@@ -37,7 +37,7 @@ Place a folded towel under your lower back. Your goal is to maintain constant pr
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube bxn9FBrt4-A >}}
 
 {{% /tab %}}
 {{< /tabs >}}

@@ -40,7 +40,7 @@ For a deeper mobilization, extend your arms overhead while draped over the rolle
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube NS73eSohTbc >}}
 
 {{% /tab %}}
 {{< /tabs >}}

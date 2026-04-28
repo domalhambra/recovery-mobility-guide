@@ -39,7 +39,7 @@ Add a push-up at the plank position for an upper body component, or add a hip dr
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube r1KI2TDGf3c >}}
 
 {{% /tab %}}
 {{< /tabs >}}

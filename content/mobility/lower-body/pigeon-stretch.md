@@ -38,7 +38,7 @@ If your hip does not reach the floor, place a yoga block or folded towel under t
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-{{< youtube "ZcC44QpmK5w" >}}
+{{< youtube Z3t7KrsvHI4 >}}
 
 {{% /tab %}}
 {{< /tabs >}}

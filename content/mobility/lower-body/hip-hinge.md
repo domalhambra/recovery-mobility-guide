@@ -40,7 +40,7 @@ Place a dowel or broomstick along your spine (touching the back of the head, upp
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube JLBaBgDwjnQ >}}
 
 {{% /tab %}}
 {{< /tabs >}}

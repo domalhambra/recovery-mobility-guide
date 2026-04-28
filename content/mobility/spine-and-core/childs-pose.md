@@ -38,7 +38,7 @@ To bias the stretch toward one side, walk both hands to the right or left. This 
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube _ZX_zTOBgp8 >}}
 
 {{% /tab %}}
 {{< /tabs >}}

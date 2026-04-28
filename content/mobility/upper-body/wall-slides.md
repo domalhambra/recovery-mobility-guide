@@ -37,7 +37,7 @@ If you cannot keep your elbows and hands on the wall, use a foam roller held bet
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube BiREOSisYWU >}}
 
 {{% /tab %}}
 {{< /tabs >}}

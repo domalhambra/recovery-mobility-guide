@@ -46,7 +46,7 @@ Start with smaller swings and progressively increase the arc. Think of it as "gr
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-{{< youtube "qkPcARrI-F0" >}}
+{{< youtube 6sgX-qdROt0 >}}
 
 {{% /tab %}}
 {{< /tabs >}}

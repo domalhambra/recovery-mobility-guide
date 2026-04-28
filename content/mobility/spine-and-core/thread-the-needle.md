@@ -38,7 +38,7 @@ At the bottom of the thread, press the back of your hand gently into the floor f
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube 7C8-zj3nRro >}}
 
 {{% /tab %}}
 {{< /tabs >}}

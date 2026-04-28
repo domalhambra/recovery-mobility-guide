@@ -50,7 +50,7 @@ If your hamstrings are very tight, bending both knees generously lets you get th
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube wS2b5yld004 >}}
 
 {{% /tab %}}
 {{< /tabs >}}

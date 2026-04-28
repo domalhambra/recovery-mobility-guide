@@ -38,7 +38,7 @@ Lock your eyes on a point straight ahead. If your visual focus stays fixed and y
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube dBAmQ9bx3JA >}}
 
 {{% /tab %}}
 {{< /tabs >}}

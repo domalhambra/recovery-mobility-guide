@@ -39,7 +39,7 @@ If you cannot reach the floor with both hands, place the down hand on a yoga blo
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube 7XcnjEQPRHM >}}
 
 {{% /tab %}}
 {{< /tabs >}}

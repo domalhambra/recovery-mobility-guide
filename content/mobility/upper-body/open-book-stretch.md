@@ -37,7 +37,7 @@ Squeeze the pillow between your knees throughout the movement. This locks your p
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube HZECaCFLvVw >}}
 
 {{% /tab %}}
 {{< /tabs >}}
