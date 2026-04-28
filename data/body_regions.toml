@@ -23,11 +23,11 @@ views = ["front"]
 description = "Pectoral mobility, chest opening, and anterior shoulder health"
 
 [arms]
-label = "Arms & Wrists"
+label = "Arms, Wrists & Hands"
 svg_id = "region-arms"
-tags = ["arms", "wrists"]
+tags = ["arms", "wrists", "hands"]
 views = ["front", "back"]
-description = "Elbow, forearm, and wrist mobility for grip and upper extremity health"
+description = "Elbow, forearm, wrist, and hand mobility for grip and upper extremity health"
 
 [core]
 label = "Core"
@@ -91,3 +91,10 @@ svg_id = "region-calves"
 tags = []
 views = ["back"]
 description = "Calf flexibility, Achilles tendon health, and plantarflexion range"
+
+[feet]
+label = "Feet"
+svg_id = "region-feet"
+tags = ["feet"]
+views = ["front"]
+description = "Plantar fascia mobility, arch health, toe extension, and intrinsic foot strength"
