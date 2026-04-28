@@ -38,7 +38,7 @@ Place a pad or folded towel under your knee for comfort. Start further from the 
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube WKo4APrwfXQ >}}
 
 {{% /tab %}}
 {{< /tabs >}}

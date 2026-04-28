@@ -37,7 +37,7 @@ Think of your spine as a chain with 24 links. The goal is to move each link inde
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube xyNwxiuERXc >}}
 
 {{% /tab %}}
 {{< /tabs >}}

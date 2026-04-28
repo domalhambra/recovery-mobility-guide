@@ -37,7 +37,7 @@ Place a foam roller or water bottle on your lower back. If it falls off, you are
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube ZdAHe9_HeEw >}}
 
 {{% /tab %}}
 {{< /tabs >}}

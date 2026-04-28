@@ -43,7 +43,7 @@ If you feel sharp or pinching pain in either knee, elevate your hips on a cushio
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube t4Zz6-aG8Iw >}}
 
 {{% /tab %}}
 {{< /tabs >}}

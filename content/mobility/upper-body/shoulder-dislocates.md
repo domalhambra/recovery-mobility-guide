@@ -37,7 +37,7 @@ Use a resistance band rather than a rigid stick. The band's elasticity allows it
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube WXP05GGFkrU >}}
 
 {{% /tab %}}
 {{< /tabs >}}

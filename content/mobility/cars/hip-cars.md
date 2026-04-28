@@ -46,7 +46,7 @@ Think of drawing the biggest possible circle with your knee. The goal is maximum
 {{% /tab %}}
 {{% tab title="Media" %}}
 
-*Video and animated demos coming soon.*
+{{< youtube 5kM-o61Z14I >}}
 
 {{% /tab %}}
 {{< /tabs >}}
