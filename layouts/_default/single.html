@@ -1,0 +1,12 @@
+{{/*
+  Project-level _default/single.html — minimal content shell so leaf pages
+  (exercises, routines, concepts) render with Lotus's docs treatment. The
+  full docs/single.html relies on internal scratch state that isn't set
+  outside the docs section; this slimmed version covers the body render
+  path which is all our content needs.
+*/}}
+{{ define "main" }}
+    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+        {{ .Content }}
+    </div>
+{{ end }}
