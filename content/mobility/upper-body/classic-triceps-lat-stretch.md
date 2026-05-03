@@ -1,7 +1,6 @@
 ---
 title: "Classic Triceps & Lat Stretch"
 description: "Wall-assisted triceps and lat stretch for overhead and front rack position improvement."
-menuPre: "11.17 "
 weight: 170
 tags: ["shoulders", "arms", "upper-back", "flexibility", "beginner", "wall"]
 body-region: [shoulders, arms, upper-back]

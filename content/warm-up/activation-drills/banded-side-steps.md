@@ -1,7 +1,6 @@
 ---
 title: "Banded Side Steps"
 description: "Banded side steps activate the gluteus medius and hip abductors. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.02 "
 weight: 20
 tags: ["glutes", "activation", "beginner", "resistance-band"]
 body-region: [glutes]

@@ -1,7 +1,6 @@
 ---
 title: "Pallof Press"
 description: "Pallof press for anti-rotation core stability and oblique activation."
-menuPre: "13.05 "
 weight: 50
 tags: ["core", "activation", "intermediate"]
 body-region: [core]

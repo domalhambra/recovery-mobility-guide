@@ -1,7 +1,6 @@
 ---
 title: "Hip External Rotation w/ Flexion (Option 2)"
 description: "A figure-four position hip external rotation drill with flexion for deep squat mobility."
-menuPre: "12.25 "
 weight: 250
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]

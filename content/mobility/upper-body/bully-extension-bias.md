@@ -1,7 +1,6 @@
 ---
 title: "Bully Extension Bias"
 description: "Banded bully stretch with extension bias for shoulder hang and press position improvement."
-menuPre: "11.13 "
 weight: 130
 tags: ["shoulders", "mobility", "intermediate", "resistance-band"]
 body-region: [shoulders]

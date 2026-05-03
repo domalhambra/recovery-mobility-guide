@@ -1,7 +1,6 @@
 ---
 title: "Wrist Flexion/Extension"
 description: "Active wrist flexion and extension drill for forearm mobility and desk-worker relief."
-menuPre: "11.08 "
 weight: 80
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
 body-region: [arms]

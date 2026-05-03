@@ -1,7 +1,6 @@
 ---
 title: "Pull-Ups"
 description: "The pull-up builds upper back, lat, and arm strength. Setup, coaching cues, and progressions from beginner to advanced."
-menuPre: "31.02 "
 weight: 20
 tags: ["upper-back", "arms", "strength", "intermediate"]
 body-region: [upper-back, arms]

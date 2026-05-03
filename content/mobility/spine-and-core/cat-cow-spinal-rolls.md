@@ -1,7 +1,6 @@
 ---
 title: "Cat-Cow & Spinal Rolls"
 description: "Cat-cow combined with spinal rolls for full-spine segmental mobility and dynamic warm-up."
-menuPre: "13.08 "
 weight: 80
 tags: ["upper-back", "lumbar", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back, lower-back]

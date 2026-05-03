@@ -1,7 +1,6 @@
 ---
 title: "Dumbbell Calf Rockers (Raises)"
 description: "Loaded calf raises on a slant board for ankle strength and mobility."
-menuPre: "12.27 "
 weight: 270
 tags: ["ankles", "mobility", "corrective", "intermediate", "slant-board", "kettlebell"]
 body-region: [ankles]

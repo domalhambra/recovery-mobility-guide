@@ -1,7 +1,6 @@
 ---
 title: "Leg Swings"
 description: "Dynamic leg swings to warm up the hips, glutes, and hamstrings before activity."
-menuPre: "12.09 "
 weight: 90
 tags: ["hips", "glutes", "hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hips, glutes, hamstrings]

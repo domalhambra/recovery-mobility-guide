@@ -1,7 +1,6 @@
 ---
 title: "Forearm Pronation & Supination"
 description: "Forearm pronation and supination drills for elbow and wrist health."
-menuPre: "11.07 "
 weight: 70
 tags: ["wrists", "mobility", "beginner"]
 body-region: [arms]

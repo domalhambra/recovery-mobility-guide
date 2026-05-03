@@ -1,7 +1,6 @@
 ---
 title: "Wrist Circles"
 description: "Wrist circles for joint mobility warmup and carpal tunnel prevention."
-menuPre: "11.06 "
 weight: 60
 tags: ["wrists", "mobility", "beginner"]
 body-region: [arms]

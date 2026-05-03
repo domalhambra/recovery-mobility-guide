@@ -1,7 +1,6 @@
 ---
 title: "Reverse Sleeper Stretch"
 description: "Reverse sleeper stretch for shoulder external rotation and overhead and front rack mobility."
-menuPre: "11.16 "
 weight: 160
 tags: ["shoulders", "flexibility", "beginner", "no-equipment"]
 body-region: [shoulders]

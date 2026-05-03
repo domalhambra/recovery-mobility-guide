@@ -1,7 +1,6 @@
 ---
 title: "Lunge With Spinal Twist"
 description: "A dynamic lunge combined with a thoracic rotation to open the hips and upper back simultaneously."
-menuPre: "12.13 "
 weight: 130
 tags: ["hips", "upper-back", "mobility", "beginner", "no-equipment"]
 body-region: [hips, upper-back]

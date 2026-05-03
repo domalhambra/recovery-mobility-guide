@@ -1,7 +1,6 @@
 ---
 title: "Anterior Compartment Mobilizations"
 description: "Lacrosse ball anterior neck and shoulder compartment mobilizations for overhead, front rack, and hang positions."
-menuPre: "13.16 "
 weight: 160
 tags: ["shoulders", "neck", "myofascial-release", "intermediate", "lacrosse-ball"]
 body-region: [shoulders, neck]

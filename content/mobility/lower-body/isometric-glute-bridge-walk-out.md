@@ -1,7 +1,6 @@
 ---
 title: "Isometric Glute Bridge Walk Out"
 description: "A glute bridge with a walk-out to progressively load the hamstrings eccentrically."
-menuPre: "12.31 "
 weight: 310
 tags: ["hamstrings", "glutes", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings, glutes]

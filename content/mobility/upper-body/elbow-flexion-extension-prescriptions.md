@@ -1,7 +1,6 @@
 ---
 title: "Elbow Flexion and Extension Fault Prescriptions"
 description: "Lacrosse ball and band techniques to resolve elbow flexion and extension restrictions for front rack positions."
-menuPre: "11.22 "
 weight: 220
 tags: ["shoulders", "arms", "corrective", "intermediate", "lacrosse-ball", "resistance-band"]
 body-region: [shoulders, arms]

@@ -1,7 +1,6 @@
 ---
 title: "Hip External Rotation w/ Flexion (Option 1)"
 description: "A seated hip external rotation drill with flexion bias for squat depth and hip health."
-menuPre: "12.24 "
 weight: 240
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]

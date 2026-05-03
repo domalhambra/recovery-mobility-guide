@@ -1,7 +1,6 @@
 ---
 title: "Couch Stretch"
 description: "The couch stretch targets hip flexor lengthening for people who sit all day."
-menuPre: "12.03 "
 weight: 30
 tags: ["hips", "quadriceps", "flexibility", "beginner", "wall"]
 body-region: [hips, quads]

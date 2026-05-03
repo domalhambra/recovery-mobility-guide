@@ -1,7 +1,6 @@
 ---
 title: "Forearm Smash Mobilizations"
 description: "Lacrosse ball mobilization for the forearm flexors and extensors. Improves press, overhead, and front rack positions."
-menuPre: "43.04 "
 weight: 40
 tags: ["wrists", "arms", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [arms]

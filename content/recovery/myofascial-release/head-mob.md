@@ -1,7 +1,6 @@
 ---
 title: "Head Mob"
 description: "Lacrosse ball mobilization for the scalp and temporalis muscles. Relieves tension headaches and jaw tightness."
-menuPre: "43.08 "
 weight: 80
 tags: ["head", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]

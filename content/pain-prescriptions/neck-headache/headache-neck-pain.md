@@ -1,7 +1,6 @@
 ---
 title: "Headache & Neck Pain"
 description: "A multi-step protocol for managing tension headaches and neck pain through soft tissue work, mobilization, and postural resets."
-menuPre: "52.01 "
 weight: 10
 tags: ["neck", "corrective", "beginner"]
 body-region: [neck]

@@ -1,7 +1,6 @@
 ---
 title: "Dead Bug"
 description: "Dead bug exercise for core stability and anti-extension strength."
-menuPre: "13.03 "
 weight: 30
 tags: ["core", "activation", "beginner"]
 body-region: [core]

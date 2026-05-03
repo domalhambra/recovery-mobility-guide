@@ -1,7 +1,6 @@
 ---
 title: "Banded Elbow Distraction"
 description: "Banded elbow joint distraction for press and front rack position improvement."
-menuPre: "11.19 "
 weight: 190
 tags: ["arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [arms]

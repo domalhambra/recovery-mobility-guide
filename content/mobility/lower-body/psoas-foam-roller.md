@@ -1,7 +1,6 @@
 ---
 title: "Psoas Foam Roller"
 description: "Foam rolling technique to release the psoas and deep hip flexor muscles."
-menuPre: "12.28 "
 weight: 280
 tags: ["hips", "myofascial-release", "beginner", "foam-roller"]
 body-region: [hips]

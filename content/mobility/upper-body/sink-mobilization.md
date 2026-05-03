@@ -1,7 +1,6 @@
 ---
 title: "Sink Mobilization"
 description: "Squat rack or countertop-assisted shoulder mobilization for hang and press positions."
-menuPre: "11.18 "
 weight: 180
 tags: ["shoulders", "mobility", "intermediate", "squat-rack"]
 body-region: [shoulders]

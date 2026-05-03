@@ -1,7 +1,6 @@
 ---
 title: "Chin Tucks"
 description: "Chin tucks for deep neck flexor activation and forward head posture correction."
-menuPre: "13.07 "
 weight: 70
 tags: ["neck", "mobility", "beginner", "no-equipment"]
 body-region: [neck]

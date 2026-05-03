@@ -1,7 +1,6 @@
 ---
 title: "Lower Rib Smash"
 description: "Lacrosse ball lower rib soft tissue mobilization for press and hang positions."
-menuPre: "13.15 "
 weight: 150
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball"]
 body-region: [upper-back]

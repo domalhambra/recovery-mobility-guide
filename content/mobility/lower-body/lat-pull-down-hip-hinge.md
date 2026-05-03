@@ -1,7 +1,6 @@
 ---
 title: "Lat Pull-Down with Hip Hinge"
 description: "A banded lat pull-down combined with a hip hinge to integrate hamstring and upper back activation."
-menuPre: "12.29 "
 weight: 290
 tags: ["hamstrings", "upper-back", "activation", "beginner", "resistance-band"]
 body-region: [hamstrings, upper-back]

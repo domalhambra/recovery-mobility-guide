@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Step Down"
 description: "A corrective exercise for knee stability and control using a step or stair."
-menuPre: "12.18 "
 weight: 180
 tags: ["knees", "corrective", "beginner", "step-stair"]
 body-region: [quads]

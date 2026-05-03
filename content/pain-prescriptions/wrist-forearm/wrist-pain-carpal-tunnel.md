@@ -1,7 +1,6 @@
 ---
 title: "Wrist Pain (Carpal Tunnel)"
 description: "A multi-step protocol for managing wrist pain and carpal tunnel symptoms through soft tissue work, nerve glides, and strengthening."
-menuPre: "54.01 "
 weight: 10
 tags: ["wrists", "corrective", "beginner", "resistance-band", "lacrosse-ball"]
 body-region: [arms]

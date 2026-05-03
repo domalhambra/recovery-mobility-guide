@@ -1,7 +1,6 @@
 ---
 title: "Pre-Workout Warm-Up"
 description: "A general-purpose warm-up sequence before strength training or conditioning work."
-menuPre: "22.01 "
 weight: 10
 tags: ["mobility", "activation", "dynamic-stretching", "beginner", "no-equipment"]
 ---

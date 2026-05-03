@@ -1,7 +1,6 @@
 ---
 title: "Hip Capsule Mobilization"
 description: "Targeted mobilization drills to improve hip capsule flexibility for squats and pistols."
-menuPre: "12.20 "
 weight: 200
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]

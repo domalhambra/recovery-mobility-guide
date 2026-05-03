@@ -1,7 +1,6 @@
 ---
 title: "Standing Arm Swings"
 description: "Dynamic standing arm swings for upper back warm-up and thoracic mobility."
-menuPre: "13.10 "
 weight: 100
 tags: ["upper-back", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back]

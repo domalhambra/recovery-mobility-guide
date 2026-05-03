@@ -1,7 +1,6 @@
 ---
 title: "Bench Press"
 description: "The barbell bench press builds pressing strength through the chest, shoulders, and triceps. Setup, coaching cues, and progressions."
-menuPre: "31.01 "
 weight: 10
 tags: ["shoulders", "arms", "strength", "intermediate"]
 body-region: [shoulders, arms, chest]

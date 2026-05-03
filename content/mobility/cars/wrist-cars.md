@@ -1,7 +1,6 @@
 ---
 title: "Wrist CARs"
 description: "Wrist controlled articular rotations for joint health and carpal maintenance."
-menuPre: "14.03 "
 weight: 30
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
 body-region: [arms]

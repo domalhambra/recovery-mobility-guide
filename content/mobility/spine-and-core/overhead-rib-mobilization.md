@@ -1,7 +1,6 @@
 ---
 title: "Overhead Rib Mobilization"
 description: "Lacrosse ball and barbell overhead rib mobilization for front rack and overhead positions."
-menuPre: "13.14 "
 weight: 140
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball", "barbell"]
 body-region: [upper-back]

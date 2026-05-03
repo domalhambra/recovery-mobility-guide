@@ -1,7 +1,6 @@
 ---
 title: "Knee-to-Chest Rocking"
 description: "A gentle rocking motion bringing the knee to the chest to mobilize the hips and lower back."
-menuPre: "12.12 "
 weight: 120
 tags: ["hips", "mobility", "beginner", "no-equipment"]
 body-region: [hips]

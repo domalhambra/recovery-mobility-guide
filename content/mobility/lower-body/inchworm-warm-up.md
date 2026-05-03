@@ -1,7 +1,6 @@
 ---
 title: "Inchworm Warm-Up"
 description: "A full-body warm-up drill that emphasizes hamstring flexibility and core activation."
-menuPre: "12.30 "
 weight: 300
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hamstrings]

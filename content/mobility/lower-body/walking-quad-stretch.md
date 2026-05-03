@@ -1,7 +1,6 @@
 ---
 title: "Walking Quad Stretch"
 description: "A dynamic walking drill that stretches the quadriceps and hip flexors with each step."
-menuPre: "12.16 "
 weight: 160
 tags: ["quadriceps", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [quads]

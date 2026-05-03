@@ -1,7 +1,6 @@
 ---
 title: "Wrist Tack and Spin"
 description: "Lacrosse ball tack-and-spin mobilization for the wrist and forearm. Improves press, front rack, and overhead positions."
-menuPre: "43.05 "
 weight: 50
 tags: ["wrists", "arms", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [arms]

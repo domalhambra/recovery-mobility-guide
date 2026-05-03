@@ -1,7 +1,6 @@
 ---
 title: "Olympic Wall Squat With External Rotation"
 description: "A wall-supported deep squat drill focusing on hip external rotation for squat mobility."
-menuPre: "12.21 "
 weight: 210
 tags: ["hips", "mobility", "intermediate", "wall"]
 body-region: [hips]

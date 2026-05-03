@@ -1,7 +1,6 @@
 ---
 title: "Hamstring Extenders"
 description: "Active hamstring stretching using controlled leg extensions to build flexibility under tension."
-menuPre: "12.34 "
 weight: 340
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hamstrings]

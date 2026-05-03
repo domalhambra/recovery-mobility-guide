@@ -1,7 +1,6 @@
 ---
 title: "Ankle Alphabet"
 description: "The ankle alphabet drill activates and mobilizes the ankle joint through full range of motion. Setup, coaching cues, and progressions."
-menuPre: "24.05 "
 weight: 50
 tags: ["ankles", "activation", "corrective", "beginner", "no-equipment"]
 body-region: [ankles]

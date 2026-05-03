@@ -1,7 +1,6 @@
 ---
 title: "Good Mornings"
 description: "Bodyweight good mornings activate the hamstrings and posterior chain. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.03 "
 weight: 30
 tags: ["hamstrings", "quadriceps", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings, quads]

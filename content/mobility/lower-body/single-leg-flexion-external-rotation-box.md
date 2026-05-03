@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Flexion w/ External Rotation (Box Variation)"
 description: "A box-supported single-leg drill combining hip flexion and external rotation for squat and lunge mobility."
-menuPre: "12.22 "
 weight: 220
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]

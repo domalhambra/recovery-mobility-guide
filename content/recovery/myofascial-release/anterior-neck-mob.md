@@ -1,7 +1,6 @@
 ---
 title: "Anterior Neck Mob"
 description: "Lacrosse ball mobilization for the sternocleidomastoid and anterior neck muscles. Relieves neck stiffness and forward head posture."
-menuPre: "43.09 "
 weight: 90
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]

@@ -1,7 +1,6 @@
 ---
 title: "Ankle CARs"
 description: "Ankle controlled articular rotations for joint health and range of motion maintenance."
-menuPre: "14.02 "
 weight: 20
 tags: ["ankles", "mobility", "beginner", "no-equipment"]
 body-region: [ankles]

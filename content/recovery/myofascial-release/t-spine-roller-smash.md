@@ -1,7 +1,6 @@
 ---
 title: "T-Spine Roller Smash"
 description: "Foam roller mobilization for the thoracic spine and upper back. Improves overhead, press, and front rack positions."
-menuPre: "43.01 "
 weight: 10
 tags: ["shoulders", "upper-back", "myofascial-release", "beginner", "foam-roller"]
 body-region: [shoulders, upper-back]

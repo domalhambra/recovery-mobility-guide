@@ -1,7 +1,6 @@
 ---
 title: "T-Spine Ball Smash Mobilization"
 description: "Lacrosse ball mobilization for targeted thoracic spine tissue work. Improves press, front rack, and hanging positions."
-menuPre: "43.02 "
 weight: 20
 tags: ["upper-back", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [upper-back]

@@ -1,7 +1,6 @@
 ---
 title: "Hip CARs"
 description: "Hip controlled articular rotations for joint health, range of motion, and daily maintenance."
-menuPre: "14.01 "
 weight: 10
 tags: ["hips", "mobility", "beginner", "no-equipment"]
 body-region: [hips]

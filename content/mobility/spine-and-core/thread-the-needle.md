@@ -1,7 +1,6 @@
 ---
 title: "Thread The Needle"
 description: "Thread the needle stretch for thoracic rotation and upper back mobility."
-menuPre: "13.11 "
 weight: 110
 tags: ["upper-back", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back]

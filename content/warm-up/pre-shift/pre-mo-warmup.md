@@ -1,7 +1,6 @@
 ---
 title: "Pre-Mo Warm-Up"
 description: "A quick warm-up sequence to prepare your body before heading out on shift."
-menuPre: "21.01 "
 weight: 10
 tags: ["mobility", "dynamic-stretching", "beginner", "no-equipment"]
 ---

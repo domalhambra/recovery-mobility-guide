@@ -1,7 +1,6 @@
 ---
 title: "Lower Back Pain Prescriptions"
 description: "A multi-step protocol for managing lower back pain through soft tissue work, mobilization, and movement resets."
-menuPre: "51.01 "
 weight: 10
 tags: ["lumbar", "corrective", "beginner"]
 body-region: [lower-back]

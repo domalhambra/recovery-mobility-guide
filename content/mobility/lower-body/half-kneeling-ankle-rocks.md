@@ -1,7 +1,6 @@
 ---
 title: "Half-Kneeling Ankle Rocks"
 description: "A gentle rocking drill to improve ankle dorsiflexion from a half-kneeling position."
-menuPre: "12.14 "
 weight: 140
 tags: ["ankles", "mobility", "beginner", "no-equipment"]
 body-region: [ankles]

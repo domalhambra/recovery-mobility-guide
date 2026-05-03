@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Dislocates"
 description: "Shoulder dislocates with a band or stick for full-arc shoulder mobility and front rack prep."
-menuPre: "11.11 "
 weight: 110
 tags: ["shoulders", "mobility", "beginner", "resistance-band"]
 body-region: [shoulders]

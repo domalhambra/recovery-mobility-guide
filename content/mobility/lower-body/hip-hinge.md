@@ -1,7 +1,6 @@
 ---
 title: "Hip Hinge"
 description: "The foundational hip hinge pattern for hamstring loading and posterior chain development."
-menuPre: "12.32 "
 weight: 320
 tags: ["hamstrings", "hips", "activation", "beginner", "kettlebell"]
 body-region: [hamstrings, hips]

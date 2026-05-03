@@ -1,7 +1,6 @@
 ---
 title: "Isometric Glute Bridge Single Leg Raises"
 description: "A glute bridge with alternating single-leg raises to challenge hamstring and glute stability."
-menuPre: "12.33 "
 weight: 330
 tags: ["hamstrings", "glutes", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings, glutes]

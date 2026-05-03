@@ -1,7 +1,6 @@
 ---
 title: "Anterior Shoulder Pain Prescriptions"
 description: "A multi-step protocol for managing front-of-shoulder pain through soft tissue work, mobilization, and stability exercises."
-menuPre: "53.01 "
 weight: 10
 tags: ["shoulders", "corrective", "beginner"]
 body-region: [shoulders, chest]

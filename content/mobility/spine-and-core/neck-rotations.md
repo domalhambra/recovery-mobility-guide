@@ -1,7 +1,6 @@
 ---
 title: "Neck Rotations"
 description: "Active neck rotations for cervical mobility and tension relief."
-menuPre: "13.06 "
 weight: 60
 tags: ["neck", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [neck]

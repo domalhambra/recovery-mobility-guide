@@ -1,7 +1,6 @@
 ---
 title: "Banded Lateral Opener"
 description: "Banded lateral opener for shoulder external rotation and front rack and press mobility."
-menuPre: "11.14 "
 weight: 140
 tags: ["shoulders", "mobility", "intermediate", "resistance-band"]
 body-region: [shoulders]

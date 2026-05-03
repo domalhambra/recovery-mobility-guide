@@ -1,7 +1,6 @@
 ---
 title: "Post-Shift Recovery Protocol"
 description: "A targeted recovery sequence for after a long shift — focused on lower body, spine, and tension release."
-menuPre: "41.01 "
 weight: 10
 tags: ["flexibility", "myofascial-release", "beginner", "no-equipment"]
 ---

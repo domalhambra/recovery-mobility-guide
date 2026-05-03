@@ -1,7 +1,6 @@
 ---
 title: "Split Stance Hovers"
 description: "A slant board drill building ankle and quad strength in a split stance position for lunge mobility."
-menuPre: "12.26 "
 weight: 260
 tags: ["ankles", "quadriceps", "mobility", "intermediate", "slant-board"]
 body-region: [ankles, quads]

@@ -1,7 +1,6 @@
 ---
 title: "Knee-to-Chest"
 description: "A dynamic stretch pulling the knee to the chest to warm up the glutes and hamstrings."
-menuPre: "12.15 "
 weight: 150
 tags: ["glutes", "hamstrings", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [glutes, hamstrings]

@@ -1,7 +1,6 @@
 ---
 title: "Posterior Shoulder Pain Prescriptions"
 description: "A multi-step protocol for managing back-of-shoulder pain through soft tissue work, mobilization, and stability exercises."
-menuPre: "53.02 "
 weight: 20
 tags: ["shoulders", "corrective", "beginner"]
 body-region: [shoulders]

@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Capsule Mobilization"
 description: "Banded and loaded shoulder capsule mobilization for overhead, press, hang, and front rack positions."
-menuPre: "11.10 "
 weight: 100
 tags: ["shoulders", "mobility", "intermediate", "resistance-band", "kettlebell"]
 body-region: [shoulders]

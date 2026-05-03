@@ -1,7 +1,6 @@
 ---
 title: "Glute Bridges"
 description: "Glute bridges activate the glutes and posterior chain. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.01 "
 weight: 10
 tags: ["glutes", "activation", "beginner", "no-equipment"]
 body-region: [glutes]

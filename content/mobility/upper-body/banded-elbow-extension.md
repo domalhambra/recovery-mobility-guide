@@ -1,7 +1,6 @@
 ---
 title: "Banded Elbow Extension"
 description: "Banded elbow extension mobilization for overhead and front rack position improvement."
-menuPre: "11.12 "
 weight: 120
 tags: ["arms", "mobility", "intermediate", "resistance-band"]
 body-region: [arms]

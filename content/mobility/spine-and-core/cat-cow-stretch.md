@@ -1,7 +1,6 @@
 ---
 title: "Cat-Cow Stretch"
 description: "Supple Leopard-style cat-cow stretch for spinal organization and squat position improvement."
-menuPre: "13.17 "
 weight: 170
 tags: ["upper-back", "mobility", "beginner", "no-equipment"]
 body-region: [upper-back]

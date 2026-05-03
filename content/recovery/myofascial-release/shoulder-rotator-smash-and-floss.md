@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Rotator Smash & Floss"
 description: "Lacrosse ball mobilization for the shoulder rotator cuff and posterior deltoid. Improves hanging, front rack, and pressing positions."
-menuPre: "43.06 "
 weight: 60
 tags: ["arms", "shoulders", "myofascial-release", "intermediate", "lacrosse-ball"]
 body-region: [arms, shoulders]

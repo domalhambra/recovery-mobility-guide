@@ -1,7 +1,6 @@
 ---
 title: "Banded Wrist Distraction"
 description: "Banded wrist distraction for wrist and forearm mobility in front rack and pressing positions."
-menuPre: "11.15 "
 weight: 150
 tags: ["wrists", "arms", "mobility", "intermediate", "resistance-band"]
 body-region: [arms]

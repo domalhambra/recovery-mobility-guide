@@ -1,7 +1,6 @@
 ---
 title: "Thoracic Extension on Roller"
 description: "Thoracic extension on a foam roller for upper back mobility and posture correction."
-menuPre: "11.04 "
 weight: 40
 tags: ["upper-back", "mobility", "beginner"]
 body-region: [upper-back]

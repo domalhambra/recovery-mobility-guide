@@ -1,7 +1,6 @@
 ---
 title: "Kneeling Book Openers"
 description: "Kneeling book openers for thoracic rotation and upper back mobility."
-menuPre: "13.09 "
 weight: 90
 tags: ["upper-back", "mobility", "beginner", "no-equipment"]
 body-region: [upper-back]

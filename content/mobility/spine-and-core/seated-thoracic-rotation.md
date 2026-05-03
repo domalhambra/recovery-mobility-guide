@@ -1,7 +1,6 @@
 ---
 title: "Seated Thoracic Rotation"
 description: "Seated thoracic rotation drill for upper and lower back mobility during desk work."
-menuPre: "13.12 "
 weight: 120
 tags: ["upper-back", "lumbar", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back, lower-back]

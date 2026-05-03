@@ -1,7 +1,6 @@
 ---
 title: "Triceps Extension Smash"
 description: "Squat rack mobilization for the triceps and posterior arm. Improves overhead, front rack, and pressing positions."
-menuPre: "43.07 "
 weight: 70
 tags: ["arms", "myofascial-release", "intermediate", "squat-rack"]
 body-region: [arms]

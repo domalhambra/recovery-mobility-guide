@@ -1,7 +1,6 @@
 ---
 title: "Back Squat"
 description: "The barbell back squat builds lower body strength through the quads, glutes, and posterior chain. Setup, coaching cues, and progressions."
-menuPre: "32.01 "
 weight: 10
 tags: ["quadriceps", "glutes", "strength", "intermediate"]
 body-region: [quads, glutes]

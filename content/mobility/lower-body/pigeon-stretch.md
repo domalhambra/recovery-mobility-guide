@@ -1,7 +1,6 @@
 ---
 title: "Pigeon Stretch"
 description: "Pigeon pose for deep hip flexor and glute stretching. A foundational hip opener for all levels."
-menuPre: "12.02 "
 weight: 20
 tags: ["hips", "glutes", "flexibility", "beginner", "no-equipment"]
 body-region: [hips, glutes]

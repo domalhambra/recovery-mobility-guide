@@ -1,7 +1,6 @@
 ---
 title: "Posterior Neck Mob"
 description: "Lacrosse ball mobilization for the suboccipitals and posterior neck muscles. Relieves neck stiffness and tension headaches."
-menuPre: "43.10 "
 weight: 100
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]

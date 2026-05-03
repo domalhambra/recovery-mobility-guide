@@ -1,7 +1,6 @@
 ---
 title: "Overhead Distraction with External Rotation Bias"
 description: "Banded overhead distraction with external rotation for overhead and front rack position mobility."
-menuPre: "11.21 "
 weight: 210
 tags: ["shoulders", "arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [shoulders, arms]

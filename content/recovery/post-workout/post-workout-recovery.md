@@ -1,7 +1,6 @@
 ---
 title: "Post-Workout Recovery Protocol"
 description: "A recovery sequence for after strength training or conditioning — focused on tissue quality and mobility maintenance."
-menuPre: "42.01 "
 weight: 10
 tags: ["flexibility", "myofascial-release", "beginner"]
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Open Book Stretch"
 description: "Open book stretch for thoracic rotation and ribcage mobility."
-menuPre: "11.05 "
 weight: 50
 tags: ["upper-back", "flexibility", "beginner"]
 body-region: [upper-back, chest]

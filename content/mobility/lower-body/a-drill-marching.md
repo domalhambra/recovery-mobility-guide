@@ -1,7 +1,6 @@
 ---
 title: "A-Drill Marching"
 description: "A marching drill that activates the hamstrings and hip flexors in a running-specific pattern."
-menuPre: "12.35 "
 weight: 350
 tags: ["hamstrings", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings]

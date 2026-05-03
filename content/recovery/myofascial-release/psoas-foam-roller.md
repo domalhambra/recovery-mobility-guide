@@ -1,7 +1,6 @@
 ---
 title: "Psoas Foam Roller"
 description: "Foam roller mobilization for the psoas and hip flexors. Relieves hip tightness from prolonged sitting."
-menuPre: "43.11 "
 weight: 110
 tags: ["hips", "myofascial-release", "intermediate", "foam-roller"]
 body-region: [hips]

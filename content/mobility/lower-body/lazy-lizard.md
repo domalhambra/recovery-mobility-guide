@@ -1,7 +1,6 @@
 ---
 title: "Lazy Lizard"
 description: "A relaxed hip opener that targets the inner hip and groin from a low lunge position."
-menuPre: "12.10 "
 weight: 100
 tags: ["hips", "flexibility", "beginner", "no-equipment"]
 body-region: [hips]

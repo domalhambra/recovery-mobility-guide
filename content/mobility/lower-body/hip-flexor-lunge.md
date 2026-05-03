@@ -1,7 +1,6 @@
 ---
 title: "Hip Flexor Lunge"
 description: "A dynamic lunge stretch targeting the hip flexors for improved hip extension and posture."
-menuPre: "12.11 "
 weight: 110
 tags: ["hips", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [hips]

@@ -1,7 +1,6 @@
 ---
 title: "100 Pushups Program"
 description: "A progressive program to build up to 100 consecutive pushups through structured volume increases over 6 weeks."
-menuPre: "35.02 "
 weight: 20
 tags: ["shoulders", "arms", "strength", "beginner"]
 body-region: [shoulders, arms, chest]

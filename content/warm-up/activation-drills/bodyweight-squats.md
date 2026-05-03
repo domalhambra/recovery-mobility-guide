@@ -1,7 +1,6 @@
 ---
 title: "Bodyweight Squats"
 description: "Bodyweight squats activate the quads, hamstrings, and glutes. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.04 "
 weight: 40
 tags: ["quadriceps", "hamstrings", "activation", "beginner", "no-equipment"]
 body-region: [quads, hamstrings]

@@ -1,7 +1,6 @@
 ---
 title: "Bird Dog"
 description: "Bird dog exercise for core stability, balance, and spinal alignment."
-menuPre: "13.04 "
 weight: 40
 tags: ["core", "activation", "beginner"]
 body-region: [core]

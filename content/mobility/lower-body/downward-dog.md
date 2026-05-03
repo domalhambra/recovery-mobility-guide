@@ -1,7 +1,6 @@
 ---
 title: "Downward Dog"
 description: "Downward-facing dog for calf and hamstring length, shoulder opening, and full posterior chain stretch."
-menuPre: "12.36 "
 weight: 360
 tags: ["calves", "hamstrings", "flexibility", "beginner"]
 body-region: [calves]

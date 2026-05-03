@@ -1,7 +1,6 @@
 ---
 title: "Calf Raises with Hold"
 description: "Calf raises with an isometric hold at the top to build ankle strength and calf endurance."
-menuPre: "12.17 "
 weight: 170
 tags: ["ankles", "dynamic-stretching", "corrective", "beginner", "no-equipment"]
 body-region: [ankles]

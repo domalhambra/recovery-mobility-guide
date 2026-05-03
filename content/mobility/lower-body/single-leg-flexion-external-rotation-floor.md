@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Flexion w/ External Rotation (Floor Variation)"
 description: "A floor-based single-leg drill combining hip flexion and external rotation for deep squat mobility."
-menuPre: "12.23 "
 weight: 230
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]

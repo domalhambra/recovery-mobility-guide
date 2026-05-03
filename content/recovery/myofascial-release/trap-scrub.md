@@ -1,7 +1,6 @@
 ---
 title: "Trap Scrub"
 description: "Lacrosse ball and barbell mobilization for the upper trapezius and surrounding tissue. Improves front rack, overhead, and hanging positions."
-menuPre: "43.03 "
 weight: 30
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball", "barbell"]
 body-region: [upper-back]

@@ -1,7 +1,6 @@
 ---
 title: "90/90 Hip Stretch"
 description: "The 90/90 stretch targets hip internal and external rotation. Setup, coaching cues, and progressions for all levels."
-menuPre: "12.01 "
 weight: 10
 tags: ["hips", "flexibility", "beginner"]
 body-region: [hips]

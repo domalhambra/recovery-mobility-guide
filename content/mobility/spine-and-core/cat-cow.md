@@ -1,7 +1,6 @@
 ---
 title: "Cat-Cow"
 description: "Cat-cow stretch for spinal segmental mobility and lower back relief."
-menuPre: "13.01 "
 weight: 10
 tags: ["spine", "mobility", "beginner"]
 body-region: [lower-back]

@@ -1,7 +1,6 @@
 ---
 title: "Upper Back Pain (Trap Tweak Sequence)"
 description: "A multi-step protocol for managing upper back pain and trap tweaks through soft tissue work, mobilization, and movement resets."
-menuPre: "53.03 "
 weight: 30
 tags: ["upper-back", "corrective", "beginner", "lacrosse-ball"]
 body-region: [upper-back]

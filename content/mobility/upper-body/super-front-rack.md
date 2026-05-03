@@ -1,7 +1,6 @@
 ---
 title: "Super Front Rack"
 description: "Banded super front rack mobilization for overhead and front rack shoulder positions."
-menuPre: "11.20 "
 weight: 200
 tags: ["shoulders", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [shoulders]

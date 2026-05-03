@@ -1,7 +1,6 @@
 ---
 title: "Toe / Tibialis Raises"
 description: "Strengthen the tibialis anterior by raising the toes off the ground to protect the knees and shins."
-menuPre: "12.19 "
 weight: 190
 tags: ["knees", "shins", "corrective", "beginner", "no-equipment"]
 body-region: [quads, ankles]

@@ -1,7 +1,6 @@
 ---
 title: "Shoulder CARs"
 description: "Shoulder controlled articular rotations for joint health, range of motion assessment, and daily maintenance."
-menuPre: "14.04 "
 weight: 40
 tags: ["shoulders", "mobility", "beginner", "no-equipment"]
 body-region: [shoulders]

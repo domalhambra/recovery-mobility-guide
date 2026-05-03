@@ -1,7 +1,6 @@
 ---
 title: "Lying Leg-Over Twist"
 description: "Supine leg-over twist for thoracic and lumbar rotation and post-workout recovery."
-menuPre: "13.13 "
 weight: 130
 tags: ["upper-back", "lumbar", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back, lower-back]

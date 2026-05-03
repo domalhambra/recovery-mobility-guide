@@ -1,7 +1,6 @@
 ---
 title: "Plantar Fasciitis"
 description: "A step-by-step protocol for managing plantar fasciitis through soft tissue release, calf stretching, and foot strengthening."
-menuPre: "57.01 "
 weight: 10
 tags: ["feet", "corrective", "beginner"]
 body-region: [feet]
