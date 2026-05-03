@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 The lower rib smash uses a lacrosse ball to release restrictions in the intercostal muscles, serratus anterior, and oblique attachments around the lower ribs. These tissues often become bound down from prolonged sitting and can limit breathing, thoracic rotation, and overhead movement. This mobilization improves press and hang positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Combine deep breathing with the lacrosse ball work. Each inhale pushes the ribs 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

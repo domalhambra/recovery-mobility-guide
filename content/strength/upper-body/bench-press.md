@@ -8,8 +8,8 @@ body-region: [shoulders, arms, chest]
 
 The barbell bench press is a foundational upper body pressing movement that develops strength in the pectorals, anterior deltoids, and triceps. Proper bench press mechanics improve front rack positioning and overall pressing capacity.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -40,7 +40,7 @@ If you struggle with shoulder blade retraction, try squeezing a rolled-up towel 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

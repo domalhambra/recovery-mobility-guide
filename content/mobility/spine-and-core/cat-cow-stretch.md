@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 This Supple Leopard-inspired version of the cat-cow stretch emphasizes spinal bracing and organization rather than passive flexibility. It teaches the athlete to find and maintain a neutral spine under movement, directly improving the ability to organize the trunk during squats and loaded movements. This mobilization improves squat positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ At each end position, ask yourself: "Could I take a punch to the gut right now?"
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

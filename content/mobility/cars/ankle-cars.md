@@ -8,8 +8,8 @@ body-region: [ankles]
 
 Ankle CARs (Controlled Articular Rotations) move the ankle through its full available range under tension. They're essential daily maintenance for anyone who spends time on their feet, hikes, or has a history of ankle sprains.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -43,7 +43,7 @@ Pay attention to any spots that feel sticky, clunky, or restricted. These are th
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube BDNGAnp7u7s >}}
 

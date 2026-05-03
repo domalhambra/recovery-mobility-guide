@@ -8,8 +8,8 @@ body-region: [arms]
 
 Banded wrist distraction uses a resistance band to gap the wrist joint open while you work into flexion and extension. This mobilization improves front rack positions where full wrist extension under load is required, and it helps resolve stiffness from gripping and typing.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Test your wrist extension range before and after this drill. Most people gain 5-
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

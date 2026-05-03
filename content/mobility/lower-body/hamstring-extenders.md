@@ -8,8 +8,8 @@ body-region: [hamstrings]
 
 Hamstring extenders use active muscle contraction to progressively extend the knee and stretch the hamstrings under load. This "active flexibility" approach builds usable range of motion — not just passive length — making it particularly effective for hamstring rehab and injury prevention.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Focus on active extension with the quads rather than pulling with the hands. The
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

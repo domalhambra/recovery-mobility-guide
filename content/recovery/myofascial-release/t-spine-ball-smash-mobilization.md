@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 The T-spine ball smash uses a lacrosse ball or double lacrosse ball (Gemini) to target specific knots and adhesions in the thoracic paraspinal muscles. It provides more focused pressure than a foam roller, making it ideal for stubborn stiffness that limits pressing, front rack, and overhead positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ A double lacrosse ball (or Gemini tool) straddles the spine and works both sides
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

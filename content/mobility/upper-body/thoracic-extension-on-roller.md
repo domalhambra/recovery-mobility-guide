@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 Using a foam roller as a fulcrum, this drill targets thoracic extension segment by segment. It is one of the most effective ways to counteract the flexed posture that comes from prolonged sitting, and it immediately improves overhead reach and breathing mechanics.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Breathe out as you extend over the roller. Each exhale lets you sink a little de
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube qCrYe698zJU >}}
 

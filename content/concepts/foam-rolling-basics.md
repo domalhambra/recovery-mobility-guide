@@ -15,8 +15,8 @@ Foam rolling does **not** physically break up adhesions or scar tissue — the f
 
 ## Technique Guidelines
 
-{{< tabs >}}
-{{% tab title="How to Roll" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="How to Roll" %}}
 
 ### Basic Protocol
 
@@ -34,7 +34,7 @@ Foam rolling does **not** physically break up adhesions or scar tissue — the f
 - **Rolling the lower back** — the lumbar spine lacks bony protection. Use a lacrosse ball on the paraspinals instead, or foam roll the thoracic spine only.
 
 {{% /tab %}}
-{{% tab title="When to Use It" %}}
+{{% tab tabName="When to Use It" %}}
 
 ### Pre-Workout
 

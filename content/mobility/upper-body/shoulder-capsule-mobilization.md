@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 Shoulder capsule mobilization uses a resistance band or light load to create traction and distraction at the glenohumeral joint, restoring range of motion in the joint capsule itself. This mobilization improves overhead, press, hang, and front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -39,7 +39,7 @@ Hold a light kettlebell or dumbbell (4-8 kg) in the working hand while the band 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

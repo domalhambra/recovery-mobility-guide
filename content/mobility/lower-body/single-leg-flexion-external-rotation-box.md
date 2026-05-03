@@ -8,8 +8,8 @@ body-region: [hips]
 
 This drill isolates one hip at a time, combining deep flexion with external rotation while using a box or bench for support. It builds the specific hip range needed for deep squats, lunges, and single-leg movements like pistol squats.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Start with a lower box and progress to a higher one as your hip range of motion 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

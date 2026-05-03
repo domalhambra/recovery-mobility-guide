@@ -10,14 +10,14 @@ Sometimes you don't need to target a single region — you need to move everythi
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Flow Over Isolation" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Flow Over Isolation" %}}
 Full-body flows prioritize movement quality and transitions over holding any single position. The goal is to oil every joint and wake up every major muscle group, not to achieve deep range in one area. For targeted depth, use the region-specific sections.
 {{% /tab %}}
-{{% tab title="Great for Active Recovery" %}}
+{{% tab tabName="Great for Active Recovery" %}}
 On rest days, a 15–20 minute full-body flow keeps blood moving, maintains range, and promotes recovery without adding training stress. It bridges the gap between doing nothing and doing too much.
 {{% /tab %}}
-{{% tab title="Scale by Time" %}}
+{{% tab tabName="Scale by Time" %}}
 These sessions can be compressed or expanded based on available time. In a rush, hit one rep per movement. Have more time? Add holds, increase reps, or chain multiple flows together.
 {{% /tab %}}
 {{< /tabs >}}

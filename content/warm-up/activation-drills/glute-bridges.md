@@ -8,8 +8,8 @@ body-region: [glutes]
 
 Glute bridges are a foundational activation drill that wakes up the glutes before training or work. They teach you to extend the hips without compensating through the lower back, making them essential for anyone who sits for long periods.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ If you can't feel your glutes firing, try placing your feet slightly further fro
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

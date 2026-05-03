@@ -17,8 +17,8 @@ The challenge is that both conditions *feel* similar — a sensation of tightnes
 
 ## A Decision Framework
 
-{{< tabs >}}
-{{% tab title="When to Stretch" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="When to Stretch" %}}
 
 Stretching is likely the right approach when:
 
@@ -34,7 +34,7 @@ Stretching is likely the right approach when:
 - Thoracic extension
 
 {{% /tab %}}
-{{% tab title="When to Strengthen" %}}
+{{% tab tabName="When to Strengthen" %}}
 
 Strengthening is likely the right approach when:
 

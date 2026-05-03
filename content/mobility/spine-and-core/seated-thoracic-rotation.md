@@ -8,8 +8,8 @@ body-region: [upper-back, lower-back]
 
 Seated thoracic rotation is a desk-friendly mobility drill that can be performed in any chair. It targets rotational range in the thoracic and upper lumbar spine, making it ideal for office workers who need to counteract the stiffness that builds from prolonged sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Squeeze a ball or rolled-up towel between your knees while rotating. This locks 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

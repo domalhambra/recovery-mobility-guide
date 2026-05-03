@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 The super front rack mobilization combines a banded shoulder distraction with a front rack position hold. It specifically targets the combination of shoulder flexion, external rotation, and elbow flexion needed for a clean front rack. This mobilization improves overhead and front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Hold a light barbell or PVC pipe in the front rack position while the band distr
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

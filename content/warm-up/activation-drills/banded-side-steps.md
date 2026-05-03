@@ -8,8 +8,8 @@ body-region: [glutes]
 
 Banded side steps target the gluteus medius and hip abductors — muscles that stabilize the pelvis during walking, running, and squatting. Weak glute medius is a common contributor to knee pain and hip instability.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ Think about pushing the ground apart with your feet. The goal is controlled, del
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube X0jsl2ZrXug >}}
 

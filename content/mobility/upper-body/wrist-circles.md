@@ -8,8 +8,8 @@ body-region: [arms]
 
 Wrist circles are a simple but effective way to warm up the wrist joint and maintain its range of motion. Performing them regularly helps prevent stiffness from keyboard work and prepares the wrists for loaded positions like front rack, push-ups, and handstands.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ If you notice a "sticky" or tight spot in the circle, spend extra time slowly wo
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

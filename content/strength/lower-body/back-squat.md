@@ -8,8 +8,8 @@ body-region: [quads, glutes]
 
 The barbell back squat is the foundational lower body strength movement. It develops the quadriceps, glutes, hamstrings, and core while reinforcing the squat pattern that carries over to athletics, daily life, and injury prevention.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -40,7 +40,7 @@ Film yourself from the side during warm-up sets. The most common errors (depth, 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

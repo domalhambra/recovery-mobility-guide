@@ -8,8 +8,8 @@ body-region: [hips]
 
 Hip capsule mobilization addresses the joint capsule itself — the connective tissue sleeve surrounding the hip joint. When the capsule is tight, it restricts range of motion regardless of muscle flexibility. These drills use specific angles and sustained pressure to improve capsular mobility for squats, pistols, and deep hip flexion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -42,7 +42,7 @@ Perform these immediately before squatting. The temporary increase in range of m
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

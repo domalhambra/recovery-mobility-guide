@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 Shoulder CARs (Controlled Articular Rotations) take the shoulder through its full rotational range under maximum tension. They serve as both a daily maintenance drill and an assessment tool — revealing restrictions you might not notice otherwise.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -48,7 +48,7 @@ If you feel a pinch or sharp pain at any point in the circle, reduce the size of
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

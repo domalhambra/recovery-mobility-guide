@@ -8,8 +8,8 @@ body-region: [shoulders, neck]
 
 Anterior compartment mobilizations use a lacrosse ball to release restrictions in the pectoralis minor, subclavius, scalenes, and anterior deltoid. These tissues become chronically shortened in desk workers and overhead athletes, restricting shoulder flexion, external rotation, and cervical mobility. This mobilization improves overhead, front rack, and hang positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -46,7 +46,7 @@ Work from the outside in: start with the pec minor (least sensitive), then the a
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

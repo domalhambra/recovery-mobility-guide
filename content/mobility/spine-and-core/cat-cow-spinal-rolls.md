@@ -8,8 +8,8 @@ body-region: [upper-back, lower-back]
 
 This variation builds on the standard cat-cow by adding lateral and circular spinal rolls, mobilizing the spine in all three planes of motion. It is an ideal dynamic warm-up that addresses flexion, extension, lateral flexion, and rotation in one flowing sequence.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Imagine your spine is a stirring stick and your ribcage is tracing the rim of a 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

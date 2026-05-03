@@ -15,14 +15,14 @@ The exercises in this library work — but they work better when you understand 
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Principles Over Programs" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Principles Over Programs" %}}
 Programs expire. Principles don't. Understanding *why* a protocol works lets you adapt when circumstances change — different equipment, time constraints, new injuries. The concepts here give you the framework to make good training decisions on the fly.
 {{% /tab %}}
-{{% tab title="Dosing Matters" %}}
+{{% tab tabName="Dosing Matters" %}}
 The right exercise at the wrong dose is the wrong exercise. Too little stimulus and nothing adapts. Too much and you accumulate fatigue or get injured. The articles here cover how to calibrate volume, intensity, and frequency for your goals.
 {{% /tab %}}
-{{% tab title="Simple Beats Complex" %}}
+{{% tab tabName="Simple Beats Complex" %}}
 The best training plan is the one you'll actually follow. If a routine takes 90 minutes and requires equipment you don't have, it doesn't matter how optimal it is on paper. Prioritize consistency and minimum effective dose.
 {{% /tab %}}
 {{< /tabs >}}

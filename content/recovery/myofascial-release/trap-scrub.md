@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 The trap scrub targets the upper trapezius and surrounding tissue where tension and trigger points commonly accumulate from desk work, overhead movements, and stress. Releasing this area improves front rack position, overhead mechanics, and overall shoulder function.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ If you find a particularly stubborn knot, pin the ball on it and simply breathe 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

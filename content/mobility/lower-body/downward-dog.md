@@ -8,8 +8,8 @@ body-region: [calves]
 
 Downward dog is one of the most efficient single positions for the posterior chain. It stretches the calves (both gastrocnemius and soleus depending on knee position), lengthens the hamstrings, decompresses the lumbar spine, and opens the shoulders — all at once. It also doubles as a mild shoulder and thoracic mobilization when done with intention rather than passively hanging.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -47,7 +47,7 @@ If your hamstrings are very tight, bending both knees generously lets you get th
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube wS2b5yld004 >}}
 

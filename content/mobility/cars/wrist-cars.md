@@ -8,8 +8,8 @@ body-region: [arms]
 
 Wrist CARs (Controlled Articular Rotations) move the wrist through its full range of motion under active tension. Essential for anyone who works with their hands, types at a desk, or grips tools and equipment regularly.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -43,7 +43,7 @@ This is especially important if you type, use hand tools, or grip barbells/kettl
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

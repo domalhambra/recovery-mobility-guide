@@ -8,8 +8,8 @@ body-region: [core]
 
 The Pallof press is an anti-rotation exercise that challenges the core to resist a lateral pulling force. It trains the obliques, transverse abdominis, and hip stabilizers in a functional pattern that directly transfers to rotational sports and loaded movements where spinal integrity under asymmetric forces is critical.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Lock your eyes on a point straight ahead. If your visual focus stays fixed and y
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube dBAmQ9bx3JA >}}
 

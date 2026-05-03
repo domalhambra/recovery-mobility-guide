@@ -8,8 +8,8 @@ body-region: [hips, upper-back]
 
 The lunge with spinal twist (sometimes called the "world's greatest stretch") combines hip flexor lengthening with thoracic rotation in a single movement. It is one of the most efficient warm-up exercises for full-body mobility.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,7 +36,7 @@ If you cannot reach the floor with both hands, place the down hand on a yoga blo
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube 7XcnjEQPRHM >}}
 

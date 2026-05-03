@@ -8,8 +8,8 @@ body-region: [arms]
 
 This simple active mobility drill takes the wrist through its full flexion and extension range. It is ideal for desk workers, anyone who types frequently, and as a pre-workout warm-up before front rack, push-up, or handstand work.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ For a loaded variation, place your palms flat on a desk and lean forward to bias
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -8,8 +8,8 @@ body-region: [arms]
 
 Wrist CARs (controlled articular rotations) systematically move the wrist through every plane of motion — flexion, extension, radial and ulnar deviation — in one continuous, tension-filled loop. Daily practice maintains wrist joint health and reveals restrictions before they become painful.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Pair wrist CARs with shoulder CARs in your daily morning routine. Two minutes of
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

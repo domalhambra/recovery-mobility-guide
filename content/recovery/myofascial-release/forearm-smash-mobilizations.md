@@ -8,8 +8,8 @@ body-region: [arms]
 
 Forearm smash mobilizations use a lacrosse ball to release tight forearm flexors and extensors. Chronically tight forearms limit wrist extension, grip endurance, and overhead positions. This is essential maintenance for anyone who types, grips tools, or trains with a barbell.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ After smashing, immediately test your wrist extension by pressing your palms fla
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

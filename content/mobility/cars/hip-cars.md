@@ -8,8 +8,8 @@ body-region: [hips]
 
 Hip CARs (Controlled Articular Rotations) are a daily joint maintenance drill that moves the hip through its full range of motion under tension. They improve hip health, identify restrictions, and serve as both assessment and warmup.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -43,7 +43,7 @@ Think of drawing the biggest possible circle with your knee. The goal is maximum
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube 5kM-o61Z14I >}}
 

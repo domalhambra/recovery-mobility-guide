@@ -8,8 +8,8 @@ body-region: [hamstrings, glutes]
 
 This variation of the glute bridge adds alternating single-leg raises while maintaining the bridge position. It builds unilateral hamstring and glute strength while challenging pelvic stability — a common weakness in hamstring injury rehab.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,7 +36,7 @@ If the hips drop significantly when you lift a foot, hold the double-leg bridge 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

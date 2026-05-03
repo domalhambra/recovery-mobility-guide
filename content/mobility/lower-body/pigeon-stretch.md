@@ -8,8 +8,8 @@ body-region: [hips, glutes]
 
 A classic hip opener that targets the deep external rotators of the hip and the glute complex. The pigeon stretch is one of the most effective ways to release tightness from prolonged sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ If your hip does not reach the floor, place a yoga block or folded towel under t
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube Z3t7KrsvHI4 >}}
 

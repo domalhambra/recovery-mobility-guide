@@ -8,8 +8,8 @@ body-region: [core]
 
 The bird dog builds anti-rotation and anti-extension core stability while training hip extension and shoulder flexion in a coordinated pattern. It is a staple of spinal rehabilitation programs and an excellent warm-up drill for any training session.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Place a foam roller or water bottle on your lower back. If it falls off, you are
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube ZdAHe9_HeEw >}}
 

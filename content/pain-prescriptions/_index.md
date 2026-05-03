@@ -15,14 +15,14 @@ When something hurts, you need a plan — not a random stretch. This section pro
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Follow the Sequence" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Follow the Sequence" %}}
 Each pain prescription follows a specific order: soft tissue release → mobilization → corrective movement. This sequence matters. Releasing tissue first allows mobilizations to be more effective, and corrective exercises reinforce the new range. Don't skip ahead.
 {{% /tab %}}
-{{% tab title="Pain Has Upstream Causes" %}}
+{{% tab tabName="Pain Has Upstream Causes" %}}
 Where it hurts is rarely where the problem lives. Knee pain often traces back to hip weakness. Shoulder pain frequently starts at the thoracic spine. The prescriptions here address both the site of pain and its common upstream contributors.
 {{% /tab %}}
-{{% tab title="Consistency Over Intensity" %}}
+{{% tab tabName="Consistency Over Intensity" %}}
 These protocols work best when applied regularly at moderate intensity — not as a one-time nuclear option. Run through the relevant prescription daily or every other day until symptoms resolve, then maintain with the exercises in the [Mobility](../mobility/) section.
 {{% /tab %}}
 {{< /tabs >}}

@@ -8,8 +8,8 @@ body-region: [neck]
 
 Anterior neck mobilization targets the sternocleidomastoid (SCM) and scalene muscles on the front and sides of the neck. These muscles become chronically shortened from forward head posture, desk work, and phone use, contributing to neck pain, headaches, and restricted rotation.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ Be very gentle with anterior neck work. Avoid pressing on the windpipe, carotid 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

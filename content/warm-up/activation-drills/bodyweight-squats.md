@@ -8,8 +8,8 @@ body-region: [quads, hamstrings]
 
 Bodyweight squats are a fundamental movement pattern that activates the quads, hamstrings, and glutes while reinforcing proper squat mechanics. Use them as a warm-up drill to prepare the lower body for training or to counteract the effects of prolonged sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ If your heels come off the floor, it's likely an ankle mobility issue rather tha
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

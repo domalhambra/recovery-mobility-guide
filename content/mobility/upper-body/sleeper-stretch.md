@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 The sleeper stretch targets posterior shoulder tightness — specifically the infraspinatus and teres minor — by passively driving internal rotation while the scapula is stabilized against the floor. It is especially useful for overhead athletes and anyone with limited internal rotation.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Keep your bottom elbow at or slightly below shoulder height. If you feel a pinch
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

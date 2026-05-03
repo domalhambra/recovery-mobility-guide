@@ -8,8 +8,8 @@ body-region: [hips]
 
 The lazy lizard is a passive variation of the lizard lunge that lets gravity do the work. It opens the hip flexors and inner groin without demanding strength or active effort, making it ideal for recovery days and post-shift wind-downs.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ If your forearms do not reach the floor comfortably, stack a yoga block or cushi
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "UyHxMrjodsw" >}}
 

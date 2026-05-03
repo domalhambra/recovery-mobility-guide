@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 The bully extension bias mobilization uses a resistance band to drive the humeral head posteriorly while you work into shoulder extension and internal rotation. This mobilization improves hang and press positions by opening the anterior shoulder capsule.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ If the behind-the-back position is too aggressive, start with your arm simply ex
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

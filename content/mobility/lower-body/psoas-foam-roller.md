@@ -8,8 +8,8 @@ body-region: [hips]
 
 The psoas is a deep hip flexor that runs from the lumbar spine to the inner thigh. When tight, it pulls the pelvis forward and contributes to lower back pain. Foam rolling the psoas area helps release this chronic tension, though the technique requires careful positioning since the muscle is deep.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,7 +36,7 @@ This technique presses into the abdominal area near internal organs. Use moderat
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

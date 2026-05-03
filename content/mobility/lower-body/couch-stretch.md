@@ -8,8 +8,8 @@ body-region: [hips, quads]
 
 The couch stretch is one of the most effective ways to lengthen the hip flexors and rectus femoris. It mimics a deep lunge with the rear foot elevated, creating a powerful stretch for anyone who spends hours sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Place a pad or folded towel under your knee for comfort. Start further from the 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube WKo4APrwfXQ >}}
 

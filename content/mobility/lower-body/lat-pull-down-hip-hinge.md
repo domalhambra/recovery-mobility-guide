@@ -8,8 +8,8 @@ body-region: [hamstrings, upper-back]
 
 This exercise combines a lat pull-down pattern with a hip hinge, training the posterior chain as an integrated unit. It is particularly useful in hamstring rehab programs because it teaches the hamstrings to work in coordination with the lats and glutes during hip extension.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ Think of the pull-down and the hinge as one synchronized movement. As the hips p
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

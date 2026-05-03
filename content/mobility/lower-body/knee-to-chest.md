@@ -8,8 +8,8 @@ body-region: [glutes, hamstrings]
 
 The standing knee-to-chest is a dynamic stretch that activates the glutes and hamstrings while gently mobilizing the hip. Performed while walking, it serves as a moving warm-up that prepares the lower body for activity.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Think of it as a walking drill: take a step, pull the knee, hold, release, step,
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

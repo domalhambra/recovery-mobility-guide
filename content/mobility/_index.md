@@ -15,14 +15,14 @@ Mobility is the ability to move a joint through its full range of motion **with 
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Mobility ≠ Flexibility" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Mobility ≠ Flexibility" %}}
 Flexibility is passive range — how far a joint can be *pushed*. Mobility is active range — how far you can *control*. A hamstring stretch gives you flexibility; a slow, controlled leg raise builds mobility. This section prioritizes the latter.
 {{% /tab %}}
-{{% tab title="Consistency > Intensity" %}}
+{{% tab tabName="Consistency > Intensity" %}}
 Five minutes of daily mobility work outperforms a single weekly hour. The exercises here are designed to be short and stackable — pick 3–5 movements and rotate them into your warm-up or cooldown.
 {{% /tab %}}
-{{% tab title="Pain Is Information" %}}
+{{% tab tabName="Pain Is Information" %}}
 Discomfort during a stretch is normal. Sharp, pinching, or radiating pain is not. If a mobilization consistently hurts, it may be the wrong exercise for your current state. Check the [Pain Prescriptions](../pain-prescriptions/) section for targeted protocols.
 {{% /tab %}}
 {{< /tabs >}}

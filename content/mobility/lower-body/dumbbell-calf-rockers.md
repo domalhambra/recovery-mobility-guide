@@ -8,8 +8,8 @@ body-region: [ankles]
 
 Dumbbell calf rockers are a loaded variation of calf raises performed on a slant board. The incline increases the range of motion at the ankle, and the added weight builds calf strength and Achilles tendon resilience — important for injury prevention and athletic performance.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ The eccentric (lowering) phase is where most of the tendon strengthening happens
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

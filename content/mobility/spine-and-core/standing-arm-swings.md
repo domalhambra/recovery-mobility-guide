@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 Standing arm swings are a dynamic warm-up drill that mobilizes the thoracic spine and shoulder girdle through rhythmic horizontal and vertical swinging patterns. They increase blood flow to the upper back and shoulders, making them ideal for the start of any training session or as a desk break.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Use arm swings as the very first movement in your warm-up. They raise tissue tem
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

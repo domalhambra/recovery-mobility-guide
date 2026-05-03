@@ -8,8 +8,8 @@ body-region: [upper-back, chest]
 
 The open book stretch isolates thoracic rotation by locking out the lumbar spine and hips. It is a go-to drill for anyone who needs more rotational range — overhead athletes, golfers, desk workers, and anyone preparing for movements that demand a mobile upper back.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Squeeze the pillow between your knees throughout the movement. This locks your p
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube HZECaCFLvVw >}}
 

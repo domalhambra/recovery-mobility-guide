@@ -10,14 +10,14 @@ Cycling is an efficient, joint-friendly way to build aerobic capacity and leg en
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="The Bike Creates Imbalances" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="The Bike Creates Imbalances" %}}
 Cycling is hip-flexion dominant with minimal hip extension, no lateral movement, and a sustained forward-flexed posture. Over time, this shortens the hip flexors, tightens the thoracic spine, and weakens the glutes. Pair cycling with [hip mobility](../../mobility/lower-body/) and [thoracic work](../../mobility/spine-and-core/) to counteract these patterns.
 {{% /tab %}}
-{{% tab title="Off-Bike Strength Matters" %}}
+{{% tab tabName="Off-Bike Strength Matters" %}}
 Stronger legs produce more watts. More importantly, a strong core and stable hips reduce energy waste from rocking and swaying on the bike. Include squats, deadlifts, and single-leg work from [Lower Body Strength](../lower-body/) to improve both power and efficiency.
 {{% /tab %}}
-{{% tab title="Polarized Training" %}}
+{{% tab tabName="Polarized Training" %}}
 The most effective cycling programs follow a polarized approach: 80% of rides at easy, conversational pace and 20% at high intensity. Avoid the "moderate effort all the time" trap — it produces the least adaptation for the most fatigue.
 {{% /tab %}}
 {{< /tabs >}}

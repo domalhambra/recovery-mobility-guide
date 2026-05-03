@@ -8,8 +8,8 @@ body-region: [neck]
 
 Head mobilization uses a lacrosse ball to release tension in the scalp fascia, temporalis muscles, and occipital attachments. These areas hold surprising amounts of tension — particularly in people who clench their jaw, wear hats or helmets for work, or experience tension headaches.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ If you clench your jaw (bruxism), focus extra time on the temporalis muscle abov
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

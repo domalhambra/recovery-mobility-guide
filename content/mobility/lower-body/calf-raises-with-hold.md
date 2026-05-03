@@ -8,8 +8,8 @@ body-region: [ankles]
 
 Calf raises with a hold combine dynamic movement with an isometric contraction at the top of the range. This builds strength and endurance in the calves while improving ankle stability — essential for walking, running, and squatting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ For an extra challenge, perform these single-leg. The hold at the top is where t
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

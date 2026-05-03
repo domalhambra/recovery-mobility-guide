@@ -8,8 +8,8 @@ body-region: [arms]
 
 The wrist tack and spin technique pins forearm tissue with a lacrosse ball and then rotates the wrist through its full range. This breaks up adhesions between the forearm muscles and the underlying fascia, restoring wrist mobility for pressing, front rack, and overhead movements.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ If you find a spot that's particularly tight or painful, hold the ball there and
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

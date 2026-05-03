@@ -8,8 +8,8 @@ body-region: [hips]
 
 The psoas foam roller technique targets the psoas major — the deep hip flexor that connects the lumbar spine to the femur. This muscle becomes chronically shortened from sitting, pulling the pelvis into anterior tilt and contributing to lower back pain, hip stiffness, and restricted hip extension.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ The psoas area is sensitive and close to internal organs. Use moderate pressure 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

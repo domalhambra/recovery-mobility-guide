@@ -17,8 +17,8 @@ Progressive overload for mobility means systematically increasing the challenge 
 
 You don't always need to "go deeper" to progress. There are several variables you can manipulate:
 
-{{< tabs >}}
-{{% tab title="The Levers" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="The Levers" %}}
 
 ### 1. Range of Motion
 
@@ -41,7 +41,7 @@ Move from passive stretching (gravity or external force does the work) to active
 Progress from static holds to dynamic movements through the range. Eventually, challenge yourself to control the range during sport-specific or compound movements.
 
 {{% /tab %}}
-{{% tab title="Example Progression" %}}
+{{% tab tabName="Example Progression" %}}
 
 ### Hip Flexor Mobility — 8-Week Example
 

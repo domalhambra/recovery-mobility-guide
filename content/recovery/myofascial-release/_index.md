@@ -10,14 +10,14 @@ Myofascial release uses pressure tools — foam rollers, lacrosse balls, barbell
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Pressure, Not Pain" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Pressure, Not Pain" %}}
 Effective tissue work should feel like a 6–7 out of 10 on the discomfort scale. If you're grimacing and holding your breath, you've gone too deep — the muscle will guard rather than release. Back off the pressure and breathe through it.
 {{% /tab %}}
-{{% tab title="Tack and Floss" %}}
+{{% tab tabName="Tack and Floss" %}}
 The most effective technique: pin the tissue down with your tool (tack), then move the joint through its range (floss). This shears adhesions between fascial layers more effectively than just rolling back and forth. Most exercises in this section use this method.
 {{% /tab %}}
-{{% tab title="Before Mobility, After Training" %}}
+{{% tab tabName="Before Mobility, After Training" %}}
 Use myofascial release *before* mobility work to prepare tissues for stretching, and *after* training to begin the recovery process. It's not a warm-up on its own — pair it with movement to lock in the range you've freed up.
 {{% /tab %}}
 {{< /tabs >}}

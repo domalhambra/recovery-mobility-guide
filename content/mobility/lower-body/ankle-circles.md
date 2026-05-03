@@ -8,8 +8,8 @@ body-region: [ankles]
 
 Ankle circles are the simplest way to maintain and restore range of motion in the ankle joint. They move the ankle through all four planes — dorsiflexion, plantarflexion, inversion, and eversion — lubricating the joint and warming up the surrounding muscles and tendons.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -40,7 +40,7 @@ Try "writing the alphabet" with your big toe as an alternative. This naturally t
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

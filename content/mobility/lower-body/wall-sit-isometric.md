@@ -8,8 +8,8 @@ body-region: [quads]
 
 The wall sit is an isometric quad exercise that builds endurance and stability around the knee joint without any impact or dynamic loading. It's a go-to for building baseline knee resilience, especially if squats or lunges currently aggravate your knees.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -41,7 +41,7 @@ If you feel pain behind the kneecap (not just quad burn), raise your position hi
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

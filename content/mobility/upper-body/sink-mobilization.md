@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 The sink mobilization uses a fixed surface (squat rack, countertop, or sturdy railing) to create a traction force on the shoulder while you drop your body weight below the grip. This mobilization improves hang and press positions by opening the shoulder capsule under gentle bodyweight traction.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Try different grip widths. A wider grip biases the stretch toward the lats and t
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -10,14 +10,14 @@ Bodyweight training builds strength using your own mass as resistance. No gym re
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Progression Is Built In" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Progression Is Built In" %}}
 Unlike barbell training where you add weight, bodyweight progressions increase difficulty through leverage, tempo, and unilateral loading. A push-up progresses to diamond push-ups, then to archer push-ups, then to one-arm push-ups. The programs here map these progressions explicitly.
 {{% /tab %}}
-{{% tab title="Frequency Tolerance" %}}
+{{% tab tabName="Frequency Tolerance" %}}
 Bodyweight movements are generally easier to recover from than heavy barbell work, allowing higher training frequency. Programs like the Fighter Pull-Up Program leverage this by spreading volume across 5–6 days per week with submaximal sets.
 {{% /tab %}}
-{{% tab title="Strength, Not Just Endurance" %}}
+{{% tab tabName="Strength, Not Just Endurance" %}}
 High-rep bodyweight work builds muscular endurance, but these programs are designed to build *strength* — using low-to-moderate reps, progressive difficulty, and strategic rest. If you can do 30 push-ups but can't do a single pistol squat, it's a strength gap, not a fitness gap.
 {{% /tab %}}
 {{< /tabs >}}

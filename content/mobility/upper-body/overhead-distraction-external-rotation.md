@@ -8,8 +8,8 @@ body-region: [shoulders, arms]
 
 This mobilization combines overhead shoulder distraction with an external rotation bias. It targets the inferior shoulder capsule and subscapularis, which are often the primary restrictions in overhead positions. This mobilization improves overhead and front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Alternate between palm-forward and palm-backward at the top of the overhead posi
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

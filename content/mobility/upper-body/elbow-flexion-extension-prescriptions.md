@@ -8,8 +8,8 @@ body-region: [shoulders, arms]
 
 This collection of targeted mobilizations addresses common elbow flexion and extension faults using a lacrosse ball for soft tissue work and a resistance band for joint distraction. It improves front rack positions by resolving restrictions in the biceps, triceps, and brachialis.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -46,7 +46,7 @@ Perform the lacrosse ball work first to release soft tissue restrictions, then i
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

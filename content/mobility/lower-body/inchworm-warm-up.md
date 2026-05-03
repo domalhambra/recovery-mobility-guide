@@ -8,8 +8,8 @@ body-region: [hamstrings]
 
 The inchworm is a dynamic warm-up staple that stretches the hamstrings, activates the core and shoulders, and raises the heart rate. It is an excellent lead-in for any lower body or full-body training session.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,7 +36,7 @@ Add a push-up at the plank position for an upper body component, or add a hip dr
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube r1KI2TDGf3c >}}
 

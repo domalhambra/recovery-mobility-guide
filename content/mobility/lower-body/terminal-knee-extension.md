@@ -8,8 +8,8 @@ body-region: [quads]
 
 Terminal knee extension (TKE) isolates the last 10–15 degrees of knee straightening — the range where the VMO (vastus medialis oblique) works hardest. It's a staple in knee rehab and a valuable warmup drill for anyone with patella tracking issues or post-exercise knee soreness.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -45,7 +45,7 @@ If you have acute knee swelling or a recent meniscus injury, check with a physio
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

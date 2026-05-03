@@ -8,8 +8,8 @@ body-region: [ankles]
 
 The calf wall stretch targets the gastrocnemius and soleus — the two primary muscles that limit ankle dorsiflexion. Limited calf flexibility is one of the most common restrictions affecting squat depth, walking gait, and overall lower-body mechanics.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -52,7 +52,7 @@ For a deeper stretch, place the ball of your back foot on a rolled towel or smal
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

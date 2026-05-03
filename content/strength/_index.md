@@ -15,14 +15,14 @@ Strength is what makes your mobility usable under load. This section covers stru
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Progressive Overload" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Progressive Overload" %}}
 Getting stronger requires systematically increasing demands over time — more weight, more reps, more sets, or less rest. The programs here have progression built in. Follow them as written before modifying. See [Progressive Overload for Mobility](../concepts/progressive-overload-for-mobility/) for the full concept.
 {{% /tab %}}
-{{% tab title="Recovery Is Part of Training" %}}
+{{% tab tabName="Recovery Is Part of Training" %}}
 Strength isn't built during the workout — it's built during recovery. If you're training hard without sleeping, eating, or recovering well, you're just accumulating fatigue. Pair these programs with the [Recovery & Restoration](../recovery/) section.
 {{% /tab %}}
-{{% tab title="Strength Protects Joints" %}}
+{{% tab tabName="Strength Protects Joints" %}}
 Strong muscles, tendons, and ligaments are the best injury prevention there is. If a joint is chronically stiff or painful, the answer often isn't more stretching — it's strengthening the structures around it.
 {{% /tab %}}
 {{< /tabs >}}

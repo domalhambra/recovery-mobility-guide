@@ -8,8 +8,8 @@ body-region: [arms, shoulders]
 
 The shoulder rotator smash and floss targets the posterior shoulder — infraspinatus, teres minor, and posterior deltoid. These muscles commonly become restricted from desk work and repetitive overhead movements, limiting external rotation and creating impingement risk.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ If you feel numbness, tingling, or sharp shooting pain down the arm, reposition 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

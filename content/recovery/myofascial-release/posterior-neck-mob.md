@@ -8,8 +8,8 @@ body-region: [neck]
 
 Posterior neck mobilization targets the suboccipital muscles, upper trapezius, and levator scapulae at the base of the skull and back of the neck. These muscles are a primary source of tension headaches, neck stiffness, and restricted head movement, especially in people who work at screens.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ This is an excellent drill to do before bed if you carry tension in your neck. S
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -8,8 +8,8 @@ body-region: [shoulders, arms, upper-back]
 
 This classic stretch targets the triceps, lats, and teres major simultaneously by placing the arm overhead and using a wall for leverage. It improves front rack and overhead positions by lengthening the tissues that most commonly restrict full shoulder flexion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ For a more aggressive lat stretch, turn slightly away from the wall while keepin
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -8,8 +8,8 @@ body-region: [ankles]
 
 Half-kneeling ankle rocks are a simple, effective way to improve dorsiflexion — the ability to drive the knee forward over the toes. Limited dorsiflexion affects squat depth, walking mechanics, and knee health.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Place a piece of tape on the floor to mark your toe position. Over weeks, try to
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

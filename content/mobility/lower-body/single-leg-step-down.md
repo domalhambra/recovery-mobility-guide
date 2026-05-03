@@ -8,8 +8,8 @@ body-region: [quads]
 
 The single-leg step down is a corrective exercise that builds knee stability, quad strength, and control through a functional range of motion. It is widely used in knee rehab programs and for addressing patellofemoral pain.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Use a mirror or record yourself from the front. Watch for the knee caving inward
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "RhooeMsj9Ls" >}}
 

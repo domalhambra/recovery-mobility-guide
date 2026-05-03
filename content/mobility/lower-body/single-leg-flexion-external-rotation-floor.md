@@ -8,8 +8,8 @@ body-region: [hips]
 
 The floor variation of this drill removes the box and works the same hip flexion plus external rotation pattern from the ground. It allows for deeper end-range exploration and is excellent for building squat and lunge mobility.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Place a folded towel or yoga block under the front hip if it does not reach the 
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

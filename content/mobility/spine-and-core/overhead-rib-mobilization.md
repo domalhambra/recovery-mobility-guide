@@ -8,8 +8,8 @@ body-region: [upper-back]
 
 Overhead rib mobilization uses a lacrosse ball or barbell to address tissue restrictions around the upper ribs and thoracic paraspinals that limit overhead reaching and rib cage expansion. This mobilization improves overhead, front rack, and press positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -41,7 +41,7 @@ After the mobilization, immediately test your overhead position (hands overhead,
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

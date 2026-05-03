@@ -8,8 +8,8 @@ body-region: [quads, ankles]
 
 Toe raises (tibialis raises) strengthen the tibialis anterior — the muscle on the front of the shin. This is one of the most neglected muscles in training, yet it plays a critical role in knee health, shin splint prevention, and deceleration control.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ If you get shin splints from running or walking, these are one of the best preve
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "Pvn3jyWCRQk" >}}
 

@@ -8,8 +8,8 @@ body-region: [hips]
 
 The 90/90 stretch targets both internal and external hip rotation simultaneously. It's one of the most effective positions for improving overall hip mobility, especially if you sit for long periods.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -40,7 +40,7 @@ If you feel sharp or pinching pain in either knee, elevate your hips on a cushio
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube t4Zz6-aG8Iw >}}
 

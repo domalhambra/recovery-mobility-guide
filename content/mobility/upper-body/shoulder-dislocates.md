@@ -8,8 +8,8 @@ body-region: [shoulders]
 
 Shoulder dislocates take the shoulders through a full 360-degree arc using a band or stick as a guide. Despite the dramatic name, this is a gentle and effective way to open up the anterior shoulder, improve overhead range, and prepare for front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Use a resistance band rather than a rigid stick. The band's elasticity allows it
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube WXP05GGFkrU >}}
 

@@ -15,14 +15,14 @@ A warm-up isn't filler — it's the bridge between rest and performance. This se
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Specificity Matters" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Specificity Matters" %}}
 A good warm-up mirrors the demands of the activity ahead. Pre-shift sequences emphasize sustained postures and spine prep. Pre-workout sequences ramp up heart rate and prime the muscles you're about to load. Don't warm up generically — warm up for what's next.
 {{% /tab %}}
-{{% tab title="Activation ≠ Fatigue" %}}
+{{% tab tabName="Activation ≠ Fatigue" %}}
 The goal of activation drills is to *wake up* muscles — not tire them out. Glute bridges before squats should make your glutes fire better, not exhaust them. Keep reps low and intentional.
 {{% /tab %}}
-{{% tab title="5–10 Minutes Is Enough" %}}
+{{% tab tabName="5–10 Minutes Is Enough" %}}
 An effective warm-up doesn't need to be long. The sequences here are designed for 5–10 minutes. If you're spending 30 minutes warming up, you're either doing too much or avoiding the actual work.
 {{% /tab %}}
 {{< /tabs >}}

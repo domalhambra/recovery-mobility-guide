@@ -15,14 +15,14 @@ Recovery isn't passive — it's the active process of preparing your body for th
 
 ## Three Things to Know
 
-{{< tabs >}}
-{{% tab title="Context Determines Protocol" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Context Determines Protocol" %}}
 Recovery after an 8-hour shift looks different from recovery after heavy squats. Post-shift work emphasizes decompression and restoring range lost to sustained postures. Post-workout recovery targets the specific muscles and joints you just loaded. Match the protocol to the demand.
 {{% /tab %}}
-{{% tab title="Downregulation Is a Skill" %}}
+{{% tab tabName="Downregulation Is a Skill" %}}
 Your nervous system has two gears — sympathetic (go) and parasympathetic (rest). If you can't shift out of go-mode after work or training, your recovery suffers. The [Breathwork](breathwork/) section teaches you how to downshift deliberately.
 {{% /tab %}}
-{{% tab title="Tissue Quality Matters" %}}
+{{% tab tabName="Tissue Quality Matters" %}}
 Stiff, adhered fascia restricts movement and creates compensation patterns. Regular [myofascial release](myofascial-release/) — foam rolling, ball work, tack-and-floss — maintains tissue quality so your mobility and strength work actually sticks.
 {{% /tab %}}
 {{< /tabs >}}

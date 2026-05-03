@@ -8,8 +8,8 @@ body-region: [neck]
 
 Chin tucks activate the deep cervical flexors and retract the head into proper alignment over the spine. They are one of the most effective corrective exercises for forward head posture, which is epidemic among desk workers and smartphone users.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ Place one finger on your chin as a tactile cue. Push your chin back away from yo
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

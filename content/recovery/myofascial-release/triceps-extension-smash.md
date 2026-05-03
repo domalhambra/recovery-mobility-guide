@@ -8,8 +8,8 @@ body-region: [arms]
 
 The triceps extension smash uses a barbell in a squat rack to apply pressure to the triceps while moving through elbow flexion and extension. Tight triceps limit overhead lockout, front rack depth, and elbow health. This technique is particularly effective because the barbell provides consistent, targeted pressure across the entire muscle.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -38,7 +38,7 @@ For extra effect, make a fist and rotate your wrist (pronation/supination) while
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

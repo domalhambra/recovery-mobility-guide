@@ -8,8 +8,8 @@ body-region: [ankles]
 
 The ankle alphabet is a simple activation and mobility drill that moves the ankle through its full range of motion in every direction. It's especially useful for recovering from ankle sprains, preventing stiffness from desk work, and as a warm-up before lower body training.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ This is an excellent drill to do at your desk, during a shift break, or while wa
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

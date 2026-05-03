@@ -8,8 +8,8 @@ body-region: [hamstrings, quads]
 
 Bodyweight good mornings are a hip-hinge activation drill that fires up the hamstrings, glutes, and spinal erectors. They teach the fundamental hip-hinge pattern that carries over to deadlifts, kettlebell swings, and everyday bending.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ Imagine you have a dowel rod along your spine. It should contact your head, uppe
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

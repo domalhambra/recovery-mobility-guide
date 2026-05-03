@@ -8,8 +8,8 @@ body-region: [core]
 
 The dead bug trains anti-extension core stability — the ability to keep your lower back flat while your limbs move. It is one of the safest and most effective core exercises for building the foundational stability needed for loaded movements like squats, deadlifts, and overhead pressing.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Place a folded towel under your lower back. Your goal is to maintain constant pr
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube bxn9FBrt4-A >}}
 

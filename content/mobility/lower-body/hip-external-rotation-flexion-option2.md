@@ -8,8 +8,8 @@ body-region: [hips]
 
 Option 2 uses a figure-four (or "90/90") style position to load hip external rotation with flexion. This variation allows you to isolate one hip at a time for more targeted work on your tighter side.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ If your hip is very tight and you cannot sit upright, elevate your hips on a cus
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

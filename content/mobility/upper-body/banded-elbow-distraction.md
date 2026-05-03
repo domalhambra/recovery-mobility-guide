@@ -8,8 +8,8 @@ body-region: [arms]
 
 This mobilization uses a resistance band anchored to a squat rack to create a distraction force at the elbow joint, gapping it open and restoring full flexion and extension range. It improves press and front rack positions where elbow restrictions limit performance.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,7 +35,7 @@ After the banded distraction, immediately test your elbow range with a few press
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

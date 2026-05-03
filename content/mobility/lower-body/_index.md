@@ -10,14 +10,14 @@ The lower body bears the brunt of everything — sitting, standing, walking, lif
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Hips Are Central" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Hips Are Central" %}}
 The hip is a ball-and-socket joint that should move in every direction — flexion, extension, abduction, adduction, internal and external rotation. Most people have lost significant range in at least two of these. The 90/90 stretch, pigeon, and hip capsule mobilizations target the most common deficits.
 {{% /tab %}}
-{{% tab title="Ankle Mobility Affects Everything Above" %}}
+{{% tab tabName="Ankle Mobility Affects Everything Above" %}}
 Limited ankle dorsiflexion forces compensations all the way up the chain — knees cave, hips shift, back rounds. If your squat breaks down or your knees ache, check ankle range first. Banded dorsiflexion and calf wall stretches are high-yield starting points.
 {{% /tab %}}
-{{% tab title="Isometrics Build Stability" %}}
+{{% tab tabName="Isometrics Build Stability" %}}
 Several exercises here — wall sits, glute bridges, split stance hovers — use isometric holds. These build stability and control at end-range, which is what converts passive flexibility into usable mobility. Don't skip them in favor of more stretching.
 {{% /tab %}}
 {{< /tabs >}}

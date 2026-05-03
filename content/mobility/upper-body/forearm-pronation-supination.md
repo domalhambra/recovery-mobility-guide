@@ -8,8 +8,8 @@ body-region: [arms]
 
 Pronation and supination — the motions of turning your palm down and up — happen at the radioulnar joints of the forearm. Training these ranges keeps the elbow healthy, supports grip strength, and is essential for anyone who does front rack work, pull-ups, or repetitive manual tasks.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Hold a light hammer or wooden dowel to make the rotation more tangible. The adde
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

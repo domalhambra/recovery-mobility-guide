@@ -8,8 +8,8 @@ body-region: [hamstrings, hips]
 
 The hip hinge is the foundational movement pattern for all posterior chain exercises — deadlifts, kettlebell swings, good mornings, and more. Learning to hinge properly is critical for hamstring health, lower back protection, and athletic performance.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ Place a dowel or broomstick along your spine (touching the back of the head, upp
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube JLBaBgDwjnQ >}}
 

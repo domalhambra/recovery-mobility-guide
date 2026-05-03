@@ -8,8 +8,8 @@ body-region: [shoulders, upper-back]
 
 The T-spine roller smash uses a foam roller to break up stiffness in the thoracic spine and surrounding musculature. It restores extension and rotation through the upper back, which is critical for overhead pressing, front rack positions, and hanging movements.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -37,7 +37,7 @@ For a deeper mobilization, extend your arms overhead while draped over the rolle
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube NS73eSohTbc >}}
 

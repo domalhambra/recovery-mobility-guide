@@ -8,8 +8,8 @@ body-region: [arms]
 
 This banded mobilization targets elbow extension range of motion by applying a distraction force across the joint while you work into full lockout. It improves overhead and front rack positions where full elbow extension is required for a stable, stacked joint position.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Combine this with overhead reaching: while the band distracts, raise your arm ov
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

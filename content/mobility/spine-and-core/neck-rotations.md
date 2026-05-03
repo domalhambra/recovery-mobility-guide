@@ -8,8 +8,8 @@ body-region: [neck]
 
 Neck rotations take the cervical spine through its full rotational range of motion. This simple drill relieves tension from desk work and driving, warms up the neck before training, and helps maintain the rotational mobility needed for checking blind spots and overall head-turning freedom.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,7 +34,7 @@ Keep your nose level with the horizon throughout the rotation. If your chin dips
 {{% /notice %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 
