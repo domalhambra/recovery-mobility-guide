@@ -75,7 +75,7 @@ Hugo module declaration in `hugo.toml`:
 Setup commands (one-time):
 
 1. `git worktree add -b lotus-port ../24-mobility-lotusdocs main`
-2. From the worktree: remove Relearn-era artifacts — `themes/`, `assets/css/theme-mobility*.css`, `assets/css/chroma-mobility.css`, `layouts/_default/`, `layouts/sidebar/`, `layouts/home/`, `layouts/partials/custom-header.html`, `layouts/partials/content-header.html`, `layouts/partials/menu-footer.html`, `layouts/partials/custom-footer.html`.
+2. From the worktree: remove Relearn-era artifacts — `themes/`, `assets/css/theme-mobility*.css`, `assets/css/chroma-mobility.css`, `layouts/_default/`, `layouts/sidebar/`, `layouts/home/`, `layouts/partials/custom-header.html`, `layouts/partials/content-header.html`, `layouts/partials/menu-footer.html`, `layouts/partials/custom-footer.html`, `layouts/partials/body-map-context.html`, `layouts/shortcodes/body-map-context.html`, and the old `static/svg/body-front.svg` / `static/svg/body-back.svg` (replaced in Section 3 — remove before adding new SVGs to avoid orphans).
 3. `hugo mod init github.com/domalhambra/recovery-mobility-guide`
 4. Add the module imports above to `hugo.toml`, run `hugo mod get github.com/colinwilson/lotusdocs`.
 5. `hugo server` — verify Lotus Docs renders against the existing content tree.
@@ -86,15 +86,14 @@ Setup commands (one-time):
 
 - `content/` (every body region tree, exercise, routine, concept page)
 - `data/body_regions.toml`
-- `static/` (excluding the soon-replaced `static/svg/body-front.svg` and `body-back.svg`)
+- `static/` (the entire `static/svg/` directory is replaced as part of Section 3; everything else under `static/` ports as-is)
 - `archetypes/default.md`
 
 **Front matter changes (single sed pass across content):**
 
-- Strip leading `NN.NN ` JD prefix from `title` strings. Regex: `^title: "(\d+\.\d+ )(.*)"$` → `title: "$2"`. Slugs and file paths are unaffected (already kebab-case).
-- Remove the `menuPre` field entirely (Lotus doesn't render it).
-- Optionally add a Material Symbols `icon: "..."` field to the top-level body region `_index.md` files for sidebar icons (one icon per top-level region).
-- `weight`, `description`, `tags`, `body-region` all stay as-is.
+- Remove the `menuPre` field entirely. JD numbering on the current site lives only in `menuPre` (e.g. `menuPre: "40-49 "`), not in title strings — titles are already clean. Lotus doesn't render `menuPre`, so dropping the field is the only change needed for the JD-prefix policy decision.
+- Optionally add a Material Symbols `icon: "..."` field to top-level section `_index.md` files for sidebar icons.
+- `title`, `weight`, `description`, `tags`, `body-region` all stay as-is.
 
 **Shortcode syntax updates inside content:**
 
@@ -117,9 +116,10 @@ Content edits are done as scripted `sed` passes across all `.md` files, with dif
 
 | File | Change |
 |---|---|
-| `layouts/partials/body-map.html` | Strip Relearn CSS variable references; use plain CSS classes. Add a front/back view toggle (single button, JS one-liner toggling a class on the wrapper to swap which SVG is visible). |
-| `layouts/taxonomy/body-region.html` | Replace any Relearn-specific shortcode usage with Lotus equivalents or plain Hugo `range`. |
-| `layouts/taxonomy/body-region.terms.html` | Same. |
+| `layouts/partials/body-map.html` | Strip Relearn CSS variable references; use plain CSS classes. Add a front/back view toggle (radio + CSS class swap on the wrapper to toggle which SVG is visible — CSS-only preferred over JS). |
+| `layouts/body-region/term.html` | Replace any Relearn-specific shortcode usage with Lotus equivalents or plain Hugo `range`. (Hugo's taxonomy lookup path — single-term page.) |
+| `layouts/body-region/terms.html` | Same. (Hugo's taxonomy lookup path — terms-list page.) |
+| `layouts/shortcodes/exercise-table.html` | Currently used by six `_index.md` files (`mobility/lower-body`, `mobility/upper-body`, `mobility/spine-and-core`, `mobility/cars`, `strength/lower-body`, `strength/upper-body`). Port with one edit: remove the leading `#` column that pulls from `menuPre` (since `menuPre` is gone). The table becomes Exercise / Focus only. |
 | Body map CSS | Move out of `theme-mobility.css` into a single `assets/css/body-map.css` (or inline in `body-map.html`). Vanilla CSS, no theme-variant duplication. |
 
 **Files dropped:**
@@ -147,7 +147,7 @@ Content edits are done as scripted `sed` passes across all `.md` files, with dif
 **Override** (custom):
 
 - Homepage — `layouts/index.html` mounts the body map.
-- Body region taxonomy pages — `layouts/taxonomy/body-region.html` and `body-region.terms.html`.
+- Body region taxonomy pages — `layouts/body-region/term.html` and `layouts/body-region/terms.html` (Hugo's standard taxonomy lookup paths).
 
 ## Section 5: Navigation layers
 
@@ -155,7 +155,7 @@ Six layers, anatomy-first with reinforcing context:
 
 1. **Body map (homepage hero).** Front-view default with toggle to back view. Region-id contract matches `data/body_regions.toml`.
 2. **Body region taxonomy pages** (`/body-region/<slug>/`). Region description from `body_regions.toml` plus an indexed list of all content tagged with that region, grouped by content type (exercises / routines / concepts).
-3. **Lotus Docs sidebar.** Hierarchical: Lower Body / Upper Body / Spine & Core / Routines / Concepts. Built from content tree, ordered by `weight`. Material Symbols icons on top-level sections.
+3. **Lotus Docs sidebar.** Built automatically from the content tree, ordered by `weight`. Current top-level sections (in content order): `concepts`, `mobility`, `pain-prescriptions`, `recovery`, `strength`, `warm-up`. Sidebar mirrors whatever's there — content reorganization is out of scope for this port. Material Symbols icons on top-level sections.
 4. **Lotus breadcrumbs + prev/next.** Both built-in.
 5. **Search — FlexSearch.** Lotus default. Pagefind dropped from this port; revisitable post-launch if FlexSearch is insufficient.
 6. **Inline cross-links inside content.** Manual, opportunistic. No system-wide convention.
@@ -203,13 +203,24 @@ No external service, no API key. Client-side index built at site-build time. Suf
 - **Front/back toggle over side-by-side** — simpler layout, no horizontal squeeze on mobile, single body map at a time keeps focus.
 - **Article-level body map context dropped** — body region taxonomy pages already provide the "where on my body" context; per-article repetition adds noise without adding navigation value.
 - **Difficulty badges dropped** — were a custom Relearn-era addition, not load-bearing for navigation. Tag-based difficulty surfacing remains. Easy to re-add later if desired.
-- **JD numbering stripped from titles** — drops a custom design layer for cleaner sidebar labels in vanilla Lotus.
+- **JD numbering removed from sidebar prefix** — the `menuPre` field is dropped from all front matter. Titles were already JD-free, so no title rewriting is needed. Cleaner sidebar labels in vanilla Lotus.
+
+## Pre-implementation spike
+
+Before the full port begins, run a small spike to de-risk the highest-uncertainty piece:
+
+- Pull `bodyFront.ts` and `bodyBack.ts` from `HichamELBSI/react-native-body-highlighter`.
+- Map the source's slug list against the 14 region slugs in `data/body_regions.toml`. Several of our slugs (e.g. `core`, `upper-back`, `arms`) are anatomical-region abstractions that aggregate multiple muscles in the source — verify each one resolves cleanly to one or more source paths.
+- Produce a draft `static/svg/body-front.svg` for one region only, render it locally, confirm the existing CSS hover pattern works.
+
+If this spike surfaces a region that can't be mapped, we resolve it (combine paths, add a synthetic group, or revise `body_regions.toml`) before continuing. Catching it here is cheap; catching it after the rest of the port is wired up is not.
 
 ## Open questions for implementation
 
 - Exact Lotus `notice` / `alert` shortcode name (`{{% alert context="..." %}}` is likely but should be confirmed by reading Lotus partials during implementation).
 - Whether to put the front/back toggle inside the SVG wrapper (CSS-only `.is-back` class swap) or as a separate JS button — CSS-only is simpler and works without JS.
 - Final accent-color decision — leave Lotus default first, override only if it clashes with the body map's hover color.
+- The 14 region slugs in `data/body_regions.toml` (neck, shoulders, chest, arms, core, hips, quads, ankles, upper-back, lower-back, glutes, hamstrings, calves, feet) are anatomical-region abstractions — several aggregate multiple muscle paths from the source repo. Implementer should verify the mapping before extracting and combine paths per region as needed.
 
 ## Success criteria
 
@@ -220,4 +231,5 @@ No external service, no API key. Client-side index built at site-build time. Suf
 - Each body region taxonomy page lists tagged content correctly.
 - Lotus breadcrumbs and prev/next visible on every exercise page.
 - FlexSearch returns relevant hits for representative queries (e.g. "hip flexor", "thoracic mobility").
+- The `exercise-table` shortcode renders correctly on the six `_index.md` pages that use it (with the JD-number column removed).
 - Netlify deploy preview matches local; production cutover via merge produces no broken links.
