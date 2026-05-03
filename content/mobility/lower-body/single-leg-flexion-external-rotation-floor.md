@@ -30,9 +30,9 @@ The floor variation of this drill removes the box and works the same hip flexion
 - Collapsing the chest — keep some extension through the thoracic spine
 - Ignoring pain in the knee — if the knee hurts, reduce the shin angle or elevate the hip with a cushion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a folded towel or yoga block under the front hip if it does not reach the floor. This keeps the pelvis level and prevents the stretch from being limited by the hip resting on bone.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

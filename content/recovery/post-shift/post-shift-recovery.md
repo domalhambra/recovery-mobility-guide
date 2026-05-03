@@ -34,6 +34,6 @@ A 15–20 minute recovery sequence designed for after a long shift on your feet.
 | 9 | [Calf Raises with Hold]({{< relref "/mobility/lower-body/calf-raises-with-hold" >}}) | 10 reps with 3-sec hold |
 | 10 | [Half-Kneeling Ankle Rocks]({{< relref "/mobility/lower-body/half-kneeling-ankle-rocks" >}}) | 10 per side |
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you have a foam roller available, add 2–3 minutes of [Psoas Foam Roller]({{< relref "/recovery/myofascial-release/psoas-foam-roller" >}}) and [T-Spine Roller Smash]({{< relref "/recovery/myofascial-release/t-spine-roller-smash" >}}) before the stretches.
-{{% /notice %}}
+{{% /alert %}}

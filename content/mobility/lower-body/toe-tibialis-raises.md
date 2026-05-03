@@ -29,9 +29,9 @@ Toe raises (tibialis raises) strengthen the tibialis anterior — the muscle on 
 - Using a partial range of motion — pull the toes up as high as possible
 - Going too fast — control the eccentric (lowering) phase
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you get shin splints from running or walking, these are one of the best preventive exercises. Build up to 3 sets of 25 reps before adding load.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

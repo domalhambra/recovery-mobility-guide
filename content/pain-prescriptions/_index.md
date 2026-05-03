@@ -9,9 +9,9 @@ When something hurts, you need a plan — not a random stretch. This section pro
 
 ---
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 **These protocols are for general muscular and movement-related pain.** If you experience numbness, tingling, radiating pain, sudden weakness, or pain following a traumatic injury, stop and seek professional medical evaluation. Pain prescriptions are not a substitute for diagnosis.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

@@ -29,9 +29,9 @@ The sleeper stretch targets posterior shoulder tightness — specifically the in
 - Pressing too aggressively — this is a gentle, sustained hold
 - Placing the elbow too high (above shoulder level), which can impinge the joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your bottom elbow at or slightly below shoulder height. If you feel a pinch in the front of the shoulder, lower the elbow position or reduce pressure.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

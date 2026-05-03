@@ -29,9 +29,9 @@ Wrist circles are a simple but effective way to warm up the wrist joint and main
 - Making tiny circles — aim for the biggest controlled circle possible
 - Moving the entire forearm instead of isolating the wrist joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you notice a "sticky" or tight spot in the circle, spend extra time slowly working through that zone. Tightness there is exactly what you are trying to address.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

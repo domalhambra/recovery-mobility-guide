@@ -30,9 +30,9 @@ Chin tucks activate the deep cervical flexors and retract the head into proper a
 - Jutting the jaw forward first, then pulling back — start from a relaxed neutral position
 - Not holding long enough to build endurance in the deep neck flexors
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place one finger on your chin as a tactile cue. Push your chin back away from your finger. This simple feedback makes the correct movement much easier to find.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

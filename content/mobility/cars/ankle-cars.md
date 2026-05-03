@@ -38,9 +38,9 @@ Ankle CARs (Controlled Articular Rotations) move the ankle through its full avai
 - Going too fast — each circle should take 5+ seconds
 - Not creating tension — actively drive into end ranges
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pay attention to any spots that feel sticky, clunky, or restricted. These are the areas that need the most work. Slow down even further through those ranges.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

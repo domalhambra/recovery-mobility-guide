@@ -38,9 +38,9 @@ Wrist CARs (Controlled Articular Rotations) move the wrist through its full rang
 - Moving too quickly — slow, deliberate circles
 - Not gripping the forearm to isolate the joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is especially important if you type, use hand tools, or grip barbells/kettlebells regularly. Doing wrist CARs before and after these activities can prevent overuse injuries.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

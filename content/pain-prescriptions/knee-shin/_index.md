@@ -24,6 +24,6 @@ Shin splints (medial tibial stress syndrome) are almost always caused by doing t
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Knee and shin prescriptions are being added. In the meantime, see [Terminal Knee Extension](../../mobility/lower-body/terminal-knee-extension/) and [Toe & Tibialis Raises](../../mobility/lower-body/toe-tibialis-raises/) for targeted exercises, and check [Lower Body Mobility](../../mobility/lower-body/) for hip and ankle work that reduces knee stress.
-{{% /notice %}}
+{{% /alert %}}

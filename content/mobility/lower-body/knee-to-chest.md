@@ -30,9 +30,9 @@ The standing knee-to-chest is a dynamic stretch that activates the glutes and ha
 - Rushing through reps — pause at the top for a full stretch
 - Gripping the shin instead of just below the knee, which can strain the knee joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think of it as a walking drill: take a step, pull the knee, hold, release, step, and repeat. It flows naturally as a warm-up lap around the gym or room.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

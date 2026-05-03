@@ -33,9 +33,9 @@ Head mobilization uses a lacrosse ball to release tension in the scalp fascia, t
 - Rushing through the work — slow, deliberate pressure is more effective than quick rolling
 - Only working one side — tension is often asymmetric, so both sides need attention
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you clench your jaw (bruxism), focus extra time on the temporalis muscle above and in front of the ear. You can also gently open and close your jaw while the ball is pinned on this area for a smash-and-floss effect.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

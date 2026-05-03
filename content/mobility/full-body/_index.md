@@ -24,6 +24,6 @@ These sessions can be compressed or expanded based on available time. In a rush,
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Full-body sessions are being added. In the meantime, you can build your own by combining movements from [Upper Body](../upper-body/), [Lower Body](../lower-body/), and [Spine & Core](../spine-and-core/) — or start with a full [CARs](../cars/) routine.
-{{% /notice %}}
+{{% /alert %}}

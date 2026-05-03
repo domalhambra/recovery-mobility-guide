@@ -32,13 +32,13 @@ The wall sit is an isometric quad exercise that builds endurance and stability a
 - Holding your breath — breathe steadily throughout the hold
 - Feet too close to the wall — this shifts stress onto the kneecap instead of the quads
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't hold parallel for more than 15 seconds, start with a shallower angle (higher position). Build up to 45 seconds before going deeper.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel pain behind the kneecap (not just quad burn), raise your position higher on the wall. Patellofemoral irritation during wall sits usually means the angle is too deep for your current capacity.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

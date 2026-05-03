@@ -29,9 +29,9 @@ The reverse sleeper stretch targets the subscapularis and anterior shoulder caps
 - Forcing into excessive external rotation — this should be a gentle, sustained hold
 - Placing the elbow above shoulder height, which may cause impingement
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This pairs perfectly with the standard sleeper stretch. Perform the regular sleeper (internal rotation) followed by the reverse (external rotation) to address the full rotational range of the shoulder.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

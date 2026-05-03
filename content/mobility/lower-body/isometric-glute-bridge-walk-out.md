@@ -31,9 +31,9 @@ The isometric glute bridge walk-out starts in a standard bridge position and add
 - Walking out too far and losing the bridge position entirely
 - Holding the breath — breathe steadily throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot maintain the bridge through the full walk-out, reduce the number of steps. Build up gradually as your hamstrings get stronger.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

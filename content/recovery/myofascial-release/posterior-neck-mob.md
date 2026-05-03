@@ -33,9 +33,9 @@ Posterior neck mobilization targets the suboccipital muscles, upper trapezius, a
 - Holding your breath — deep breathing amplifies the release
 - Rushing — these muscles respond to sustained pressure, not quick rolling
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is an excellent drill to do before bed if you carry tension in your neck. Spend 2–3 minutes lying on the ball at the base of the skull and you'll often fall asleep faster with less neck stiffness in the morning.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

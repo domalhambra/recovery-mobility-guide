@@ -35,9 +35,9 @@ Ankle circles are the simplest way to maintain and restore range of motion in th
 - Moving the entire lower leg instead of isolating the ankle — keep your shin still
 - Skipping one direction — always do both clockwise and counterclockwise
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try "writing the alphabet" with your big toe as an alternative. This naturally takes the ankle through every available angle.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

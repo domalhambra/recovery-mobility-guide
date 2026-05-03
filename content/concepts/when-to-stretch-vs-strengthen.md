@@ -74,6 +74,6 @@ Many real-world situations benefit from a combined approach:
 - **Use loaded stretching** to get both benefits simultaneously. Example: a deep Romanian deadlift strengthens the hamstrings while lengthening them.
 - **Follow passive stretching with active end-range holds** to teach your nervous system to own the new range.
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 When in doubt, try strengthening first. It's almost always safe, and if the tightness resolves, you've found your answer without risking overstretching an already vulnerable area.
-{{% /notice %}}
+{{% /alert %}}

@@ -32,9 +32,9 @@ Banded side steps target the gluteus medius and hip abductors — muscles that s
 - Toes turning outward — keep them pointed straight ahead to target the glute medius
 - Using too heavy a band and compensating with a hip shift
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think about pushing the ground apart with your feet. The goal is controlled, deliberate steps — not speed. If your lower back starts to fatigue, you may be standing too upright.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -30,9 +30,9 @@ The lower rib smash uses a lacrosse ball to release restrictions in the intercos
 - Applying too much pressure too quickly — start light and increase gradually
 - Rolling too fast — slow, deliberate passes with pauses on tight spots are most effective
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Combine deep breathing with the lacrosse ball work. Each inhale pushes the ribs outward against the ball, creating an internal mobilization force that works from the inside out.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

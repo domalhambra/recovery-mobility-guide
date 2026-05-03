@@ -24,6 +24,6 @@ The stretch reflex is mediated by the nervous system. Slow, deep breathing activ
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Dedicated static stretching routines are being added. Many exercises in the [Lower Body](../lower-body/) and [Upper Body](../upper-body/) sections already include static hold variations — check the "Progressions" tabs on individual exercises.
-{{% /notice %}}
+{{% /alert %}}

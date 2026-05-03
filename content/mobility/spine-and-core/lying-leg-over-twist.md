@@ -31,9 +31,9 @@ The lying leg-over twist is a gentle supine rotation stretch that mobilizes the 
 - Forcing the knee to the floor instead of letting gravity and breathing do the work
 - Rushing through the hold — this is a passive stretch that requires time
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a pillow or yoga block under the crossing knee if it does not reach the floor comfortably. This supports the leg and lets you relax fully into the stretch without straining.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -29,9 +29,9 @@ Wrist CARs (controlled articular rotations) systematically move the wrist throug
 - Moving too fast and losing the controlled, deliberate quality
 - Making the circles too small — aim for the largest controlled circle possible
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pair wrist CARs with shoulder CARs in your daily morning routine. Two minutes of CARs for each major joint is one of the best investments you can make in long-term joint health.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

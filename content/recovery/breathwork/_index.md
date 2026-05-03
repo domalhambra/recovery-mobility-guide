@@ -24,6 +24,6 @@ Deliberate breathwork is a skill. The first few sessions will feel awkward or li
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Breathwork protocols are being added. In the meantime, try this simple practice: lie on your back, place one hand on your chest and one on your belly. Breathe through your nose — 4 seconds in, 6 seconds out — for 5 minutes. The belly hand should move; the chest hand should stay still.
-{{% /notice %}}
+{{% /alert %}}

@@ -32,9 +32,9 @@ Bodyweight good mornings are a hip-hinge activation drill that fires up the hams
 - Not hinging deep enough — if your hamstrings aren't stretching, push your hips further back
 - Looking up at the bottom — keep your neck neutral, gaze following the floor
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Imagine you have a dowel rod along your spine. It should contact your head, upper back, and tailbone throughout the entire movement. If any point loses contact, your spine is moving out of neutral.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

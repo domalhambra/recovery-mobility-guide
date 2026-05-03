@@ -65,9 +65,9 @@ Notice that only one variable changes at a time. This is important — changing 
 - **Deload periodically.** Every 4–6 weeks, reduce intensity for a week. This allows tissue remodeling to consolidate.
 - **Respect pain.** Discomfort in the stretched muscle is expected. Joint pain, pinching, or nerve symptoms mean you've gone too far — back off and reassess.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 Adding load to end-range positions requires a solid base of passive flexibility first. Don't jump to weighted stretches until you can comfortably hold the unloaded position for at least 60 seconds with good alignment.
-{{% /notice %}}
+{{% /alert %}}
 
 ## The Passive-to-Active Spectrum
 

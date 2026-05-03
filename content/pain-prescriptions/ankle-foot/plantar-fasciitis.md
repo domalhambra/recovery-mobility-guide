@@ -10,9 +10,9 @@ Plantar fasciitis is one of the most common overuse injuries in active people �
 
 The good news: it responds well to a consistent protocol of soft tissue release, calf flexibility work, and intrinsic foot strengthening. Most people see meaningful improvement in 4–8 weeks.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for plantar fasciitis — diffuse pain at the heel that is worse in the morning and after rest, improves with movement, and has developed gradually. If you have sudden-onset heel pain after a jump or impact (possible plantar fascia rupture), significant bruising, or pain that is constant and severe, stop and seek medical evaluation.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

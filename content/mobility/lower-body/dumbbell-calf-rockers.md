@@ -30,9 +30,9 @@ Dumbbell calf rockers are a loaded variation of calf raises performed on a slant
 - Using too much weight and sacrificing range of motion
 - Leaning forward instead of staying upright
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 The eccentric (lowering) phase is where most of the tendon strengthening happens. Take a full 3 seconds to lower and pause briefly at the bottom before rising again.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

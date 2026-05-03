@@ -29,9 +29,9 @@ The cat-cow is a fundamental spinal mobility drill that alternates between flexi
 - Rushing through the transitions instead of moving slowly and deliberately
 - Holding the breath — coordinate inhale with extension, exhale with flexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think of your spine as a chain with 24 links. The goal is to move each link independently. Slow down enough that you can feel each vertebra transition from flexion to extension.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -32,9 +32,9 @@ The shoulder rotator smash and floss targets the posterior shoulder — infraspi
 - Only pinning without moving — the flossing movement is what creates lasting change
 - Being too aggressive — if the pain is above a 7/10, reduce pressure by rolling slightly off the ball
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel numbness, tingling, or sharp shooting pain down the arm, reposition the ball. You may be compressing a nerve. Dull, achy pressure is normal; electric or shooting sensations are not.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

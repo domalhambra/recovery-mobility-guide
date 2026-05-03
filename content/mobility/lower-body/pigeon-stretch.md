@@ -30,9 +30,9 @@ A classic hip opener that targets the deep external rotators of the hip and the 
 - Collapsing onto the front leg instead of distributing weight evenly
 - Forcing the front shin parallel to the top of the mat before you have the range
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hip does not reach the floor, place a yoga block or folded towel under the front hip for support. This keeps the stretch effective without straining the knee.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

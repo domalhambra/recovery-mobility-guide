@@ -30,9 +30,9 @@ This Supple Leopard-inspired version of the cat-cow stretch emphasizes spinal br
 - Losing the brace and treating it like a passive cat-cow — maintain active core tension
 - Moving too quickly without establishing organization at each end point
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 At each end position, ask yourself: "Could I take a punch to the gut right now?" If the answer is no, you have lost your brace. Re-engage before moving to the next position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

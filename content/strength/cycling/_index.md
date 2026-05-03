@@ -24,6 +24,6 @@ The most effective cycling programs follow a polarized approach: 80% of rides at
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Cycling-specific training plans are being added. Check back soon for structured base-building, interval sessions, and cycling-specific strength work.
-{{% /notice %}}
+{{% /alert %}}

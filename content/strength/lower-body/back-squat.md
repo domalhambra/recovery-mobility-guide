@@ -35,9 +35,9 @@ The barbell back squat is the foundational lower body strength movement. It deve
 - Losing core brace — take a fresh breath and rebrace at the top of each rep
 - Heels rising off the floor — this indicates ankle mobility limitations; use heel-elevated shoes or address dorsiflexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Film yourself from the side during warm-up sets. The most common errors (depth, bar path, chest angle) are nearly impossible to self-assess by feel but immediately visible on video.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

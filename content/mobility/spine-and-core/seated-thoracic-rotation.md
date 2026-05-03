@@ -29,9 +29,9 @@ Seated thoracic rotation is a desk-friendly mobility drill that can be performed
 - Rounding the upper back as you rotate — stay tall through the crown of your head
 - Holding the breath — exhale as you rotate to allow the ribcage to turn more freely
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Squeeze a ball or rolled-up towel between your knees while rotating. This locks the pelvis in place and ensures all the rotation comes from the thoracic spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

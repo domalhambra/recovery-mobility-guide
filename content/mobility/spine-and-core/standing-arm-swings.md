@@ -29,9 +29,9 @@ Standing arm swings are a dynamic warm-up drill that mobilizes the thoracic spin
 - Going too aggressively on the first few reps before the tissues are warm
 - Holding the breath — breathe naturally and rhythmically
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Use arm swings as the very first movement in your warm-up. They raise tissue temperature, increase heart rate slightly, and prepare the nervous system for more targeted mobility work that follows.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

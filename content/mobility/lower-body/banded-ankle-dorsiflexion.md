@@ -38,13 +38,13 @@ Banded ankle dorsiflexion uses a resistance band to distract the talus (ankle bo
 - Knee collapsing inward — track it directly over the second or third toe
 - Using a band that's too light — you need enough tension to create a real joint distraction
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try placing your front foot on a slight elevation (a thin plate or book) if your dorsiflexion is very limited. This lets you practice the movement pattern while building range.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel a bony "block" or pinching at the front of the ankle that doesn't improve with the band, this may indicate a structural limitation. Don't force through that sensation — consult a physio.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

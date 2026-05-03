@@ -9,9 +9,9 @@ Recovery isn't passive — it's the active process of preparing your body for th
 
 ---
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 **Where to start:** Just finished a shift? Go to [Post-Shift Recovery](post-shift/). After a workout? See [Post-Workout Recovery](post-workout/). For general tissue maintenance, start with [Myofascial Release](myofascial-release/).
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

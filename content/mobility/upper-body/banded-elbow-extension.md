@@ -29,9 +29,9 @@ This banded mobilization targets elbow extension range of motion by applying a d
 - Using a band that is too light to create meaningful distraction
 - Forcing into painful end range instead of using gentle oscillations
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Combine this with overhead reaching: while the band distracts, raise your arm overhead and work on locking out the elbow in a fully extended overhead position. This directly mimics the demand of a snatch or jerk.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

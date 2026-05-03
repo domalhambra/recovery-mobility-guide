@@ -31,9 +31,9 @@ This drill targets hip external rotation in a flexed position — the exact rang
 - Rounding the spine excessively — maintain a relatively neutral trunk
 - Holding the breath — breathe deeply to help the muscles relax
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This pairs well with Option 2 as a superset. Alternate between the two options for a comprehensive hip external rotation routine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

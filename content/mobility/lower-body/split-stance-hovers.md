@@ -30,9 +30,9 @@ Split stance hovers combine ankle dorsiflexion loading with quad endurance in a 
 - Dropping the back knee to the ground instead of hovering
 - Shifting weight too far back — keep the majority of weight on the front leg
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you do not have a slant board, you can place a thin plate or wedge under the front foot to simulate the incline. Even a small angle makes a difference for ankle loading.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

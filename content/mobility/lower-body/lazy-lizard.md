@@ -30,9 +30,9 @@ The lazy lizard is a passive variation of the lizard lunge that lets gravity do 
 - Placing the front foot too narrow, which limits the hip opening
 - Rounding the upper back excessively — keep the chest open
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your forearms do not reach the floor comfortably, stack a yoga block or cushion under them. The stretch should be strong but not painful.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

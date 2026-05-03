@@ -30,9 +30,9 @@ Child's pose is a restorative position that gently decompresses the lumbar spine
 - Holding tension in the neck and shoulders — let everything relax
 - Shallow breathing — use this as an opportunity to practice diaphragmatic breathing
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 To bias the stretch toward one side, walk both hands to the right or left. This adds a lateral flexion component that targets the quadratus lumborum and obliques on the opposite side.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

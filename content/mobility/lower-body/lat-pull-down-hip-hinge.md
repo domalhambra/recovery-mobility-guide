@@ -32,9 +32,9 @@ This exercise combines a lat pull-down pattern with a hip hinge, training the po
 - Pulling the band with the arms only instead of coordinating with the hip hinge
 - Hinging too deep before you have the hamstring flexibility to maintain a flat back
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think of the pull-down and the hinge as one synchronized movement. As the hips push back, the hands pull down. As the hips drive forward, the hands return up.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -29,9 +29,9 @@ The bird dog builds anti-rotation and anti-extension core stability while traini
 - Lifting the arm or leg too high, which forces the spine into hyperextension
 - Moving too quickly and relying on momentum
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a foam roller or water bottle on your lower back. If it falls off, you are rotating or extending too much. This instant feedback makes the drill dramatically more effective.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

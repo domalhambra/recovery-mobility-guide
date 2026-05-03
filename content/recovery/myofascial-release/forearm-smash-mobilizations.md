@@ -32,9 +32,9 @@ Forearm smash mobilizations use a lacrosse ball to release tight forearm flexors
 - Skipping the hand movement — the open/close motion is what creates the mobilization effect
 - Only doing one side of the forearm — work both flexors (palm-up) and extensors (palm-down)
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After smashing, immediately test your wrist extension by pressing your palms flat on a table with fingers pointing forward. You should notice an immediate improvement in how far you can extend.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

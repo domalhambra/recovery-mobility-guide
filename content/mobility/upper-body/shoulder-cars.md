@@ -29,9 +29,9 @@ Controlled articular rotations (CARs) take your shoulder through its full availa
 - Compensating with the torso — leaning or arching the spine to gain more range
 - Losing the circular path and cutting corners through tight spots
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Irradiate tension: squeeze your opposite fist, brace your abs, and clench your glutes. The harder you tense everything else, the more neural drive you send to the working shoulder.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

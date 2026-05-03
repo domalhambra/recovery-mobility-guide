@@ -38,9 +38,9 @@ Leg swings are a foundational dynamic warm-up drill that takes the hip through i
 - Going too aggressively on the first few reps — build range gradually
 - Holding the breath — breathe naturally throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with smaller swings and progressively increase the arc. Think of it as "greasing the groove" — you are teaching the hip to move, not forcing a stretch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

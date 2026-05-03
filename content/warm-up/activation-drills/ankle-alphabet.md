@@ -32,9 +32,9 @@ The ankle alphabet is a simple activation and mobility drill that moves the ankl
 - Making letters too small — use the full available range of motion at the ankle
 - Skipping it because it feels "too easy" — this drill builds proprioception, not strength
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is an excellent drill to do at your desk, during a shift break, or while watching TV. No setup required — just lift your foot off the ground and start tracing. Do it whenever your ankles feel stiff.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -30,9 +30,9 @@ The single-leg step down is a corrective exercise that builds knee stability, qu
 - Dropping too fast — the eccentric (lowering) phase is the most important part
 - Hiking the hip on the standing side to compensate for weakness
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Use a mirror or record yourself from the front. Watch for the knee caving inward — if it does, reduce the step height until you can control the movement.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

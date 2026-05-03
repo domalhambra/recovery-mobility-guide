@@ -34,9 +34,9 @@ The pull-up is one of the most effective upper body exercises, developing the la
 - Grip too wide — this reduces range of motion and overloads the shoulders
 - Shrugging the shoulders — keep them depressed (pulled down) throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't do a full pull-up yet, start with band-assisted pull-ups or negative pull-ups (jump to the top, lower yourself slowly over 5 seconds). Building the eccentric strength first is the fastest path to your first strict pull-up.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

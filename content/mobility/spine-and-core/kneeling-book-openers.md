@@ -29,9 +29,9 @@ Kneeling book openers isolate thoracic rotation from a tall kneeling or quadrupe
 - Not rotating fully in either direction — push both the close and open end ranges
 - Moving too quickly without controlling the rotation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think about leading with your sternum, not your elbow. The sternum rotating toward the ceiling is what drives true thoracic rotation; the elbow just follows.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

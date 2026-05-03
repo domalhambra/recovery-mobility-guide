@@ -32,9 +32,9 @@ Bodyweight squats are a fundamental movement pattern that activates the quads, h
 - Excessive forward lean — keep your chest up and brace your core
 - Cutting depth short — aim for hip crease below the knee if mobility allows
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your heels come off the floor, it's likely an ankle mobility issue rather than a strength problem. Place small plates or a wedge under your heels while you work on dorsiflexion mobility separately.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

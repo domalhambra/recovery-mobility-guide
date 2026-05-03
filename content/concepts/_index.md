@@ -9,9 +9,9 @@ The exercises in this library work — but they work better when you understand 
 
 ---
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 **Where to start:** Read [When to Stretch vs. Strengthen](when-to-stretch-vs-strengthen/) first — it's the most common decision point, and getting it wrong wastes time.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

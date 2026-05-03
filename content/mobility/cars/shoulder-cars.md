@@ -39,13 +39,13 @@ Shoulder CARs (Controlled Articular Rotations) take the shoulder through its ful
 - Moving too fast — each rep should take 8–10 seconds minimum
 - Not creating enough whole-body irradiation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 The tighter you squeeze everything else (opposite fist, core, glutes), the more range you'll get at the shoulder. Irradiation is the key principle here.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel a pinch or sharp pain at any point in the circle, reduce the size of the arc at that spot. Never push through sharp pain — work around it.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

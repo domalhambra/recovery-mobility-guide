@@ -24,6 +24,6 @@ Stretching a muscle that won't fire is a temporary fix. If your glutes are inhib
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Hip and glute dysfunction prescriptions are being added. In the meantime, see [Hip Capsule Mobilization](../../mobility/lower-body/hip-capsule-mobilization/), [90/90 Stretch](../../mobility/lower-body/90-90-stretch/), and [Glute Bridges](../../warm-up/activation-drills/glute-bridges/) for targeted exercises.
-{{% /notice %}}
+{{% /alert %}}

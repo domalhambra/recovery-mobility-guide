@@ -24,6 +24,6 @@ Adding cardio on top of a heavy strength program without managing total volume l
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Endurance and cardio programs are being added. Check back soon for structured running progressions, rucking protocols, and stairmill sessions.
-{{% /notice %}}
+{{% /alert %}}

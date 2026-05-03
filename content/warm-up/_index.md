@@ -9,9 +9,9 @@ A warm-up isn't filler — it's the bridge between rest and performance. This se
 
 ---
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 **Where to start:** Pick the warm-up that matches your next activity. Heading to the gym? Start with [Pre-Workout](pre-workout/). About to start a shift? See [Pre-Shift](pre-shift/).
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

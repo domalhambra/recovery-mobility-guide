@@ -24,6 +24,6 @@ A single kettlebell and a sandbag can replace an entire gym for general strength
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Kettlebell and sandbag programs are being added. Check back soon for structured progressions including swings, Turkish get-ups, clean and press, and sandbag carry protocols.
-{{% /notice %}}
+{{% /alert %}}

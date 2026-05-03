@@ -30,9 +30,9 @@ The walking quad stretch is a dynamic warm-up movement that targets the quadrice
 - Pulling the foot to the side instead of straight back behind you
 - Flaring the knee out — keep both knees close together
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 To increase the hip flexor component, squeeze the glute of the stretching leg and gently push the hip forward as you pull the foot back.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

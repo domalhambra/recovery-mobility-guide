@@ -32,9 +32,9 @@ The T-spine roller smash uses a foam roller to break up stiffness in the thoraci
 - Rolling too fast — spend 20–30 seconds on each segment, not just passing through
 - Cranking your neck forward — let your hands support the head in a neutral position
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a deeper mobilization, extend your arms overhead while draped over the roller. This adds a stretch to the lats and pecs while the roller works the thoracic extensors.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

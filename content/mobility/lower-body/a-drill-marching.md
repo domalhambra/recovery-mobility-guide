@@ -32,9 +32,9 @@ A-drill marching is a running-specific warm-up drill that teaches proper hip fle
 - Pointing the toes instead of dorsiflexing — the "toe up" cue is critical for running mechanics
 - Landing on the heel instead of the midfoot — the foot should paw backward, not stomp forward
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with a slow, exaggerated march before progressing to a faster tempo. The goal is pattern quality first, speed second.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -29,9 +29,9 @@ The dead bug trains anti-extension core stability — the ability to keep your l
 - Moving too quickly — the slower you go, the more effective the exercise
 - Holding the breath — exhale as you extend, inhale as you return
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a folded towel under your lower back. Your goal is to maintain constant pressure on the towel throughout every rep. If the towel loosens, you have lost your brace.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

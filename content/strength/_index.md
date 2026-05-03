@@ -9,9 +9,9 @@ Strength is what makes your mobility usable under load. This section covers stru
 
 ---
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 **Where to start:** If you're building a general foundation, start with [Bodyweight Programs](bodyweight/) or [Full-Body & Functional](full-body/). If you have equipment access and training experience, jump to [Upper Body](upper-body/) or [Lower Body](lower-body/) for compound lifts.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

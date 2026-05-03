@@ -36,6 +36,6 @@ A 12–15 minute warm-up sequence to prepare for strength training, conditioning
 | 11 | [Good Mornings]({{< relref "/warm-up/activation-drills/good-mornings" >}}) | 10 reps |
 | 12 | [Bodyweight Squats]({{< relref "/warm-up/activation-drills/bodyweight-squats" >}}) | 10 reps |
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After this general warm-up, add 1–2 warm-up sets of your first working exercise at lighter weight before jumping to working sets.
-{{% /notice %}}
+{{% /alert %}}

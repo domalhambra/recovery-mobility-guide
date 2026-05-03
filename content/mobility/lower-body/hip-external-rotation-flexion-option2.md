@@ -30,9 +30,9 @@ Option 2 uses a figure-four (or "90/90") style position to load hip external rot
 - Neglecting the tighter side — spend extra time on whichever hip is more restricted
 - Sitting on a hard surface without padding, which can irritate the knee
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hip is very tight and you cannot sit upright, elevate your hips on a cushion or yoga block. This tilts the pelvis forward and makes it easier to maintain a neutral spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

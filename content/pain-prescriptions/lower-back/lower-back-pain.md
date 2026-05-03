@@ -8,9 +8,9 @@ body-region: [lower-back]
 
 This protocol addresses the most common patterns of lower back pain — the kind caused by prolonged sitting, repetitive bending, or general deconditioning. It works through soft tissue release, targeted mobilization, and movement resets to restore function and reduce pain.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is designed for general muscular lower back pain. If you experience pain radiating down your leg, numbness or tingling, loss of bladder or bowel control, or pain following a traumatic injury, stop and seek professional medical evaluation immediately.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

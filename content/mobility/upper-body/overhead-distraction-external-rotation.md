@@ -30,9 +30,9 @@ This mobilization combines overhead shoulder distraction with an external rotati
 - Arching the lower back aggressively to get the arm overhead — keep ribs down
 - Holding the breath — breathe deeply, exhale to relax into the stretch
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Alternate between palm-forward and palm-backward at the top of the overhead position. Each orientation targets a different rotational component of the capsule and rotator cuff.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

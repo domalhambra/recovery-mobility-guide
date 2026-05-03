@@ -36,13 +36,13 @@ Terminal knee extension (TKE) isolates the last 10–15 degrees of knee straight
 - Leaning your torso forward — stay tall with your hips stacked over the ankle
 - Using a band that's too heavy — you should be able to control the movement smoothly
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Squeeze your quad at the top like you're trying to push the back of your knee into someone's hand behind you. That cue locks in the VMO.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you have acute knee swelling or a recent meniscus injury, check with a physio before performing TKEs. The exercise is generally safe, but full extension under resistance can aggravate certain acute conditions.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

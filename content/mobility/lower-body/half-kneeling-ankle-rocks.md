@@ -30,9 +30,9 @@ Half-kneeling ankle rocks are a simple, effective way to improve dorsiflexion �
 - Letting the knee cave inward — keep it tracking over the second toe
 - Bouncing at the end range instead of using a smooth, controlled rock
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a piece of tape on the floor to mark your toe position. Over weeks, try to move the foot further from the wall while still touching the knee to it — this tracks your dorsiflexion progress.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -32,9 +32,9 @@ The hip hinge is the foundational movement pattern for all posterior chain exerc
 - Rounding the lower back — keep the chest proud and shoulders retracted
 - Not hinging deep enough — you should feel the hamstrings load
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a dowel or broomstick along your spine (touching the back of the head, upper back, and sacrum). If any of these three contact points break during the hinge, your back is rounding. Practice with the dowel until the pattern is automatic.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

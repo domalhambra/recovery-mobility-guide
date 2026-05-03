@@ -29,9 +29,9 @@ Banded wrist distraction uses a resistance band to gap the wrist joint open whil
 - Using too light a band that does not create meaningful distraction
 - Collapsing the forearm inward — keep the forearm aligned with the hand
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Test your wrist extension range before and after this drill. Most people gain 5-10 degrees immediately, confirming that the restriction was joint capsule stiffness rather than muscle tightness.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

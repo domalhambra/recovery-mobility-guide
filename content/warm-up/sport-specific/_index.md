@@ -24,6 +24,6 @@ The most common injuries in a given sport tell you what to warm up. Ankle sprain
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Sport-specific warm-up sequences are being added. In the meantime, combine movements from [Activation Drills](../activation-drills/) with relevant exercises from the [Mobility](../../mobility/) section to build a sport-appropriate warm-up.
-{{% /notice %}}
+{{% /alert %}}

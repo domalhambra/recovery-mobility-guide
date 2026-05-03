@@ -31,13 +31,13 @@ The 90/90 stretch targets both internal and external hip rotation simultaneously
 - Forcing the stretch — this should feel like a firm pull, not sharp pain
 - Shifting your weight entirely onto the front hip — distribute evenly
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your breathing slow and steady. Exhale as you gently lean forward to deepen the stretch. If you're holding your breath, you're pushing too hard.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel sharp or pinching pain in either knee, elevate your hips on a cushion or reduce the angle of the bend. Skip this exercise entirely if you have an acute knee injury.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

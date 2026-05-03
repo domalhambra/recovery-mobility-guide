@@ -37,9 +37,9 @@ Hip capsule mobilization addresses the joint capsule itself — the connective t
 - Moving too fast — the capsule responds to slow, sustained pressure
 - Using a band that is too light — you need meaningful distraction force
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Perform these immediately before squatting. The temporary increase in range of motion from capsular mobilization gives you a window to train in a deeper position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

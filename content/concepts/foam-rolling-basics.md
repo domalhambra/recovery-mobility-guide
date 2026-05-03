@@ -68,6 +68,6 @@ Start with a standard-density roller. If it feels too intense, go softer. If you
 - It won't permanently lengthen tissue — the range of motion gains are temporary (typically 10–20 minutes) unless you follow up with active movement in the new range.
 - It's not a substitute for strengthening weak muscles.
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pair foam rolling with active mobility work for the best results. Roll a tight area, then immediately perform a movement that uses the new range — this helps your nervous system "keep" the gains longer.
-{{% /notice %}}
+{{% /alert %}}

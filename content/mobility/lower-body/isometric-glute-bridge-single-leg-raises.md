@@ -31,9 +31,9 @@ This variation of the glute bridge adds alternating single-leg raises while main
 - Rushing the leg raises — use a slow, controlled tempo
 - Not fully extending the hips in the bridge before lifting a leg
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If the hips drop significantly when you lift a foot, hold the double-leg bridge for longer before progressing to single-leg raises. Build the base strength first.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

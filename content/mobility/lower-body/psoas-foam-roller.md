@@ -31,9 +31,9 @@ The psoas is a deep hip flexor that runs from the lumbar spine to the inner thig
 - Tensing up against the pressure — the goal is to relax into it
 - Rolling too aggressively or over too large an area — small, targeted movements work best
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This technique presses into the abdominal area near internal organs. Use moderate pressure and stop if you feel sharp pain, nausea, or pulsing (you may be on the abdominal aorta — move the roller laterally). A softer ball or roller is recommended when starting out.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

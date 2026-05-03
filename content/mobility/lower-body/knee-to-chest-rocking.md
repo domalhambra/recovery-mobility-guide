@@ -30,9 +30,9 @@ Knee-to-chest rocking is a gentle, rhythmic mobilization that warms up the hip j
 - Lifting the head and shoulders off the floor, which creates unnecessary tension
 - Holding the breath — breathe deeply and use the exhale to draw the knee closer
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is a great movement to do first thing in the morning before getting out of bed. It gently wakes up the hips and spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -31,9 +31,9 @@ The Olympic wall squat with external rotation uses the wall as a guide to train 
 - Letting the heels rise — wear flat shoes or elevate the heels on small plates if needed
 - Rounding the upper back — the wall should encourage you to stay tall
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot reach depth without the heels rising, place a thin plate or slant board under the heels. Over time, reduce the heel elevation as mobility improves.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

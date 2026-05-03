@@ -29,9 +29,9 @@ The open book stretch isolates thoracic rotation by locking out the lumbar spine
 - Forcing the shoulder to the floor rather than letting the thoracic spine rotate naturally
 - Holding the breath — exhale as you open up
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Squeeze the pillow between your knees throughout the movement. This locks your pelvis in place and ensures the rotation comes from your thoracic spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

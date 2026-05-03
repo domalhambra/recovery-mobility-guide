@@ -36,9 +36,9 @@ Overhead rib mobilization uses a lacrosse ball or barbell to address tissue rest
 - Tensing up against the pressure — relax and breathe into it
 - Spending too long on one spot — move systematically through the segments
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After the mobilization, immediately test your overhead position (hands overhead, arms by ears). You should notice an immediate improvement in range and comfort.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

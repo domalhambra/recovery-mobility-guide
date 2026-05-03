@@ -9,9 +9,9 @@ Mobility is the ability to move a joint through its full range of motion **with 
 
 ---
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 **Where to start:** If you're new, begin with [CARs & Joint Maintenance](cars/) — they're the daily minimum for joint health. Then explore the region that feels most restricted.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Three Things to Know
 

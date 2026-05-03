@@ -29,9 +29,9 @@ Using a foam roller as a fulcrum, this drill targets thoracic extension segment 
 - Cranking the neck into extension — your hands should support the head in a neutral position
 - Placing the roller on the lower back (lumbar spine), which is already extended in most people
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Breathe out as you extend over the roller. Each exhale lets you sink a little deeper into the stretch without forcing it.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

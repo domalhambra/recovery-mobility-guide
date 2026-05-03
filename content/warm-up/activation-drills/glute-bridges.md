@@ -32,9 +32,9 @@ Glute bridges are a foundational activation drill that wakes up the glutes befor
 - Rushing through reps — the squeeze at the top is where the activation happens
 - Letting the knees cave inward — keep them tracking over your toes
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't feel your glutes firing, try placing your feet slightly further from your body or pressing your knees apart gently throughout the movement. Pausing at the top for a full 3-second squeeze helps build the mind-muscle connection.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

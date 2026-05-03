@@ -30,9 +30,9 @@ This variation builds on the standard cat-cow by adding lateral and circular spi
 - Making the circles too small — aim for the largest controlled circles you can manage
 - Holding the breath — coordinate breathing with the movement
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Imagine your spine is a stirring stick and your ribcage is tracing the rim of a bowl. Make the bowl as wide as possible to maximize the range of each segment.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

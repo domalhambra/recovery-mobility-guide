@@ -29,9 +29,9 @@ The bully extension bias mobilization uses a resistance band to drive the humera
 - Leaning forward to compensate — stand tall and let the band do the work
 - Forcing the hand too far up the back and causing a pinching sensation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If the behind-the-back position is too aggressive, start with your arm simply extended behind you (elbow straight) and work on increasing shoulder extension before adding the internal rotation component.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

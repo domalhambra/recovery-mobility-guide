@@ -24,6 +24,6 @@ Plantar fasciitis — that sharp heel pain on the first steps of the morning —
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Ankle and foot prescriptions are being added. In the meantime, see [Ankle CARs](../../mobility/cars/ankle-cars/), [Banded Ankle Dorsiflexion](../../mobility/lower-body/banded-ankle-dorsiflexion/), and [Calf Raises with Hold](../../mobility/lower-body/calf-raises-with-hold/) for targeted exercises.
-{{% /notice %}}
+{{% /alert %}}

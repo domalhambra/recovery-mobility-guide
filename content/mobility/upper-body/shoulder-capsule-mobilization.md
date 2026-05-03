@@ -34,9 +34,9 @@ Shoulder capsule mobilization uses a resistance band or light load to create tra
 - Using too light a band that does not create meaningful distraction
 - Tensing up against the band — relax and let the joint open
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Hold a light kettlebell or dumbbell (4-8 kg) in the working hand while the band distracts. The added load creates a gentle traction that further opens the capsule.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

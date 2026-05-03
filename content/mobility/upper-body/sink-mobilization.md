@@ -29,9 +29,9 @@ The sink mobilization uses a fixed surface (squat rack, countertop, or sturdy ra
 - Keeping the hips too high, which reduces the traction force
 - Rounding the upper back instead of letting the chest drop through
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try different grip widths. A wider grip biases the stretch toward the lats and teres major, while a narrower grip targets the triceps and overhead position more directly.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -31,9 +31,9 @@ The inchworm is a dynamic warm-up staple that stretches the hamstrings, activate
 - Sagging the hips during the plank walk-out — keep the core braced
 - Moving too fast — use a deliberate, controlled pace
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Add a push-up at the plank position for an upper body component, or add a hip drop (alternating sides) for a hip flexor stretch variation.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

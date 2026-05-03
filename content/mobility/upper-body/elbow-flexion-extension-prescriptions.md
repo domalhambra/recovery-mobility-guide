@@ -41,9 +41,9 @@ This collection of targeted mobilizations addresses common elbow flexion and ext
 - Rolling too fast over the tissue — slow, deliberate movements with pauses on tight spots are most effective
 - Skipping the banded distraction — the combination of soft tissue work and joint distraction is more effective than either alone
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Perform the lacrosse ball work first to release soft tissue restrictions, then immediately follow with the banded distraction to address the joint capsule. Finish by testing your front rack position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

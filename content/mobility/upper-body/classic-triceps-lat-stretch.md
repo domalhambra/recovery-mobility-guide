@@ -29,9 +29,9 @@ This classic stretch targets the triceps, lats, and teres major simultaneously b
 - Pressing the elbow too hard into the wall and irritating the joint — use firm but comfortable pressure
 - Holding the breath — breathe slowly and deeply to allow the tissues to relax
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a more aggressive lat stretch, turn slightly away from the wall while keeping your elbow anchored. This adds a rotational component that targets the lat at a different fiber angle.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

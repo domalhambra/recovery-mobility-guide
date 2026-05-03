@@ -30,9 +30,9 @@ The Pallof press is an anti-rotation exercise that challenges the core to resist
 - Flaring the elbows instead of pressing straight forward
 - Holding the breath — exhale on the press, inhale on the return
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Lock your eyes on a point straight ahead. If your visual focus stays fixed and your hands press directly toward it, your torso is staying square.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

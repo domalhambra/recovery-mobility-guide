@@ -30,9 +30,9 @@ This mobilization uses a resistance band anchored to a squat rack to create a di
 - Compensating by moving the shoulder instead of isolating the elbow
 - Holding the breath — keep breathing throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After the banded distraction, immediately test your elbow range with a few press-ups or front rack holds to feel the difference. This helps reinforce the new range of motion under load.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

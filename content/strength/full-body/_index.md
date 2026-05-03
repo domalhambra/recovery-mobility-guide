@@ -24,6 +24,6 @@ Because every session loads the entire body, recovery between sessions matters m
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Full-body training programs are being added. In the meantime, build sessions by combining one exercise each from [Upper Body](../upper-body/), [Lower Body](../lower-body/), and [Bodyweight](../bodyweight/) sections.
-{{% /notice %}}
+{{% /alert %}}

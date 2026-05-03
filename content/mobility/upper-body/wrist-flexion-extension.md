@@ -29,9 +29,9 @@ This simple active mobility drill takes the wrist through its full flexion and e
 - Applying overpressure too aggressively — this should be gentle
 - Rushing through the movement without pausing at end ranges
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a loaded variation, place your palms flat on a desk and lean forward to bias extension, then flip your hands over (fingers pointing toward you) and lean back to bias flexion.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

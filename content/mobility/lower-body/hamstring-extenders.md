@@ -30,9 +30,9 @@ Hamstring extenders use active muscle contraction to progressively extend the kn
 - Moving too fast — the slow extension is where the stretch benefit occurs
 - Letting the thigh drift away from vertical — keep the hip at roughly 90 degrees of flexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Focus on active extension with the quads rather than pulling with the hands. The hands are just there to stabilize the hip position, not to force the stretch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

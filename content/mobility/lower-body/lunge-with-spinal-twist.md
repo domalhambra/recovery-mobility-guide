@@ -31,9 +31,9 @@ The lunge with spinal twist (sometimes called the "world's greatest stretch") co
 - Letting the front knee collapse inward — keep it tracking over the toes
 - Rushing the rotation — pause at the top to get the full benefit
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot reach the floor with both hands, place the down hand on a yoga block. Prioritize the quality of the thoracic rotation over depth in the lunge.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -29,9 +29,9 @@ Pronation and supination — the motions of turning your palm down and up — ha
 - Moving the wrist (flexing/extending) rather than purely rotating the forearm
 - Rushing through the reps without pausing at end range
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Hold a light hammer or wooden dowel to make the rotation more tangible. The added lever arm helps you feel the true end range of pronation and supination.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

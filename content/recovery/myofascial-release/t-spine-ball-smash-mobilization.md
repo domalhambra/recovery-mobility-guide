@@ -32,9 +32,9 @@ The T-spine ball smash uses a lacrosse ball or double lacrosse ball (Gemini) to 
 - Spending too long on one spot — 30–60 seconds per area is sufficient
 - Rolling around randomly — be systematic, working segment by segment
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 A double lacrosse ball (or Gemini tool) straddles the spine and works both sides simultaneously. If you only have a single ball, do one side of the spine at a time, then switch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

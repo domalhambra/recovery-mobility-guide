@@ -29,9 +29,9 @@ Neck rotations take the cervical spine through its full rotational range of moti
 - Moving too quickly or using momentum
 - Tilting the head (side bending) instead of purely rotating
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your nose level with the horizon throughout the rotation. If your chin dips or rises, you are adding flexion or extension to what should be a pure rotation.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

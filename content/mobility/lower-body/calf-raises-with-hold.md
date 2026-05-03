@@ -30,9 +30,9 @@ Calf raises with a hold combine dynamic movement with an isometric contraction a
 - Rolling onto the outside of the foot — keep the weight balanced across the ball of the foot
 - Not reaching full range at the top — rise as high as you can
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For an extra challenge, perform these single-leg. The hold at the top is where the real strengthening happens, so do not cut it short.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

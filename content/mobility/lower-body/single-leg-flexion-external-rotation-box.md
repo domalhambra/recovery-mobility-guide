@@ -30,9 +30,9 @@ This drill isolates one hip at a time, combining deep flexion with external rota
 - Rounding the lower back to get more depth — keep the spine neutral and move from the hip
 - Using a box that is too high, which forces compensation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with a lower box and progress to a higher one as your hip range of motion improves. The goal is to feel the stretch in the hip, not to achieve maximum height.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

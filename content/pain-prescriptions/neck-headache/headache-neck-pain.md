@@ -8,9 +8,9 @@ body-region: [neck]
 
 This protocol targets the most common pattern of headaches and neck pain — cervicogenic tension caused by forward head posture, screen time, and stress-related muscle guarding. It works through the suboccipitals, SCM, upper traps, and levator scapulae to restore normal neck mechanics.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for tension-type headaches and mechanical neck pain. Seek immediate medical attention if you experience: a sudden, severe "thunderclap" headache; headache with fever, stiff neck, and light sensitivity; visual disturbances or slurred speech; neck pain following a traumatic impact (whiplash, fall); or weakness or numbness in your arms or hands.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

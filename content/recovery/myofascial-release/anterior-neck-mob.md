@@ -33,9 +33,9 @@ Anterior neck mobilization targets the sternocleidomastoid (SCM) and scalene mus
 - Pressing on the carotid pulse — if you feel your pulse under the ball, reposition laterally
 - Working too close to the collarbone or behind the ear — stay on the muscle belly
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 Be very gentle with anterior neck work. Avoid pressing on the windpipe, carotid artery (you'll feel a strong pulse), or any area that causes dizziness or visual changes. If in doubt, use fingertip pressure instead of a ball.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

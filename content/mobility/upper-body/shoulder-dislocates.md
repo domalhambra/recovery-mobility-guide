@@ -29,9 +29,9 @@ Shoulder dislocates take the shoulders through a full 360-degree arc using a ban
 - Bending the elbows to cheat through tight spots
 - Arching the lower back as the implement goes overhead — keep your ribs down
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Use a resistance band rather than a rigid stick. The band's elasticity allows it to stretch slightly through tight spots, making the movement more forgiving and sustainable.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -29,9 +29,9 @@ Wall slides train scapular upward rotation and overhead mobility against the fee
 - Losing wall contact with the hands or elbows — reduce range of motion if needed
 - Shrugging the shoulders toward the ears instead of depressing the scapulae
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot keep your elbows and hands on the wall, use a foam roller held between your hands to give yourself a wider grip and more freedom.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

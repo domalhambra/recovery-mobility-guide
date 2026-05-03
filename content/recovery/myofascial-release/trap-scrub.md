@@ -32,9 +32,9 @@ The trap scrub targets the upper trapezius and surrounding tissue where tension 
 - Being too aggressive too quickly — start with moderate pressure and increase gradually
 - Ignoring the arm movement — the "scrub" comes from moving the arm while the ball stays pinned
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you find a particularly stubborn knot, pin the ball on it and simply breathe for 30 seconds without movement. Then add small arm circles. Sometimes the tissue needs time under sustained pressure before it releases.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

@@ -35,9 +35,9 @@ The barbell bench press is a foundational upper body pressing movement that deve
 - Lifting the hips off the bench — maintain contact throughout
 - Uneven bar path — the bar should descend to the chest and press back up in a slight arc toward the rack
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you struggle with shoulder blade retraction, try squeezing a rolled-up towel between your shoulder blades during warm-up sets. This teaches the correct scapular position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

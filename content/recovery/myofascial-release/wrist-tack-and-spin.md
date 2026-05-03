@@ -33,9 +33,9 @@ The wrist tack and spin technique pins forearm tissue with a lacrosse ball and t
 - Skipping the extensor side — both surfaces of the forearm need work
 - Going too fast — slow, deliberate rotations are more effective than quick spins
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you find a spot that's particularly tight or painful, hold the ball there and add wrist flexion/extension (bending the wrist up and down) in addition to the rotation. This addresses the tissue from multiple angles.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

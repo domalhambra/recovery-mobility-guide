@@ -30,9 +30,9 @@ The couch stretch is one of the most effective ways to lengthen the hip flexors 
 - Letting the front knee drift past the toes at too sharp an angle
 - Not getting close enough to the wall, which reduces the stretch intensity
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a pad or folded towel under your knee for comfort. Start further from the wall and work closer over time as your flexibility improves.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

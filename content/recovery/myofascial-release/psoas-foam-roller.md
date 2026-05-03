@@ -33,9 +33,9 @@ The psoas foam roller technique targets the psoas major — the deep hip flexor 
 - Rolling too fast — the psoas is deep and requires sustained pressure to release
 - Confusing the rectus femoris (quad) for the psoas — the psoas is deeper and more medial
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 The psoas area is sensitive and close to internal organs. Use moderate pressure and stop if you feel pulsing (aorta), sharp pain, or any unusual sensation. If you have a history of abdominal surgery or hernias, consult a professional before performing this technique.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

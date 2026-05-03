@@ -8,9 +8,9 @@ body-region: [shoulders]
 
 Posterior shoulder pain typically presents as a deep ache or tightness in the back of the shoulder, often aggravated by overhead movements, pulling exercises, or reaching behind the back. Common contributors include tight posterior capsule, overworked infraspinatus and teres minor, and poor scapular mechanics.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for mechanical posterior shoulder pain. Seek professional evaluation if you experience: sharp pain that radiates down the arm; a "dead arm" sensation; significant weakness in external rotation; pain following a trauma, fall, or forceful overhead movement; or numbness/tingling in the hand.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

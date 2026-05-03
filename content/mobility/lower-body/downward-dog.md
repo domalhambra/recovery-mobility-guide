@@ -42,9 +42,9 @@ From the full position, bend one knee and extend the other leg fully. Press the 
 - Bending the elbows — keep the arms long and the shoulder blades drawing toward each other
 - Locking out the knees to get heels down — a slight bend in the knee is fine; posterior tilt of the pelvis is more important
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hamstrings are very tight, bending both knees generously lets you get the posterior pelvic tilt (hips rotating toward the ceiling) which is the key movement here — more important than straight legs.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}

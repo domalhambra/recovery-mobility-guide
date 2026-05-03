@@ -41,9 +41,9 @@ Anterior compartment mobilizations use a lacrosse ball to release restrictions i
 - Placing the ball directly on bone (collarbone, acromion) — stay on soft tissue
 - Rushing through the mobilization — slow, sustained pressure is most effective
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Work from the outside in: start with the pec minor (least sensitive), then the anterior deltoid, and finish with the scalenes (most sensitive). This gives your nervous system time to relax progressively.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
 {{% tab tabName="Media" %}}
