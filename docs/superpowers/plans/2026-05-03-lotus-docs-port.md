@@ -93,7 +93,7 @@ Read CURRENT/data/body_regions.toml. Our slugs are: `neck`, `shoulders`, `chest`
 
 - [ ] **Step 4: Build the slug map**
 
-For each of our 14 slugs, write down which source slug(s) compose it. Document this map at `WORKTREE/docs/body-map-slug-mapping.md` once the worktree exists. Sample mapping:
+For each of our 14 slugs, write down which source slug(s) compose it. Document this map at `docs/superpowers/specs/2026-05-03-body-map-slug-mapping.md` (in CURRENT, on `main`). The worktree doesn't exist yet at this stage. Sample mapping:
 
 | Our slug | Source slug(s) | View(s) |
 |---|---|---|
@@ -248,13 +248,21 @@ git commit -m "Remove Relearn-era theme files, custom CSS, and old body map SVGs
 - Create: `go.mod`, `go.sum` (auto-generated)
 - Modify: `hugo.toml`
 
-- [ ] **Step 1: Backup the existing hugo.toml**
+- [ ] **Step 1: Verify Hugo Extended >= 0.157**
+
+```bash
+hugo version
+```
+
+Expected: output includes `extended` and version >= `v0.157.0`. Lotus Docs requires Hugo Extended.
+
+- [ ] **Step 2: Backup the existing hugo.toml**
 
 ```bash
 cp hugo.toml hugo.toml.relearn-backup
 ```
 
-- [ ] **Step 2: Initialize Hugo Module**
+- [ ] **Step 3: Initialize Hugo Module**
 
 ```bash
 hugo mod init github.com/domalhambra/recovery-mobility-guide
@@ -262,12 +270,14 @@ hugo mod init github.com/domalhambra/recovery-mobility-guide
 
 Expected: `go.mod` file created.
 
-- [ ] **Step 3: Replace hugo.toml with a minimal Lotus Docs config**
+- [ ] **Step 4: Replace hugo.toml with a Lotus Docs config**
+
+Preserve the `[outputs]`, `[markup]`, `[sitemap]`, `[taxonomies]` blocks from the original. Drop the `[[params.themeVariant]]` blocks (Relearn-specific) and the `[[menus.shortcuts]]` block (Lotus's sidebar handles "Body Regions" via taxonomy nav, no separate shortcut needed). Drop the Relearn `[params]` keys.
 
 ```toml
 baseURL = "https://mobility-guide.netlify.app/"
 languageCode = "en-us"
-title = "Badwater Mobility Guide"
+title = "Badwater Mobility"
 
 # Hugo Modules
 [module]
@@ -276,7 +286,11 @@ title = "Badwater Mobility Guide"
   [[module.imports]]
     path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
-# Markup
+# Outputs (preserved from current site)
+[outputs]
+  home = ["HTML", "RSS"]
+
+# Markup (preserved from current site)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -285,16 +299,25 @@ title = "Badwater Mobility Guide"
     startLevel = 2
     endLevel = 3
 
-# Taxonomies
+# Sitemap (preserved from current site)
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+# Taxonomies (preserved from current site)
 [taxonomies]
   tag = "tags"
   body-region = "body-region"
 
 # Lotus Docs site params (minimal — defaults preferred)
 [params]
-  google_fonts = []  # use Lotus defaults
+  description = "Practical mobility and recovery for wildland firefighters."
+  # google_fonts intentionally not set — use Lotus defaults
+  # themeColor intentionally not set — add only if Lotus default clashes with body map hover
+
   [params.docs]
     title = "Badwater Mobility"
+    description = "Practical mobility and recovery for wildland firefighters."
     flexSearch = true
     sidebarIcons = true
     darkMode = true
@@ -303,7 +326,7 @@ title = "Badwater Mobility Guide"
     titleIcon = "accessibility_new"
 ```
 
-- [ ] **Step 4: Pull Lotus Docs module**
+- [ ] **Step 5: Pull Lotus Docs module**
 
 ```bash
 hugo mod get github.com/colinwilson/lotusdocs
@@ -312,15 +335,15 @@ hugo mod get github.com/gohugoio/hugo-mod-bootstrap-scss/v5
 
 Expected: `go.sum` updated with module checksums.
 
-- [ ] **Step 5: Verify Hugo can start**
+- [ ] **Step 6: Verify Hugo can start**
 
 ```bash
 hugo server --buildDrafts --disableFastRender 2>&1 | head -30
 ```
 
-Expected: Hugo starts, no errors. Likely failures will be unmigrated shortcodes; if so, that's expected — we'll fix them later. Stop the server (Ctrl-C).
+Expected: Hugo and Lotus Docs theme load without theme-loading errors. Shortcode errors on individual pages are expected at this stage (135 files use unmigrated `tabs`, 129 use unmigrated `notice`, six pages reference `menuPre` via `exercise-table`). Theme-loading or template-resolution errors are NOT expected — if you see those, debug before continuing. Stop the server (Ctrl-C).
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 7: Commit**
 
 ```bash
 git add hugo.toml hugo.toml.relearn-backup go.mod go.sum
@@ -386,16 +409,18 @@ git commit -m "Drop menuPre field from all content files"
 
 ### Task 6: Update `tabs` and `tab` shortcode syntax
 
-The current site uses Relearn's `{{< tabs >}}{{% tab title="X" %}}` syntax. Lotus Docs uses `{{< tabs tabTotal="N" >}}{{% tab tabName="X" %}}`.
+The current site uses Relearn's `{{< tabs >}}{{% tab title="X" %}}` syntax. Lotus Docs uses `{{< tabs tabTotal="N" >}}{{% tab tabName="X" %}}`. **135 files** use this shortcode.
 
 **Files:**
-- Modify: every `.md` file in `content/` that uses tabs shortcodes (likely 21 exercise pages with Media tabs, per recent commits)
+- Modify: every `.md` file in `content/` that uses tabs shortcodes (135 files)
 
 - [ ] **Step 1: Find files using the tabs shortcode**
 
 ```bash
 grep -rl "{{< tabs" content/ | tee /tmp/tabs-files.txt | wc -l
 ```
+
+Expected: `135`.
 
 - [ ] **Step 2: Inspect a sample to confirm pattern**
 
@@ -409,10 +434,10 @@ Confirm format is `{{< tabs >}}` (no params) and `{{% tab title="..." %}}`.
 
 ```bash
 hugo mod download github.com/colinwilson/lotusdocs 2>/dev/null
-find ~/.cache/hugo_cache -name "tabs.html" -path "*shortcodes*" 2>/dev/null | head -1 | xargs head -30
+find ~/.cache/hugo_cache -name "tabs.html" -path "*lotusdocs*" -path "*shortcodes*" 2>/dev/null | head -1 | xargs head -30
 ```
 
-If the file isn't in the cache, fall back to the README of the Lotus Docs example site for confirmation. The expected signature is `{{< tabs tabTotal="2" >}}{{% tab tabName="Linux" %}}...{{% /tab %}}{{< /tabs >}}`.
+Expected signature: `{{< tabs tabTotal="N" >}}{{% tab tabName="..." %}}...{{% /tab %}}{{< /tabs >}}`.
 
 - [ ] **Step 4: Convert `title=` to `tabName=` inside tab tags**
 
@@ -420,33 +445,64 @@ If the file isn't in the cache, fall back to the README of the Lotus Docs exampl
 xargs -I{} sed -i '' 's/{{% tab title=/{{% tab tabName=/g' < /tmp/tabs-files.txt
 ```
 
-- [ ] **Step 5: Add `tabTotal` to each `tabs` opener**
+- [ ] **Step 5: Script the `tabTotal` injection**
 
-This requires per-file inspection — count the number of tabs per block and inject `tabTotal="N"`. Start with a script that counts and rewrites:
+Per the spec, this is a scripted pass — not per-file hand-editing. Write a Python helper at `/tmp/add-tab-total.py`:
 
-```bash
-# For each file, find tabs blocks and add tabTotal based on the number of {{% tab %}} children
-# Do this manually for the ~21 files; it's faster than a robust regex
+```python
+import re, sys
+
+def patch(text: str) -> str:
+    # Match a {{< tabs >}} ... {{< /tabs >}} block; count {{% tab tabName= openers inside.
+    pattern = re.compile(r'(\{\{<\s*tabs\s*>\}\})(.*?)(\{\{<\s*/tabs\s*>\}\})', re.DOTALL)
+    def repl(m):
+        opener, body, closer = m.group(1), m.group(2), m.group(3)
+        n = len(re.findall(r'\{\{%\s*tab\s+tabName=', body))
+        if n == 0:
+            return m.group(0)  # leave alone if no tabs found inside
+        new_opener = f'{{{{< tabs tabTotal="{n}" >}}}}'
+        return new_opener + body + closer
+    return pattern.sub(repl, text)
+
+for path in sys.argv[1:]:
+    with open(path, 'r') as f:
+        original = f.read()
+    new = patch(original)
+    if new != original:
+        with open(path, 'w') as f:
+            f.write(new)
+        print(f"updated: {path}")
 ```
 
-Workflow per file:
-1. Open the file
-2. Count `{{% tab tabName="..."` openers between each `{{< tabs >}}` and `{{< /tabs >}}` pair
-3. Replace `{{< tabs >}}` with `{{< tabs tabTotal="N" >}}`
+Run it across the 135 files:
+
+```bash
+xargs python3 /tmp/add-tab-total.py < /tmp/tabs-files.txt | wc -l
+```
+
+Expected: ~135 files updated.
 
 - [ ] **Step 6: Verify no `{{< tabs >}}` (no params) remain**
 
 ```bash
-grep -rE "{{< tabs *>}}" content/ | wc -l
+grep -rE "\{\{<\s*tabs\s*>\}\}" content/ | wc -l
 ```
 
 Expected: `0` (every tabs block now has `tabTotal`).
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 7: Spot-check a sample**
+
+```bash
+head -1 /tmp/tabs-files.txt | xargs grep "{{< tabs"
+```
+
+Expected: `{{< tabs tabTotal="N" >}}` for some integer N.
+
+- [ ] **Step 8: Commit**
 
 ```bash
 git add content/
-git commit -m "Convert tabs shortcode syntax from Relearn to Lotus Docs"
+git commit -m "Convert tabs shortcode syntax from Relearn to Lotus Docs (135 files)"
 ```
 
 **Done when:** Every `tabs` block in content has `tabTotal="N"` set, and every nested `tab` uses `tabName=` instead of `title=`.
@@ -456,7 +512,7 @@ git commit -m "Convert tabs shortcode syntax from Relearn to Lotus Docs"
 ### Task 7: Update `notice` shortcode syntax
 
 **Files:**
-- Modify: any `.md` file using the Relearn `notice` shortcode
+- Modify: every `.md` file using the Relearn `notice` shortcode (129 files)
 
 - [ ] **Step 1: Find files using `notice`**
 
@@ -464,7 +520,7 @@ git commit -m "Convert tabs shortcode syntax from Relearn to Lotus Docs"
 grep -rl "{{% notice" content/ | tee /tmp/notice-files.txt | wc -l
 ```
 
-If this count is 0, mark the task done and skip remaining steps.
+Expected: `129`.
 
 - [ ] **Step 2: Look up Lotus Docs equivalent**
 
@@ -543,21 +599,61 @@ Write down anything broken that isn't expected (the body map, exercise-table, an
 - Read: `/tmp/body-map-spike/bodyFront.ts`, `/tmp/body-map-spike/bodyBack.ts` (already pulled in Task 1)
 - Read: `docs/superpowers/specs/2026-05-03-body-map-slug-mapping.md` (the mapping doc from Task 1)
 
-- [ ] **Step 1: Write a small extraction script**
+- [ ] **Step 1: Inspect actual source structure first**
 
-`/tmp/body-map-spike/extract.py`:
+Read the head of `/tmp/body-map-spike/bodyFront.ts`:
+
+```bash
+head -40 /tmp/body-map-spike/bodyFront.ts
+```
+
+Confirm the actual shape of each entry. The expected structure is roughly:
+
+```typescript
+{
+  slug: "chest",
+  color: "#3f3f3f",
+  path: {
+    left: [ "M272.91 422.84c..." ],
+    right: [ "M416.04 435c..." ],
+  },
+},
+```
+
+Adjust the extractor below if the structure differs.
+
+- [ ] **Step 2: Write a robust extraction script**
+
+The naive regex approach fails on nested braces and array-bracket structure. Use a small token-aware parser. `/tmp/body-map-spike/extract.py`:
 
 ```python
 import re, sys, json
 
 def parse_ts(path):
     text = open(path).read()
-    # Match { slug: "...", color: "...", path: { left: [...], right: [...] } }
-    blocks = re.findall(r'slug:\s*"([^"]+)",.*?path:\s*\{([^}]+)\}', text, re.DOTALL)
     out = {}
-    for slug, body in blocks:
-        left = re.findall(r'"(M[^"]+)"', body.split('right:')[0] if 'right:' in body else body)
-        right = re.findall(r'"(M[^"]+)"', body.split('right:')[1] if 'right:' in body else "")
+    # Find each block opener: "{ slug: "X","
+    for m in re.finditer(r'\{\s*slug:\s*"([^"]+)"', text):
+        slug = m.group(1)
+        # From the slug match, walk forward, tracking brace depth, to find the matching closing "}"
+        i = m.end()
+        depth = 1  # we're inside one open brace already (the entry's outer brace)
+        while i < len(text) and depth > 0:
+            c = text[i]
+            if c == '{': depth += 1
+            elif c == '}': depth -= 1
+            i += 1
+        block = text[m.start():i]
+        # Within this block, find left and right path arrays
+        left = []
+        right = []
+        # Match `left: [ "..." , "..." ]` — capture all M-prefixed strings
+        left_match = re.search(r'left:\s*\[(.*?)\]', block, re.DOTALL)
+        if left_match:
+            left = re.findall(r'"(M[^"]+)"', left_match.group(1))
+        right_match = re.search(r'right:\s*\[(.*?)\]', block, re.DOTALL)
+        if right_match:
+            right = re.findall(r'"(M[^"]+)"', right_match.group(1))
         out[slug] = {"left": left, "right": right}
     return out
 
@@ -566,22 +662,23 @@ back = parse_ts('/tmp/body-map-spike/bodyBack.ts')
 print(json.dumps({"front": front, "back": back}, indent=2))
 ```
 
-- [ ] **Step 2: Run extraction**
+- [ ] **Step 3: Run extraction**
 
 ```bash
 python3 /tmp/body-map-spike/extract.py > /tmp/body-map-spike/paths.json
 ```
 
-- [ ] **Step 3: Sanity check**
+- [ ] **Step 4: Sanity check**
 
 ```bash
 jq 'keys' /tmp/body-map-spike/paths.json
 jq '.front | keys' /tmp/body-map-spike/paths.json
+jq '.front.chest' /tmp/body-map-spike/paths.json
 ```
 
-Expected: `["back", "front"]`, with each containing the source slug list.
+Expected: keys include `back` and `front`; each has slugs with non-empty `left` and/or `right` arrays. If any expected slug is missing or has empty arrays, fix the extractor before continuing — the rest of the body map work depends on this data.
 
-**Done when:** A `paths.json` file in `/tmp/body-map-spike/` contains all paths keyed by source slug, for both front and back views.
+**Done when:** `paths.json` contains non-empty path arrays for every slug referenced in the slug-mapping doc.
 
 ---
 
@@ -685,6 +782,8 @@ git commit -m "Add new body-back.svg from react-native-body-highlighter (MIT)"
 - [ ] **Step 1: Read the current body-map.html**
 
 Open the file. Identify Relearn-specific CSS variable references (e.g. `var(--PRIMARY-color)`) and any references to `theme-mobility.css` classes.
+
+The current partial uses a JS-driven hover-label pattern: it serializes a slug→label map as a `data-region-labels` JSON attribute and updates an empty `.body-map-label aria-live` div when a region is hovered. The JS that drives this lives in `custom-header.html` (which we delete in Task 3). **This UX is intentionally dropped in favor of a static, always-visible label grid below the figure.** Always-visible labels are more accessible, work without JS, and match the "as vanilla as possible" framing. If the static-label UX feels worse than expected during Task 14 verification, revisit then; do not pre-emptively port the JS hover pattern.
 
 - [ ] **Step 2: Rewrite as a self-contained partial with front/back toggle**
 
@@ -1087,37 +1186,56 @@ git commit -m "Simplify Makefile: drop Pagefind step"
 **Files:**
 - Modify: `netlify.toml`
 
-- [ ] **Step 1: Replace build command**
+The change here is minimal in intent: drop the Pagefind build step. **Preserve all existing `[[headers]]` blocks** (cache-control, security headers) — those are unrelated to the theme.
+
+- [ ] **Step 1: Update build command and add Go version**
+
+Edit `netlify.toml`. Change ONLY the `[build]` and `[build.environment]` blocks. Leave every `[[headers]]` block exactly as-is.
 
 ```toml
 [build]
-  publish = "public"
   command = "hugo --environment production"
+  publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.157.0"
-  HUGO_ENV = "production"
   GO_VERSION = "1.21"
+  # NODE_VERSION removed — no npm step needed (Pagefind dropped)
 ```
 
-(Adjust HUGO_VERSION / GO_VERSION to whatever Lotus Docs requires per its README.)
+The headers section MUST remain untouched. Specifically these blocks must still exist after the edit (verify by diff):
+
+- `for = "/pagefind/*"` immutable — keep even though Pagefind is dropped; harmless if no `/pagefind/` URLs exist, and trivial to remove later.
+- `for = "/**/*.woff2"` immutable
+- `for = "/**/*.css"` revalidate
+- `for = "/**/*.js"` revalidate
+- `for = "/**/*.html"` revalidate
+- `for = "/*"` security headers (X-Frame-Options, X-Content-Type-Options, Referrer-Policy)
 
 - [ ] **Step 2: Verify the file is valid TOML**
 
 ```bash
-python3 -c "import tomllib; tomllib.loads(open('netlify.toml').read())"
+python3 -c "import tomllib; tomllib.loads(open('netlify.toml','rb').read())"
 ```
 
 Expected: no error.
 
-- [ ] **Step 3: Commit**
+- [ ] **Step 3: Verify all original `[[headers]]` survived**
+
+```bash
+grep -c "^\[\[headers\]\]" netlify.toml
+```
+
+Expected: `6` (matches the original count). If less, restore from `git diff` and re-edit.
+
+- [ ] **Step 4: Commit**
 
 ```bash
 git add netlify.toml
-git commit -m "Update Netlify build command for Lotus Docs (no Pagefind)"
+git commit -m "Update Netlify build command for Lotus Docs (drop Pagefind/Node, preserve headers)"
 ```
 
-**Done when:** `netlify.toml` parses cleanly and points at the new build command.
+**Done when:** Build command is Hugo-only, all six `[[headers]]` blocks are intact, file parses as valid TOML.
 
 ---
 
@@ -1223,27 +1341,58 @@ This tag is the rollback point if anything goes wrong post-cutover.
 
 **Files:** Many — the merge brings in the entire port.
 
-- [ ] **Step 1: From CURRENT, merge the worktree branch**
+- [ ] **Step 1: Rollback rehearsal — confirm `relearn-final` still works**
+
+Before merging, confirm the safety net is functional.
 
 ```bash
 cd "/Users/dom/Documents/Claude/Projects/20-29 DMIHC Projects/24 mobility website development"
+git checkout relearn-final
+hugo server 2>&1 | head -10
+```
+
+Expected: Hugo serves the Relearn site without errors. Stop the server (Ctrl-C). Switch back to `main`:
+
+```bash
+git checkout main
+```
+
+If this fails, debug before proceeding — without a working rollback, the cutover has no safety net.
+
+- [ ] **Step 2: Verify `main` has not advanced during the port**
+
+```bash
+git log main..lotus-port --oneline | head -3   # should show port commits
+git log lotus-port..main --oneline             # should be EMPTY
+```
+
+If the second command returns commits, `main` has advanced (e.g. content edits in another session). In that case, before merging:
+1. Rebase the port branch onto current `main`: `git checkout lotus-port && git rebase main`
+2. Resolve conflicts. For Relearn-era files that the port deletes (e.g. `assets/css/theme-mobility.css`) but `main` modified, keep the deletion. For new content additions on `main`, keep the additions.
+3. Re-run Task 20's local QA sweep before merging.
+
+If the second command is empty (no advance), proceed to step 3.
+
+- [ ] **Step 3: From CURRENT, merge the worktree branch**
+
+```bash
 git checkout main
 git merge --no-ff lotus-port -m "Merge Lotus Docs port into main"
 ```
 
-`--no-ff` preserves the branch history as a visible merge commit, useful for rollback if needed.
+`--no-ff` preserves the branch history as a visible merge commit, useful for rollback if needed. Expected: clean merge with no conflicts (assuming step 2 was clean).
 
-- [ ] **Step 2: Push to origin**
+- [ ] **Step 4: Push to origin**
 
 ```bash
 git push origin main
 ```
 
-- [ ] **Step 3: Watch Netlify production build**
+- [ ] **Step 5: Watch Netlify production build**
 
 Netlify will trigger a build on push to `main`. Watch the build log. Expected: success.
 
-- [ ] **Step 4: Visit the production URL**
+- [ ] **Step 6: Visit the production URL**
 
 Navigate to `https://mobility-guide.netlify.app/`. Confirm: body map, toggle, region clicks, search, sample exercise pages all work.
 
