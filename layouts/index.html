@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="homepage-hero text-center my-5">
+  <h1>{{ .Site.Title }}</h1>
+  <p class="lead">{{ .Site.Params.description }}</p>
+</section>
+<section class="homepage-body-map">
+  {{ partial "body-map.html" . }}
+</section>
+{{ end }}

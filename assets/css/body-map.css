@@ -1,0 +1,97 @@
+/* Body map — vanilla CSS, no theme variables. */
+
+.body-map-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.body-map-toggle {
+  display: inline-flex;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.body-map-toggle input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.body-map-toggle label {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.body-map-toggle input:checked + label {
+  background: currentColor;
+  color: var(--bs-body-bg, white);
+}
+
+.body-map-figures {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+}
+
+.body-map-figure {
+  display: none;
+}
+
+/* CSS-only view toggle */
+.body-map-wrapper:has(input#body-view-front:checked) .body-map-figure-front,
+.body-map-wrapper:has(input#body-view-back:checked) .body-map-figure-back {
+  display: block;
+}
+
+.body-map-svg {
+  width: 100%;
+  height: auto;
+}
+
+.body-region {
+  fill: currentColor;
+  fill-opacity: 0.12;
+  stroke: currentColor;
+  stroke-opacity: 0.4;
+  stroke-width: 0.5;
+  transition: fill-opacity 0.15s;
+  cursor: pointer;
+}
+
+.body-region:hover,
+.body-region-link:focus .body-region {
+  fill-opacity: 0.45;
+}
+
+.body-region-link:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.body-map-labels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.body-map-label {
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.1s;
+  text-align: center;
+  color: inherit;
+}
+
+.body-map-label:hover {
+  background: rgba(127, 127, 127, 0.1);
+}
