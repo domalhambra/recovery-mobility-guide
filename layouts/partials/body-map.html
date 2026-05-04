@@ -1,9 +1,12 @@
 {{/*
   Body map — homepage navigator.
   Reads two SVGs from static/svg/ and wraps them in a CSS-only front/back toggle.
+  Styles are inlined here because Lotus Docs has no customCSS hook in head.html.
 */}}
 
 {{- $regions := .Site.Data.body_regions -}}
+{{- $bodyMapCSS := resources.Get "css/body-map.css" -}}
+{{ with $bodyMapCSS }}<style>{{ .Content | safeCSS }}</style>{{ end }}
 
 <div class="body-map-wrapper" role="region" aria-label="Body region navigator">
   <div class="body-map-toggle" role="radiogroup" aria-label="Body view">

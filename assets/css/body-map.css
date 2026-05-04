@@ -11,7 +11,7 @@
 
 .body-map-toggle {
   display: inline-flex;
-  border: 1px solid currentColor;
+  border: 1px solid #888;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -23,15 +23,23 @@
 }
 
 .body-map-toggle label {
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 1.25rem;
   cursor: pointer;
   font-size: 0.9rem;
   user-select: none;
+  color: #444;
+  background: transparent;
+  transition: background 0.1s, color 0.1s;
 }
 
 .body-map-toggle input:checked + label {
-  background: currentColor;
-  color: var(--bs-body-bg, white);
+  background: #444;
+  color: #fff;
+}
+
+.body-map-toggle input:focus-visible + label {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
 }
 
 .body-map-figures {
@@ -56,18 +64,19 @@
 }
 
 .body-region {
-  fill: currentColor;
-  fill-opacity: 0.12;
-  stroke: currentColor;
-  stroke-opacity: 0.4;
-  stroke-width: 0.5;
-  transition: fill-opacity 0.15s;
+  fill: #888;
+  fill-opacity: 0.35;
+  stroke: #555;
+  stroke-opacity: 0.6;
+  stroke-width: 0.6;
+  transition: fill-opacity 0.15s, fill 0.15s;
   cursor: pointer;
 }
 
 .body-region:hover,
 .body-region-link:focus .body-region {
-  fill-opacity: 0.45;
+  fill: #c84a28;
+  fill-opacity: 0.7;
 }
 
 .body-region-link:focus {

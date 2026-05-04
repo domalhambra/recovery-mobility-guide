@@ -47,4 +47,3 @@ title = "Badwater Mobility"
     breadcrumbs = true
     backToTop = true
     titleIcon = "accessibility_new"
-    customCSS = ["css/body-map.css"]
