@@ -10,6 +10,11 @@
 {{ end }}
 <html lang="{{ site.LanguageCode }}">
     {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "head.html") . -}}
+    {{- /* Badwater palette — loaded after Lotus's main stylesheet so it overrides Bootstrap CSS variables. */ -}}
+    {{- with resources.Get "css/badwater-palette.css" -}}
+      {{- $css := . | minify | fingerprint "sha384" -}}
+      <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+    {{- end -}}
     <body>
         <div class="content">
             <div class="page-wrapper toggled">
