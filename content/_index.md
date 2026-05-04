@@ -1,6 +1,6 @@
 ---
-title: "Mobility, Recovery & Strength Exercise Library"
-linktitle: "Badwater Mobility"
+title: "Badwater Mobility"
+linktitle: "Home"
 description: "A practical reference library for mobility, strength, recovery, and pain management exercises for wildland firefighters."
 weight: 1
 type: "home"

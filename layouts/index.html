@@ -1,14 +1,179 @@
 {{ define "main" }}
-<section class="homepage-hero text-center my-5">
-  <h1>{{ .Site.Title }}</h1>
-  <p class="lead">{{ .Site.Params.description }}</p>
-</section>
-{{ with .Content }}
-<section class="homepage-intro">
-  {{ . }}
-</section>
-{{ end }}
-<section class="homepage-body-map">
-  {{ partial "body-map.html" . }}
-</section>
+<style>
+.bw-home {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.bw-home .tagline {
+  font-size: 1.1rem;
+  color: var(--bs-secondary-color, #555);
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.bw-home .quickstart {
+  background: #2a2520;
+  color: #f5efe6;
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+.bw-home .quickstart-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #c9a989;
+  margin: 0 0 0.7rem;
+  font-weight: 600;
+}
+.bw-home .pills {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.bw-home .pill {
+  background: #c84a28;
+  color: #fff;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.12s, transform 0.05s;
+  white-space: nowrap;
+}
+.bw-home .pill:hover {
+  background: #d96e4d;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+.bw-home .picker {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 2rem 0;
+}
+@media (min-width: 820px) {
+  .bw-home .picker {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+.bw-home .picker h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+.bw-home .region-inline,
+.bw-home ul.region-inline {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+.bw-home .region-inline li {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  background: none !important;
+}
+.bw-home .region-inline li::before {
+  background: none !important;
+}
+.bw-home .region-inline li::marker {
+  content: "" !important;
+  display: none !important;
+}
+.bw-home .region-inline li {
+  position: relative;
+}
+.bw-home .region-inline li + li::before {
+  content: "·";
+  color: var(--bs-tertiary-color, #999);
+  margin-right: 0.85rem;
+  margin-left: -0.85rem;
+}
+.bw-home .region-inline a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.12s, color 0.12s;
+}
+.bw-home .region-inline a:hover {
+  color: #c84a28;
+  border-bottom-color: #c84a28;
+}
+.bw-home .footer-hint {
+  font-size: 0.85rem;
+  color: var(--bs-secondary-color, #777);
+  margin: 0;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--bs-border-color, #e5e0d6);
+}
+
+/* Body map sized down for the homepage context */
+.bw-home .picker-map .body-map-wrapper {
+  margin: 0;
+  max-width: 100%;
+}
+.bw-home .picker-map .body-map-figures {
+  max-width: 280px;
+}
+.bw-home .picker-map .body-map-labels {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bw-home .quickstart {
+    background: #1a1714;
+  }
+  .bw-home .footer-hint {
+    border-top-color: rgba(255,255,255,0.1);
+  }
+}
+</style>
+
+<div class="bw-home">
+  <p class="tagline">Move better. Recover faster.</p>
+
+  <section class="quickstart" aria-label="Quickstart routines">
+    <h2 class="quickstart-label">Quickstart</h2>
+    <div class="pills">
+      <a class="pill" href="/warm-up/pre-shift/">Pre-shift</a>
+      <a class="pill" href="/recovery/post-shift/">Post-shift</a>
+      <a class="pill" href="/pain-prescriptions/hip-glute/">Tight hips</a>
+      <a class="pill" href="/pain-prescriptions/lower-back/">Sore back</a>
+      <a class="pill" href="/pain-prescriptions/knee-shin/">Knee pain</a>
+      <a class="pill" href="/pain-prescriptions/shoulder/">Sore shoulders</a>
+      <a class="pill" href="/pain-prescriptions/neck-headache/">Stiff neck</a>
+    </div>
+  </section>
+
+  <section class="picker">
+    <div class="picker-text">
+      <h2>Or pick a body region</h2>
+      <ul class="region-inline">
+        <li><a href="/body-region/hips/">Hips</a></li>
+        <li><a href="/body-region/shoulders/">Shoulders</a></li>
+        <li><a href="/body-region/lower-back/">Lower Back</a></li>
+        <li><a href="/body-region/quads/">Quads &amp; Knees</a></li>
+        <li><a href="/body-region/ankles/">Ankles</a></li>
+        <li><a href="/body-region/arms/">Arms &amp; Wrists</a></li>
+        <li><a href="/body-region/neck/">Neck</a></li>
+        <li><a href="/body-region/upper-back/">Upper Back</a></li>
+        <li><a href="/body-region/calves/">Calves</a></li>
+      </ul>
+      <p class="footer-hint">Browse the full library using the sidebar.</p>
+    </div>
+    <div class="picker-map">
+      {{ partial "body-map.html" . }}
+    </div>
+  </section>
+</div>
 {{ end }}
