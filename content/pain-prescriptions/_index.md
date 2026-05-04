@@ -33,10 +33,10 @@ These protocols work best when applied regularly at moderate intensity — not a
 
 | Category | What's Inside |
 |----------|--------------|
-| [**51 — Lower Back Pain**](lower-back/) | Lumbar decompression, psoas release, and spinal resets |
-| [**52 — Neck & Headache**](neck-headache/) | Cervical mobilization, trap release, and tension headache protocols |
-| [**53 — Shoulder Pain**](shoulder/) | Anterior and posterior shoulder prescriptions |
-| [**54 — Wrist & Forearm Pain**](wrist-forearm/) | Carpal tunnel, grip fatigue, and forearm tension |
-| [**55 — Knee & Shin Issues**](knee-shin/) | Patellar tracking, shin splints, and knee stability |
-| [**56 — Hip & Glute Dysfunction**](hip-glute/) | Piriformis, hip impingement, and glute activation |
-| [**57 — Ankle & Foot Problems**](ankle-foot/) | Plantar fasciitis, ankle sprains, and foot mechanics |
+| [**Lower Back Pain**](lower-back/) | Lumbar decompression, psoas release, and spinal resets |
+| [**Neck & Headache**](neck-headache/) | Cervical mobilization, trap release, and tension headache protocols |
+| [**Shoulder Pain**](shoulder/) | Anterior and posterior shoulder prescriptions |
+| [**Wrist & Forearm Pain**](wrist-forearm/) | Carpal tunnel, grip fatigue, and forearm tension |
+| [**Knee & Shin Issues**](knee-shin/) | Patellar tracking, shin splints, and knee stability |
+| [**Hip & Glute Dysfunction**](hip-glute/) | Piriformis, hip impingement, and glute activation |
+| [**Ankle & Foot Problems**](ankle-foot/) | Plantar fasciitis, ankle sprains, and foot mechanics |

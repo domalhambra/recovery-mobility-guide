@@ -33,10 +33,10 @@ Strong muscles, tendons, and ligaments are the best injury prevention there is. 
 
 | Category | What's Inside |
 |----------|--------------|
-| [**31 — Upper Body Strength**](upper-body/) | Bench press, pull-ups, and pressing movements |
-| [**32 — Lower Body Strength**](lower-body/) | Squats, deadlifts, and leg development |
-| [**33 — Full-Body & Functional**](full-body/) | Integrated compound training |
-| [**34 — Kettlebell & Sandbag**](kettlebell-sandbag/) | Implement-based training programs |
-| [**35 — Bodyweight Programs**](bodyweight/) | Push-up and pull-up progressions, calisthenics |
-| [**36 — Endurance & Cardio**](endurance-cardio/) | Running, rucking, stairmill, and cardio training |
-| [**37 — Cycling**](cycling/) | On-bike training and cycling-specific conditioning |
+| [**Upper Body Strength**](upper-body/) | Bench press, pull-ups, and pressing movements |
+| [**Lower Body Strength**](lower-body/) | Squats, deadlifts, and leg development |
+| [**Full-Body & Functional**](full-body/) | Integrated compound training |
+| [**Kettlebell & Sandbag**](kettlebell-sandbag/) | Implement-based training programs |
+| [**Bodyweight Programs**](bodyweight/) | Push-up and pull-up progressions, calisthenics |
+| [**Endurance & Cardio**](endurance-cardio/) | Running, rucking, stairmill, and cardio training |
+| [**Cycling**](cycling/) | On-bike training and cycling-specific conditioning |

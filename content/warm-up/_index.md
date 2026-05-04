@@ -33,7 +33,7 @@ An effective warm-up doesn't need to be long. The sequences here are designed fo
 
 | Category | What's Inside |
 |----------|--------------|
-| [**21 — Pre-Shift Warm-Ups**](pre-shift/) | Sequences for before physically demanding work shifts |
-| [**22 — Pre-Workout Warm-Ups**](pre-workout/) | General and lift-specific warm-up sequences |
-| [**23 — Sport-Specific Warm-Ups**](sport-specific/) | Warm-ups tailored to hiking, cycling, rucking, and more |
-| [**24 — Activation Drills**](activation-drills/) | Targeted muscle activation — glutes, core, scapula |
+| [**Pre-Shift Warm-Ups**](pre-shift/) | Sequences for before physically demanding work shifts |
+| [**Pre-Workout Warm-Ups**](pre-workout/) | General and lift-specific warm-up sequences |
+| [**Sport-Specific Warm-Ups**](sport-specific/) | Warm-ups tailored to hiking, cycling, rucking, and more |
+| [**Activation Drills**](activation-drills/) | Targeted muscle activation — glutes, core, scapula |

@@ -33,9 +33,9 @@ Discomfort during a stretch is normal. Sharp, pinching, or radiating pain is not
 
 | Category | What's Inside |
 |----------|--------------|
-| [**11 — Upper Body Mobility**](upper-body/) | Shoulders, thoracic spine, wrists, and elbows |
-| [**12 — Lower Body Mobility**](lower-body/) | Hips, ankles, knees, glutes, and hamstrings |
-| [**13 — Spine & Core Mobility**](spine-and-core/) | Thoracic rotation, lumbar decompression, neck |
-| [**14 — CARs & Joint Maintenance**](cars/) | Controlled articular rotations for daily upkeep |
-| [**15 — Full-Body Mobility**](full-body/) | Multi-region flows and integrated sessions |
-| [**16 — Static Stretching & Flexibility**](static-stretching/) | Sustained holds for long-term range of motion |
+| [**Upper Body Mobility**](upper-body/) | Shoulders, thoracic spine, wrists, and elbows |
+| [**Lower Body Mobility**](lower-body/) | Hips, ankles, knees, glutes, and hamstrings |
+| [**Spine & Core Mobility**](spine-and-core/) | Thoracic rotation, lumbar decompression, neck |
+| [**CARs & Joint Maintenance**](cars/) | Controlled articular rotations for daily upkeep |
+| [**Full-Body Mobility**](full-body/) | Multi-region flows and integrated sessions |
+| [**Static Stretching & Flexibility**](static-stretching/) | Sustained holds for long-term range of motion |

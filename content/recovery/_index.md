@@ -33,7 +33,7 @@ Stiff, adhered fascia restricts movement and creates compensation patterns. Regu
 
 | Category | What's Inside |
 |----------|--------------|
-| [**41 — Post-Shift Recovery**](post-shift/) | Decompression protocols after physically demanding work |
-| [**42 — Post-Workout Recovery**](post-workout/) | Cooldown sequences after training sessions |
-| [**43 — Myofascial Release & Soft Tissue**](myofascial-release/) | Foam rolling, ball work, and tissue mobilization |
-| [**44 — Breathwork & Downregulation**](breathwork/) | Breathing protocols for nervous system recovery |
+| [**Post-Shift Recovery**](post-shift/) | Decompression protocols after physically demanding work |
+| [**Post-Workout Recovery**](post-workout/) | Cooldown sequences after training sessions |
+| [**Myofascial Release & Soft Tissue**](myofascial-release/) | Foam rolling, ball work, and tissue mobilization |
+| [**Breathwork & Downregulation**](breathwork/) | Breathing protocols for nervous system recovery |
