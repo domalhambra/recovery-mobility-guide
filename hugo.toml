@@ -35,7 +35,12 @@ title = "Badwater Mobility"
 # Lotus Docs site params (minimal — defaults preferred)
 [params]
   description = "Practical mobility and recovery for wildland firefighters."
-  # google_fonts intentionally not set — use Lotus defaults
+  google_fonts = [
+    ["Source Serif 4", "400,600"],
+    ["Inter", "400,500,600,700"],
+  ]
+  secondary_font  = "'Source Serif 4', ui-serif, Georgia, serif"
+  sans_serif_font = "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
   # themeColor intentionally not set — add only if Lotus default clashes with body map hover
 
   [params.docs]
