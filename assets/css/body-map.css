@@ -6,7 +6,7 @@
   align-items: center;
   gap: 1rem;
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 720px;
 }
 
 .body-map-toggle {
@@ -45,7 +45,7 @@
 .body-map-figures {
   position: relative;
   width: 100%;
-  max-width: 360px;
+  max-width: 520px;
 }
 
 .body-map-figure {
@@ -64,19 +64,30 @@
 }
 
 .body-region {
-  fill: #888;
-  fill-opacity: 0.35;
-  stroke: #555;
-  stroke-opacity: 0.6;
-  stroke-width: 0.6;
-  transition: fill-opacity 0.15s, fill 0.15s;
+  fill: #3f3f3f;
+  fill-opacity: 0.85;
+  stroke: #1a1a1a;
+  stroke-opacity: 0.8;
+  stroke-width: 0.5;
+  transition: fill 0.15s;
   cursor: pointer;
 }
 
 .body-region:hover,
 .body-region-link:focus .body-region {
   fill: #c84a28;
-  fill-opacity: 0.7;
+  fill-opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .body-region {
+    fill: #d4d4d4;
+    stroke: #f0f0f0;
+  }
+  .body-region:hover,
+  .body-region-link:focus .body-region {
+    fill: #d4734e;
+  }
 }
 
 .body-region-link:focus {
