@@ -43,7 +43,77 @@
 
 /*
  * Dark mode — "Obsidian & Moon"
+ * Apply via system preference AND explicit user override.
  */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bw-bg:           #161618;
+    --bw-surface:      #27272A;
+    --bw-text:         #EBE6D9;
+    --bw-text-muted:   #9E9486;
+    --bw-link:         #E47A60;
+    --bw-link-hover:   #F08F75;
+    --bw-accent:       #D4B464;
+    --bw-accent-hover: #E5C879;
+    --bw-coral:        #F08F75;
+    --bw-sage:         #6B7065;
+    --bw-border:       rgba(235, 230, 217, 0.12);
+    --bw-border-faint: rgba(235, 230, 217, 0.06);
+    --bw-shadow:       rgba(0, 0, 0, 0.3);
+
+    --bs-body-bg:                 var(--bw-bg);
+    --bs-body-color:              var(--bw-text);
+    --bs-secondary-color:         var(--bw-text-muted);
+    --bs-tertiary-color:          var(--bw-sage);
+    --bs-link-color:              var(--bw-link);
+    --bs-link-hover-color:        var(--bw-link-hover);
+    --bs-link-color-rgb:          228, 122, 96;
+    --bs-link-hover-color-rgb:    240, 143, 117;
+    --bs-primary:                 var(--bw-link);
+    --bs-primary-rgb:             228, 122, 96;
+    --bs-border-color:            var(--bw-border);
+    --bs-border-color-translucent: var(--bw-border-faint);
+    --bs-secondary-bg:            var(--bw-surface);
+    --bs-tertiary-bg:             var(--bw-surface);
+    --bs-emphasis-color:          var(--bw-text);
+    --bs-heading-color:           var(--bw-text);
+  }
+  /* Light-mode override wins if user explicitly chose light */
+  [data-bs-theme="light"] {
+    --bw-bg:           #EFEAE0;
+    --bw-surface:      #E4DED0;
+    --bw-text:         #2B2A28;
+    --bw-text-muted:   #5A5448;
+    --bw-link:         #B43E2E;
+    --bw-link-hover:   #9A3528;
+    --bw-accent:       #C7A955;
+    --bw-accent-hover: #D4B96A;
+    --bw-coral:        #E47A60;
+    --bw-sage:         #9AA392;
+    --bw-sky:          #A8B4BC;
+    --bw-border:       rgba(43, 42, 40, 0.10);
+    --bw-border-faint: rgba(43, 42, 40, 0.06);
+    --bw-shadow:       rgba(43, 42, 40, 0.06);
+
+    --bs-body-bg:                 var(--bw-bg);
+    --bs-body-color:              var(--bw-text);
+    --bs-secondary-color:         var(--bw-text-muted);
+    --bs-tertiary-color:          var(--bw-sage);
+    --bs-link-color:              var(--bw-link);
+    --bs-link-hover-color:        var(--bw-link-hover);
+    --bs-link-color-rgb:          180, 62, 46;
+    --bs-link-hover-color-rgb:    154, 53, 40;
+    --bs-primary:                 var(--bw-link);
+    --bs-primary-rgb:             180, 62, 46;
+    --bs-border-color:            var(--bw-border);
+    --bs-border-color-translucent: var(--bw-border-faint);
+    --bs-secondary-bg:            var(--bw-surface);
+    --bs-tertiary-bg:             var(--bw-surface);
+    --bs-emphasis-color:          var(--bw-text);
+    --bs-heading-color:           var(--bw-text);
+  }
+}
+
 [data-bs-theme="dark"] {
   --bw-bg:           #161618;
   --bw-surface:      #27272A;
