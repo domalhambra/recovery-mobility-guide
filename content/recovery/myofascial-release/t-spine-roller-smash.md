@@ -1,7 +1,6 @@
 ---
 title: "T-Spine Roller Smash"
 description: "Foam roller mobilization for the thoracic spine and upper back. Improves overhead, press, and front rack positions."
-menuPre: "43.01 "
 weight: 10
 tags: ["shoulders", "upper-back", "myofascial-release", "beginner", "foam-roller"]
 body-region: [shoulders, upper-back]
@@ -9,8 +8,8 @@ body-region: [shoulders, upper-back]
 
 The T-spine roller smash uses a foam roller to break up stiffness in the thoracic spine and surrounding musculature. It restores extension and rotation through the upper back, which is critical for overhead pressing, front rack positions, and hanging movements.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The T-spine roller smash uses a foam roller to break up stiffness in the thoraci
 - Rolling too fast — spend 20–30 seconds on each segment, not just passing through
 - Cranking your neck forward — let your hands support the head in a neutral position
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a deeper mobilization, extend your arms overhead while draped over the roller. This adds a stretch to the lats and pecs while the roller works the thoracic extensors.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube NS73eSohTbc >}}
 

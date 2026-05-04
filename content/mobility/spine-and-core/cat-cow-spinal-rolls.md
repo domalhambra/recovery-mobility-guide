@@ -1,7 +1,6 @@
 ---
 title: "Cat-Cow & Spinal Rolls"
 description: "Cat-cow combined with spinal rolls for full-spine segmental mobility and dynamic warm-up."
-menuPre: "13.08 "
 weight: 80
 tags: ["upper-back", "lumbar", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back, lower-back]
@@ -9,8 +8,8 @@ body-region: [upper-back, lower-back]
 
 This variation builds on the standard cat-cow by adding lateral and circular spinal rolls, mobilizing the spine in all three planes of motion. It is an ideal dynamic warm-up that addresses flexion, extension, lateral flexion, and rotation in one flowing sequence.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ This variation builds on the standard cat-cow by adding lateral and circular spi
 - Making the circles too small — aim for the largest controlled circles you can manage
 - Holding the breath — coordinate breathing with the movement
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Imagine your spine is a stirring stick and your ribcage is tracing the rim of a bowl. Make the bowl as wide as possible to maximize the range of each segment.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

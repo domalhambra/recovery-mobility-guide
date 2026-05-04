@@ -1,7 +1,6 @@
 ---
 title: "Banded Lateral Opener"
 description: "Banded lateral opener for shoulder external rotation and front rack and press mobility."
-menuPre: "11.14 "
 weight: 140
 tags: ["shoulders", "mobility", "intermediate", "resistance-band"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 The banded lateral opener uses a resistance band to create a distraction force while you work through shoulder external rotation and abduction. This mobilization improves front rack and press positions by addressing restrictions in the lateral rotator cuff and shoulder capsule.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The banded lateral opener uses a resistance band to create a distraction force w
 - Using too heavy a band initially — start light and build up
 - Shrugging the shoulder up toward the ear
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try this at different angles of shoulder abduction (arm at side, arm at 45 degrees, arm at 90 degrees). Each angle targets a slightly different part of the capsule and rotator cuff.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

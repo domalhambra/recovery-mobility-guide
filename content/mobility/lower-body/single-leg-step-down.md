@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Step Down"
 description: "A corrective exercise for knee stability and control using a step or stair."
-menuPre: "12.18 "
 weight: 180
 tags: ["knees", "corrective", "beginner", "step-stair"]
 body-region: [quads]
@@ -9,8 +8,8 @@ body-region: [quads]
 
 The single-leg step down is a corrective exercise that builds knee stability, quad strength, and control through a functional range of motion. It is widely used in knee rehab programs and for addressing patellofemoral pain.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The single-leg step down is a corrective exercise that builds knee stability, qu
 - Dropping too fast — the eccentric (lowering) phase is the most important part
 - Hiking the hip on the standing side to compensate for weakness
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Use a mirror or record yourself from the front. Watch for the knee caving inward — if it does, reduce the step height until you can control the movement.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "RhooeMsj9Ls" >}}
 

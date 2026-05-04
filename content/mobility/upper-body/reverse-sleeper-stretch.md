@@ -1,7 +1,6 @@
 ---
 title: "Reverse Sleeper Stretch"
 description: "Reverse sleeper stretch for shoulder external rotation and overhead and front rack mobility."
-menuPre: "11.16 "
 weight: 160
 tags: ["shoulders", "flexibility", "beginner", "no-equipment"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 The reverse sleeper stretch targets the subscapularis and anterior shoulder capsule by driving the shoulder into external rotation while lying on your side. This mobilization improves overhead and front rack positions by addressing internal rotation bias and anterior tightness.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The reverse sleeper stretch targets the subscapularis and anterior shoulder caps
 - Forcing into excessive external rotation — this should be a gentle, sustained hold
 - Placing the elbow above shoulder height, which may cause impingement
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This pairs perfectly with the standard sleeper stretch. Perform the regular sleeper (internal rotation) followed by the reverse (external rotation) to address the full rotational range of the shoulder.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Calf Wall Stretch"
 description: "Calf wall stretch for improved ankle dorsiflexion and calf flexibility."
-menuPre: "12.08 "
 weight: 80
 tags: ["ankles", "flexibility", "beginner"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 The calf wall stretch targets the gastrocnemius and soleus — the two primary muscles that limit ankle dorsiflexion. Limited calf flexibility is one of the most common restrictions affecting squat depth, walking gait, and overall lower-body mechanics.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -48,12 +47,12 @@ The calf wall stretch targets the gastrocnemius and soleus — the two primary m
 - Bouncing — hold steady, don't pulse
 - Only doing the straight-leg version — the soleus (bent-knee) is often the bigger limiter for dorsiflexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a deeper stretch, place the ball of your back foot on a rolled towel or small wedge while keeping the heel on the ground. This pre-positions the ankle in more dorsiflexion.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

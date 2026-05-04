@@ -1,7 +1,6 @@
 ---
 title: "Thoracic Extension on Roller"
 description: "Thoracic extension on a foam roller for upper back mobility and posture correction."
-menuPre: "11.04 "
 weight: 40
 tags: ["upper-back", "mobility", "beginner"]
 body-region: [upper-back]
@@ -9,8 +8,8 @@ body-region: [upper-back]
 
 Using a foam roller as a fulcrum, this drill targets thoracic extension segment by segment. It is one of the most effective ways to counteract the flexed posture that comes from prolonged sitting, and it immediately improves overhead reach and breathing mechanics.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Using a foam roller as a fulcrum, this drill targets thoracic extension segment 
 - Cranking the neck into extension — your hands should support the head in a neutral position
 - Placing the roller on the lower back (lumbar spine), which is already extended in most people
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Breathe out as you extend over the roller. Each exhale lets you sink a little deeper into the stretch without forcing it.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube qCrYe698zJU >}}
 

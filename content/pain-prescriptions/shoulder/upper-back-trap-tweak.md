@@ -1,7 +1,6 @@
 ---
 title: "Upper Back Pain (Trap Tweak Sequence)"
 description: "A multi-step protocol for managing upper back pain and trap tweaks through soft tissue work, mobilization, and movement resets."
-menuPre: "53.03 "
 weight: 30
 tags: ["upper-back", "corrective", "beginner", "lacrosse-ball"]
 body-region: [upper-back]
@@ -9,9 +8,9 @@ body-region: [upper-back]
 
 The trap tweak sequence addresses acute and chronic upper back pain centered around the upper trapezius and rhomboid area. This type of pain commonly presents as a sharp or burning sensation between the shoulder blades or in the upper trap, often triggered by sudden movements, sustained postures, or overloading during training.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for muscular upper back pain. Seek immediate medical attention if you experience: pain that radiates into the chest or left arm; difficulty breathing; pain following a spinal injury or high-impact trauma; numbness or weakness in both arms; or upper back pain accompanied by fever.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

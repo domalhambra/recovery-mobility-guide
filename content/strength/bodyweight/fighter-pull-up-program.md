@@ -1,7 +1,6 @@
 ---
 title: "Fighter Pull-Up Program"
 description: "A structured pull-up program using a laddering approach to build pull-up volume and strength over several weeks."
-menuPre: "35.01 "
 weight: 10
 tags: ["upper-back", "arms", "strength", "intermediate", "pull-up-bar"]
 body-region: [upper-back, arms]

@@ -1,7 +1,6 @@
 ---
 title: "Inchworm Warm-Up"
 description: "A full-body warm-up drill that emphasizes hamstring flexibility and core activation."
-menuPre: "12.30 "
 weight: 300
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hamstrings]
@@ -9,8 +8,8 @@ body-region: [hamstrings]
 
 The inchworm is a dynamic warm-up staple that stretches the hamstrings, activates the core and shoulders, and raises the heart rate. It is an excellent lead-in for any lower body or full-body training session.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ The inchworm is a dynamic warm-up staple that stretches the hamstrings, activate
 - Sagging the hips during the plank walk-out — keep the core braced
 - Moving too fast — use a deliberate, controlled pace
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Add a push-up at the plank position for an upper body component, or add a hip drop (alternating sides) for a hip flexor stretch variation.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube r1KI2TDGf3c >}}
 

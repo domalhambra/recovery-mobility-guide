@@ -1,7 +1,6 @@
 ---
 title: "Pull-Ups"
 description: "The pull-up builds upper back, lat, and arm strength. Setup, coaching cues, and progressions from beginner to advanced."
-menuPre: "31.02 "
 weight: 20
 tags: ["upper-back", "arms", "strength", "intermediate"]
 body-region: [upper-back, arms]
@@ -9,8 +8,8 @@ body-region: [upper-back, arms]
 
 The pull-up is one of the most effective upper body exercises, developing the lats, rhomboids, rear delts, and biceps. It directly improves hanging capacity, overhead positions, and general upper body pulling strength.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -35,12 +34,12 @@ The pull-up is one of the most effective upper body exercises, developing the la
 - Grip too wide — this reduces range of motion and overloads the shoulders
 - Shrugging the shoulders — keep them depressed (pulled down) throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't do a full pull-up yet, start with band-assisted pull-ups or negative pull-ups (jump to the top, lower yourself slowly over 5 seconds). Building the eccentric strength first is the fastest path to your first strict pull-up.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

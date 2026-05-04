@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Flexion w/ External Rotation (Box Variation)"
 description: "A box-supported single-leg drill combining hip flexion and external rotation for squat and lunge mobility."
-menuPre: "12.22 "
 weight: 220
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 This drill isolates one hip at a time, combining deep flexion with external rotation while using a box or bench for support. It builds the specific hip range needed for deep squats, lunges, and single-leg movements like pistol squats.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ This drill isolates one hip at a time, combining deep flexion with external rota
 - Rounding the lower back to get more depth — keep the spine neutral and move from the hip
 - Using a box that is too high, which forces compensation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with a lower box and progress to a higher one as your hip range of motion improves. The goal is to feel the stretch in the hip, not to achieve maximum height.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Back Squat"
 description: "The barbell back squat builds lower body strength through the quads, glutes, and posterior chain. Setup, coaching cues, and progressions."
-menuPre: "32.01 "
 weight: 10
 tags: ["quadriceps", "glutes", "strength", "intermediate"]
 body-region: [quads, glutes]
@@ -9,8 +8,8 @@ body-region: [quads, glutes]
 
 The barbell back squat is the foundational lower body strength movement. It develops the quadriceps, glutes, hamstrings, and core while reinforcing the squat pattern that carries over to athletics, daily life, and injury prevention.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,12 +35,12 @@ The barbell back squat is the foundational lower body strength movement. It deve
 - Losing core brace — take a fresh breath and rebrace at the top of each rep
 - Heels rising off the floor — this indicates ankle mobility limitations; use heel-elevated shoes or address dorsiflexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Film yourself from the side during warm-up sets. The most common errors (depth, bar path, chest angle) are nearly impossible to self-assess by feel but immediately visible on video.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Forearm Smash Mobilizations"
 description: "Lacrosse ball mobilization for the forearm flexors and extensors. Improves press, overhead, and front rack positions."
-menuPre: "43.04 "
 weight: 40
 tags: ["wrists", "arms", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 Forearm smash mobilizations use a lacrosse ball to release tight forearm flexors and extensors. Chronically tight forearms limit wrist extension, grip endurance, and overhead positions. This is essential maintenance for anyone who types, grips tools, or trains with a barbell.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ Forearm smash mobilizations use a lacrosse ball to release tight forearm flexors
 - Skipping the hand movement — the open/close motion is what creates the mobilization effect
 - Only doing one side of the forearm — work both flexors (palm-up) and extensors (palm-down)
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After smashing, immediately test your wrist extension by pressing your palms flat on a table with fingers pointing forward. You should notice an immediate improvement in how far you can extend.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

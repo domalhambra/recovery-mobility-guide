@@ -1,7 +1,6 @@
 ---
 title: "Knee-to-Chest Rocking"
 description: "A gentle rocking motion bringing the knee to the chest to mobilize the hips and lower back."
-menuPre: "12.12 "
 weight: 120
 tags: ["hips", "mobility", "beginner", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 Knee-to-chest rocking is a gentle, rhythmic mobilization that warms up the hip joint and releases tension in the lower back. The rocking component adds a dynamic element that encourages fluid movement through the hip's range of motion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Knee-to-chest rocking is a gentle, rhythmic mobilization that warms up the hip j
 - Lifting the head and shoulders off the floor, which creates unnecessary tension
 - Holding the breath — breathe deeply and use the exhale to draw the knee closer
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is a great movement to do first thing in the morning before getting out of bed. It gently wakes up the hips and spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

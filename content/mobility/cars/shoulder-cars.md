@@ -1,7 +1,6 @@
 ---
 title: "Shoulder CARs"
 description: "Shoulder controlled articular rotations for joint health, range of motion assessment, and daily maintenance."
-menuPre: "14.04 "
 weight: 40
 tags: ["shoulders", "mobility", "beginner", "no-equipment"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 Shoulder CARs (Controlled Articular Rotations) take the shoulder through its full rotational range under maximum tension. They serve as both a daily maintenance drill and an assessment tool — revealing restrictions you might not notice otherwise.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -40,16 +39,16 @@ Shoulder CARs (Controlled Articular Rotations) take the shoulder through its ful
 - Moving too fast — each rep should take 8–10 seconds minimum
 - Not creating enough whole-body irradiation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 The tighter you squeeze everything else (opposite fist, core, glutes), the more range you'll get at the shoulder. Irradiation is the key principle here.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel a pinch or sharp pain at any point in the circle, reduce the size of the arc at that spot. Never push through sharp pain — work around it.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

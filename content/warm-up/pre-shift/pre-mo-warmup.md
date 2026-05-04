@@ -1,7 +1,6 @@
 ---
 title: "Pre-Mo Warm-Up"
 description: "A quick warm-up sequence to prepare your body before heading out on shift."
-menuPre: "21.01 "
 weight: 10
 tags: ["mobility", "dynamic-stretching", "beginner", "no-equipment"]
 ---
@@ -35,6 +34,6 @@ A 10-minute warm-up sequence designed to prepare your body before heading out on
 | 9 | [Glute Bridges]({{< relref "/warm-up/activation-drills/glute-bridges" >}}) | 10 reps |
 | 10 | [Bodyweight Squats]({{< relref "/warm-up/activation-drills/bodyweight-squats" >}}) | 10 reps |
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This routine hits the same body areas you'll load throughout the day — hips, spine, shoulders, and ankles. Do it consistently and you'll feel the difference by mid-shift.
-{{% /notice %}}
+{{% /alert %}}

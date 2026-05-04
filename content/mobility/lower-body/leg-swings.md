@@ -1,7 +1,6 @@
 ---
 title: "Leg Swings"
 description: "Dynamic leg swings to warm up the hips, glutes, and hamstrings before activity."
-menuPre: "12.09 "
 weight: 90
 tags: ["hips", "glutes", "hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hips, glutes, hamstrings]
@@ -9,8 +8,8 @@ body-region: [hips, glutes, hamstrings]
 
 Leg swings are a foundational dynamic warm-up drill that takes the hip through its full range of motion in both the sagittal and frontal planes. They prime the glutes, hip flexors, and hamstrings for movement.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup — Forward/Back Swings
 
@@ -39,12 +38,12 @@ Leg swings are a foundational dynamic warm-up drill that takes the hip through i
 - Going too aggressively on the first few reps — build range gradually
 - Holding the breath — breathe naturally throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with smaller swings and progressively increase the arc. Think of it as "greasing the groove" — you are teaching the hip to move, not forcing a stretch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube 6sgX-qdROt0 >}}
 

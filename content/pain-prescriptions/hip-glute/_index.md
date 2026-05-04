@@ -1,6 +1,5 @@
 ---
 title: "Hip & Glute Dysfunction"
-menuPre: "56 "
 weight: 60
 description: "Hip and glute dysfunction prescriptions."
 ---
@@ -11,20 +10,20 @@ Hip and glute dysfunction covers a range of issues — piriformis syndrome, hip 
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Sitting Is the Enemy" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Sitting Is the Enemy" %}}
 Prolonged sitting shortens the hip flexors, weakens the glutes, and compresses the hip capsule. If you sit 6+ hours a day, hip dysfunction is almost guaranteed without intervention. The exercises here directly counteract sitting-related patterns — hip extension, glute activation, and capsular mobilization.
 {{% /tab %}}
-{{% tab title="Piriformis vs. Disc" %}}
+{{% tab tabName="Piriformis vs. Disc" %}}
 Piriformis syndrome and lumbar disc issues can produce similar symptoms — pain in the glute that may radiate down the leg. The key difference: piriformis pain typically worsens with sitting and internal rotation, while disc pain worsens with flexion and coughing. If symptoms include true numbness or weakness, see a professional.
 {{% /tab %}}
-{{% tab title="Activate Before You Stretch" %}}
+{{% tab tabName="Activate Before You Stretch" %}}
 Stretching a muscle that won't fire is a temporary fix. If your glutes are inhibited (common after prolonged sitting), activation drills — bridges, clamshells, banded walks — should come before or alongside stretching to re-establish the brain-muscle connection.
 {{% /tab %}}
 {{< /tabs >}}
 
 ---
 
-{{% notice note %}}
+{{% alert context="info" %}}
 Hip and glute dysfunction prescriptions are being added. In the meantime, see [Hip Capsule Mobilization](../../mobility/lower-body/hip-capsule-mobilization/), [90/90 Stretch](../../mobility/lower-body/90-90-stretch/), and [Glute Bridges](../../warm-up/activation-drills/glute-bridges/) for targeted exercises.
-{{% /notice %}}
+{{% /alert %}}

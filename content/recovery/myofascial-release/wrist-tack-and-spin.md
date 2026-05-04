@@ -1,7 +1,6 @@
 ---
 title: "Wrist Tack and Spin"
 description: "Lacrosse ball tack-and-spin mobilization for the wrist and forearm. Improves press, front rack, and overhead positions."
-menuPre: "43.05 "
 weight: 50
 tags: ["wrists", "arms", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 The wrist tack and spin technique pins forearm tissue with a lacrosse ball and then rotates the wrist through its full range. This breaks up adhesions between the forearm muscles and the underlying fascia, restoring wrist mobility for pressing, front rack, and overhead movements.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ The wrist tack and spin technique pins forearm tissue with a lacrosse ball and t
 - Skipping the extensor side — both surfaces of the forearm need work
 - Going too fast — slow, deliberate rotations are more effective than quick spins
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you find a spot that's particularly tight or painful, hold the ball there and add wrist flexion/extension (bending the wrist up and down) in addition to the rotation. This addresses the tissue from multiple angles.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Wrist Circles"
 description: "Wrist circles for joint mobility warmup and carpal tunnel prevention."
-menuPre: "11.06 "
 weight: 60
 tags: ["wrists", "mobility", "beginner"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 Wrist circles are a simple but effective way to warm up the wrist joint and maintain its range of motion. Performing them regularly helps prevent stiffness from keyboard work and prepares the wrists for loaded positions like front rack, push-ups, and handstands.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Wrist circles are a simple but effective way to warm up the wrist joint and main
 - Making tiny circles — aim for the biggest controlled circle possible
 - Moving the entire forearm instead of isolating the wrist joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you notice a "sticky" or tight spot in the circle, spend extra time slowly working through that zone. Tightness there is exactly what you are trying to address.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

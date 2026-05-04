@@ -1,7 +1,6 @@
 ---
 title: "Hamstring Extenders"
 description: "Active hamstring stretching using controlled leg extensions to build flexibility under tension."
-menuPre: "12.34 "
 weight: 340
 tags: ["hamstrings", "mobility", "beginner", "no-equipment"]
 body-region: [hamstrings]
@@ -9,8 +8,8 @@ body-region: [hamstrings]
 
 Hamstring extenders use active muscle contraction to progressively extend the knee and stretch the hamstrings under load. This "active flexibility" approach builds usable range of motion — not just passive length — making it particularly effective for hamstring rehab and injury prevention.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Hamstring extenders use active muscle contraction to progressively extend the kn
 - Moving too fast — the slow extension is where the stretch benefit occurs
 - Letting the thigh drift away from vertical — keep the hip at roughly 90 degrees of flexion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Focus on active extension with the quads rather than pulling with the hands. The hands are just there to stabilize the hip position, not to force the stretch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

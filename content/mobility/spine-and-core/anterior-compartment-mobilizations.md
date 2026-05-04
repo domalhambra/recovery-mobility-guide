@@ -1,7 +1,6 @@
 ---
 title: "Anterior Compartment Mobilizations"
 description: "Lacrosse ball anterior neck and shoulder compartment mobilizations for overhead, front rack, and hang positions."
-menuPre: "13.16 "
 weight: 160
 tags: ["shoulders", "neck", "myofascial-release", "intermediate", "lacrosse-ball"]
 body-region: [shoulders, neck]
@@ -9,8 +8,8 @@ body-region: [shoulders, neck]
 
 Anterior compartment mobilizations use a lacrosse ball to release restrictions in the pectoralis minor, subclavius, scalenes, and anterior deltoid. These tissues become chronically shortened in desk workers and overhead athletes, restricting shoulder flexion, external rotation, and cervical mobility. This mobilization improves overhead, front rack, and hang positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -42,12 +41,12 @@ Anterior compartment mobilizations use a lacrosse ball to release restrictions i
 - Placing the ball directly on bone (collarbone, acromion) — stay on soft tissue
 - Rushing through the mobilization — slow, sustained pressure is most effective
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Work from the outside in: start with the pec minor (least sensitive), then the anterior deltoid, and finish with the scalenes (most sensitive). This gives your nervous system time to relax progressively.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

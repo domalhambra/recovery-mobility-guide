@@ -1,7 +1,6 @@
 ---
 title: "Glute Bridges"
 description: "Glute bridges activate the glutes and posterior chain. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.01 "
 weight: 10
 tags: ["glutes", "activation", "beginner", "no-equipment"]
 body-region: [glutes]
@@ -9,8 +8,8 @@ body-region: [glutes]
 
 Glute bridges are a foundational activation drill that wakes up the glutes before training or work. They teach you to extend the hips without compensating through the lower back, making them essential for anyone who sits for long periods.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ Glute bridges are a foundational activation drill that wakes up the glutes befor
 - Rushing through reps — the squeeze at the top is where the activation happens
 - Letting the knees cave inward — keep them tracking over your toes
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't feel your glutes firing, try placing your feet slightly further from your body or pressing your knees apart gently throughout the movement. Pausing at the top for a full 3-second squeeze helps build the mind-muscle connection.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

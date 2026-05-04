@@ -1,7 +1,6 @@
 ---
 title: "Lat Pull-Down with Hip Hinge"
 description: "A banded lat pull-down combined with a hip hinge to integrate hamstring and upper back activation."
-menuPre: "12.29 "
 weight: 290
 tags: ["hamstrings", "upper-back", "activation", "beginner", "resistance-band"]
 body-region: [hamstrings, upper-back]
@@ -9,8 +8,8 @@ body-region: [hamstrings, upper-back]
 
 This exercise combines a lat pull-down pattern with a hip hinge, training the posterior chain as an integrated unit. It is particularly useful in hamstring rehab programs because it teaches the hamstrings to work in coordination with the lats and glutes during hip extension.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ This exercise combines a lat pull-down pattern with a hip hinge, training the po
 - Pulling the band with the arms only instead of coordinating with the hip hinge
 - Hinging too deep before you have the hamstring flexibility to maintain a flat back
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think of the pull-down and the hinge as one synchronized movement. As the hips push back, the hands pull down. As the hips drive forward, the hands return up.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Ankle Alphabet"
 description: "The ankle alphabet drill activates and mobilizes the ankle joint through full range of motion. Setup, coaching cues, and progressions."
-menuPre: "24.05 "
 weight: 50
 tags: ["ankles", "activation", "corrective", "beginner", "no-equipment"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 The ankle alphabet is a simple activation and mobility drill that moves the ankle through its full range of motion in every direction. It's especially useful for recovering from ankle sprains, preventing stiffness from desk work, and as a warm-up before lower body training.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The ankle alphabet is a simple activation and mobility drill that moves the ankl
 - Making letters too small — use the full available range of motion at the ankle
 - Skipping it because it feels "too easy" — this drill builds proprioception, not strength
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is an excellent drill to do at your desk, during a shift break, or while watching TV. No setup required — just lift your foot off the ground and start tracing. Do it whenever your ankles feel stiff.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

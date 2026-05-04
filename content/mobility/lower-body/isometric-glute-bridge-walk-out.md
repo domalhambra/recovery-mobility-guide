@@ -1,7 +1,6 @@
 ---
 title: "Isometric Glute Bridge Walk Out"
 description: "A glute bridge with a walk-out to progressively load the hamstrings eccentrically."
-menuPre: "12.31 "
 weight: 310
 tags: ["hamstrings", "glutes", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings, glutes]
@@ -9,8 +8,8 @@ body-region: [hamstrings, glutes]
 
 The isometric glute bridge walk-out starts in a standard bridge position and adds a slow foot walk-out to progressively lengthen and load the hamstrings. This controlled eccentric stress is a key component of hamstring rehab and resilience training.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ The isometric glute bridge walk-out starts in a standard bridge position and add
 - Walking out too far and losing the bridge position entirely
 - Holding the breath — breathe steadily throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot maintain the bridge through the full walk-out, reduce the number of steps. Build up gradually as your hamstrings get stronger.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

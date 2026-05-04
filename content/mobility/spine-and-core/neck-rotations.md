@@ -1,7 +1,6 @@
 ---
 title: "Neck Rotations"
 description: "Active neck rotations for cervical mobility and tension relief."
-menuPre: "13.06 "
 weight: 60
 tags: ["neck", "mobility", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [neck]
@@ -9,8 +8,8 @@ body-region: [neck]
 
 Neck rotations take the cervical spine through its full rotational range of motion. This simple drill relieves tension from desk work and driving, warms up the neck before training, and helps maintain the rotational mobility needed for checking blind spots and overall head-turning freedom.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Neck rotations take the cervical spine through its full rotational range of moti
 - Moving too quickly or using momentum
 - Tilting the head (side bending) instead of purely rotating
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your nose level with the horizon throughout the rotation. If your chin dips or rises, you are adding flexion or extension to what should be a pure rotation.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

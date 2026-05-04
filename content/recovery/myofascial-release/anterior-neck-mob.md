@@ -1,7 +1,6 @@
 ---
 title: "Anterior Neck Mob"
 description: "Lacrosse ball mobilization for the sternocleidomastoid and anterior neck muscles. Relieves neck stiffness and forward head posture."
-menuPre: "43.09 "
 weight: 90
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]
@@ -9,8 +8,8 @@ body-region: [neck]
 
 Anterior neck mobilization targets the sternocleidomastoid (SCM) and scalene muscles on the front and sides of the neck. These muscles become chronically shortened from forward head posture, desk work, and phone use, contributing to neck pain, headaches, and restricted rotation.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ Anterior neck mobilization targets the sternocleidomastoid (SCM) and scalene mus
 - Pressing on the carotid pulse — if you feel your pulse under the ball, reposition laterally
 - Working too close to the collarbone or behind the ear — stay on the muscle belly
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 Be very gentle with anterior neck work. Avoid pressing on the windpipe, carotid artery (you'll feel a strong pulse), or any area that causes dizziness or visual changes. If in doubt, use fingertip pressure instead of a ball.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

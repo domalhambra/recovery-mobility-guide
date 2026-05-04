@@ -1,7 +1,6 @@
 ---
 title: "Wrist CARs"
 description: "Wrist controlled articular rotations for joint health and carpal maintenance."
-menuPre: "14.03 "
 weight: 30
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 Wrist CARs (Controlled Articular Rotations) move the wrist through its full range of motion under active tension. Essential for anyone who works with their hands, types at a desk, or grips tools and equipment regularly.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -39,12 +38,12 @@ Wrist CARs (Controlled Articular Rotations) move the wrist through its full rang
 - Moving too quickly — slow, deliberate circles
 - Not gripping the forearm to isolate the joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is especially important if you type, use hand tools, or grip barbells/kettlebells regularly. Doing wrist CARs before and after these activities can prevent overuse injuries.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,0 +1,47 @@
+baseURL = "https://mobility-guide.netlify.app/"
+languageCode = "en-us"
+title = "Badwater Mobility"
+theme = "hugo-theme-relearn"
+
+[params]
+  alwaysopen = false
+  collapsibleMenu = true
+  disableLandingPageButton = true
+  showVisitedLinks = false
+  disableInlineCopyToClipBoard = true
+  disableToc = true
+
+[[params.themeVariant]]
+  identifier = "mobility-auto"
+  name = "Auto"
+  auto = ["mobility", "mobility-dark"]
+[[params.themeVariant]]
+  identifier = "mobility"
+  name = "Light"
+[[params.themeVariant]]
+  identifier = "mobility-dark"
+  name = "Dark"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[taxonomies]
+  tag = "tags"
+  body-region = "body-region"
+
+[[menus.shortcuts]]
+  name = "Body Regions"
+  url = "/body-region/"
+  weight = 10

@@ -1,7 +1,6 @@
 ---
 title: "Head Mob"
 description: "Lacrosse ball mobilization for the scalp and temporalis muscles. Relieves tension headaches and jaw tightness."
-menuPre: "43.08 "
 weight: 80
 tags: ["head", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]
@@ -9,8 +8,8 @@ body-region: [neck]
 
 Head mobilization uses a lacrosse ball to release tension in the scalp fascia, temporalis muscles, and occipital attachments. These areas hold surprising amounts of tension — particularly in people who clench their jaw, wear hats or helmets for work, or experience tension headaches.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ Head mobilization uses a lacrosse ball to release tension in the scalp fascia, t
 - Rushing through the work — slow, deliberate pressure is more effective than quick rolling
 - Only working one side — tension is often asymmetric, so both sides need attention
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you clench your jaw (bruxism), focus extra time on the temporalis muscle above and in front of the ear. You can also gently open and close your jaw while the ball is pinned on this area for a smash-and-floss effect.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

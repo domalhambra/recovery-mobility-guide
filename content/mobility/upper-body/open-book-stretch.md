@@ -1,7 +1,6 @@
 ---
 title: "Open Book Stretch"
 description: "Open book stretch for thoracic rotation and ribcage mobility."
-menuPre: "11.05 "
 weight: 50
 tags: ["upper-back", "flexibility", "beginner"]
 body-region: [upper-back, chest]
@@ -9,8 +8,8 @@ body-region: [upper-back, chest]
 
 The open book stretch isolates thoracic rotation by locking out the lumbar spine and hips. It is a go-to drill for anyone who needs more rotational range — overhead athletes, golfers, desk workers, and anyone preparing for movements that demand a mobile upper back.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The open book stretch isolates thoracic rotation by locking out the lumbar spine
 - Forcing the shoulder to the floor rather than letting the thoracic spine rotate naturally
 - Holding the breath — exhale as you open up
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Squeeze the pillow between your knees throughout the movement. This locks your pelvis in place and ensures the rotation comes from your thoracic spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube HZECaCFLvVw >}}
 

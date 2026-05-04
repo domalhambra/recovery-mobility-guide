@@ -1,7 +1,6 @@
 ---
 title: "Split Stance Hovers"
 description: "A slant board drill building ankle and quad strength in a split stance position for lunge mobility."
-menuPre: "12.26 "
 weight: 260
 tags: ["ankles", "quadriceps", "mobility", "intermediate", "slant-board"]
 body-region: [ankles, quads]
@@ -9,8 +8,8 @@ body-region: [ankles, quads]
 
 Split stance hovers combine ankle dorsiflexion loading with quad endurance in a lunge-like position. Performed on a slant board, they build the specific ankle and knee range needed for deep lunges, split squats, and walking/running mechanics.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Split stance hovers combine ankle dorsiflexion loading with quad endurance in a 
 - Dropping the back knee to the ground instead of hovering
 - Shifting weight too far back — keep the majority of weight on the front leg
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you do not have a slant board, you can place a thin plate or wedge under the front foot to simulate the incline. Even a small angle makes a difference for ankle loading.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Posterior Neck Mob"
 description: "Lacrosse ball mobilization for the suboccipitals and posterior neck muscles. Relieves neck stiffness and tension headaches."
-menuPre: "43.10 "
 weight: 100
 tags: ["neck", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [neck]
@@ -9,8 +8,8 @@ body-region: [neck]
 
 Posterior neck mobilization targets the suboccipital muscles, upper trapezius, and levator scapulae at the base of the skull and back of the neck. These muscles are a primary source of tension headaches, neck stiffness, and restricted head movement, especially in people who work at screens.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ Posterior neck mobilization targets the suboccipital muscles, upper trapezius, a
 - Holding your breath — deep breathing amplifies the release
 - Rushing — these muscles respond to sustained pressure, not quick rolling
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This is an excellent drill to do before bed if you carry tension in your neck. Spend 2–3 minutes lying on the ball at the base of the skull and you'll often fall asleep faster with less neck stiffness in the morning.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

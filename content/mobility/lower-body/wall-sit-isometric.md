@@ -1,7 +1,6 @@
 ---
 title: "Wall Sit Isometric"
 description: "Wall sit isometric hold for knee stability and quad endurance."
-menuPre: "12.05 "
 weight: 50
 tags: ["knees", "strength", "beginner"]
 body-region: [quads]
@@ -9,8 +8,8 @@ body-region: [quads]
 
 The wall sit is an isometric quad exercise that builds endurance and stability around the knee joint without any impact or dynamic loading. It's a go-to for building baseline knee resilience, especially if squats or lunges currently aggravate your knees.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,16 +32,16 @@ The wall sit is an isometric quad exercise that builds endurance and stability a
 - Holding your breath — breathe steadily throughout the hold
 - Feet too close to the wall — this shifts stress onto the kneecap instead of the quads
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you can't hold parallel for more than 15 seconds, start with a shallower angle (higher position). Build up to 45 seconds before going deeper.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel pain behind the kneecap (not just quad burn), raise your position higher on the wall. Patellofemoral irritation during wall sits usually means the angle is too deep for your current capacity.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

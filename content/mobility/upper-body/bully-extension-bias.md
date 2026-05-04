@@ -1,7 +1,6 @@
 ---
 title: "Bully Extension Bias"
 description: "Banded bully stretch with extension bias for shoulder hang and press position improvement."
-menuPre: "11.13 "
 weight: 130
 tags: ["shoulders", "mobility", "intermediate", "resistance-band"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 The bully extension bias mobilization uses a resistance band to drive the humeral head posteriorly while you work into shoulder extension and internal rotation. This mobilization improves hang and press positions by opening the anterior shoulder capsule.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The bully extension bias mobilization uses a resistance band to drive the humera
 - Leaning forward to compensate — stand tall and let the band do the work
 - Forcing the hand too far up the back and causing a pinching sensation
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If the behind-the-back position is too aggressive, start with your arm simply extended behind you (elbow straight) and work on increasing shoulder extension before adding the internal rotation component.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

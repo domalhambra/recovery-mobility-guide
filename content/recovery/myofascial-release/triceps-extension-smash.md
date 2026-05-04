@@ -1,7 +1,6 @@
 ---
 title: "Triceps Extension Smash"
 description: "Squat rack mobilization for the triceps and posterior arm. Improves overhead, front rack, and pressing positions."
-menuPre: "43.07 "
 weight: 70
 tags: ["arms", "myofascial-release", "intermediate", "squat-rack"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 The triceps extension smash uses a barbell in a squat rack to apply pressure to the triceps while moving through elbow flexion and extension. Tight triceps limit overhead lockout, front rack depth, and elbow health. This technique is particularly effective because the barbell provides consistent, targeted pressure across the entire muscle.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ The triceps extension smash uses a barbell in a squat rack to apply pressure to 
 - Moving too quickly through the elbow bends — slow, controlled movements are more effective
 - Only working one section of the triceps — the muscle has three heads; cover the full length
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For extra effect, make a fist and rotate your wrist (pronation/supination) while the elbow is bent and the barbell is pinned on a tight spot. This adds another layer of tissue mobilization through the forearm-triceps connection.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

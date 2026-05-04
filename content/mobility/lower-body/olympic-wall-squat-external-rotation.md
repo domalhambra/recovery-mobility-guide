@@ -1,7 +1,6 @@
 ---
 title: "Olympic Wall Squat With External Rotation"
 description: "A wall-supported deep squat drill focusing on hip external rotation for squat mobility."
-menuPre: "12.21 "
 weight: 210
 tags: ["hips", "mobility", "intermediate", "wall"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The Olympic wall squat with external rotation uses the wall as a guide to train deep squat positioning while emphasizing hip external rotation. This drill is particularly useful for lifters working toward a deep, upright squat and for anyone with hip impingement symptoms in the bottom of a squat.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ The Olympic wall squat with external rotation uses the wall as a guide to train 
 - Letting the heels rise — wear flat shoes or elevate the heels on small plates if needed
 - Rounding the upper back — the wall should encourage you to stay tall
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot reach depth without the heels rising, place a thin plate or slant board under the heels. Over time, reduce the heel elevation as mobility improves.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

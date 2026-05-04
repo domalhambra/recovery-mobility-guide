@@ -1,7 +1,6 @@
 ---
 title: "Overhead Distraction with External Rotation Bias"
 description: "Banded overhead distraction with external rotation for overhead and front rack position mobility."
-menuPre: "11.21 "
 weight: 210
 tags: ["shoulders", "arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [shoulders, arms]
@@ -9,8 +8,8 @@ body-region: [shoulders, arms]
 
 This mobilization combines overhead shoulder distraction with an external rotation bias. It targets the inferior shoulder capsule and subscapularis, which are often the primary restrictions in overhead positions. This mobilization improves overhead and front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ This mobilization combines overhead shoulder distraction with an external rotati
 - Arching the lower back aggressively to get the arm overhead — keep ribs down
 - Holding the breath — breathe deeply, exhale to relax into the stretch
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Alternate between palm-forward and palm-backward at the top of the overhead position. Each orientation targets a different rotational component of the capsule and rotator cuff.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

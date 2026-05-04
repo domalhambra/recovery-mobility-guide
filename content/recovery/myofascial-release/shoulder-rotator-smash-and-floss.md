@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Rotator Smash & Floss"
 description: "Lacrosse ball mobilization for the shoulder rotator cuff and posterior deltoid. Improves hanging, front rack, and pressing positions."
-menuPre: "43.06 "
 weight: 60
 tags: ["arms", "shoulders", "myofascial-release", "intermediate", "lacrosse-ball"]
 body-region: [arms, shoulders]
@@ -9,8 +8,8 @@ body-region: [arms, shoulders]
 
 The shoulder rotator smash and floss targets the posterior shoulder — infraspinatus, teres minor, and posterior deltoid. These muscles commonly become restricted from desk work and repetitive overhead movements, limiting external rotation and creating impingement risk.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The shoulder rotator smash and floss targets the posterior shoulder — infraspi
 - Only pinning without moving — the flossing movement is what creates lasting change
 - Being too aggressive — if the pain is above a 7/10, reduce pressure by rolling slightly off the ball
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel numbness, tingling, or sharp shooting pain down the arm, reposition the ball. You may be compressing a nerve. Dull, achy pressure is normal; electric or shooting sensations are not.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

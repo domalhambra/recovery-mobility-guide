@@ -1,7 +1,6 @@
 ---
 title: "Hip Flexor Lunge"
 description: "A dynamic lunge stretch targeting the hip flexors for improved hip extension and posture."
-menuPre: "12.11 "
 weight: 110
 tags: ["hips", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The hip flexor lunge is a dynamic stretch that opens the front of the hip through a controlled lunge pattern. It counteracts the shortening effect of prolonged sitting and is a staple in any warm-up or daily maintenance routine.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The hip flexor lunge is a dynamic stretch that opens the front of the hip throug
 - Letting the front knee travel far past the toes
 - Rushing through reps — use a slow, controlled tempo
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Squeeze the glute of the kneeling leg as you shift forward. This creates reciprocal inhibition, helping the hip flexor relax into a deeper stretch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "EVcnudMqQCE" >}}
 

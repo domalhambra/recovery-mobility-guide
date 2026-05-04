@@ -1,7 +1,6 @@
 ---
 title: "Wrist Flexion/Extension"
 description: "Active wrist flexion and extension drill for forearm mobility and desk-worker relief."
-menuPre: "11.08 "
 weight: 80
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 This simple active mobility drill takes the wrist through its full flexion and extension range. It is ideal for desk workers, anyone who types frequently, and as a pre-workout warm-up before front rack, push-up, or handstand work.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ This simple active mobility drill takes the wrist through its full flexion and e
 - Applying overpressure too aggressively — this should be gentle
 - Rushing through the movement without pausing at end ranges
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a loaded variation, place your palms flat on a desk and lean forward to bias extension, then flip your hands over (fingers pointing toward you) and lean back to bias flexion.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

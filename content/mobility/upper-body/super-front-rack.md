@@ -1,7 +1,6 @@
 ---
 title: "Super Front Rack"
 description: "Banded super front rack mobilization for overhead and front rack shoulder positions."
-menuPre: "11.20 "
 weight: 200
 tags: ["shoulders", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 The super front rack mobilization combines a banded shoulder distraction with a front rack position hold. It specifically targets the combination of shoulder flexion, external rotation, and elbow flexion needed for a clean front rack. This mobilization improves overhead and front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The super front rack mobilization combines a banded shoulder distraction with a 
 - Letting the torso lean forward — stand tall with ribs stacked over hips
 - Forcing the elbow up so high that it causes a pinch in the shoulder — find the stretch, not pain
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Hold a light barbell or PVC pipe in the front rack position while the band distracts. This mimics the actual demand and helps your nervous system accept the new range under a familiar load.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

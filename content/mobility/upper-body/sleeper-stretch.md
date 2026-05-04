@@ -1,7 +1,6 @@
 ---
 title: "Sleeper Stretch"
 description: "Sleeper stretch for shoulder internal rotation and rotator cuff flexibility."
-menuPre: "11.03 "
 weight: 30
 tags: ["shoulders", "flexibility", "intermediate"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 The sleeper stretch targets posterior shoulder tightness — specifically the infraspinatus and teres minor — by passively driving internal rotation while the scapula is stabilized against the floor. It is especially useful for overhead athletes and anyone with limited internal rotation.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The sleeper stretch targets posterior shoulder tightness — specifically the in
 - Pressing too aggressively — this is a gentle, sustained hold
 - Placing the elbow too high (above shoulder level), which can impinge the joint
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your bottom elbow at or slightly below shoulder height. If you feel a pinch in the front of the shoulder, lower the elbow position or reduce pressure.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

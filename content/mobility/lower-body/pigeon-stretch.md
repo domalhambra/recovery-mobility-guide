@@ -1,7 +1,6 @@
 ---
 title: "Pigeon Stretch"
 description: "Pigeon pose for deep hip flexor and glute stretching. A foundational hip opener for all levels."
-menuPre: "12.02 "
 weight: 20
 tags: ["hips", "glutes", "flexibility", "beginner", "no-equipment"]
 body-region: [hips, glutes]
@@ -9,8 +8,8 @@ body-region: [hips, glutes]
 
 A classic hip opener that targets the deep external rotators of the hip and the glute complex. The pigeon stretch is one of the most effective ways to release tightness from prolonged sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ A classic hip opener that targets the deep external rotators of the hip and the 
 - Collapsing onto the front leg instead of distributing weight evenly
 - Forcing the front shin parallel to the top of the mat before you have the range
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hip does not reach the floor, place a yoga block or folded towel under the front hip for support. This keeps the stretch effective without straining the knee.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube Z3t7KrsvHI4 >}}
 

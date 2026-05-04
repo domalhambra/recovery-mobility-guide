@@ -1,7 +1,6 @@
 ---
 title: "Chin Tucks"
 description: "Chin tucks for deep neck flexor activation and forward head posture correction."
-menuPre: "13.07 "
 weight: 70
 tags: ["neck", "mobility", "beginner", "no-equipment"]
 body-region: [neck]
@@ -9,8 +8,8 @@ body-region: [neck]
 
 Chin tucks activate the deep cervical flexors and retract the head into proper alignment over the spine. They are one of the most effective corrective exercises for forward head posture, which is epidemic among desk workers and smartphone users.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Chin tucks activate the deep cervical flexors and retract the head into proper a
 - Jutting the jaw forward first, then pulling back — start from a relaxed neutral position
 - Not holding long enough to build endurance in the deep neck flexors
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place one finger on your chin as a tactile cue. Push your chin back away from your finger. This simple feedback makes the correct movement much easier to find.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

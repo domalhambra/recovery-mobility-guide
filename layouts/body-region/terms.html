@@ -1,21 +1,25 @@
-{{- define "storeOutputFormat" }}
-  {{- .Store.Set "relearnOutputFormat" "html" }}
-{{- end }}
-{{- define "body" }}
-<article class="default">
-  <header class="headline">
+{{ define "main" }}
+<article>
+  <header>
+    <h1>Body Regions</h1>
+    <p class="lead">Browse content by body region.</p>
   </header>
-
-  <h1 id="body-regions">Body Regions</h1>
-
-  <p>Select a body region to explore exercises, warm-ups, recovery protocols, and pain prescriptions.</p>
 
   {{ partial "body-map.html" . }}
 
-  <footer class="footline">
-  </footer>
+  <section>
+    <h2>All regions</h2>
+    <ul class="region-terms-list">
+      {{ range .Data.Terms.ByCount }}
+        {{ $info := index $.Site.Data.body_regions .Page.Title }}
+        <li>
+          <a href="{{ .Page.RelPermalink }}">
+            {{ if $info }}{{ $info.label }}{{ else }}{{ humanize .Page.Title }}{{ end }}
+          </a>
+          ({{ .Count }} {{ if eq .Count 1 }}item{{ else }}items{{ end }})
+        </li>
+      {{ end }}
+    </ul>
+  </section>
 </article>
-{{- end }}
-{{- define "menu" }}
-  {{- partial "menu.html" . }}
-{{- end }}
+{{ end }}

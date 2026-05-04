@@ -1,6 +1,5 @@
 ---
 title: "Shoulder Pain"
-menuPre: "53 "
 weight: 30
 description: "Anterior and posterior shoulder pain prescriptions."
 ---
@@ -11,14 +10,14 @@ Shoulder pain comes in two primary flavors: anterior (front) and posterior (back
 
 ## Fitness Considerations
 
-{{< tabs >}}
-{{% tab title="Location Determines Protocol" %}}
+{{< tabs tabTotal="3" >}}
+{{% tab tabName="Location Determines Protocol" %}}
 Front-of-shoulder pain and back-of-shoulder pain have different causes and different fixes. Anterior pain responds to pec release, external rotation work, and thoracic extension. Posterior pain responds to rotator cuff release, internal rotation stretching, and scapular stabilization. Don't guess — match the protocol to the location.
 {{% /tab %}}
-{{% tab title="The T-Spine Connection" %}}
+{{% tab tabName="The T-Spine Connection" %}}
 A stiff thoracic spine is the most common upstream cause of shoulder pain. When the t-spine can't extend or rotate, the shoulder compensates by impinging during overhead movements. Always include [thoracic mobility](../../mobility/spine-and-core/) alongside shoulder-specific work.
 {{% /tab %}}
-{{% tab title="Strengthen, Don't Just Stretch" %}}
+{{% tab tabName="Strengthen, Don't Just Stretch" %}}
 Chronic shoulder pain often indicates weakness, not just tightness. The rotator cuff, lower traps, and serratus anterior need to be strong enough to stabilize the shoulder through its range. Pair these protocols with progressive strengthening once acute pain subsides.
 {{% /tab %}}
 {{< /tabs >}}

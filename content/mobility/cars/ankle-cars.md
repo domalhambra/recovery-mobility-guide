@@ -1,7 +1,6 @@
 ---
 title: "Ankle CARs"
 description: "Ankle controlled articular rotations for joint health and range of motion maintenance."
-menuPre: "14.02 "
 weight: 20
 tags: ["ankles", "mobility", "beginner", "no-equipment"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 Ankle CARs (Controlled Articular Rotations) move the ankle through its full available range under tension. They're essential daily maintenance for anyone who spends time on their feet, hikes, or has a history of ankle sprains.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -39,12 +38,12 @@ Ankle CARs (Controlled Articular Rotations) move the ankle through its full avai
 - Going too fast — each circle should take 5+ seconds
 - Not creating tension — actively drive into end ranges
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pay attention to any spots that feel sticky, clunky, or restricted. These are the areas that need the most work. Slow down even further through those ranges.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube BDNGAnp7u7s >}}
 

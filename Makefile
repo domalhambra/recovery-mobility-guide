@@ -1,10 +1,10 @@
 .PHONY: dev build clean
 
 dev:
-	hugo server --buildDrafts
+	hugo server --buildDrafts --disableFastRender
 
 build:
-	hugo && npx -y pagefind --site public
+	hugo --environment production
 
 clean:
-	rm -rf public
+	rm -rf public/ resources/ .hugo_build.lock

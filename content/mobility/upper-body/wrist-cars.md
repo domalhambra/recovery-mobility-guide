@@ -1,7 +1,6 @@
 ---
 title: "Wrist CARs"
 description: "Wrist controlled articular rotations for joint health and full range-of-motion maintenance."
-menuPre: "11.09 "
 weight: 90
 tags: ["wrists", "mobility", "beginner", "no-equipment"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 Wrist CARs (controlled articular rotations) systematically move the wrist through every plane of motion — flexion, extension, radial and ulnar deviation — in one continuous, tension-filled loop. Daily practice maintains wrist joint health and reveals restrictions before they become painful.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Wrist CARs (controlled articular rotations) systematically move the wrist throug
 - Moving too fast and losing the controlled, deliberate quality
 - Making the circles too small — aim for the largest controlled circle possible
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pair wrist CARs with shoulder CARs in your daily morning routine. Two minutes of CARs for each major joint is one of the best investments you can make in long-term joint health.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

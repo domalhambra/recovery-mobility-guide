@@ -1,7 +1,6 @@
 ---
 title: "T-Spine Ball Smash Mobilization"
 description: "Lacrosse ball mobilization for targeted thoracic spine tissue work. Improves press, front rack, and hanging positions."
-menuPre: "43.02 "
 weight: 20
 tags: ["upper-back", "myofascial-release", "beginner", "lacrosse-ball"]
 body-region: [upper-back]
@@ -9,8 +8,8 @@ body-region: [upper-back]
 
 The T-spine ball smash uses a lacrosse ball or double lacrosse ball (Gemini) to target specific knots and adhesions in the thoracic paraspinal muscles. It provides more focused pressure than a foam roller, making it ideal for stubborn stiffness that limits pressing, front rack, and overhead positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The T-spine ball smash uses a lacrosse ball or double lacrosse ball (Gemini) to 
 - Spending too long on one spot — 30–60 seconds per area is sufficient
 - Rolling around randomly — be systematic, working segment by segment
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 A double lacrosse ball (or Gemini tool) straddles the spine and works both sides simultaneously. If you only have a single ball, do one side of the spine at a time, then switch.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

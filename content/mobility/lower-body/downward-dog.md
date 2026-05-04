@@ -1,7 +1,6 @@
 ---
 title: "Downward Dog"
 description: "Downward-facing dog for calf and hamstring length, shoulder opening, and full posterior chain stretch."
-menuPre: "12.36 "
 weight: 360
 tags: ["calves", "hamstrings", "flexibility", "beginner"]
 body-region: [calves]
@@ -9,8 +8,8 @@ body-region: [calves]
 
 Downward dog is one of the most efficient single positions for the posterior chain. It stretches the calves (both gastrocnemius and soleus depending on knee position), lengthens the hamstrings, decompresses the lumbar spine, and opens the shoulders — all at once. It also doubles as a mild shoulder and thoracic mobilization when done with intention rather than passively hanging.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -43,12 +42,12 @@ From the full position, bend one knee and extend the other leg fully. Press the 
 - Bending the elbows — keep the arms long and the shoulder blades drawing toward each other
 - Locking out the knees to get heels down — a slight bend in the knee is fine; posterior tilt of the pelvis is more important
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hamstrings are very tight, bending both knees generously lets you get the posterior pelvic tilt (hips rotating toward the ceiling) which is the key movement here — more important than straight legs.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube wS2b5yld004 >}}
 

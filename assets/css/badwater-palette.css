@@ -1,0 +1,238 @@
+/*
+ * Badwater "Playa & Ink" palette — light mode
+ * Sourced from 33.02 Badwater Hugo (HD reference) site.
+ * Overrides Bootstrap's CSS custom properties so it skins Lotus Docs site-wide.
+ */
+
+:root,
+[data-bs-theme="light"] {
+  /* Core palette */
+  --bw-bg:           #EFEAE0;  /* Badwater Salt */
+  --bw-surface:      #E4DED0;
+  --bw-text:         #2B2A28;  /* Basalt */
+  --bw-text-muted:   #5A5448;
+  --bw-link:         #B43E2E;  /* Badwater Red */
+  --bw-link-hover:   #9A3528;  /* Shadow Red */
+  --bw-accent:       #C7A955;  /* Rabbitbrush Gold */
+  --bw-accent-hover: #D4B96A;
+  --bw-coral:        #E47A60;  /* Highlight Coral */
+  --bw-sage:         #9AA392;  /* Sagebrush Silver */
+  --bw-sky:          #A8B4BC;  /* Dry Sky */
+  --bw-border:       rgba(43, 42, 40, 0.10);
+  --bw-border-faint: rgba(43, 42, 40, 0.06);
+  --bw-shadow:       rgba(43, 42, 40, 0.06);
+
+  /* Bootstrap overrides — these are what Lotus Docs styles reference */
+  --bs-body-bg:                 var(--bw-bg);
+  --bs-body-color:              var(--bw-text);
+  --bs-secondary-color:         var(--bw-text-muted);
+  --bs-tertiary-color:          var(--bw-sage);
+  --bs-link-color:              var(--bw-link);
+  --bs-link-hover-color:        var(--bw-link-hover);
+  --bs-link-color-rgb:          180, 62, 46;
+  --bs-link-hover-color-rgb:    154, 53, 40;
+  --bs-primary:                 var(--bw-link);
+  --bs-primary-rgb:             180, 62, 46;
+  --bs-border-color:            var(--bw-border);
+  --bs-border-color-translucent: var(--bw-border-faint);
+  --bs-secondary-bg:            var(--bw-surface);
+  --bs-tertiary-bg:             var(--bw-surface);
+  --bs-emphasis-color:          var(--bw-text);
+  --bs-heading-color:           var(--bw-text);
+}
+
+/*
+ * Dark mode — "Obsidian & Moon"
+ * Apply via system preference AND explicit user override.
+ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bw-bg:           #161618;
+    --bw-surface:      #27272A;
+    --bw-text:         #EBE6D9;
+    --bw-text-muted:   #9E9486;
+    --bw-link:         #E47A60;
+    --bw-link-hover:   #F08F75;
+    --bw-accent:       #D4B464;
+    --bw-accent-hover: #E5C879;
+    --bw-coral:        #F08F75;
+    --bw-sage:         #6B7065;
+    --bw-border:       rgba(235, 230, 217, 0.12);
+    --bw-border-faint: rgba(235, 230, 217, 0.06);
+    --bw-shadow:       rgba(0, 0, 0, 0.3);
+
+    --bs-body-bg:                 var(--bw-bg);
+    --bs-body-color:              var(--bw-text);
+    --bs-secondary-color:         var(--bw-text-muted);
+    --bs-tertiary-color:          var(--bw-sage);
+    --bs-link-color:              var(--bw-link);
+    --bs-link-hover-color:        var(--bw-link-hover);
+    --bs-link-color-rgb:          228, 122, 96;
+    --bs-link-hover-color-rgb:    240, 143, 117;
+    --bs-primary:                 var(--bw-link);
+    --bs-primary-rgb:             228, 122, 96;
+    --bs-border-color:            var(--bw-border);
+    --bs-border-color-translucent: var(--bw-border-faint);
+    --bs-secondary-bg:            var(--bw-surface);
+    --bs-tertiary-bg:             var(--bw-surface);
+    --bs-emphasis-color:          var(--bw-text);
+    --bs-heading-color:           var(--bw-text);
+  }
+  /* Light-mode override wins if user explicitly chose light */
+  [data-bs-theme="light"] {
+    --bw-bg:           #EFEAE0;
+    --bw-surface:      #E4DED0;
+    --bw-text:         #2B2A28;
+    --bw-text-muted:   #5A5448;
+    --bw-link:         #B43E2E;
+    --bw-link-hover:   #9A3528;
+    --bw-accent:       #C7A955;
+    --bw-accent-hover: #D4B96A;
+    --bw-coral:        #E47A60;
+    --bw-sage:         #9AA392;
+    --bw-sky:          #A8B4BC;
+    --bw-border:       rgba(43, 42, 40, 0.10);
+    --bw-border-faint: rgba(43, 42, 40, 0.06);
+    --bw-shadow:       rgba(43, 42, 40, 0.06);
+
+    --bs-body-bg:                 var(--bw-bg);
+    --bs-body-color:              var(--bw-text);
+    --bs-secondary-color:         var(--bw-text-muted);
+    --bs-tertiary-color:          var(--bw-sage);
+    --bs-link-color:              var(--bw-link);
+    --bs-link-hover-color:        var(--bw-link-hover);
+    --bs-link-color-rgb:          180, 62, 46;
+    --bs-link-hover-color-rgb:    154, 53, 40;
+    --bs-primary:                 var(--bw-link);
+    --bs-primary-rgb:             180, 62, 46;
+    --bs-border-color:            var(--bw-border);
+    --bs-border-color-translucent: var(--bw-border-faint);
+    --bs-secondary-bg:            var(--bw-surface);
+    --bs-tertiary-bg:             var(--bw-surface);
+    --bs-emphasis-color:          var(--bw-text);
+    --bs-heading-color:           var(--bw-text);
+  }
+}
+
+[data-bs-theme="dark"] {
+  --bw-bg:           #161618;
+  --bw-surface:      #27272A;
+  --bw-text:         #EBE6D9;  /* Moonlit Salt */
+  --bw-text-muted:   #9E9486;
+  --bw-link:         #E47A60;  /* Highlight Coral */
+  --bw-link-hover:   #F08F75;
+  --bw-accent:       #D4B464;  /* Rabbitbrush Ember */
+  --bw-accent-hover: #E5C879;
+  --bw-coral:        #F08F75;
+  --bw-sage:         #6B7065;
+  --bw-border:       rgba(235, 230, 217, 0.12);
+  --bw-border-faint: rgba(235, 230, 217, 0.06);
+  --bw-shadow:       rgba(0, 0, 0, 0.3);
+
+  --bs-body-bg:                 var(--bw-bg);
+  --bs-body-color:              var(--bw-text);
+  --bs-secondary-color:         var(--bw-text-muted);
+  --bs-tertiary-color:          var(--bw-sage);
+  --bs-link-color:              var(--bw-link);
+  --bs-link-hover-color:        var(--bw-link-hover);
+  --bs-link-color-rgb:          228, 122, 96;
+  --bs-link-hover-color-rgb:    240, 143, 117;
+  --bs-primary:                 var(--bw-link);
+  --bs-primary-rgb:             228, 122, 96;
+  --bs-border-color:            var(--bw-border);
+  --bs-border-color-translucent: var(--bw-border-faint);
+  --bs-secondary-bg:            var(--bw-surface);
+  --bs-tertiary-bg:             var(--bw-surface);
+  --bs-emphasis-color:          var(--bw-text);
+  --bs-heading-color:           var(--bw-text);
+}
+
+/*
+ * Sidebar — match the warm minimal feel
+ */
+.sidebar-wrapper,
+#sidebar {
+  background: var(--bw-bg) !important;
+  border-right: 1px solid var(--bw-border);
+}
+[data-bs-theme="dark"] .sidebar-wrapper,
+[data-bs-theme="dark"] #sidebar {
+  background: #1A1A1C !important;
+}
+.sidebar-wrapper a,
+#sidebar a {
+  color: var(--bw-text);
+}
+.sidebar-wrapper a:hover,
+.sidebar-wrapper li.current > a,
+.sidebar-wrapper a.current,
+#sidebar a:hover,
+#sidebar li.current > a {
+  color: var(--bw-accent);
+  background: var(--bw-surface);
+}
+[data-bs-theme="dark"] .sidebar-wrapper a:hover,
+[data-bs-theme="dark"] #sidebar a:hover,
+[data-bs-theme="dark"] .sidebar-wrapper li.current > a {
+  background: #27272A;
+}
+
+/*
+ * Top header / search
+ */
+.top-header,
+.docs-top-header {
+  background: var(--bw-bg);
+  border-bottom: 1px solid var(--bw-border);
+}
+
+/*
+ * Buttons that use bg-primary etc.
+ */
+.btn-primary {
+  background-color: var(--bw-link);
+  border-color: var(--bw-link);
+}
+.btn-primary:hover {
+  background-color: var(--bw-link-hover);
+  border-color: var(--bw-link-hover);
+}
+
+/*
+ * Cards (the docs/_default/list.html grid uses these)
+ */
+.card {
+  background: var(--bw-surface);
+  border-color: var(--bw-border);
+}
+.card:hover {
+  border-color: var(--bw-accent);
+  box-shadow: 0 4px 12px var(--bw-shadow);
+}
+[data-bs-theme="dark"] .card {
+  background: #1F1F22;
+}
+
+/*
+ * Material icons used by Lotus get the accent color
+ */
+.material-icons.icon-color,
+.title-icon,
+.sidebar-menu .material-icons {
+  color: var(--bw-accent);
+}
+
+/*
+ * Code inline
+ */
+code:not(pre code) {
+  color: var(--bw-link-hover);
+  background: var(--bw-surface);
+  border: 1px solid var(--bw-border);
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+}
+[data-bs-theme="dark"] code:not(pre code) {
+  color: var(--bw-coral);
+  background: #27272A;
+}

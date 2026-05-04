@@ -1,7 +1,6 @@
 ---
 title: "Single-Leg Flexion w/ External Rotation (Floor Variation)"
 description: "A floor-based single-leg drill combining hip flexion and external rotation for deep squat mobility."
-menuPre: "12.23 "
 weight: 230
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The floor variation of this drill removes the box and works the same hip flexion plus external rotation pattern from the ground. It allows for deeper end-range exploration and is excellent for building squat and lunge mobility.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The floor variation of this drill removes the box and works the same hip flexion
 - Collapsing the chest — keep some extension through the thoracic spine
 - Ignoring pain in the knee — if the knee hurts, reduce the shin angle or elevate the hip with a cushion
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a folded towel or yoga block under the front hip if it does not reach the floor. This keeps the pelvis level and prevents the stretch from being limited by the hip resting on bone.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

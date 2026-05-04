@@ -1,7 +1,6 @@
 ---
 title: "Psoas Foam Roller"
 description: "Foam roller mobilization for the psoas and hip flexors. Relieves hip tightness from prolonged sitting."
-menuPre: "43.11 "
 weight: 110
 tags: ["hips", "myofascial-release", "intermediate", "foam-roller"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The psoas foam roller technique targets the psoas major — the deep hip flexor that connects the lumbar spine to the femur. This muscle becomes chronically shortened from sitting, pulling the pelvis into anterior tilt and contributing to lower back pain, hip stiffness, and restricted hip extension.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -34,12 +33,12 @@ The psoas foam roller technique targets the psoas major — the deep hip flexor 
 - Rolling too fast — the psoas is deep and requires sustained pressure to release
 - Confusing the rectus femoris (quad) for the psoas — the psoas is deeper and more medial
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 The psoas area is sensitive and close to internal organs. Use moderate pressure and stop if you feel pulsing (aorta), sharp pain, or any unusual sensation. If you have a history of abdominal surgery or hernias, consult a professional before performing this technique.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

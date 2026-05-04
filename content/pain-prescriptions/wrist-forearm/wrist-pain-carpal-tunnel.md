@@ -1,7 +1,6 @@
 ---
 title: "Wrist Pain (Carpal Tunnel)"
 description: "A multi-step protocol for managing wrist pain and carpal tunnel symptoms through soft tissue work, nerve glides, and strengthening."
-menuPre: "54.01 "
 weight: 10
 tags: ["wrists", "corrective", "beginner", "resistance-band", "lacrosse-ball"]
 body-region: [arms]
@@ -9,9 +8,9 @@ body-region: [arms]
 
 This protocol addresses wrist pain associated with carpal tunnel syndrome and general wrist overuse — numbness, tingling in the thumb/index/middle fingers, grip weakness, and aching in the wrist and forearm. It works by releasing compressed tissue, gliding the median nerve, and restoring wrist mechanics.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for mild to moderate wrist pain and early carpal tunnel symptoms. Seek professional evaluation if you experience: constant numbness in the hand; visible muscle wasting at the base of the thumb; inability to grip objects; symptoms that worsen rapidly; or wrist pain following a fall or impact (possible fracture).
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

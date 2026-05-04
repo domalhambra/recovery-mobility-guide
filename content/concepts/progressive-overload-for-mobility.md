@@ -1,7 +1,6 @@
 ---
 title: "Progressive Overload for Mobility"
 description: "How to apply progressive overload principles to mobility training for lasting gains."
-menuPre: "60.03 "
 weight: 30
 tags: ["concepts", "intermediate", "programming"]
 ---
@@ -18,8 +17,8 @@ Progressive overload for mobility means systematically increasing the challenge 
 
 You don't always need to "go deeper" to progress. There are several variables you can manipulate:
 
-{{< tabs >}}
-{{% tab title="The Levers" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="The Levers" %}}
 
 ### 1. Range of Motion
 
@@ -42,7 +41,7 @@ Move from passive stretching (gravity or external force does the work) to active
 Progress from static holds to dynamic movements through the range. Eventually, challenge yourself to control the range during sport-specific or compound movements.
 
 {{% /tab %}}
-{{% tab title="Example Progression" %}}
+{{% tab tabName="Example Progression" %}}
 
 ### Hip Flexor Mobility — 8-Week Example
 
@@ -66,9 +65,9 @@ Notice that only one variable changes at a time. This is important — changing 
 - **Deload periodically.** Every 4–6 weeks, reduce intensity for a week. This allows tissue remodeling to consolidate.
 - **Respect pain.** Discomfort in the stretched muscle is expected. Joint pain, pinching, or nerve symptoms mean you've gone too far — back off and reassess.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 Adding load to end-range positions requires a solid base of passive flexibility first. Don't jump to weighted stretches until you can comfortably hold the unloaded position for at least 60 seconds with good alignment.
-{{% /notice %}}
+{{% /alert %}}
 
 ## The Passive-to-Active Spectrum
 

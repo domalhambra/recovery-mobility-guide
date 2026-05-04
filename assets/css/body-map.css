@@ -1,0 +1,126 @@
+/* Body map — vanilla CSS, no theme variables. */
+
+.body-map-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 720px;
+}
+
+.body-map-toggle {
+  display: inline-flex;
+  border: 1px solid #888;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.body-map-toggle input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.body-map-toggle label {
+  padding: 0.4rem 1.25rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  user-select: none;
+  color: #444;
+  background: transparent;
+  transition: background 0.1s, color 0.1s;
+}
+
+.body-map-toggle input:checked + label {
+  background: #444;
+  color: #fff;
+}
+
+.body-map-toggle input:focus-visible + label {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.body-map-figures {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
+.body-map-figure {
+  display: none;
+}
+
+/* CSS-only view toggle */
+.body-map-wrapper:has(input#body-view-front:checked) .body-map-figure-front,
+.body-map-wrapper:has(input#body-view-back:checked) .body-map-figure-back {
+  display: block;
+}
+
+.body-map-svg {
+  width: 100%;
+  height: auto;
+}
+
+.body-region,
+.body-decoration {
+  fill: #3f3f3f;
+  fill-opacity: 0.85;
+  stroke: #1a1a1a;
+  stroke-opacity: 0.8;
+  stroke-width: 0.5;
+}
+
+.body-region {
+  transition: fill 0.15s;
+  cursor: pointer;
+}
+
+.body-decoration {
+  pointer-events: none;
+}
+
+.body-region:hover,
+.body-region-link:focus .body-region {
+  fill: #c84a28;
+  fill-opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .body-region,
+  .body-decoration {
+    fill: #d4d4d4;
+    stroke: #f0f0f0;
+  }
+  .body-region:hover,
+  .body-region-link:focus .body-region {
+    fill: #d4734e;
+  }
+}
+
+.body-region-link:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.body-map-labels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.body-map-label {
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.1s;
+  text-align: center;
+  color: inherit;
+}
+
+.body-map-label:hover {
+  background: rgba(127, 127, 127, 0.1);
+}

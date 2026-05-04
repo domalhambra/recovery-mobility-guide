@@ -1,7 +1,6 @@
 ---
 title: "Foam Rolling Basics"
 description: "How to foam roll effectively: technique, duration, and when to use self-myofascial release."
-menuPre: "60.01 "
 weight: 10
 tags: ["foam-rolling", "beginner", "concepts"]
 ---
@@ -16,8 +15,8 @@ Foam rolling does **not** physically break up adhesions or scar tissue — the f
 
 ## Technique Guidelines
 
-{{< tabs >}}
-{{% tab title="How to Roll" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="How to Roll" %}}
 
 ### Basic Protocol
 
@@ -35,7 +34,7 @@ Foam rolling does **not** physically break up adhesions or scar tissue — the f
 - **Rolling the lower back** — the lumbar spine lacks bony protection. Use a lacrosse ball on the paraspinals instead, or foam roll the thoracic spine only.
 
 {{% /tab %}}
-{{% tab title="When to Use It" %}}
+{{% tab tabName="When to Use It" %}}
 
 ### Pre-Workout
 
@@ -69,6 +68,6 @@ Start with a standard-density roller. If it feels too intense, go softer. If you
 - It won't permanently lengthen tissue — the range of motion gains are temporary (typically 10–20 minutes) unless you follow up with active movement in the new range.
 - It's not a substitute for strengthening weak muscles.
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Pair foam rolling with active mobility work for the best results. Roll a tight area, then immediately perform a movement that uses the new range — this helps your nervous system "keep" the gains longer.
-{{% /notice %}}
+{{% /alert %}}

@@ -1,7 +1,6 @@
 ---
 title: "Hip External Rotation w/ Flexion (Option 2)"
 description: "A figure-four position hip external rotation drill with flexion for deep squat mobility."
-menuPre: "12.25 "
 weight: 250
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 Option 2 uses a figure-four (or "90/90") style position to load hip external rotation with flexion. This variation allows you to isolate one hip at a time for more targeted work on your tighter side.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Option 2 uses a figure-four (or "90/90") style position to load hip external rot
 - Neglecting the tighter side — spend extra time on whichever hip is more restricted
 - Sitting on a hard surface without padding, which can irritate the knee
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your hip is very tight and you cannot sit upright, elevate your hips on a cushion or yoga block. This tilts the pelvis forward and makes it easier to maintain a neutral spine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

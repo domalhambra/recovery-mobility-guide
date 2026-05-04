@@ -1,7 +1,6 @@
 ---
 title: "Bodyweight Squats"
 description: "Bodyweight squats activate the quads, hamstrings, and glutes. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.04 "
 weight: 40
 tags: ["quadriceps", "hamstrings", "activation", "beginner", "no-equipment"]
 body-region: [quads, hamstrings]
@@ -9,8 +8,8 @@ body-region: [quads, hamstrings]
 
 Bodyweight squats are a fundamental movement pattern that activates the quads, hamstrings, and glutes while reinforcing proper squat mechanics. Use them as a warm-up drill to prepare the lower body for training or to counteract the effects of prolonged sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ Bodyweight squats are a fundamental movement pattern that activates the quads, h
 - Excessive forward lean — keep your chest up and brace your core
 - Cutting depth short — aim for hip crease below the knee if mobility allows
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your heels come off the floor, it's likely an ankle mobility issue rather than a strength problem. Place small plates or a wedge under your heels while you work on dorsiflexion mobility separately.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

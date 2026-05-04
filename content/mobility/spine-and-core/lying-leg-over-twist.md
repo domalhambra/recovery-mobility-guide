@@ -1,7 +1,6 @@
 ---
 title: "Lying Leg-Over Twist"
 description: "Supine leg-over twist for thoracic and lumbar rotation and post-workout recovery."
-menuPre: "13.13 "
 weight: 130
 tags: ["upper-back", "lumbar", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back, lower-back]
@@ -9,8 +8,8 @@ body-region: [upper-back, lower-back]
 
 The lying leg-over twist is a gentle supine rotation stretch that mobilizes the thoracic and lumbar spine while stretching the glutes, IT band, and obliques. It is an excellent recovery movement that promotes spinal decompression and rotational range of motion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ The lying leg-over twist is a gentle supine rotation stretch that mobilizes the 
 - Forcing the knee to the floor instead of letting gravity and breathing do the work
 - Rushing through the hold — this is a passive stretch that requires time
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a pillow or yoga block under the crossing knee if it does not reach the floor comfortably. This supports the leg and lets you relax fully into the stretch without straining.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

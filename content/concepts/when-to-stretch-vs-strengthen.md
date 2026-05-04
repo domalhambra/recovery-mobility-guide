@@ -1,7 +1,6 @@
 ---
 title: "When to Stretch vs. Strengthen"
 description: "When to stretch and when to strengthen: a framework for choosing the right approach."
-menuPre: "60.02 "
 weight: 20
 tags: ["concepts", "beginner", "flexibility", "strength"]
 ---
@@ -18,8 +17,8 @@ The challenge is that both conditions *feel* similar — a sensation of tightnes
 
 ## A Decision Framework
 
-{{< tabs >}}
-{{% tab title="When to Stretch" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="When to Stretch" %}}
 
 Stretching is likely the right approach when:
 
@@ -35,7 +34,7 @@ Stretching is likely the right approach when:
 - Thoracic extension
 
 {{% /tab %}}
-{{% tab title="When to Strengthen" %}}
+{{% tab tabName="When to Strengthen" %}}
 
 Strengthening is likely the right approach when:
 
@@ -75,6 +74,6 @@ Many real-world situations benefit from a combined approach:
 - **Use loaded stretching** to get both benefits simultaneously. Example: a deep Romanian deadlift strengthens the hamstrings while lengthening them.
 - **Follow passive stretching with active end-range holds** to teach your nervous system to own the new range.
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 When in doubt, try strengthening first. It's almost always safe, and if the tightness resolves, you've found your answer without risking overstretching an already vulnerable area.
-{{% /notice %}}
+{{% /alert %}}

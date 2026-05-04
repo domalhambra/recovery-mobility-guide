@@ -1,7 +1,6 @@
 ---
 title: "Banded Elbow Extension"
 description: "Banded elbow extension mobilization for overhead and front rack position improvement."
-menuPre: "11.12 "
 weight: 120
 tags: ["arms", "mobility", "intermediate", "resistance-band"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 This banded mobilization targets elbow extension range of motion by applying a distraction force across the joint while you work into full lockout. It improves overhead and front rack positions where full elbow extension is required for a stable, stacked joint position.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ This banded mobilization targets elbow extension range of motion by applying a d
 - Using a band that is too light to create meaningful distraction
 - Forcing into painful end range instead of using gentle oscillations
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Combine this with overhead reaching: while the band distracts, raise your arm overhead and work on locking out the elbow in a fully extended overhead position. This directly mimics the demand of a snatch or jerk.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Lazy Lizard"
 description: "A relaxed hip opener that targets the inner hip and groin from a low lunge position."
-menuPre: "12.10 "
 weight: 100
 tags: ["hips", "flexibility", "beginner", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The lazy lizard is a passive variation of the lizard lunge that lets gravity do the work. It opens the hip flexors and inner groin without demanding strength or active effort, making it ideal for recovery days and post-shift wind-downs.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The lazy lizard is a passive variation of the lizard lunge that lets gravity do 
 - Placing the front foot too narrow, which limits the hip opening
 - Rounding the upper back excessively — keep the chest open
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If your forearms do not reach the floor comfortably, stack a yoga block or cushion under them. The stretch should be strong but not painful.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "UyHxMrjodsw" >}}
 

@@ -1,7 +1,6 @@
 ---
 title: "Anterior Shoulder Pain Prescriptions"
 description: "A multi-step protocol for managing front-of-shoulder pain through soft tissue work, mobilization, and stability exercises."
-menuPre: "53.01 "
 weight: 10
 tags: ["shoulders", "corrective", "beginner"]
 body-region: [shoulders, chest]
@@ -9,9 +8,9 @@ body-region: [shoulders, chest]
 
 Anterior shoulder pain commonly presents as a pinching or aching sensation at the front of the shoulder, often worsened by pressing movements, reaching overhead, or sleeping on the affected side. This protocol addresses the most common contributors: tight pecs, restricted internal rotation, and weak rotator cuff stabilizers.
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 This protocol is for mechanical anterior shoulder pain. Seek professional evaluation if you experience: sudden inability to lift your arm; pain following a fall or impact on an outstretched hand; a visible deformity at the shoulder; or numbness or tingling in the arm or hand.
-{{% /notice %}}
+{{% /alert %}}
 
 ## Protocol
 

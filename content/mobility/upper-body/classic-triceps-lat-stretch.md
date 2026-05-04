@@ -1,7 +1,6 @@
 ---
 title: "Classic Triceps & Lat Stretch"
 description: "Wall-assisted triceps and lat stretch for overhead and front rack position improvement."
-menuPre: "11.17 "
 weight: 170
 tags: ["shoulders", "arms", "upper-back", "flexibility", "beginner", "wall"]
 body-region: [shoulders, arms, upper-back]
@@ -9,8 +8,8 @@ body-region: [shoulders, arms, upper-back]
 
 This classic stretch targets the triceps, lats, and teres major simultaneously by placing the arm overhead and using a wall for leverage. It improves front rack and overhead positions by lengthening the tissues that most commonly restrict full shoulder flexion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ This classic stretch targets the triceps, lats, and teres major simultaneously b
 - Pressing the elbow too hard into the wall and irritating the joint — use firm but comfortable pressure
 - Holding the breath — breathe slowly and deeply to allow the tissues to relax
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 For a more aggressive lat stretch, turn slightly away from the wall while keeping your elbow anchored. This adds a rotational component that targets the lat at a different fiber angle.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Thread The Needle"
 description: "Thread the needle stretch for thoracic rotation and upper back mobility."
-menuPre: "13.11 "
 weight: 110
 tags: ["upper-back", "dynamic-stretching", "beginner", "no-equipment"]
 body-region: [upper-back]
@@ -9,8 +8,8 @@ body-region: [upper-back]
 
 Thread the needle is a dynamic thoracic rotation stretch performed from a quadruped position. It takes the upper back through a wide arc of rotation, stretching the rhomboids, rear deltoids, and thoracic paraspinals while the hips and lumbar spine remain stable.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Thread the needle is a dynamic thoracic rotation stretch performed from a quadru
 - Only rotating from the shoulder rather than the thoracic spine
 - Rushing through the movement — slow, deliberate transitions are more effective
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 At the bottom of the thread, press the back of your hand gently into the floor for 5 seconds, then relax and try to rotate a little deeper. This contract-relax technique can unlock additional range.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube 7C8-zj3nRro >}}
 

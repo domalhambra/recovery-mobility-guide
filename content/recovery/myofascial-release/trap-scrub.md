@@ -1,7 +1,6 @@
 ---
 title: "Trap Scrub"
 description: "Lacrosse ball and barbell mobilization for the upper trapezius and surrounding tissue. Improves front rack, overhead, and hanging positions."
-menuPre: "43.03 "
 weight: 30
 tags: ["upper-back", "myofascial-release", "intermediate", "lacrosse-ball", "barbell"]
 body-region: [upper-back]
@@ -9,8 +8,8 @@ body-region: [upper-back]
 
 The trap scrub targets the upper trapezius and surrounding tissue where tension and trigger points commonly accumulate from desk work, overhead movements, and stress. Releasing this area improves front rack position, overhead mechanics, and overall shoulder function.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The trap scrub targets the upper trapezius and surrounding tissue where tension 
 - Being too aggressive too quickly — start with moderate pressure and increase gradually
 - Ignoring the arm movement — the "scrub" comes from moving the arm while the ball stays pinned
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you find a particularly stubborn knot, pin the ball on it and simply breathe for 30 seconds without movement. Then add small arm circles. Sometimes the tissue needs time under sustained pressure before it releases.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

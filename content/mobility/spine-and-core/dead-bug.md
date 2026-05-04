@@ -1,7 +1,6 @@
 ---
 title: "Dead Bug"
 description: "Dead bug exercise for core stability and anti-extension strength."
-menuPre: "13.03 "
 weight: 30
 tags: ["core", "activation", "beginner"]
 body-region: [core]
@@ -9,8 +8,8 @@ body-region: [core]
 
 The dead bug trains anti-extension core stability — the ability to keep your lower back flat while your limbs move. It is one of the safest and most effective core exercises for building the foundational stability needed for loaded movements like squats, deadlifts, and overhead pressing.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ The dead bug trains anti-extension core stability — the ability to keep your l
 - Moving too quickly — the slower you go, the more effective the exercise
 - Holding the breath — exhale as you extend, inhale as you return
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a folded towel under your lower back. Your goal is to maintain constant pressure on the towel throughout every rep. If the towel loosens, you have lost your brace.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube bxn9FBrt4-A >}}
 

@@ -1,7 +1,6 @@
 ---
 title: "Elbow Flexion and Extension Fault Prescriptions"
 description: "Lacrosse ball and band techniques to resolve elbow flexion and extension restrictions for front rack positions."
-menuPre: "11.22 "
 weight: 220
 tags: ["shoulders", "arms", "corrective", "intermediate", "lacrosse-ball", "resistance-band"]
 body-region: [shoulders, arms]
@@ -9,8 +8,8 @@ body-region: [shoulders, arms]
 
 This collection of targeted mobilizations addresses common elbow flexion and extension faults using a lacrosse ball for soft tissue work and a resistance band for joint distraction. It improves front rack positions by resolving restrictions in the biceps, triceps, and brachialis.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -42,12 +41,12 @@ This collection of targeted mobilizations addresses common elbow flexion and ext
 - Rolling too fast over the tissue — slow, deliberate movements with pauses on tight spots are most effective
 - Skipping the banded distraction — the combination of soft tissue work and joint distraction is more effective than either alone
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Perform the lacrosse ball work first to release soft tissue restrictions, then immediately follow with the banded distraction to address the joint capsule. Finish by testing your front rack position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Hip External Rotation w/ Flexion (Option 1)"
 description: "A seated hip external rotation drill with flexion bias for squat depth and hip health."
-menuPre: "12.24 "
 weight: 240
 tags: ["hips", "mobility", "intermediate", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 This drill targets hip external rotation in a flexed position — the exact range of motion needed at the bottom of a squat. Option 1 uses a seated position to allow controlled, gravity-assisted loading of the hip capsule.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ This drill targets hip external rotation in a flexed position — the exact rang
 - Rounding the spine excessively — maintain a relatively neutral trunk
 - Holding the breath — breathe deeply to help the muscles relax
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 This pairs well with Option 2 as a superset. Alternate between the two options for a comprehensive hip external rotation routine.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

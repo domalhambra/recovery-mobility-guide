@@ -1,7 +1,6 @@
 ---
 title: "Post-Workout Recovery Protocol"
 description: "A recovery sequence for after strength training or conditioning — focused on tissue quality and mobility maintenance."
-menuPre: "42.01 "
 weight: 10
 tags: ["flexibility", "myofascial-release", "beginner"]
 ---
@@ -30,6 +29,6 @@ Add any of these based on what you trained:
 | Lower body | [Psoas Foam Roller]({{< relref "/recovery/myofascial-release/psoas-foam-roller" >}}) |
 | Full body | [T-Spine Ball Smash]({{< relref "/recovery/myofascial-release/t-spine-ball-smash-mobilization" >}}), [Forearm Smash]({{< relref "/recovery/myofascial-release/forearm-smash-mobilizations" >}}) |
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Post-workout is the best time for static stretching — your tissues are warm and more receptive to lengthening. Hold each stretch at a comfortable intensity, not maximum.
-{{% /notice %}}
+{{% /alert %}}

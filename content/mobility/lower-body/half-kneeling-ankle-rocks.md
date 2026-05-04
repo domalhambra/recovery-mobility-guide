@@ -1,7 +1,6 @@
 ---
 title: "Half-Kneeling Ankle Rocks"
 description: "A gentle rocking drill to improve ankle dorsiflexion from a half-kneeling position."
-menuPre: "12.14 "
 weight: 140
 tags: ["ankles", "mobility", "beginner", "no-equipment"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 Half-kneeling ankle rocks are a simple, effective way to improve dorsiflexion — the ability to drive the knee forward over the toes. Limited dorsiflexion affects squat depth, walking mechanics, and knee health.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ Half-kneeling ankle rocks are a simple, effective way to improve dorsiflexion �
 - Letting the knee cave inward — keep it tracking over the second toe
 - Bouncing at the end range instead of using a smooth, controlled rock
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a piece of tape on the floor to mark your toe position. Over weeks, try to move the foot further from the wall while still touching the knee to it — this tracks your dorsiflexion progress.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

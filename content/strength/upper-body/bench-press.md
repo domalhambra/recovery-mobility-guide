@@ -1,7 +1,6 @@
 ---
 title: "Bench Press"
 description: "The barbell bench press builds pressing strength through the chest, shoulders, and triceps. Setup, coaching cues, and progressions."
-menuPre: "31.01 "
 weight: 10
 tags: ["shoulders", "arms", "strength", "intermediate"]
 body-region: [shoulders, arms, chest]
@@ -9,8 +8,8 @@ body-region: [shoulders, arms, chest]
 
 The barbell bench press is a foundational upper body pressing movement that develops strength in the pectorals, anterior deltoids, and triceps. Proper bench press mechanics improve front rack positioning and overall pressing capacity.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,12 +35,12 @@ The barbell bench press is a foundational upper body pressing movement that deve
 - Lifting the hips off the bench — maintain contact throughout
 - Uneven bar path — the bar should descend to the chest and press back up in a slight arc toward the rack
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you struggle with shoulder blade retraction, try squeezing a rolled-up towel between your shoulder blades during warm-up sets. This teaches the correct scapular position.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

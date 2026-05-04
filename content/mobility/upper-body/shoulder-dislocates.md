@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Dislocates"
 description: "Shoulder dislocates with a band or stick for full-arc shoulder mobility and front rack prep."
-menuPre: "11.11 "
 weight: 110
 tags: ["shoulders", "mobility", "beginner", "resistance-band"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 Shoulder dislocates take the shoulders through a full 360-degree arc using a band or stick as a guide. Despite the dramatic name, this is a gentle and effective way to open up the anterior shoulder, improve overhead range, and prepare for front rack positions.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Shoulder dislocates take the shoulders through a full 360-degree arc using a ban
 - Bending the elbows to cheat through tight spots
 - Arching the lower back as the implement goes overhead — keep your ribs down
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Use a resistance band rather than a rigid stick. The band's elasticity allows it to stretch slightly through tight spots, making the movement more forgiving and sustainable.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube WXP05GGFkrU >}}
 

@@ -1,23 +1,35 @@
-{{/* Body Map — interactive homepage navigation */}}
-{{/* Builds a JSON object of region labels for JS and inlines both SVGs */}}
+{{/*
+  Body map — homepage navigator.
+  Reads two SVGs from static/svg/ and wraps them in a CSS-only front/back toggle.
+  Styles are inlined here because Lotus Docs has no customCSS hook in head.html.
+*/}}
 
-{{ $regions := .Site.Data.body_regions }}
+{{- $regions := .Site.Data.body_regions -}}
+{{- $bodyMapCSS := resources.Get "css/body-map.css" -}}
+{{ with $bodyMapCSS }}<style>{{ .Content | safeCSS }}</style>{{ end }}
 
-{{/* Build label lookup for JS */}}
-{{ $labelMap := dict }}
-{{ range $slug, $region := $regions }}
-  {{ $labelMap = merge $labelMap (dict $slug $region.label) }}
-{{ end }}
-
-<h2 class="body-map-heading">Choose a body region</h2>
-
-<div class="body-map-container" data-region-labels='{{ $labelMap | jsonify }}'>
-  <div class="body-map-view body-map-view--front">
-    {{ readFile "static/svg/body-front.svg" | safeHTML }}
+<div class="body-map-wrapper" role="region" aria-label="Body region navigator">
+  <div class="body-map-toggle" role="radiogroup" aria-label="Body view">
+    <input type="radio" name="body-view" id="body-view-front" value="front" checked>
+    <label for="body-view-front">Front</label>
+    <input type="radio" name="body-view" id="body-view-back" value="back">
+    <label for="body-view-back">Back</label>
   </div>
-  <div class="body-map-view body-map-view--back">
-    {{ readFile "static/svg/body-back.svg" | safeHTML }}
+
+  <div class="body-map-figures">
+    <div class="body-map-figure body-map-figure-front">
+      {{ readFile "static/svg/body-front.svg" | safeHTML }}
+    </div>
+    <div class="body-map-figure body-map-figure-back">
+      {{ readFile "static/svg/body-back.svg" | safeHTML }}
+    </div>
+  </div>
+
+  <div class="body-map-labels">
+    {{ range $slug, $info := $regions }}
+      <a href="/body-region/{{ $slug }}/" class="body-map-label" data-region="{{ $slug }}">
+        {{ $info.label }}
+      </a>
+    {{ end }}
   </div>
 </div>
-
-<div class="body-map-label" aria-live="polite"></div>

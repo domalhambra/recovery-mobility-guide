@@ -1,7 +1,6 @@
 ---
 title: "Banded Elbow Distraction"
 description: "Banded elbow joint distraction for press and front rack position improvement."
-menuPre: "11.19 "
 weight: 190
 tags: ["arms", "mobility", "intermediate", "resistance-band", "squat-rack"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 This mobilization uses a resistance band anchored to a squat rack to create a distraction force at the elbow joint, gapping it open and restoring full flexion and extension range. It improves press and front rack positions where elbow restrictions limit performance.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ This mobilization uses a resistance band anchored to a squat rack to create a di
 - Compensating by moving the shoulder instead of isolating the elbow
 - Holding the breath — keep breathing throughout
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 After the banded distraction, immediately test your elbow range with a few press-ups or front rack holds to feel the difference. This helps reinforce the new range of motion under load.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

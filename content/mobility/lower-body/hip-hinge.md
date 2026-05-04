@@ -1,7 +1,6 @@
 ---
 title: "Hip Hinge"
 description: "The foundational hip hinge pattern for hamstring loading and posterior chain development."
-menuPre: "12.32 "
 weight: 320
 tags: ["hamstrings", "hips", "activation", "beginner", "kettlebell"]
 body-region: [hamstrings, hips]
@@ -9,8 +8,8 @@ body-region: [hamstrings, hips]
 
 The hip hinge is the foundational movement pattern for all posterior chain exercises — deadlifts, kettlebell swings, good mornings, and more. Learning to hinge properly is critical for hamstring health, lower back protection, and athletic performance.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ The hip hinge is the foundational movement pattern for all posterior chain exerc
 - Rounding the lower back — keep the chest proud and shoulders retracted
 - Not hinging deep enough — you should feel the hamstrings load
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a dowel or broomstick along your spine (touching the back of the head, upper back, and sacrum). If any of these three contact points break during the hinge, your back is rounding. Practice with the dowel until the pattern is automatic.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube JLBaBgDwjnQ >}}
 

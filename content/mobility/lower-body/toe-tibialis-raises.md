@@ -1,7 +1,6 @@
 ---
 title: "Toe / Tibialis Raises"
 description: "Strengthen the tibialis anterior by raising the toes off the ground to protect the knees and shins."
-menuPre: "12.19 "
 weight: 190
 tags: ["knees", "shins", "corrective", "beginner", "no-equipment"]
 body-region: [quads, ankles]
@@ -9,8 +8,8 @@ body-region: [quads, ankles]
 
 Toe raises (tibialis raises) strengthen the tibialis anterior — the muscle on the front of the shin. This is one of the most neglected muscles in training, yet it plays a critical role in knee health, shin splint prevention, and deceleration control.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Toe raises (tibialis raises) strengthen the tibialis anterior — the muscle on 
 - Using a partial range of motion — pull the toes up as high as possible
 - Going too fast — control the eccentric (lowering) phase
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you get shin splints from running or walking, these are one of the best preventive exercises. Build up to 3 sets of 25 reps before adding load.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube "Pvn3jyWCRQk" >}}
 

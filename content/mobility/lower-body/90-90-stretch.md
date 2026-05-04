@@ -1,7 +1,6 @@
 ---
 title: "90/90 Hip Stretch"
 description: "The 90/90 stretch targets hip internal and external rotation. Setup, coaching cues, and progressions for all levels."
-menuPre: "12.01 "
 weight: 10
 tags: ["hips", "flexibility", "beginner"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 The 90/90 stretch targets both internal and external hip rotation simultaneously. It's one of the most effective positions for improving overall hip mobility, especially if you sit for long periods.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,16 +31,16 @@ The 90/90 stretch targets both internal and external hip rotation simultaneously
 - Forcing the stretch — this should feel like a firm pull, not sharp pain
 - Shifting your weight entirely onto the front hip — distribute evenly
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Keep your breathing slow and steady. Exhale as you gently lean forward to deepen the stretch. If you're holding your breath, you're pushing too hard.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel sharp or pinching pain in either knee, elevate your hips on a cushion or reduce the angle of the bend. Skip this exercise entirely if you have an acute knee injury.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube t4Zz6-aG8Iw >}}
 

@@ -1,7 +1,6 @@
 ---
 title: "Shoulder CARs"
 description: "Shoulder controlled articular rotations (CARs) for joint health and range of motion."
-menuPre: "11.01 "
 weight: 10
 tags: ["shoulders", "mobility", "beginner"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 Controlled articular rotations (CARs) take your shoulder through its full available range of motion under tension. This daily practice maintains joint health, builds body awareness, and highlights any range-of-motion limitations before they become problems.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Controlled articular rotations (CARs) take your shoulder through its full availa
 - Compensating with the torso — leaning or arching the spine to gain more range
 - Losing the circular path and cutting corners through tight spots
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Irradiate tension: squeeze your opposite fist, brace your abs, and clench your glutes. The harder you tense everything else, the more neural drive you send to the working shoulder.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

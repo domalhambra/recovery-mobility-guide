@@ -1,10 +1,10 @@
 [build]
-  command = "hugo --environment production && npx -y pagefind --site public"
+  command = "hugo --environment production"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.157.0"
-  NODE_VERSION = "22"
+  GO_VERSION = "1.21"
 
 # Immutable hashed assets (fonts, pagefind chunks)
 [[headers]]

@@ -1,7 +1,6 @@
 ---
 title: "Ankle Circles"
 description: "Ankle circles for joint mobility warmup and range of motion maintenance."
-menuPre: "12.06 "
 weight: 60
 tags: ["ankles", "flexibility", "beginner"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 Ankle circles are the simplest way to maintain and restore range of motion in the ankle joint. They move the ankle through all four planes — dorsiflexion, plantarflexion, inversion, and eversion — lubricating the joint and warming up the surrounding muscles and tendons.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -36,12 +35,12 @@ Ankle circles are the simplest way to maintain and restore range of motion in th
 - Moving the entire lower leg instead of isolating the ankle — keep your shin still
 - Skipping one direction — always do both clockwise and counterclockwise
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try "writing the alphabet" with your big toe as an alternative. This naturally takes the ankle through every available angle.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

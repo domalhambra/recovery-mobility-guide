@@ -1,7 +1,6 @@
 ---
 title: "Forearm Pronation & Supination"
 description: "Forearm pronation and supination drills for elbow and wrist health."
-menuPre: "11.07 "
 weight: 70
 tags: ["wrists", "mobility", "beginner"]
 body-region: [arms]
@@ -9,8 +8,8 @@ body-region: [arms]
 
 Pronation and supination — the motions of turning your palm down and up — happen at the radioulnar joints of the forearm. Training these ranges keeps the elbow healthy, supports grip strength, and is essential for anyone who does front rack work, pull-ups, or repetitive manual tasks.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Pronation and supination — the motions of turning your palm down and up — ha
 - Moving the wrist (flexing/extending) rather than purely rotating the forearm
 - Rushing through the reps without pausing at end range
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Hold a light hammer or wooden dowel to make the rotation more tangible. The added lever arm helps you feel the true end range of pronation and supination.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

@@ -1,7 +1,6 @@
 ---
 title: "Couch Stretch"
 description: "The couch stretch targets hip flexor lengthening for people who sit all day."
-menuPre: "12.03 "
 weight: 30
 tags: ["hips", "quadriceps", "flexibility", "beginner", "wall"]
 body-region: [hips, quads]
@@ -9,8 +8,8 @@ body-region: [hips, quads]
 
 The couch stretch is one of the most effective ways to lengthen the hip flexors and rectus femoris. It mimics a deep lunge with the rear foot elevated, creating a powerful stretch for anyone who spends hours sitting.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -31,12 +30,12 @@ The couch stretch is one of the most effective ways to lengthen the hip flexors 
 - Letting the front knee drift past the toes at too sharp an angle
 - Not getting close enough to the wall, which reduces the stretch intensity
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Place a pad or folded towel under your knee for comfort. Start further from the wall and work closer over time as your flexibility improves.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube WKo4APrwfXQ >}}
 

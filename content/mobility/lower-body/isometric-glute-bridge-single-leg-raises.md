@@ -1,7 +1,6 @@
 ---
 title: "Isometric Glute Bridge Single Leg Raises"
 description: "A glute bridge with alternating single-leg raises to challenge hamstring and glute stability."
-menuPre: "12.33 "
 weight: 330
 tags: ["hamstrings", "glutes", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings, glutes]
@@ -9,8 +8,8 @@ body-region: [hamstrings, glutes]
 
 This variation of the glute bridge adds alternating single-leg raises while maintaining the bridge position. It builds unilateral hamstring and glute strength while challenging pelvic stability — a common weakness in hamstring injury rehab.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -32,12 +31,12 @@ This variation of the glute bridge adds alternating single-leg raises while main
 - Rushing the leg raises — use a slow, controlled tempo
 - Not fully extending the hips in the bridge before lifting a leg
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If the hips drop significantly when you lift a foot, hold the double-leg bridge for longer before progressing to single-leg raises. Build the base strength first.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

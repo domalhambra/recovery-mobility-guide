@@ -1,7 +1,6 @@
 ---
 title: "Banded Ankle Dorsiflexion"
 description: "Banded ankle dorsiflexion drill for improving squat depth and ankle mobility."
-menuPre: "12.07 "
 weight: 70
 tags: ["ankles", "flexibility", "intermediate"]
 body-region: [ankles]
@@ -9,8 +8,8 @@ body-region: [ankles]
 
 Banded ankle dorsiflexion uses a resistance band to distract the talus (ankle bone) posteriorly while you drive your knee forward, creating space in the front of the ankle joint. It's one of the most effective drills for improving squat depth, lunge mechanics, and overall ankle range of motion.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -39,16 +38,16 @@ Banded ankle dorsiflexion uses a resistance band to distract the talus (ankle bo
 - Knee collapsing inward — track it directly over the second or third toe
 - Using a band that's too light — you need enough tension to create a real joint distraction
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Try placing your front foot on a slight elevation (a thin plate or book) if your dorsiflexion is very limited. This lets you practice the movement pattern while building range.
-{{% /notice %}}
+{{% /alert %}}
 
-{{% notice warning %}}
+{{% alert context="warning" %}}
 If you feel a bony "block" or pinching at the front of the ankle that doesn't improve with the band, this may indicate a structural limitation. Don't force through that sensation — consult a physio.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

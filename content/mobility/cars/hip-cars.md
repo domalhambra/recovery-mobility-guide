@@ -1,7 +1,6 @@
 ---
 title: "Hip CARs"
 description: "Hip controlled articular rotations for joint health, range of motion, and daily maintenance."
-menuPre: "14.01 "
 weight: 10
 tags: ["hips", "mobility", "beginner", "no-equipment"]
 body-region: [hips]
@@ -9,8 +8,8 @@ body-region: [hips]
 
 Hip CARs (Controlled Articular Rotations) are a daily joint maintenance drill that moves the hip through its full range of motion under tension. They improve hip health, identify restrictions, and serve as both assessment and warmup.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -39,12 +38,12 @@ Hip CARs (Controlled Articular Rotations) are a daily joint maintenance drill th
 - Not creating enough irradiation — squeeze your fists and brace your core
 - Reducing the circle size — fight for every degree of range
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think of drawing the biggest possible circle with your knee. The goal is maximum range, not speed. Create tension throughout the entire body as if you're trying to move through thick mud.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube 5kM-o61Z14I >}}
 

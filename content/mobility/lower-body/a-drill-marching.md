@@ -1,7 +1,6 @@
 ---
 title: "A-Drill Marching"
 description: "A marching drill that activates the hamstrings and hip flexors in a running-specific pattern."
-menuPre: "12.35 "
 weight: 350
 tags: ["hamstrings", "activation", "beginner", "no-equipment"]
 body-region: [hamstrings]
@@ -9,8 +8,8 @@ body-region: [hamstrings]
 
 A-drill marching is a running-specific warm-up drill that teaches proper hip flexion mechanics while activating the hamstrings and hip flexors. The "A" position — knee driven high with the toe dorsiflexed — trains the muscle coordination pattern used in sprinting and fast walking.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ A-drill marching is a running-specific warm-up drill that teaches proper hip fle
 - Pointing the toes instead of dorsiflexing — the "toe up" cue is critical for running mechanics
 - Landing on the heel instead of the midfoot — the foot should paw backward, not stomp forward
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Start with a slow, exaggerated march before progressing to a faster tempo. The goal is pattern quality first, speed second.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 *Video and animated demos coming soon.*
 

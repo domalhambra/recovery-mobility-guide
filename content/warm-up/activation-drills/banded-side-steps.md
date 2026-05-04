@@ -1,7 +1,6 @@
 ---
 title: "Banded Side Steps"
 description: "Banded side steps activate the gluteus medius and hip abductors. Setup, coaching cues, and progressions for all levels."
-menuPre: "24.02 "
 weight: 20
 tags: ["glutes", "activation", "beginner", "resistance-band"]
 body-region: [glutes]
@@ -9,8 +8,8 @@ body-region: [glutes]
 
 Banded side steps target the gluteus medius and hip abductors — muscles that stabilize the pelvis during walking, running, and squatting. Weak glute medius is a common contributor to knee pain and hip instability.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -33,12 +32,12 @@ Banded side steps target the gluteus medius and hip abductors — muscles that s
 - Toes turning outward — keep them pointed straight ahead to target the glute medius
 - Using too heavy a band and compensating with a hip shift
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 Think about pushing the ground apart with your feet. The goal is controlled, deliberate steps — not speed. If your lower back starts to fatigue, you may be standing too upright.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube X0jsl2ZrXug >}}
 

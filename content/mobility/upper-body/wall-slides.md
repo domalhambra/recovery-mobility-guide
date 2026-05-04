@@ -1,7 +1,6 @@
 ---
 title: "Wall Slides"
 description: "Wall slides for scapular control and overhead shoulder mobility."
-menuPre: "11.02 "
 weight: 20
 tags: ["shoulders", "activation", "beginner"]
 body-region: [shoulders]
@@ -9,8 +8,8 @@ body-region: [shoulders]
 
 Wall slides train scapular upward rotation and overhead mobility against the feedback of a wall. They are an excellent corrective for people who struggle with full shoulder flexion or who compensate with rib flare and lumbar extension when reaching overhead.
 
-{{< tabs >}}
-{{% tab title="Instructions" %}}
+{{< tabs tabTotal="2" >}}
+{{% tab tabName="Instructions" %}}
 
 ## Setup
 
@@ -30,12 +29,12 @@ Wall slides train scapular upward rotation and overhead mobility against the fee
 - Losing wall contact with the hands or elbows — reduce range of motion if needed
 - Shrugging the shoulders toward the ears instead of depressing the scapulae
 
-{{% notice tip %}}
+{{% alert context="info" %}}
 If you cannot keep your elbows and hands on the wall, use a foam roller held between your hands to give yourself a wider grip and more freedom.
-{{% /notice %}}
+{{% /alert %}}
 
 {{% /tab %}}
-{{% tab title="Media" %}}
+{{% tab tabName="Media" %}}
 
 {{< youtube BiREOSisYWU >}}
 
